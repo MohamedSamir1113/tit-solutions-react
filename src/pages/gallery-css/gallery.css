@@ -1,0 +1,51 @@
+.single_portfolio {
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.single_portfolio:hover .single_portfolio_content {
+  opacity: 1;
+  bottom: unset;
+  bottom: 10%;
+}
+
+.single_portfolio_content {
+  position: absolute;
+  text-align: center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  right: 20px;
+  bottom: 0%;
+  left: 50%;
+  width: 80%;
+  height: 50%;
+  transform: translateX(-50%) !important;
+  opacity: 0;
+  z-index: 9;
+  background: #1e398d;
+  margin: auto;
+  text-align: center;
+  padding: 30px 20px 30px;
+  border-radius: 5px;
+
+}
+
+
+#portfolio .nav-tabs .nav-link {
+  border: 1px solid #1e398d !important;
+  outline: 0.5px solid #1e398d !important;
+  background-color: #fff !important;
+  color: #1e398d !important;
+}
+
+#portfolio .nav-tabs .nav-link:focus, #portfolio .nav-tabs .nav-link.active {
+  border: 1px solid #1e398d !important;
+  outline: 1px solid #1e398d !important;
+  background-color: #1e398d !important;
+  color: #fff !important;
+}

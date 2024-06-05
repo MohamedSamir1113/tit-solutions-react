@@ -1,0 +1,148 @@
+@media screen and (max-width:767px) {
+    .bm-menu-wrap {
+        width: 100% !important;
+    }
+
+    .techno_nav_manu {
+        background-color: #fff;
+        padding: 10px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .techno_nav_manu.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img {
+        max-width: 150px;
+    }
+
+    .bm-burger-button {
+        position: fixed;
+        width: 30px;
+        height: 25px;
+        right: 36px;
+        top: 4%;
+    }
+
+    .bm-burger-bars {
+        background: #1E398D;
+    }
+
+    .bm-cross-button {
+        height: 24px;
+        width: 24px;
+    }
+
+    .bm-cross {
+        background: #1E398D;
+    }
+
+    .bm-menu-wrap {
+        position: fixed;
+        height: 100%;
+    }
+
+    .bm-menu {
+        background: #fff;
+        padding: 2.5em 0.5em 0;
+        font-size: 1.15em;
+    }
+
+    .bm-item-list {
+        color: #1E398D;
+        padding: 0.8em;
+    }
+
+    .bm-item {
+        display: inline-block;
+        color: #d1d1d1;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+
+    .bm-item:hover {
+        color: #ffffff;
+    }
+
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        z-index: 999;
+    }
+
+    .menu ul li {
+        position: relative;
+    }
+
+    .menu ul li a {
+        display: block;
+        padding: 10px 0px;
+        color: #1E398D;
+        text-decoration: none;
+    }
+
+    .menu ul li a:hover {
+        background-color: #1E398D;
+        color: #fff !important;
+    }
+
+    .menu ul li ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow-x: hidden;
+    }
+
+    .menu ul li:hover ul {
+        display: block;
+    }
+
+    .menu ul li ul li {
+        width: 340px;
+        padding-left: 10px;
+    }
+
+    .menu ul li i {
+        position: absolute;
+        right: 2%;
+        font-size: 20px;
+        /* color: #1E398D; */
+        text-shadow: 0 0 1px #1E398D;
+    }
+
+    .menu ul li ul li {
+        width: 340px;
+        padding-left: 10px;
+    }
+
+    .donate-btn-header {
+        margin-right: 5px;
+    }
+
+    .donate-btn-header {
+
+        margin: 15% auto !important;
+        text-align: center !important;
+        display: block !important;
+
+    }
+
+    .solutions ul {
+        position: relative !important;
+
+    }
+}

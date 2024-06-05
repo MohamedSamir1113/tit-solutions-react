@@ -1,0 +1,217 @@
+.mobile-menu-area {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .booking-area .row.add-bg {
+        margin-top: -85px;
+    }
+
+    .home-five .single-service-box:hover .service-content {
+        bottom: -12px;
+    }
+
+    .feature-content h4 {
+        z-index: 1;
+        text-shadow: 0 0 5px BLACK;
+    }
+
+    .feature-area {
+        padding: 50px 0 50px;
+    }
+
+    .section-title.center:before {
+        width: 110%;
+        left: -5%;
+    }
+
+    .section-title.center:before {
+        top: -50px;
+        left: -5%;
+    }
+
+    .home-five p.section-desc2 {
+        width: 100% !important;
+    }
+
+    .home-five.video-area {
+        background-attachment: unset !important;
+        background-size: 100% 100% !important;
+        padding: 50px 0 50px;
+    }
+
+    .home-three .single-room-box {
+        margin: 0;
+    }
+
+    .question {
+        box-shadow: 0 2px 0px #e3e3e3f5;
+        padding: 20px 60px 20px 0px;
+    }
+
+    /* contact us  */
+    .style-two.contact-area {
+        padding: 0px 0 126px;
+    }
+
+    .style-two .row.add-backgroun {
+        padding: 98px 0px 101px;
+    }
+
+    /* rooms  */
+    .inner.room-area, .facilities-area, .pricing-area {
+        padding: 50px 0 50px;
+    }
+
+    .card-area .d-flex, .card-area .row {
+        flex-direction: column-reverse;
+    }
+
+    .card-area .room-amenities-item .d-flex {
+        flex-direction: row;
+    }
+
+    .card-area .card-btn {
+        top: 10%;
+    }
+
+    .payment-area.section-bg.section-padding {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .fb-results-acc-photo.fb-large-layer-room, .fb-carousel-image.fb-large-layer-room {
+        height: 270px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .room-details-list .slick-slide img {
+        display: block;
+        width: 100%;
+    }
+
+    .about_list .slick-slide img {
+
+        width: 100%;
+    }
+
+    .home-three.room-area .section-title h4::before {
+        right: 50%;
+    }
+
+    .home-three.room-area .section-title h4::after {
+        right: 59%;
+    }
+
+    .curser, .curser2 {
+        display: none !important;
+        ;
+    }
+
+
+}
+
+@media (min-width: 1099px) and (max-width:1399px) {
+    header .header-button a {
+        font-size: 11px;
+    }
+
+    .booking-area .container {
+        max-width: 94%;
+    }
+
+    .booking-button {
+        right: -85%;
+        top: 46%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1100px) {
+    .breadcumb-area {
+        background-size: cover !important;
+    }
+
+    header .header-button a {
+        font-size: 10px;
+    }
+
+
+    .booking-area .row.add-bg .row.add-bg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .booking-input-box, .css-199nde7, .css-1d3z3hw-MuiOutlinedInput-notchedOutline, .react-datepicker__input-container, .css-1d4tnkg-MuiFormControl-root, .react-datepicker-wrapper, .css-es3cxi, .booking-input-box input, .css-1d3z3hw-MuiOutlinedInput-notchedOutline, .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root, label[data-shrink=false]+.MuiInputBase-formControl .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input, .css-nrlmzz-MuiFormControl-root {
+        max-width: 99% !important;
+        min-width: 99% !important;
+
+    }
+
+    .datepicker-wrapper, .react-datepicker__input-container {
+        max-width: 97% !important;
+        min-width: 97% !important;
+    }
+
+    .booking-input-box p {
+        margin-top: 20px;
+    }
+
+    .booking-button {
+        position: relative;
+        right: 0% !important;
+    }
+
+    .booking-button button {
+        margin-top: 30px;
+        max-width: 100% !important;
+    }
+
+    .single-facilities-box {
+        margin-left: 0;
+    }
+
+    .home-five p.section-desc2 {
+        width: 100% !important;
+    }
+
+    .card-area .d-flex, .card-area .row {
+        flex-direction: column-reverse;
+    }
+
+    .card-area .room-amenities-item .d-flex {
+        flex-direction: row;
+    }
+
+    .payment-area.section-bg.section-padding {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .card-area .card-btn {
+        top: 10%;
+    }
+
+    .fb-results-acc-photo.fb-large-layer-room, .fb-carousel-image.fb-large-layer-room {
+        height: 270px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .room-details-list .slick-slide img {
+        display: block;
+        width: 100%;
+    }
+
+    .about_list .slick-slide img {
+
+        width: 100%;
+    }
+
+    .curser, .curser2 {
+        display: none !important;
+        ;
+    }
+}
