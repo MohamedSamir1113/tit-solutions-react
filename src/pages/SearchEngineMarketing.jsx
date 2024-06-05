@@ -1,25 +1,22 @@
-import React from "react";
-import { Link, Outlet, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom"
 
-const Solutions = () => {
-  
-
-  return (
-    <>
-      <div className="breatcome_area d-flex align-items-center">
+function SearchEngineMarketing() {
+    return (
+        <>
+    <div className="breatcome_area d-flex align-items-center">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="breatcome_title">
                 <div className="breatcome_title_inner pb-2">
-                  <h2>Solutions</h2>
+                  <h2>Search Engine Marketing</h2>
                 </div>
                 <div className="breatcome_content">
                   <ul>
                     <li>
-                      <Link to="/">Home</Link>{" "}
+                      <Link to="/services">Services</Link>{" "}
                       <i className="fa fa-angle-right"></i>
-                      <span>Solutions</span>
+                      <span>Search Engine Marketing</span>
                     </li>
                   </ul>
                 </div>
@@ -27,14 +24,15 @@ const Solutions = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> {/*bg*/}
+
       <div className="service_area style2 pt-80 pb-70">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5  ">
               <div className="service_single_thumb left ">
                 <div className="single_service_inner_thumb m-0  ">
-                  <img src="assets/images/solutions/s1.jpg" alt="" />
+                  <img src="assets/images/services/google-hotel-ads.jpg" alt="" />
                 </div>
                 <div className="single_service_brg">
                   <div className="single_service_brg_thumb rotateme">
@@ -46,36 +44,16 @@ const Solutions = () => {
             <div className="col-lg-6  ">
               <div className="section_title text_left  ">
                 <div className="section_main_title">
-                  <h1>Website Development</h1>
+                  <h1>Google Ads</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
                 </div>
                 <div className="section_content_text pt-4">
                   <p>
-                    We deliver intuitive and fast websites services for the
-                    hospitality industry and more! Our web developers can build
-                    custom websites that meet your customers' expectations and
-                    make you win the competition with your website's appearance,
-                    usability, and accessibility.
+                  Managing Google Ads for hotels and building it from scratch is very demanding, which usually ends with business owners and managers leaving this magnificent tool to easier platforms.
                   </p>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#.">Hotels & Resorts</a>
-                    </li>
-                    <li>
-                      <a href="#.">Travel & Tours</a>
-                    </li>
-                    <li>
-                      <a href="#.">Nile Cruises</a>
-                    </li>
-                    <li>
-                      <a href="#.">General Purposes</a>
-                    </li>
-                    <li>
-                      <a href="#.">Linkedin For Hotels</a>
-                    </li>
-                  </ul>
+                 
                   <div className="row  mt-4">
                     <div className="col-lg-6 col-sm-6">
                       <div className="single_service">
@@ -83,9 +61,9 @@ const Solutions = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/hotels-resorts" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -95,37 +73,24 @@ const Solutions = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>{/*Google ads*/}
+
       <div className="service_area bg_color2 pt-80 pb-70">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6  ">
               <div className="section_title text_left  ">
                 <div className="section_main_title">
-                  <h1>Booking Engine</h1>
+                  <h1>Bing Ads</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
                 </div>
                 <div className="section_content_text pt-4">
                   <p>
-                    With a user-friendly booking engine that works as a sales
-                    channel for your hotel, you can maximize your direct
-                    bookings easily! We provide you with a powerful reservation
-                    system that allows you to create specials, handle multiple
-                    rooms bookings, upsell services, and much more.
+                  T.I.T. solutions agency offers you powerful Bing hotel ads management with real-time results.
                   </p>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a href="#.">Attraction D-Edge</a>
-                    </li>
-                    <li>
-                      <a href="#.">SynXis</a>
-                    </li>
-                    <li>
-                      <a href="#.">Nile Cruise Booking Engine</a>
-                    </li>
-                  </ul>
+                  
                   <div className="row  mt-4">
                     <div className="col-lg-6 col-sm-6">
                       <div className="single_service">
@@ -133,9 +98,9 @@ const Solutions = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/travel-tours" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -146,7 +111,7 @@ const Solutions = () => {
             <div className="col-lg-5  ">
               <div className="service_single_thumb left ">
                 <div className="single_service_inner_thumb m-0  ">
-                  <img src="assets/images/solutions/s2.jpg" alt="" />
+                  <img src="assets/images/services/bing-hotel-ads.jpg" alt="" />
                 </div>
                 <div className="single_service_brg">
                   <div className="single_service_brg_thumb rotateme">
@@ -157,14 +122,15 @@ const Solutions = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>{/*Bing Ads*/}
+
       <div className="service_area style2 pt-80 pb-70">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5  ">
               <div className="service_single_thumb left ">
                 <div className="single_service_inner_thumb m-0  ">
-                  <img src="assets/images/solutions/s3.jpg" alt="" />
+                  <img src="assets/images/services/yandex-ads-in-egypt.jpg" alt="yandex" />
                 </div>
                 <div className="single_service_brg">
                   <div className="single_service_brg_thumb rotateme">
@@ -173,23 +139,19 @@ const Solutions = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 ">
+            <div className="col-lg-6  ">
               <div className="section_title text_left  ">
                 <div className="section_main_title">
-                  <h1>Web Check-In Solution</h1>
+                  <h1>Yandex Ads</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
                 </div>
                 <div className="section_content_text pt-4">
                   <p>
-                    During this challenging time, Hotels & Resorts need to
-                    implement a solution to facilitate a smooth, fast, and
-                    paperless Check-In for the guests. Our solution ensures a
-                    better experience for our guests and more reliable
-                    protection for our teams.
+                  Unlock your business potential, tap into new markets, and grow internationally in the Russian-speaking world with our Yandex ads in Egypt.
                   </p>
-
+                 
                   <div className="row  mt-4">
                     <div className="col-lg-6 col-sm-6">
                       <div className="single_service">
@@ -197,9 +159,9 @@ const Solutions = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/nile-cruises" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -209,9 +171,11 @@ const Solutions = () => {
             </div>
           </div>
         </div>
-      </div>
-    </>
-  );
-};
+      </div>{/*Yandex*/}
 
-export default Solutions;
+      
+    </>
+    )
+}
+
+export default SearchEngineMarketing

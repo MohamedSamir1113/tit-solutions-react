@@ -26,6 +26,9 @@ import ServicesDetails from "./pages/ServicesDetails.jsx";
 import WebsiteDevelopment from "./pages/WebsiteDevelopment.jsx";
 import HotelandResorts from "./pages/HotelandResorts.jsx";
 import TravelandTours from "./pages/TravelandTours.jsx";
+import NileCruises from "./pages/NileCruises.jsx";
+import GeneralPurposes from "./pages/GeneralPurposes.jsx";
+import SearchEngineMarketing from "./pages/SearchEngineMarketing.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -67,13 +70,19 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="solutions" element={<Solutions />}>
-              <Route path="website-development" element={<WebsiteDevelopment />}>
-                  <Route path="hotels-resorts" element={<HotelandResorts/>}/>
-                  <Route path="travel-tours" element={<TravelandTours/>}/>
-              </Route>
-            </Route>
+            <Route path="solutions" element={<Solutions />} />
+            
+            <Route path="website-development" element={<WebsiteDevelopment />} />
+
+            <Route path="hotels-resorts" element={<HotelandResorts />} />
+            <Route path="travel-tours" element={<TravelandTours />} />
+            <Route path="nile-cruises" element={<NileCruises />} />
+            <Route path="general-purposes" element={<GeneralPurposes />} />
+
             <Route path="services" element={<Services />} />
+
+            <Route path="search-engine-marketing" element={<SearchEngineMarketing />} />
+            
             <Route path="services-details" element={<ServicesDetails />} />
             <Route path="d-edge" element={<DEdge />} />
             <Route path="about-us" element={<AboutUs />} />

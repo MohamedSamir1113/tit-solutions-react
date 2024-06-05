@@ -416,7 +416,7 @@ const Layout = () => {
                             <li>
                               <ul className="text-center">
                                 <li>
-                                    <Link to="/solutions/website-development"
+                                    <Link to="/website-development"
                             onClick={() => setLoading(true)}><h5 className="text-center my-3">Website Development</h5></Link>
                                   
                                 </li>
@@ -498,19 +498,19 @@ const Layout = () => {
                           </Link>
                           <ul className="normal-sub">
                             <li>
-                              <Link to="#.">Search Engine Marketing</Link>
+                              <Link to="/search-engine-marketing">Search Engine Marketing</Link>
                             </li>
                             <li>
-                              <Link to="#.">Social Media Marketing</Link>
+                              <Link to="/social-media-marketing">Social Media Marketing</Link>
                             </li>
                             <li>
-                              <Link to="#.">Social Media Management</Link>
+                              <Link to="/social-media-marketing">Social Media Management</Link>
                             </li>
                             <li>
-                              <Link to="#.">Hotel E-Commerce</Link>
+                              <Link to="/hotel-ecommerce">Hotel E-Commerce</Link>
                             </li>
                             <li>
-                              <Link to="#.">Search Engine Optimization</Link>
+                              <Link to="/search-engine-optimization">Search Engine Optimization</Link>
                             </li>
                             <li>
                               <Link to="#.">Email Marketing</Link>

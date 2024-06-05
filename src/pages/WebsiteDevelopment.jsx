@@ -1,22 +1,43 @@
+import { useEffect, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 
-
 function WebsiteDevelopment() {
-  const location=useLocation()
   return (
     <>
-     {location.pathname==="/solutions/website-development"?<>
-     <div className="service_area style2 pt-80 pb-70">
+    <div className="breatcome_area d-flex align-items-center">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="breatcome_title">
+                <div className="breatcome_title_inner pb-2">
+                  <h2>Website Development</h2>
+                </div>
+                <div className="breatcome_content">
+                  <ul>
+                    <li>
+                      <Link to="/solutions">Solutions</Link>{" "}
+                      <i className="fa fa-angle-right"></i>
+                      <span>Website Development</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> {/*bg*/}
+
+      <div className="service_area style2 pt-80 pb-70">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5  ">
               <div className="service_single_thumb left ">
                 <div className="single_service_inner_thumb m-0  ">
-                  <img src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-hotels-resorts-202120114146849" alt="" />
+                  <img src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-hotels-resorts-202120114146849.jpg" alt="" />
                 </div>
                 <div className="single_service_brg">
                   <div className="single_service_brg_thumb rotateme">
-                    <img src="assets/images/d" alt="" />
+                    <img src="assets/images/service-rot.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -41,7 +62,9 @@ function WebsiteDevelopment() {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <Link className="single_service_content" to="hotels-resorts">Continue Reading</Link>
+                          <Link to="/hotels-resorts" className="single_service_content">
+                            <h4> View More </h4>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -51,8 +74,7 @@ function WebsiteDevelopment() {
             </div>
           </div>
         </div>
-        
-      </div>
+      </div>{/*Hotels and resorts*/}
 
       <div className="service_area bg_color2 pt-80 pb-70">
         <div className="container">
@@ -60,7 +82,7 @@ function WebsiteDevelopment() {
             <div className="col-lg-6  ">
               <div className="section_title text_left  ">
                 <div className="section_main_title">
-                  <h1>Travel and Tours</h1>
+                  <h1>Travel & Tours</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
@@ -77,7 +99,9 @@ function WebsiteDevelopment() {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <Link className="single_service_content" to="travel-tours">Continue Reading</Link>
+                          <Link to="/travel-tours" className="single_service_content">
+                            <h4> View More </h4>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -99,7 +123,7 @@ function WebsiteDevelopment() {
             </div>
           </div>
         </div>
-      </div>
+      </div>{/*Travels and tours*/}
 
       <div className="service_area style2 pt-80 pb-70">
         <div className="container">
@@ -107,7 +131,7 @@ function WebsiteDevelopment() {
             <div className="col-lg-5  ">
               <div className="service_single_thumb left ">
                 <div className="single_service_inner_thumb m-0  ">
-                  <img src="assets/images/solutions/s3.jpg" alt="" />
+                  <img src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruises-202130133148568.jpg" alt="" />
                 </div>
                 <div className="single_service_brg">
                   <div className="single_service_brg_thumb rotateme">
@@ -116,23 +140,19 @@ function WebsiteDevelopment() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 ">
+            <div className="col-lg-6  ">
               <div className="section_title text_left  ">
                 <div className="section_main_title">
-                  <h1>Web Check-In Solution</h1>
+                  <h1>Nile Cruises</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
                 </div>
                 <div className="section_content_text pt-4">
                   <p>
-                    During this challenging time, Hotels & Resorts need to
-                    implement a solution to facilitate a smooth, fast, and
-                    paperless Check-In for the guests. Our solution ensures a
-                    better experience for our guests and more reliable
-                    protection for our teams.
+                  Join our satisfied clients and let us create the responsive website that you dream about for your Nile Cruise business! We know your industry well and your particular needs in a website. Our web developers team is extremely experienced and trained for creating tailored websites like yours!
                   </p>
-
+                 
                   <div className="row  mt-4">
                     <div className="col-lg-6 col-sm-6">
                       <div className="single_service">
@@ -140,9 +160,9 @@ function WebsiteDevelopment() {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/nile-cruises" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -152,8 +172,56 @@ function WebsiteDevelopment() {
             </div>
           </div>
         </div>
-      </div>
-     </>:<Outlet/>}
+      </div>{/*Nile cruises*/}
+
+      <div className="service_area bg_color2 pt-80 pb-70">
+        <div className="container">
+          <div className="row justify-content-between align-items-center">
+            <div className="col-lg-6  ">
+              <div className="section_title text_left  ">
+                <div className="section_main_title">
+                  <h1>General Purposes</h1>
+                </div>
+                <div className="em_bar">
+                  <div className="em_bar_bg"></div>
+                </div>
+                <div className="section_content_text pt-4">
+                  <p>
+                  T.I.T Solutions offers next-generation web development and designing services to help you sail effortlessly through the constantly evolving technological changes.
+                  </p>
+                  
+                  <div className="row  mt-4">
+                    <div className="col-lg-6 col-sm-6">
+                      <div className="single_service">
+                        <div className="single_service_inner">
+                          <div className="single_service_icon">
+                            <i className="fa fa-share"></i>
+                          </div>
+                          <Link to="/general-purposes" className="single_service_content">
+                            <h4> View More </h4>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-5  ">
+              <div className="service_single_thumb left ">
+                <div className="single_service_inner_thumb m-0  ">
+                  <img src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-general-purposes-202120115030332.jpg" alt="" />
+                </div>
+                <div className="single_service_brg">
+                  <div className="single_service_brg_thumb rotateme">
+                    <img src="assets/images/service-rot.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>{/*general purposes*/}
     </>
   );
 }
