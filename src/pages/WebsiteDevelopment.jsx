@@ -12,11 +12,11 @@ function WebsiteDevelopment() {
             <div className="col-lg-5  ">
               <div className="service_single_thumb left ">
                 <div className="single_service_inner_thumb m-0  ">
-                  <img src="assets/images/solutions/s1.jpg" alt="" />
+                  <img src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-hotels-resorts-202120114146849" alt="" />
                 </div>
                 <div className="single_service_brg">
                   <div className="single_service_brg_thumb rotateme">
-                    <img src="assets/images/service-rot.png" alt="" />
+                    <img src="assets/images/d" alt="" />
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ function WebsiteDevelopment() {
           </div>
         </div>
       </div>
-      
+
       <div className="service_area style2 pt-80 pb-70">
         <div className="container">
           <div className="row justify-content-between align-items-center">
