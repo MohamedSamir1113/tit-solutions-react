@@ -1,12 +1,34 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, Outlet, useLocation } from "react-router-dom";
 
 const Solutions = () => {
-  
+  const location = useLocation();
+
   return (
     <>
-      <div className="bg-secondary">
-        home
+      {location.pathname === "/solutions" ? (
+       <>
+       <div className="breatcome_area d-flex align-items-center">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="breatcome_title">
+                <div className="breatcome_title_inner pb-2">
+                  <h2>Solutions</h2>
+                </div>
+                <div className="breatcome_content">
+                  <ul>
+                    <li>
+                      <Link to="/">Home</Link>{" "}
+                      <i className="fa fa-angle-right"></i>
+                      <span>Solutions</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="service_area style2 pt-80 pb-70">
         <div className="container">
@@ -190,4 +212,12 @@ const Solutions = () => {
           </div>
         </div>
       </div>
-    
+       </>
+      ) : (
+        <Outlet />
+      )}
+    </>
+  );
+};
+
+export default Solutions;

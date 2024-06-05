@@ -416,9 +416,9 @@ const Layout = () => {
                             <li>
                               <ul className="text-center">
                                 <li>
-                                  <h5 className="text-center my-3">
-                                    Website Development
-                                  </h5>
+                                    <Link to="/solutions/website-development"
+                            onClick={() => setLoading(true)}><h5 className="text-center my-3">Website Development</h5></Link>
+                                  
                                 </li>
 
                                 <li className="text-center">

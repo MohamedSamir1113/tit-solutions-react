@@ -23,6 +23,9 @@ import OurClients from "./pages/OurClients.jsx";
 import News from "./pages/News.jsx";
 import NewsDetails from "./pages/NewsDetails.jsx";
 import ServicesDetails from "./pages/ServicesDetails.jsx";
+import WebsiteDevelopment from "./pages/WebsiteDevelopment.jsx";
+import HotelandResorts from "./pages/HotelandResorts.jsx";
+import TravelandTours from "./pages/TravelandTours.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -64,7 +67,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="solutions" element={<Solutions />} />
+            <Route path="solutions" element={<Solutions />}>
+              <Route path="website-development" element={<WebsiteDevelopment />}>
+                  <Route path="hotels-resorts" element={<HotelandResorts/>}/>
+                  <Route path="travel-tours" element={<TravelandTours/>}/>
+              </Route>
+            </Route>
             <Route path="services" element={<Services />} />
             <Route path="services-details" element={<ServicesDetails />} />
             <Route path="d-edge" element={<DEdge />} />
