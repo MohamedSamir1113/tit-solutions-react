@@ -504,7 +504,7 @@ const Layout = () => {
                               <Link to="/social-media-marketing">Social Media Marketing</Link>
                             </li>
                             <li>
-                              <Link to="/social-media-marketing">Social Media Management</Link>
+                              <Link to="/social-media-managment">Social Media Management</Link>
                             </li>
                             <li>
                               <Link to="/hotel-ecommerce">Hotel E-Commerce</Link>

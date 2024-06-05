@@ -1,31 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
+import BgArea from "../components/BgArea";
 
 function WebsiteDevelopment() {
   return (
     <>
-    <div className="breatcome_area d-flex align-items-center">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="breatcome_title">
-                <div className="breatcome_title_inner pb-2">
-                  <h2>Website Development</h2>
-                </div>
-                <div className="breatcome_content">
-                  <ul>
-                    <li>
-                      <Link to="/solutions">Solutions</Link>{" "}
-                      <i className="fa fa-angle-right"></i>
-                      <span>Website Development</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> {/*bg*/}
+     {/*bg*/}
+      <BgArea title1={`Website Development`} title2={`Solutions`} path={`/solutions`}/>
 
       <div className="service_area style2 pt-80 pb-70">
         <div className="container">
