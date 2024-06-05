@@ -76,7 +76,7 @@ const Services = () => {
                             <i className="fa fa-share"></i>
                           </div>
                           <Link
-                            to="services-details"
+                            to="/search-engine-marketing"
                             className="single_service_content"
                           >
                             <h4> View More </h4>
@@ -134,9 +134,10 @@ const Services = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                            
+                          <Link to="/social-media-marketing"  className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

@@ -29,6 +29,7 @@ import TravelandTours from "./pages/TravelandTours.jsx";
 import NileCruises from "./pages/NileCruises.jsx";
 import GeneralPurposes from "./pages/GeneralPurposes.jsx";
 import SearchEngineMarketing from "./pages/SearchEngineMarketing.jsx";
+import SocialMediaMarketing from "./pages/SocialMediaMarketing.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -82,7 +83,8 @@ function App() {
             <Route path="services" element={<Services />} />
 
             <Route path="search-engine-marketing" element={<SearchEngineMarketing />} />
-            
+            <Route path="social-media-marketing" element={<SocialMediaMarketing />} />
+
             <Route path="services-details" element={<ServicesDetails />} />
             <Route path="d-edge" element={<DEdge />} />
             <Route path="about-us" element={<AboutUs />} />

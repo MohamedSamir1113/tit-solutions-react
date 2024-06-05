@@ -2,8 +2,8 @@ import { Link } from "react-router-dom"
 
 function SearchEngineMarketing() {
     return (
-        <>
-    <div className="breatcome_area d-flex align-items-center">
+    <>
+      <div className="breatcome_area d-flex align-items-center">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -171,9 +171,7 @@ function SearchEngineMarketing() {
             </div>
           </div>
         </div>
-      </div>{/*Yandex*/}
-
-      
+      </div>{/*Yandex*/} 
     </>
     )
 }
