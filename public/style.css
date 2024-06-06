@@ -16566,6 +16566,11 @@ a:hover {
   width: fit-content; 
   margin-top: 7px; 
 }
+.dark .service-link {
+  border: 1px solid #fff;
+  color: white !important;
+  
+}
 
 
 
