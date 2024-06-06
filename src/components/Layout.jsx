@@ -513,19 +513,19 @@ const Layout = () => {
                               <Link to="/search-engine-optimization">Search Engine Optimization</Link>
                             </li>
                             <li>
-                              <Link to="#.">Email Marketing</Link>
+                              <Link to="/email-marketing">Email Marketing</Link>
                             </li>
                             <li>
-                              <Link to="#.">Reporting</Link>
+                              <Link to="/reporting">Reporting</Link>
                             </li>
                             <li>
-                              <Link to="#.">Hospitality Photography</Link>
+                              <Link to="/hospitality-photography">Hospitality Photography</Link>
                             </li>
                             <li>
-                              <Link to="#.">Asksuite Hotel Chatbot</Link>
+                              <Link to="/asksuite-hotel-chatbot">Asksuite Hotel Chatbot</Link>
                             </li>
                             <li>
-                              <Link to="#.">The Hotels Network</Link>
+                              <Link to="/the-hotels-network">The Hotels Network</Link>
                             </li>
                           </ul>
                         </li>

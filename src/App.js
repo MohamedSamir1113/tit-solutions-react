@@ -33,6 +33,11 @@ import SocialMediaMarketing from "./pages/SocialMediaMarketing.jsx";
 import SocialMediaManagement from "./pages/SocialMediaManagement.jsx";
 import HotelECommerce from "./pages/HotelECommerce.jsx";
 import SearchEngineOptimization from "./pages/SearchEngineOptimization.jsx";
+import EmailMarketing from "./pages/EmailMarketing.jsx";
+import Reporting from "./pages/Reporting.jsx";
+import HospitalityPhotography from "./pages/HospitalityPhotography.jsx";
+import AsksuiteHotelChatbot from "./pages/AsksuiteHotelChatbot.jsx";
+import TheHotelsNetwork from "./pages/TheHotelsNetwork.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -90,6 +95,11 @@ function App() {
             <Route path="social-media-managment" element={<SocialMediaManagement/>} />
             <Route path="hotel-ecommerce" element={<HotelECommerce/>} />
             <Route path="search-engine-optimization" element={<SearchEngineOptimization/>} />
+            <Route path="email-marketing" element={<EmailMarketing/>} />
+            <Route path="reporting" element={<Reporting/>} />
+            <Route path="hospitality-photography" element={<HospitalityPhotography/>} />
+            <Route path="asksuite-hotel-chatbot" element={<AsksuiteHotelChatbot/>} />
+          <Route path="the-hotels-network" element={<TheHotelsNetwork/>} />
 
             <Route path="services-details" element={<ServicesDetails />} />
             <Route path="d-edge" element={<DEdge />} />

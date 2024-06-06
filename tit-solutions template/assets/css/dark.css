@@ -97,7 +97,10 @@ input[type="checkbox"].toggle-switch:checked::after {
 .dark .bg_color {
   background: #131313;
 }
-
+.dark .single_service_icon
+{
+  color: #000;
+}
 .dark .menu a img {
   filter: invert(2);
 }
