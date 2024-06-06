@@ -5,7 +5,7 @@ function HotelandResorts() {
   return (
     <>
       <div className="row mx-auto hotels-resorts justify-content-center">
-        <div className="col-md-7">
+        <div className="col-md-6">
           <img
             className="w-100"
             src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-hotels-resorts-202120114146833.jpg"
@@ -73,7 +73,7 @@ function HotelandResorts() {
             </div>
           </form>
         </div>
-        <div className="col-md-5">
+        <div className="col-md-4">
           <div>
             <h3>Website Development</h3>
             <ul className="list-unstyled">

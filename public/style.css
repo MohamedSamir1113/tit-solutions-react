@@ -16525,12 +16525,13 @@ a:hover {
 {
   padding: 80px;
 }
-.hotels-resorts p{
-  margin: "0 0 15px";
-  font-family: "open sans, sans-serif";
- line-height: "31px";
- font-size: large;
+.hotels-resorts p {
+  margin: 0 0 15px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 31px;
+  font-size: large;
 }
+
 .hotels-resorts ul{
   list-style: none;
     font-family: open sans, sans-serif;
