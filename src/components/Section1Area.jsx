@@ -30,6 +30,7 @@ function Section1Area({ title, description, linkPath, imgSrc }) {
                   <p>
                   {description}
                   </p>
+                
                  
                   <div className="row  mt-4">
                     <div className="col-lg-6 col-sm-6">

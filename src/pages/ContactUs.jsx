@@ -107,7 +107,7 @@ const ContactUs = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="contact_from">
-                <form id="contact_form" id="dreamit-form">
+                <form id="contact_form" >
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="form_box mb-30">

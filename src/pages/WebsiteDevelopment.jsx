@@ -8,6 +8,7 @@ function WebsiteDevelopment() {
      {/*bg*/}
       <BgArea title1={`Website Development`} title2={`Solutions`} path={`/solutions`}/>
 
+
       <div className="service_area style2 pt-80 pb-70">
         <div className="container">
           <div className="row justify-content-between align-items-center">

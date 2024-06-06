@@ -2,8 +2,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  useNavigate,
-  useLocation,
 } from "react-router-dom";
 
 import ScrollToTop from "./ScrollToTop.jsx";
@@ -38,6 +36,11 @@ import Reporting from "./pages/Reporting.jsx";
 import HospitalityPhotography from "./pages/HospitalityPhotography.jsx";
 import AsksuiteHotelChatbot from "./pages/AsksuiteHotelChatbot.jsx";
 import TheHotelsNetwork from "./pages/TheHotelsNetwork.jsx";
+import CentralReservationSystem from "./pages/CentralReservationSystem.jsx";
+import GuestManagement from "./pages/GuestManagement.jsx";
+import DataIntelligence from "./pages/DataIntelligence.jsx";
+import BookingEngine from "./pages/BookingEngine.jsx";
+import WebCheckInSolution from "./pages/WebCheckInSolution.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -82,6 +85,8 @@ function App() {
             <Route path="solutions" element={<Solutions />} />
             
             <Route path="website-development" element={<WebsiteDevelopment />} />
+            <Route path="booking-engine" element={<BookingEngine/>} />
+            <Route path="web-check-in-solution" element={<WebCheckInSolution/>} />
 
             <Route path="hotels-resorts" element={<HotelandResorts />} />
             <Route path="travel-tours" element={<TravelandTours />} />
@@ -102,7 +107,13 @@ function App() {
           <Route path="the-hotels-network" element={<TheHotelsNetwork/>} />
 
             <Route path="services-details" element={<ServicesDetails />} />
+            
             <Route path="d-edge" element={<DEdge />} />
+            <Route path="central-reservation-system" element={<CentralReservationSystem/>} />
+            <Route path="guest-management" element={<GuestManagement/>} />
+            <Route path="data-intelligence" element={<DataIntelligence/>} />
+
+
             <Route path="about-us" element={<AboutUs />} />
             <Route path="clients" element={<OurClients />} />
             <Route path="portfolio" element={<Portfolio />} />

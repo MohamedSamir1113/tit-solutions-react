@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 
-import { useDispatch, useSelector } from "react-redux";
-import { fetchLayoutGroup } from "../data/layoutGroupSlice";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLocation,
-  faLocationDot,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import Loader from "./../Loader";
 import { useMediaQuery } from "@mui/material";
@@ -52,7 +46,7 @@ const Layout = () => {
 
     return () => clearTimeout(timer);
   }, [loading]);
-  
+
   return (
     <>
       {loading ? (
@@ -118,6 +112,7 @@ const Layout = () => {
             </div>
           </div>
 
+          {/* Nav*/}
           {isMobile ? (
             <>
               <div
@@ -377,7 +372,6 @@ const Layout = () => {
             </>
           ) : (
             <>
-              {" "}
               <div
                 id="sticky-header"
                 className={`techno_nav_manu d-md-none d-lg-block d-sm-none d-none ${
@@ -416,13 +410,15 @@ const Layout = () => {
                             <li>
                               <ul className="text-center">
                                 <li>
-                                    <Link to="/website-development"
-                            onClick={() => setLoading(true)}><h5 className="text-center my-3">Website Development</h5></Link>
-                                  
+                                  <Link to="/website-development" className="text-white">
+                                    <h5 className="text-center my-3">
+                                      Website Development
+                                    </h5>
+                                  </Link>
                                 </li>
 
                                 <li className="text-center">
-                                  <Link className="text-lg-center" to="#.">
+                                  <Link className="text-lg-center" to="/hotels-resorts">
                                     Hotel & Resorts
                                   </Link>
                                 </li>
@@ -445,11 +441,16 @@ const Layout = () => {
                             </li>
 
                             <li>
-                              <ul>
+                              <ul className="text-center">
                                 <li>
-                                  <h5 className="text-center my-3">
-                                    Booking Engine
-                                  </h5>
+                                  <Link
+                                    className="text-lg-center"
+                                    to="/booking-engine"
+                                  >
+                                    <h5 className="text-center my-3">
+                                      Booking Engine
+                                    </h5>
+                                  </Link>
                                 </li>
 
                                 <li>
@@ -483,7 +484,10 @@ const Layout = () => {
                                 </li>
 
                                 <li>
-                                  <Link className="text-lg-center" to="#.">
+                                  <Link
+                                    className="text-lg-center"
+                                    to="web-check-in-solution"
+                                  >
                                     Web Check-In Solution
                                   </Link>
                                 </li>
@@ -498,19 +502,29 @@ const Layout = () => {
                           </Link>
                           <ul className="normal-sub">
                             <li>
-                              <Link to="/search-engine-marketing">Search Engine Marketing</Link>
+                              <Link to="/search-engine-marketing">
+                                Search Engine Marketing
+                              </Link>
                             </li>
                             <li>
-                              <Link to="/social-media-marketing">Social Media Marketing</Link>
+                              <Link to="/social-media-marketing">
+                                Social Media Marketing
+                              </Link>
                             </li>
                             <li>
-                              <Link to="/social-media-managment">Social Media Management</Link>
+                              <Link to="/social-media-managment">
+                                Social Media Management
+                              </Link>
                             </li>
                             <li>
-                              <Link to="/hotel-ecommerce">Hotel E-Commerce</Link>
+                              <Link to="/hotel-ecommerce">
+                                Hotel E-Commerce
+                              </Link>
                             </li>
                             <li>
-                              <Link to="/search-engine-optimization">Search Engine Optimization</Link>
+                              <Link to="/search-engine-optimization">
+                                Search Engine Optimization
+                              </Link>
                             </li>
                             <li>
                               <Link to="/email-marketing">Email Marketing</Link>
@@ -519,13 +533,19 @@ const Layout = () => {
                               <Link to="/reporting">Reporting</Link>
                             </li>
                             <li>
-                              <Link to="/hospitality-photography">Hospitality Photography</Link>
+                              <Link to="/hospitality-photography">
+                                Hospitality Photography
+                              </Link>
                             </li>
                             <li>
-                              <Link to="/asksuite-hotel-chatbot">Asksuite Hotel Chatbot</Link>
+                              <Link to="/asksuite-hotel-chatbot">
+                                Asksuite Hotel Chatbot
+                              </Link>
                             </li>
                             <li>
-                              <Link to="/the-hotels-network">The Hotels Network</Link>
+                              <Link to="/the-hotels-network">
+                                The Hotels Network
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -536,13 +556,19 @@ const Layout = () => {
                           </Link>
                           <ul className="normal-sub">
                             <li>
-                              <Link to="#.">Central Reservation System</Link>
+                              <Link to="central-reservation-system">
+                                Central Reservation System
+                              </Link>
                             </li>
                             <li>
-                              <Link to="#.">Guest Management</Link>
+                              <Link to="guest-management">
+                                Guest Management
+                              </Link>
                             </li>
                             <li>
-                              <Link to="#.">Data Intelligence</Link>
+                              <Link to="data-intelligence">
+                                Data Intelligence
+                              </Link>
                             </li>
                           </ul>
                         </li>

@@ -5425,8 +5425,20 @@ a.em-active-button:hover {
 }
 
 .subscribe-area .quote_btn button {
-  background: #33b9ff;
-  color: #fff;
+  background: #33b9ff !important;
+  color: #fff !important;
+  font-weight: 600;
+  border: 0;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 35px;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+#hotels-resorts-form .quote_btn button {
+  background: #1e398d !important;
+  color: #fff !important;
   font-weight: 600;
   border: 0;
   display: inline-block;
@@ -16147,7 +16159,7 @@ span.flaticon-multiply i {
   color: #fff;
 }
 
-@keyframes "spin" {
+@keyframes spin {
   0% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -16177,7 +16189,7 @@ span.flaticon-multiply i {
   }
 }
 
-@-webkit-keyframes "spin" {
+@-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -16189,7 +16201,7 @@ span.flaticon-multiply i {
   }
 }
 
-@-ms-keyframes "spin" {
+@-ms-keyframes spin {
   0% {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -16201,7 +16213,7 @@ span.flaticon-multiply i {
   }
 }
 
-@-o-keyframes "spin" {
+@-o-keyframes spin {
   0% {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -16213,7 +16225,7 @@ span.flaticon-multiply i {
   }
 }
 
-@keyframes "spin2" {
+@keyframes spin2 {
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -16243,7 +16255,7 @@ span.flaticon-multiply i {
   }
 }
 
-@-webkit-keyframes "spin2" {
+@-webkit-keyframes spin2 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -16255,7 +16267,7 @@ span.flaticon-multiply i {
   }
 }
 
-@-ms-keyframes "spin2" {
+@-ms-keyframes spin2 {
   0% {
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -16267,7 +16279,7 @@ span.flaticon-multiply i {
   }
 }
 
-@-o-keyframes "spin2" {
+@-o-keyframes spin2 {
   0% {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -16279,7 +16291,7 @@ span.flaticon-multiply i {
   }
 }
 
-@keyframes "glow" {
+@keyframes glow {
   0% {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -16311,7 +16323,7 @@ span.flaticon-multiply i {
   }
 }
 
-@-webkit-keyframes "glow" {
+@-webkit-keyframes glow {
   0% {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -16330,7 +16342,7 @@ span.flaticon-multiply i {
   }
 }
 
-@-ms-keyframes "glow" {
+@-ms-keyframes glow {
   0% {
     box-shadow: none;
   }
@@ -16345,7 +16357,7 @@ span.flaticon-multiply i {
   }
 }
 
-@-o-keyframes "glow" {
+@-o-keyframes glow {
   0% {
     box-shadow: none;
   }
@@ -16508,4 +16520,37 @@ div#particles .slider18 {
 
 a:hover {
   color: #ffb600 !important;
+}
+.hotels-resorts
+{
+  padding: 80px;
+}
+.hotels-resorts p{
+  margin: "0 0 15px";
+  font-family: "open sans, sans-serif";
+ line-height: "31px";
+ font-size: large;
+}
+.hotels-resorts ul{
+  list-style: none;
+    font-family: open sans, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 40px;
+
+}
+.hotels-resorts ul li{
+  color: #555;
+      padding-bottom: 20px;
+
+}
+.hotels-resorts ul li:hover{
+  color: #1e398d;
+
+
+}
+.hotels-resorts ul span{
+  margin-left: 10px;
+
+
 }
