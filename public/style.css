@@ -16554,3 +16554,28 @@ a:hover {
 
 
 }
+
+.service-link {
+  border: 1px solid #c8c8c8;
+  display: block;
+  color: #555 !important;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 11px 21px;
+  transition: all .2s ease-in-out;
+  width: fit-content; 
+  margin-top: 7px; 
+}
+
+
+
+.service-link:hover
+{
+  border-color: #1e398d;
+  color: #1e398d !important;
+  
+}
+.me
+{
+  margin-right: 5px !important; 
+}

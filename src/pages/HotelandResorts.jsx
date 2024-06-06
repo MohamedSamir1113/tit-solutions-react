@@ -123,13 +123,21 @@ function HotelandResorts() {
                   <span>Web Check-In Solution</span>
                 </li>
               </Link>
-              
             </ul>
           </div>
 
-          <div>
+          <div className="pt-20">
             <h3>Our Services</h3>
-            
+            <Link className="service-link" to="/search-engine-marketing">Search Engine Marketing</Link>
+            <Link className="service-link" to="/social-media-marketing">Social Media Marketing</Link>
+            <Link className="service-link" to="/social-media-managment">Social Media Management</Link>
+            <Link className="service-link" to="/hotel-ecommerce">Hotel E-Commerce</Link>
+            <Link className="service-link" to="/search-engine-optimization">Search Engine Optimization</Link>
+            <Link className="service-link d-inline-block me" to="/email-marketing">Email Marketing</Link>
+            <Link className="service-link d-inline-block" to="/reporting">Reporting</Link>
+            <Link className="service-link" to="/hospitality-photography">Hospitality Photography</Link>
+            <Link className="service-link" to="/asksuite-hotel-chatbot">Asksuite Hotel Chatbot</Link>
+            <Link className="service-link" to="/the-hotels-network"> The Hotels Network</Link>
           </div>
         </div>
       </div>
