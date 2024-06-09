@@ -87,6 +87,12 @@ function App() {
             <Route index element={<Home />} />
             <Route path="solutions" element={<Solutions />} />
             
+            <Route path="website-development" element={<WebsiteDevelopment />} />
+            <Route path="hotels-resorts" element={<HotelandResorts />} />
+            <Route path="travel-tours" element={<TravelandTours />} />
+            <Route path="nile-cruises" element={<NileCruises />} />
+            <Route path="general-purposes" element={<GeneralPurposes />} />
+            
             <Route path="booking-engine" element={<BookingEngine/>} />
             <Route path="attraction-d-edge" element={<AttractionDEdge/>} />
             <Route path="SynXis" element={<SynXis/>} />
@@ -95,11 +101,6 @@ function App() {
             
             <Route path="web-check-in-solution" element={<WebCheckInSolution/>} />
 
-            <Route path="website-development" element={<WebsiteDevelopment />} />
-            <Route path="hotels-resorts" element={<HotelandResorts />} />
-            <Route path="travel-tours" element={<TravelandTours />} />
-            <Route path="nile-cruises" element={<NileCruises />} />
-            <Route path="general-purposes" element={<GeneralPurposes />} />
 
             <Route path="services" element={<Services />} />
 

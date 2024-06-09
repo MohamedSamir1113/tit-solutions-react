@@ -454,17 +454,17 @@ const Layout = () => {
 
                                
                                 <li>
-                                  <Link className="text-lg-center" to="#.">
+                                  <Link className="text-lg-center" to="/attraction-d-edge">
                                     Attraction D-Edge
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link className="text-lg-center" to="#.">
+                                  <Link className="text-lg-center" to="/SynXis">
                                     SynXis
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link className="text-lg-center" to="#.">
+                                  <Link className="text-lg-center" to="/nile-cruise-booking-engine">
                                     Nile Cruise Booking Engine
                                   </Link>
                                 </li>
