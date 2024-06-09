@@ -16,7 +16,7 @@ function SearchEngineMarketing() {
       <Section1Area
         title={`Google Ads`}
         description={`Managing Google Ads for hotels and building it from scratch is very demanding, which usually ends with business owners and managers leaving this magnificent tool to easier platforms.`}
-        linkPath={`/`}
+        linkPath={`/google-ads`}
         imgSrc={`assets/images/services/google-hotel-ads.jpg`}
       />
       {/*Google ads*/}

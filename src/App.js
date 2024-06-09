@@ -44,6 +44,7 @@ import WebCheckInSolution from "./pages/WebCheckInSolution.jsx";
 import AttractionDEdge from "./pages/AttractionDEdge.jsx";
 import SynXis from "./pages/SynXis.jsx";
 import NileCruiseBookingEngine from "./pages/NileCruiseBookingEngine.jsx";
+import GoogleAds from "./pages/GoogleAds.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -105,6 +106,8 @@ function App() {
             <Route path="services" element={<Services />} />
 
             <Route path="search-engine-marketing" element={<SearchEngineMarketing />} />
+            <Route path="google-ads" element={<GoogleAds/>} />
+
             <Route path="social-media-marketing" element={<SocialMediaMarketing />} />
             <Route path="social-media-managment" element={<SocialMediaManagement/>} />
             <Route path="hotel-ecommerce" element={<HotelECommerce/>} />
