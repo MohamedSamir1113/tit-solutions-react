@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function BgArea({ title1, title2 ,path}) {
+function BgArea({ title1, title2,path}) {
     return (
         <div className="breatcome_area d-flex align-items-center">
             <div className="container">

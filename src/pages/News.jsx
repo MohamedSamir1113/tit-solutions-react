@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const News = () => {
+  useEffect(() => {
+    document.title = "News";
+  }, []);
   return (
     <>
       <div className="breatcome_area d-flex align-items-center">

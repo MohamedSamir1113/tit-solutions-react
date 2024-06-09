@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Services = () => {
+  useEffect(() => {
+    document.title = "Services";
+  }, []);
   return (
     <>
       <div className="breatcome_area d-flex align-items-center">

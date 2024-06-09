@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 
 const Solutions = () => {
-  
+  useEffect(() => {
+    document.title = "Solutions";
+  }, []);
 
   return (
     <>

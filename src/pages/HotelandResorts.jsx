@@ -1,146 +1,441 @@
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import BgArea from "../components/BgArea";
+import ContactForm from "../components/ContactForm";
 function HotelandResorts() {
+  useEffect(() => {
+    document.title = "Hotels and Resorts";
+  }, []);
   return (
     <>
-      <div className="row mx-auto hotels-resorts justify-content-center">
-        <div className="col-md-6">
-          <img
-            className="w-100"
-            src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-hotels-resorts-202120114146833.jpg"
-            alt=""
-          />
-          <div className="pt-3">
-            <h1 className="pb-20">Hotels & Resorts</h1>
-            <p>
-              Keep your website up-to-date and user-friendly all the time with
-              the help of our web development experts. We know that all hotels
-              have a website but do the design of your hotel site and images
-              encourage people to book directly? Is your hotel’s website
-              optimized so that customers will actually see you when they search
-              online? That is exactly how we do our job to attract lookers and
-              bookers!
-            </p>
-          </div>
-          <div className="py-5">
-            <h1>Talk To the Experts</h1>
-          </div>
+      <BgArea
+        title1={`Hotel and Resorts`}
+        title2={`Solutions`}
+        path={`/solutions`}
+      />
+      <div className="service-details pages pt-90 pb-50">
+        <div className="container">
+          <div className="row">
+            <div className=" col-lg-4 col-md-5 col-sm-12 col-xs-12">
+              <h3 className="pb-15">Our Services:</h3>
+              <div className="service-details-pn-list">
+                <ul>
+                  <li>
+                    <Link to="/social-media-marketing">
+                      Social Media Marketing
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
 
-          <form id="hotels-resorts-form">
-            <div className="row">
-              <div className="col-lg-4">
-                <input
-                  className="form-control"
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                />
+                  <li>
+                    <Link to="/social-media-managment">
+                      Social Media Management
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/hotel-ecommerce">
+                      Hotel E-commerce
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/search-engine-optimization">
+                      Search Engine Optimization
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/email-marketing">
+                      Email Marketing
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/reporting">
+                      Reporting
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/hospitality-photography">
+                      Hospitality Photography
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/the-hotels-network">
+                      The Hotels Network
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/asksuite-hotel-chatbot">
+                      Asksuite Hotel Chatbot
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+                </ul>
               </div>
-              <div className="col-lg-4">
-                <input
-                  className="form-control"
-                  type="email"
-                  name="email"
-                  placeholder="Email Address"
-                />
-              </div>
-              <div className="col-lg-4">
-                <input
-                  className="form-control"
-                  type="text"
-                  name="phone"
-                  placeholder="Phone Number"
-                />
+              <div className="service-details-big-button mt-40 mb-40">
+                <a href="/">
+                  <span className="details-big-content">
+                    Company Presentation <i className="fa fa-download"></i>
+                  </span>
+                </a>
               </div>
 
-              <div className="col-lg-12 py-3">
-                <textarea
-                  className="form-control"
-                  name="message"
-                  id="message"
-                  cols="30"
-                  rows="10"
-                  placeholder="Write a Message"
-                ></textarea>
-
-                <div className="ms-0 quote_btn pt-40 text_center">
-                  <button className="btn" type="submit">
-                    Send Message
-                  </button>
+              <div
+                className="service-details-pn-about mb-4"
+                style={{ backgroundImage: "url(assets/images/tab1.jpg)" }}
+              >
+                <div className="service-details-pn-about-content pt-35 pb-40 pl-4 pr-4">
+                  <div className="service-details-pn-about-content-title pb-3">
+                    <h4>Need Any Help For Business ?</h4>
+                  </div>
+                  <div className="service-details-pn-about-content-text">
+                    <p>
+                      We take an omni-channel approach to online marketing with
+                      a focus on increasing conversions, repeat traffic and
+                      generating greater brand loyalty online.
+                    </p>
+                  </div>
+                  <div className="service-details-pn-about-content-button pt-2">
+                    <Link to="/contact-us">Contact Now</Link>
+                  </div>
                 </div>
               </div>
             </div>
-          </form>
-        </div>
-        <div className="col-md-4">
-          <div>
-            <h3>Website Development</h3>
-            <ul className="list-unstyled">
-              <Link to="/travel-tours">
-                <li>
-                  <i>
-                    <FontAwesomeIcon icon={faAngleRight} />
-                  </i>
-                  <span>Travel&Tours</span>
-                </li>
-              </Link>
-              <Link to="/nile-cruises">
-                <li>
-                  <i>
-                    <FontAwesomeIcon icon={faAngleRight} />
-                  </i>
-                  <span>Nile Cruises</span>
-                </li>
-              </Link>
-              <Link to="/general-purposes">
-                <li>
-                  <i>
-                    <FontAwesomeIcon icon={faAngleRight} />
-                  </i>
-                  <span>General Purposes</span>
-                </li>
-              </Link>
-            </ul>
-          </div>
 
-          <div>
-            <h3>Other Solutions</h3>
-            <ul className="list-unstyled">
-              <Link to="/booking-engine">
-                <li>
-                  <i>
-                    <FontAwesomeIcon icon={faAngleRight} />
-                  </i>
-                  <span>Booking Engine</span>
-                </li>
-              </Link>
-              <Link to="/web-check-in-solution">
-                <li>
-                  <i>
-                    <FontAwesomeIcon icon={faAngleRight} />
-                  </i>
-                  <span>Web Check-In Solution</span>
-                </li>
-              </Link>
-            </ul>
-          </div>
+            <div className="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+              <div className="row justify-content-center">
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                  <div className="service-main-details">
+                    <div className="service-main-details-inner">
+                      <div className="service-main-details-inner-thumb">
+                        <img
+                          src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-hotels-resorts-202120114146833.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="service-main-details-content-title pt-4 pb-3">
+                        <h3>Hotels & Resorts</h3>
+                      </div>
+                      <div className="service-main-details-content-text pb-4">
+                        <p>
+                          Keep your website up-to-date and user-friendly all the
+                          time with the help of our web development experts. We
+                          know that all hotels have a website but do the design
+                          of your hotel site and images encourage people to book
+                          directly? Is your hotel’s website optimized so that
+                          customers will actually see you when they search
+                          online? That is exactly how we do our job to attract
+                          lookers and bookers!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="service-main-details-content-title pt-4 pb-3">
+                    <h3>WEBSITE DEVELOPMENT:</h3>
+                  </div>
+                </div>
 
-          <div className="pt-20">
-            <h3>Our Services</h3>
-            <Link className="service-link" to="/search-engine-marketing">Search Engine Marketing</Link>
-            <Link className="service-link" to="/social-media-marketing">Social Media Marketing</Link>
-            <Link className="service-link" to="/social-media-managment">Social Media Management</Link>
-            <Link className="service-link" to="/hotel-ecommerce">Hotel E-Commerce</Link>
-            <Link className="service-link" to="/search-engine-optimization">Search Engine Optimization</Link>
-            <Link className="service-link d-inline-block me" to="/email-marketing">Email Marketing</Link>
-            <Link className="service-link d-inline-block" to="/reporting">Reporting</Link>
-            <Link className="service-link" to="/hospitality-photography">Hospitality Photography</Link>
-            <Link className="service-link" to="/asksuite-hotel-chatbot">Asksuite Hotel Chatbot</Link>
-            <Link className="service-link" to="/the-hotels-network"> The Hotels Network</Link>
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                  <div className="techno_flipbox mb-30">
+                    <div className="techno_flipbox_font">
+                      <div className="techno_flipbox_inner">
+                        <div className="techno_flipbox_icon">
+                          <div className="icon">
+                            <i className="flaticon-intelligent"></i>
+                          </div>
+                        </div>
+                        <div className="flipbox_title">
+                          <h3>Travel & Tours</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            We offer unique & custom made Website Designing &
+                            Development for hospitality sector. Our solutions
+                            cover Travel agents, hotels...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="techno_flipbox_back "
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-travel-tours-202120114432949.jpg)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <div className="techno_flipbox_inner">
+                        <div className="flipbox_title">
+                          <h3>Travel & Tours</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            We offer unique & custom made Website Designing &
+                            Development for hospitality sector. Our solutions
+                            cover Travel agents, hotels...
+                          </p>
+                        </div>
+                        <div className="flipbox_button">
+                          <Link to="/travel-tours">
+                            Read More
+                            <i className="fa fa-angle-double-right"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                  <div className="techno_flipbox mb-30">
+                    <div className="techno_flipbox_font">
+                      <div className="techno_flipbox_inner">
+                        <div className="techno_flipbox_icon">
+                          <div className="icon">
+                            <i className="flaticon-intelligent"></i>
+                          </div>
+                        </div>
+                        <div className="flipbox_title">
+                          <h3>Nile Cruises</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            Join our satisfied clients and let us create the
+                            responsive website that you dream about for your
+                            Nile Cruise business...{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="techno_flipbox_back "
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruises-202130133148568.jpg)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <div className="techno_flipbox_inner">
+                        <div className="flipbox_title">
+                          <h3>Nile Cruises</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            Join our satisfied clients and let us create the
+                            responsive website that you dream about for your
+                            Nile Cruise business...{" "}
+                          </p>
+                        </div>
+                        <div className="flipbox_button">
+                          <Link to="/nile-cruises">
+                            Read More
+                            <i className="fa fa-angle-double-right"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                  <div className="techno_flipbox mb-30">
+                    <div className="techno_flipbox_font">
+                      <div className="techno_flipbox_inner">
+                        <div className="techno_flipbox_icon">
+                          <div className="icon">
+                            <i className="flaticon-intelligent"></i>
+                          </div>
+                        </div>
+                        <div className="flipbox_title">
+                          <h3>General Purposes</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            Creating customized websites to meet unique business
+                            requirements is an essential asset to any
+                            organization that wants to generate...{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="techno_flipbox_back "
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-general-purposes-202120115030332.jpg)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <div className="techno_flipbox_inner">
+                        <div className="flipbox_title">
+                          <h3>General Purposes</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            Creating customized websites to meet unique business
+                            requirements is an essential asset to any
+                            organization that wants to generate...{" "}
+                          </p>
+                        </div>
+                        <div className="flipbox_button">
+                          <Link to="/general-purposes">
+                            Read More
+                            <i className="fa fa-angle-double-right"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div className="row justify-content-center">
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                 
+                  <div className="service-main-details-content-title pt-4 pb-3">
+                    <h3>Other Solutions:</h3>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                  <div className="techno_flipbox mb-30">
+                    <div className="techno_flipbox_font">
+                      <div className="techno_flipbox_inner">
+                        <div className="techno_flipbox_icon">
+                          <div className="icon">
+                            <i className="flaticon-intelligent"></i>
+                          </div>
+                        </div>
+                        <div className="flipbox_title">
+                          <h3>Booking Engine</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            A professional booking engine has to be your first priority, as well as website creation...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="techno_flipbox_back "
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruise-booking-engine-20212012411399.jpg)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <div className="techno_flipbox_inner">
+                        <div className="flipbox_title">
+                          <h3>Booking Engine</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            A professional booking engine has to be your first priority, as well as website creation...
+                          </p>
+                        </div>
+                        <div className="flipbox_button">
+                          <Link to="/booking-engine">
+                            Read More
+                            <i className="fa fa-angle-double-right"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                  <div className="techno_flipbox mb-30">
+                    <div className="techno_flipbox_font">
+                      <div className="techno_flipbox_inner">
+                        <div className="techno_flipbox_icon">
+                          <div className="icon">
+                            <i className="flaticon-intelligent"></i>
+                          </div>
+                        </div>
+                        <div className="flipbox_title">
+                          <h3>Web Check-In Solution</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            During this challenging time, Hotels & Resorts need to implement a solution to facilitate a smooth, fast, and paperless Check-In for the guests...{" "}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="techno_flipbox_back "
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-web-check-in-solution-202120111949888.jpg)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <div className="techno_flipbox_inner">
+                        <div className="flipbox_title">
+                          <h3>Web Check-In Solution</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            During this challenging time, Hotels & Resorts need to implement a solution to facilitate a smooth, fast, and paperless Check-In for the guests...{" "}
+                          </p>
+                        </div>
+                        <div className="flipbox_button">
+                          <Link to="/web-check-in-solution">
+                            Read More
+                            <i className="fa fa-angle-double-right"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      {/*talk to experts section*/}
+      <ContactForm />
     </>
   );
 }

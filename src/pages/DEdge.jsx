@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const DEdge = () => {
+  useEffect(() => {
+    document.title = "D-Edge";
+  }, []);
   return (
     <>
       <div className="breatcome_area d-flex align-items-center">

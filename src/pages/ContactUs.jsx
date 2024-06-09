@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const ContactUs = () => {
+  useEffect(() => {
+    document.title = "Contact Us";
+  }, []);
   return (
     <>
       <div className="breatcome_area d-flex align-items-center">

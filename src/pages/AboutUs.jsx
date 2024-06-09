@@ -55,6 +55,9 @@ const createTiltHandler = (tiltRef) => {
 };
 
 const AboutUs = () => {
+  useEffect(() => {
+    document.title = "About Us";
+  }, []);
   const isMobile = useMediaQuery("(max-width:767px)");
   const isTablet = useMediaQuery("(max-width:1024px)");
   const tiltRef1 = useRef(null);

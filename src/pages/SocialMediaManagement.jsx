@@ -2,7 +2,11 @@ import { Link } from "react-router-dom";
 import BgArea from "../components/BgArea";
 import Section1Area from "../components/Section1Area";
 import Section2Area from "../components/Section2Area";
+import { useEffect } from "react";
 function SocialMediaManagement() {
+  useEffect(() => {
+    document.title = "Social Media Management";
+  }, []);
   return (
     <>
       {/*bg*/}

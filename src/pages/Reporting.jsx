@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import Section1Area from "../components/Section1Area";
 import Section2Area from "../components/Section2Area";
 
 function Reporting() {
+  useEffect(() => {
+    document.title = "Reporting";
+  }, []);
   return (
     <>
       <BgArea title1={`Reporting`} title2={`services`} path={`/services`} />

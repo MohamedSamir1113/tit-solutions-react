@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import BgArea from "../components/BgArea"
 import Section1Area from "../components/Section1Area"
 import Section2Area from "../components/Section2Area"
 
 function CentralReservationSystem() {
+    useEffect(() => {
+        document.title = "Central Reservation System";
+      }, []);
+    
     return (
         <>
         <BgArea

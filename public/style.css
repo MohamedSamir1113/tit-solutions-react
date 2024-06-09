@@ -16585,3 +16585,12 @@ a:hover {
 {
   margin-right: 5px !important; 
 }
+
+.text-hover {
+  color: inherit; 
+  text-decoration: none; 
+}
+
+.text-hover:hover {
+  color: white !important; 
+}

@@ -494,6 +494,7 @@ const Home = () => {
         }}
       >
         <div className="container">
+          
           <div className="row">
             <div className="col-lg-12">
               <div className="section_title text_center white mb-55">
@@ -509,6 +510,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12 col-xs-6">
               <div className="techno_flipbox mb-30">

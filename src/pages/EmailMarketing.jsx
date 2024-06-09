@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import BgArea from "../components/BgArea"
 import Section1Area from "../components/Section1Area"
 import Section2Area from "../components/Section2Area"
 
 function EmailMarketing() {
+    useEffect(() => {
+        document.title = "Email Markting";
+      }, []);
     return (
         <>
             <BgArea

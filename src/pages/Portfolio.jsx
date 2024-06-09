@@ -12,6 +12,7 @@ import styles from "./gallery-css/gallery.module.css";
 import { Container } from "react-bootstrap";
 import { Nav, Tab, Tabs } from "react-bootstrap";
 const Portfolio = () => {
+
   const isMobile = useMediaQuery("(max-width:767px)");
   const isTablet = useMediaQuery("(max-width:1024px)");
   const allImages = [
@@ -132,6 +133,10 @@ const Portfolio = () => {
       ],
     },
   ];
+
+  useEffect(() => {
+    document.title = "Portfolio";
+  }, []);
   return (
     <>
       {/* Banner */}

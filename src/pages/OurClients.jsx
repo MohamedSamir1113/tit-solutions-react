@@ -255,6 +255,9 @@ const others = [
   },
 ];
 const OurClients = () => {
+  useEffect(() => {
+    document.title = "Our Clients";
+  }, []);
   const isMobile = useMediaQuery("(max-width:767px)");
   const isTablet = useMediaQuery("(max-width:1024px)");
 

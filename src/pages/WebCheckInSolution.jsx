@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import BgArea from "../components/BgArea"
 
 function WebCheckInSolution() {
+    useEffect(() => {
+        document.title = "Web Check-In Solution";
+      }, []);
     return (
         <>
         <BgArea

@@ -1,9 +1,12 @@
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const NewsDetails = () => {
+  useEffect(() => {
+    document.title = "News Details";
+  }, []);
   return (
     <>
       <div className=" d-flex align-items-center mt-5">

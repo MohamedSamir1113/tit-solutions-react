@@ -47,6 +47,7 @@ const Layout = () => {
     return () => clearTimeout(timer);
   }, [loading]);
 
+  
   return (
     <>
       {loading ? (
@@ -181,9 +182,7 @@ const Layout = () => {
                               <li>
                                 <h5>Booking Engine</h5>
                                 <ul>
-                                  <li>
-                                    <Link to="index.html">Hotel & Resorts</Link>
-                                  </li>
+                                  
                                   <li>
                                     <Link to="index-2.html">
                                       Attraction D-Edge
@@ -410,8 +409,8 @@ const Layout = () => {
                             <li>
                               <ul className="text-center">
                                 <li>
-                                  <Link to="/website-development" className="text-white">
-                                    <h5 className="text-center my-3">
+                                  <Link to="/website-development">
+                                    <h5 className="text-center my-3 text-hover">
                                       Website Development
                                     </h5>
                                   </Link>
@@ -447,17 +446,13 @@ const Layout = () => {
                                     className="text-lg-center"
                                     to="/booking-engine"
                                   >
-                                    <h5 className="text-center my-3">
+                                    <h5 className="text-center my-3 text-hover">
                                       Booking Engine
                                     </h5>
                                   </Link>
                                 </li>
 
-                                <li>
-                                  <Link className="text-lg-center" to="#.">
-                                    Hotel & Resorts
-                                  </Link>
-                                </li>
+                               
                                 <li>
                                   <Link className="text-lg-center" to="#.">
                                     Attraction D-Edge
@@ -478,7 +473,7 @@ const Layout = () => {
                             <li>
                               <ul>
                                 <li>
-                                  <h5 className="text-center my-3">
+                                  <h5 className="text-center my-3 ">
                                     Web Check-In Solution
                                   </h5>
                                 </li>
