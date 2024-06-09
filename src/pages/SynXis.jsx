@@ -2,15 +2,14 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-
-function AttractionDEdge() {
+function SynXis() {
     useEffect(function() {
-        document.title="Attraction D-Edge"
+        document.title="SynXis"
     },[])
     return (
         <>
         <BgArea
-          title1={`AttractionDEdge`}
+          title1={`SynXis`}
           title2={`Booking Engine`}
           path={`/booking-engine`}
         />
@@ -139,12 +138,12 @@ function AttractionDEdge() {
                       <div className="service-main-details-inner">
                         <div className="service-main-details-inner-thumb">
                           <img
-                            src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-attraction-d-edge-202130132820642.jpg"
+                            src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-synxis-20213013252534.jpg"
                             alt=""
                           />
                         </div>
                         <div className="service-main-details-content-title pt-4 pb-3">
-                          <h3>Attraction D-Edge</h3>
+                          <h3>SynXis</h3>
                         </div>
   
                         <div className="service-main-details-content-text pb-4">
@@ -155,8 +154,7 @@ function AttractionDEdge() {
                               lineHeight: "31px",
                             }}
                           >
-                            A professional reservation system has to be your first priority, as well as website creation. Having just a working booking engine is not enough; you need the best booking engine to not lose even a single booking.
-                          </p>
+                            Are you looking for a hotel booking engine that turns your website into a very powerful and effective sales channel? Well, SynXis, the booking engine, is the right solution for you.</p>
                           <p
                             style={{
                               margin: "0 0 15px;",
@@ -164,40 +162,29 @@ function AttractionDEdge() {
                               lineHeight: "31px",
                             }}
                           >
-                            D-EDGE`s direct booking system is appropriate for all property sizes and accommodation types. It doesn’t matter if you have got only one space or 5, 10, twenty or more rooms. Having a website booking engine will enable you to direct communications with your guests and raising trust and loyalty.
+                            Connecting a hotel booking engine to your hotel website is a MUST for online display and sales of all types of accommodation and packages. SynXis is an easy-to-use rate, inventory, and reservations management solution. It was built with a deep retail focus to drive direct bookings, increase engagement and conversions. Your guests will be delighted with their booking experience every time, no matter where they are.
                           </p>
-                          <p
-                            style={{
-                              margin: "0 0 15px;",
-                              fontFamily: "open sans, sans-serif;",
-                              lineHeight: "31px",
-                            }}
-                          >
-                           You can build and market various promotional offers for your guests, packages, or arrangements for the weekend, summer, or winter through this reservation system. Sell vouchers and additional products and services, as a package with a room or standalone, without a room.
-                          </p>
-
-                          <p
-                            style={{
-                              margin: "0 0 15px;",
-                              fontFamily: "open sans, sans-serif;",
-                              lineHeight: "31px",
-                            }}
-                          >
-                           Also, your inventory for the number of available rooms and your pricing will be updated automatically from one main extranet calendar with just one click. You can rest assured the system is working 24/7 on your behalf.
-                          </p>
-
-                          <p
-                            style={{
-                              margin: "0 0 15px;",
-                              fontFamily: "open sans, sans-serif;",
-                              lineHeight: "31px",
-                            }}
-                          >
-                          D-EDGE`s advanced booking engine got you covered, whether your priority is high conversion rates, integrating the latest technology in hospitality, or finding a user-friendly system.
-                          </p>
-  
-                          
+                    
                         </div>
+
+                        <div className="py-3">
+                          <h4 className="mb-20">Important features of SynXis hotel booking engine include:</h4>
+                          <ul class="list-bullets">
+                            <li>Room availability checking</li>
+                            <li>Real-time updating</li>
+                            <li>Full search capability</li>
+                            <li>Reporting and sales analysis</li>
+                            
+                          </ul>
+                        </div>
+
+                        <p style={{
+                              margin: "0 0 15px;",
+                              fontFamily: "open sans, sans-serif;",
+                              lineHeight: "31px",
+                            }}>
+                        With SynXis hotel booking application, process secure and accurate online reservations become easy. Providing the hotels, management companies, travel companies with a simple yet very powerful way to sell rooms and packages online.
+                        </p>
                       </div>
                     </div>
                     <div className="service-main-details-content-title pt-4 pb-3">
@@ -215,11 +202,11 @@ function AttractionDEdge() {
                             </div>
                           </div>
                           <div className="flipbox_title">
-                            <h3>SynXis</h3>
+                            <h3>Attraction D-Edge</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              Are you looking for a hotel booking engine that turns your website into a very powerful and effective sales channel...
+                              A professional booking engine has to be your first priority, as well as website creation...
                             </p>
                           </div>
                         </div>
@@ -228,22 +215,22 @@ function AttractionDEdge() {
                         className="techno_flipbox_back "
                         style={{
                           backgroundImage:
-                            "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-synxis-20213013252534.jpg)",
+                            "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-attraction-d-edge-202130132820642.jpg)",
                           backgroundPosition: "center center",
                           backgroundSize: "cover",
                         }}
                       >
                         <div className="techno_flipbox_inner">
                           <div className="flipbox_title">
-                            <h3>SynXis</h3>
+                            <h3>Attraction D-Edge</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              Are you looking for a hotel booking engine that turns your website into a very powerful and effective sales channel...
+                              A professional booking engine has to be your first priority, as well as website creation...
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/SynXis">
+                            <Link to="/attraction-d-edge">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>
@@ -422,4 +409,4 @@ function AttractionDEdge() {
     )
 }
 
-export default AttractionDEdge
+export default SynXis

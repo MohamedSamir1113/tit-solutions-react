@@ -411,7 +411,7 @@ function NileCruises() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruise-booking-engine-20212012411399.jpg)",
+                          "url(assets/images/solutions/s2.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}

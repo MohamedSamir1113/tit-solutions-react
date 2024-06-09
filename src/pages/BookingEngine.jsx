@@ -25,14 +25,14 @@ function BookingEngine() {
 
       <Section2Area
       title={`SynXis`}
-      linkPath={``}
+      linkPath={`/SynXis`}
       imgSrc={`assets/images/digital-marketing-in-egypt-for-hotels-solutions-synxis-20213013252534.jpg`}
       description={`Are you looking for a hotel booking engine that turns your website into a very powerful and effective sales channel? Well, SynXis, the booking engine, is the right solution for you.`}
       />
 
       <Section1Area
       title={`Nile Cruise Booking Engine`}
-      linkPath={``}
+      linkPath={`/nile-cruise-booking-engine`}
       imgSrc={`assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruise-booking-engine-20212012411399.jpg`}
       description={`Connect Nile Cruises booking engine is the younger brother of connect hotel booking engine. Inhiriting all the user freindly features from his older brother; Nile cruises booking engine features the ability to deal with reservations based on the itenary of each Nile cruise seperately.`}
       />
