@@ -16521,40 +16521,7 @@ div#particles .slider18 {
 a:hover {
   color: #ffb600 !important;
 }
-.hotels-resorts
-{
-  padding: 80px;
-}
-.hotels-resorts p {
-  margin: 0 0 15px;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 31px;
-  font-size: large;
-}
 
-.hotels-resorts ul{
-  list-style: none;
-    font-family: open sans, sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    padding-top: 40px;
-
-}
-.hotels-resorts ul li{
-  color: #555;
-      padding-bottom: 20px;
-
-}
-.hotels-resorts ul li:hover{
-  color: #1e398d;
-
-
-}
-.hotels-resorts ul span{
-  margin-left: 10px;
-
-
-}
 
 .service-link {
   border: 1px solid #c8c8c8;

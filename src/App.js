@@ -41,6 +41,7 @@ import GuestManagement from "./pages/GuestManagement.jsx";
 import DataIntelligence from "./pages/DataIntelligence.jsx";
 import BookingEngine from "./pages/BookingEngine.jsx";
 import WebCheckInSolution from "./pages/WebCheckInSolution.jsx";
+import AttractionDEdge from "./pages/AttractionDEdge.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -84,10 +85,13 @@ function App() {
             <Route index element={<Home />} />
             <Route path="solutions" element={<Solutions />} />
             
-            <Route path="website-development" element={<WebsiteDevelopment />} />
             <Route path="booking-engine" element={<BookingEngine/>} />
+            <Route path="attraction-d-edge" element={<AttractionDEdge/>} />
+
+            
             <Route path="web-check-in-solution" element={<WebCheckInSolution/>} />
 
+            <Route path="website-development" element={<WebsiteDevelopment />} />
             <Route path="hotels-resorts" element={<HotelandResorts />} />
             <Route path="travel-tours" element={<TravelandTours />} />
             <Route path="nile-cruises" element={<NileCruises />} />

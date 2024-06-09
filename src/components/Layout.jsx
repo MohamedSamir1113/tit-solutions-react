@@ -162,18 +162,18 @@ const Layout = () => {
                                 <h5>Website Development</h5>
                                 <ul>
                                   <li>
-                                    <Link to="index.html">Hotel & Resorts</Link>
+                                    <Link to="/hotels-resorts">Hotels & Resorts</Link>
                                   </li>
                                   <li>
-                                    <Link to="index-2.html">
+                                    <Link to="/travel-tours">
                                       Travel & Tours
                                     </Link>
                                   </li>
                                   <li>
-                                    <Link to="index-3.html">Nile Cruises</Link>
+                                    <Link to="/nile-cruises">Nile Cruises</Link>
                                   </li>
                                   <li>
-                                    <Link to="index-4.html">
+                                    <Link to="/general-purposes">
                                       General Purpose
                                     </Link>
                                   </li>
@@ -298,7 +298,7 @@ const Layout = () => {
                             </Link>
                             <ul className="normal-sub">
                               <li>
-                                <Link to="managed-service.html">
+                                <Link to="/hotels-resorts">
                                   Hotels & Resorts
                                 </Link>
                               </li>
@@ -427,12 +427,12 @@ const Layout = () => {
                                   </Link>
                                 </li>
                                 <li className="text-center">
-                                  <Link className="text-lg-center" to="#.">
+                                  <Link className="text-lg-center" to="/nile-cruises">
                                     Nile Cruises
                                   </Link>
                                 </li>
                                 <li className="text-center">
-                                  <Link className="text-lg-center" to="#.">
+                                  <Link className="text-lg-center" to="/general-purposes">
                                     General Purpose
                                   </Link>
                                 </li>

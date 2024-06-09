@@ -12,8 +12,8 @@ function HotelandResorts() {
     <>
       <BgArea
         title1={`Hotel and Resorts`}
-        title2={`Solutions`}
-        path={`/solutions`}
+        title2={`Website Development`}
+        path={`/website-development`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -346,7 +346,7 @@ function HotelandResorts() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            A professional booking engine has to be your first priority, as well as website creation...
+                            With a user-friendly booking engine that works as a sales channel for your hotel, you can maximize your direct bookings easily...
                           </p>
                         </div>
                       </div>
@@ -366,7 +366,7 @@ function HotelandResorts() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            A professional booking engine has to be your first priority, as well as website creation...
+                            With a user-friendly booking engine that works as a sales channel for your hotel, you can maximize your direct bookings easily...
                           </p>
                         </div>
                         <div className="flipbox_button">

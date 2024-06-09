@@ -18,7 +18,7 @@ function BookingEngine() {
       />
       <Section1Area
       title={`Attraction D-Edge`}
-      linkPath={``}
+      linkPath={`/attraction-d-edge`}
       imgSrc={`assets/images/digital-marketing-in-egypt-for-hotels-solutions-attraction-d-edge-202130132820642.jpg`}
       description={`A professional booking engine has to be your first priority, as well as website creation. Having just a working booking engine is not enough; you need the best booking engine to not lose even a single booking.`}
       />

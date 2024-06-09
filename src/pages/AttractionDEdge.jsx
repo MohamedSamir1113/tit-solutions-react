@@ -2,16 +2,14 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-function GeneralPurposes() {
-    useEffect(() => {
-        document.title = "General Purposes";
-      }, []);
+
+function AttractionDEdge() {
     return (
         <>
         <BgArea
-          title1={`General Purposes`}
-          title2={`Website Development`}
-          path={`/website-development`}
+          title1={`AttractionDEdge`}
+          title2={`Booking Engine`}
+          path={`/booking-engine`}
         />
         <div className="service-details pages pt-90 pb-50">
           <div className="container">
@@ -138,12 +136,12 @@ function GeneralPurposes() {
                       <div className="service-main-details-inner">
                         <div className="service-main-details-inner-thumb">
                           <img
-                            src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-general-purposes-202120115030332.jpg"
+                            src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-attraction-d-edge-202130132820642.jpg"
                             alt=""
                           />
                         </div>
                         <div className="service-main-details-content-title pt-4 pb-3">
-                          <h3>General Purposes</h3>
+                          <h3>Attraction D-Edge</h3>
                         </div>
   
                         <div className="service-main-details-content-text pb-4">
@@ -154,7 +152,7 @@ function GeneralPurposes() {
                               lineHeight: "31px",
                             }}
                           >
-                            Creating customized websites to meet unique business requirements is an essential asset to any organization that wants to generate growth.
+                            A professional reservation system has to be your first priority, as well as website creation. Having just a working booking engine is not enough; you need the best booking engine to not lose even a single booking.
                           </p>
                           <p
                             style={{
@@ -163,7 +161,7 @@ function GeneralPurposes() {
                               lineHeight: "31px",
                             }}
                           >
-                            T.I.T Solutions offers next-generation web development and designing services to help you sail effortlessly through the constantly evolving technological changes.
+                            D-EDGE`s direct booking system is appropriate for all property sizes and accommodation types. It doesn’t matter if you have got only one space or 5, 10, twenty or more rooms. Having a website booking engine will enable you to direct communications with your guests and raising trust and loyalty.
                           </p>
                           <p
                             style={{
@@ -172,8 +170,9 @@ function GeneralPurposes() {
                               lineHeight: "31px",
                             }}
                           >
-                           We have many years of experience in developing web applications, combining our developer’s skills with their long experience to suit your business needs and your custom requirements.
+                           You can build and market various promotional offers for your guests, packages, or arrangements for the weekend, summer, or winter through this reservation system. Sell vouchers and additional products and services, as a package with a room or standalone, without a room.
                           </p>
+
                           <p
                             style={{
                               margin: "0 0 15px;",
@@ -181,7 +180,17 @@ function GeneralPurposes() {
                               lineHeight: "31px",
                             }}
                           >
-                            Our website development solutions can offer your visitors the best possible user experience. Whether you need a web design created from scratch to satisfy your industry needs or want a performance-optimized E-commerce website, you can always talk to us.
+                           Also, your inventory for the number of available rooms and your pricing will be updated automatically from one main extranet calendar with just one click. You can rest assured the system is working 24/7 on your behalf.
+                          </p>
+
+                          <p
+                            style={{
+                              margin: "0 0 15px;",
+                              fontFamily: "open sans, sans-serif;",
+                              lineHeight: "31px",
+                            }}
+                          >
+                          D-EDGE`s advanced booking engine got you covered, whether your priority is high conversion rates, integrating the latest technology in hospitality, or finding a user-friendly system.
                           </p>
   
                           
@@ -189,7 +198,7 @@ function GeneralPurposes() {
                       </div>
                     </div>
                     <div className="service-main-details-content-title pt-4 pb-3">
-                      <h3>WEBSITE DEVELOPMENT:</h3>
+                      <h3>BOOKING ENGINE:</h3>
                     </div>
                   </div>
   
@@ -203,13 +212,11 @@ function GeneralPurposes() {
                             </div>
                           </div>
                           <div className="flipbox_title">
-                            <h3>Hotels and Resorts</h3>
+                            <h3>SynXis</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              We offer unique & custom made Website Designing &
-                              Development for hospitality sector. Our solutions
-                              cover Travel agents, hotels...
+                              Are you looking for a hotel booking engine that turns your website into a very powerful and effective sales channel...
                             </p>
                           </div>
                         </div>
@@ -218,24 +225,22 @@ function GeneralPurposes() {
                         className="techno_flipbox_back "
                         style={{
                           backgroundImage:
-                            "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-hotels-resorts-202120114146833.jpg)",
+                            "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-synxis-20213013252534.jpg)",
                           backgroundPosition: "center center",
                           backgroundSize: "cover",
                         }}
                       >
                         <div className="techno_flipbox_inner">
                           <div className="flipbox_title">
-                            <h3>Hotels and Resorts</h3>
+                            <h3>SynXis</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              We offer unique & custom made Website Designing &
-                              Development for hospitality sector. Our solutions
-                              cover Travel agents, hotels...
+                              Are you looking for a hotel booking engine that turns your website into a very powerful and effective sales channel...
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/hotels-resorts">
+                            <Link to="/">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>
@@ -255,13 +260,11 @@ function GeneralPurposes() {
                             </div>
                           </div>
                           <div className="flipbox_title">
-                            <h3>Travel & Tours</h3>
+                            <h3>Nile Cruise Booking Engine</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              We offer unique & custom made Website Designing &
-                              Development for hospitality sector. Our solutions
-                              cover Travel agents, hotels...
+                              Connect Nile Cruises booking engine is the younger brother of connect hotel...
                             </p>
                           </div>
                         </div>
@@ -270,20 +273,18 @@ function GeneralPurposes() {
                         className="techno_flipbox_back "
                         style={{
                           backgroundImage:
-                            "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-travel-tours-202120114432949.jpg)",
+                            "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruise-booking-engine-20212012411399.jpg)",
                           backgroundPosition: "center center",
                           backgroundSize: "cover",
                         }}
                       >
                         <div className="techno_flipbox_inner">
                           <div className="flipbox_title">
-                            <h3>Travel & Tours</h3>
+                            <h3>Nile Cruise Booking Engine</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              We offer unique & custom made Website Designing &
-                              Development for hospitality sector. Our solutions
-                              cover Travel agents, hotels...
+                              Connect Nile Cruises booking engine is the younger brother of connect hotel...
                             </p>
                           </div>
                           <div className="flipbox_button">
@@ -297,57 +298,7 @@ function GeneralPurposes() {
                     </div>
                   </div>
   
-                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-                  <div className="techno_flipbox mb-30">
-                    <div className="techno_flipbox_font">
-                      <div className="techno_flipbox_inner">
-                        <div className="techno_flipbox_icon">
-                          <div className="icon">
-                            <i className="flaticon-intelligent"></i>
-                          </div>
-                        </div>
-                        <div className="flipbox_title">
-                          <h3>Nile Cruises</h3>
-                        </div>
-                        <div className="flipbox_desc">
-                          <p>
-                            Join our satisfied clients and let us create the
-                            responsive website that you dream about for your
-                            Nile Cruise business...{" "}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="techno_flipbox_back "
-                      style={{
-                        backgroundImage:
-                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruises-202130133148568.jpg)",
-                        backgroundPosition: "center center",
-                        backgroundSize: "cover",
-                      }}
-                    >
-                      <div className="techno_flipbox_inner">
-                        <div className="flipbox_title">
-                          <h3>Nile Cruises</h3>
-                        </div>
-                        <div className="flipbox_desc">
-                          <p>
-                            Join our satisfied clients and let us create the
-                            responsive website that you dream about for your
-                            Nile Cruise business...{" "}
-                          </p>
-                        </div>
-                        <div className="flipbox_button">
-                          <Link to="/nile-cruises">
-                            Read More
-                            <i className="fa fa-angle-double-right"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                 
                 </div>
   
                 <div className="row justify-content-center">
@@ -367,11 +318,11 @@ function GeneralPurposes() {
                             </div>
                           </div>
                           <div className="flipbox_title">
-                            <h3>Booking Engine</h3>
+                            <h3>Website Development</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              With a user-friendly booking engine that works as a sales channel for your hotel, you can maximize your direct bookings easily...
+                            We deliver intuitive and fast websites services for the hospitality industry and more! ...
                             </p>
                           </div>
                         </div>
@@ -380,18 +331,18 @@ function GeneralPurposes() {
                         className="techno_flipbox_back "
                         style={{
                           backgroundImage:
-                            "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruise-booking-engine-20212012411399.jpg)",
+                            "url(assets/images/solutions/s1.jpg)",
                           backgroundPosition: "center center",
                           backgroundSize: "cover",
                         }}
                       >
                         <div className="techno_flipbox_inner">
                           <div className="flipbox_title">
-                            <h3>Booking Engine</h3>
+                            <h3>Website Development</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              With a user-friendly booking engine that works as a sales channel for your hotel, you can maximize your direct bookings easily...
+                            We deliver intuitive and fast websites services for the hospitality industry and more! ...
                             </p>
                           </div>
                           <div className="flipbox_button">
@@ -468,4 +419,4 @@ function GeneralPurposes() {
     )
 }
 
-export default GeneralPurposes
+export default AttractionDEdge
