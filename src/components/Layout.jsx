@@ -422,7 +422,7 @@ const Layout = () => {
                                   </Link>
                                 </li>
                                 <li className="text-center">
-                                  <Link className="text-lg-center" to="#.">
+                                  <Link className="text-lg-center" to="/travel-tours">
                                     Travel & Tours
                                   </Link>
                                 </li>

@@ -16594,3 +16594,22 @@ a:hover {
 .text-hover:hover {
   color: white !important; 
 }
+
+.list-bullets li {
+  list-style: none;
+  position: relative;
+  padding: 5px 0 5px 17px;
+  font-family: open sans, sans-serif;
+}
+
+
+.list-bullets li:before {
+  position: absolute;
+  background-color: #00237d;
+  left: 0;
+  top: 15px;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  content: "";
+}
