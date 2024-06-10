@@ -109,8 +109,8 @@ function App() {
             <Route path="google-ads" element={<GoogleAds/>} />
 
             <Route path="social-media-marketing" element={<SocialMediaMarketing />} />
-            <Route path="social-media-managment" element={<SocialMediaManagement/>} />
-            <Route path="hotel-ecommerce" element={<HotelECommerce/>} />
+            <Route path="social-media-management" element={<SocialMediaManagement/>} />
+            <Route path="hotel-e-commerce" element={<HotelECommerce/>} />
             <Route path="search-engine-optimization" element={<SearchEngineOptimization/>} />
             <Route path="email-marketing" element={<EmailMarketing/>} />
             <Route path="reporting" element={<Reporting/>} />

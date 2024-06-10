@@ -246,11 +246,11 @@ function GoogleAds() {
                             </div>
                           </div>
                           <div className="flipbox_title">
-                            <h3>Booking Engine</h3>
+                            <h3>Social Media Marketing</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              With a user-friendly booking engine that works as a sales channel for your hotel, you can maximize your direct bookings easily...
+                            Reach your social media goals and drive a return on investment (ROI) from important social media channels like Facebook...
                             </p>
                           </div>
                         </div>
@@ -259,22 +259,22 @@ function GoogleAds() {
                         className="techno_flipbox_back "
                         style={{
                           backgroundImage:
-                            "url(assets/images/solutions/s2.jpg)",
+                            "url(assets/images/services/s2.jpg)",
                           backgroundPosition: "center center",
                           backgroundSize: "cover",
                         }}
                       >
                         <div className="techno_flipbox_inner">
                           <div className="flipbox_title">
-                            <h3>Booking Engine</h3>
+                            <h3>Social Media Marketing</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              With a user-friendly booking engine that works as a sales channel for your hotel, you can maximize your direct bookings easily...
+                            Reach your social media goals and drive a return on investment (ROI) from important social media channels like Facebook...
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/booking-engine">
+                            <Link to="/social-media-marketing">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>
@@ -294,13 +294,11 @@ function GoogleAds() {
                             </div>
                           </div>
                           <div className="flipbox_title">
-                            <h3>Web Check-In Solution</h3>
+                            <h3>Social Media Management</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              During this challenging time, Hotels & Resorts need
-                              to implement a solution to facilitate a smooth,
-                              fast, and paperless Check-In for the guests...{" "}
+                            We transform your brand's online presence with high-quality content, daily activity...
                             </p>
                           </div>
                         </div>
@@ -309,24 +307,358 @@ function GoogleAds() {
                         className="techno_flipbox_back "
                         style={{
                           backgroundImage:
-                            "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-web-check-in-solution-202120111949888.jpg)",
+                            "url(assets/images/services/s3.jpg)",
                           backgroundPosition: "center center",
                           backgroundSize: "cover",
                         }}
                       >
                         <div className="techno_flipbox_inner">
                           <div className="flipbox_title">
-                            <h3>Web Check-In Solution</h3>
+                            <h3>Social Media Management</h3>
                           </div>
                           <div className="flipbox_desc">
                             <p>
-                              During this challenging time, Hotels & Resorts need
-                              to implement a solution to facilitate a smooth,
-                              fast, and paperless Check-In for the guests...{" "}
+                            We transform your brand's online presence with high-quality content, daily activity...
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/web-check-in-solution">
+                            <Link to="/social-media-management">
+                              Read More
+                              <i className="fa fa-angle-double-right"></i>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div className="techno_flipbox mb-30">
+                      <div className="techno_flipbox_font">
+                        <div className="techno_flipbox_inner">
+                          <div className="techno_flipbox_icon">
+                            <div className="icon">
+                              <i className="flaticon-intelligent"></i>
+                            </div>
+                          </div>
+                          <div className="flipbox_title">
+                            <h3>Hotel E-Commerce</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                            A successful hotel needs a well created and managed e-commerce strategy...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="techno_flipbox_back "
+                        style={{
+                          backgroundImage:
+                            "url(assets/images/services/s4.jpg)",
+                          backgroundPosition: "center center",
+                          backgroundSize: "cover",
+                        }}
+                      >
+                        <div className="techno_flipbox_inner">
+                          <div className="flipbox_title">
+                            <h3>Hotel E-Commerce</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                            A successful hotel needs a well created and managed e-commerce strategy...
+                            </p>
+                          </div>
+                          <div className="flipbox_button">
+                            <Link to="/hotel-e-commerce">
+                              Read More
+                              <i className="fa fa-angle-double-right"></i>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div className="techno_flipbox mb-30">
+                      <div className="techno_flipbox_font">
+                        <div className="techno_flipbox_inner">
+                          <div className="techno_flipbox_icon">
+                            <div className="icon">
+                              <i className="flaticon-intelligent"></i>
+                            </div>
+                          </div>
+                          <div className="flipbox_title">
+                            <h3>Search Engine Optimization</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                            We provide SEO consulting services that give your Website a strong competitive push in the search engine results...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="techno_flipbox_back "
+                        style={{
+                          backgroundImage:
+                            "url(assets/images/services/s5.jpg)",
+                          backgroundPosition: "center center",
+                          backgroundSize: "cover",
+                        }}
+                      >
+                        <div className="techno_flipbox_inner">
+                          <div className="flipbox_title">
+                            <h3>Search Engine Optimization</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                            We provide SEO consulting services that give your Website a strong competitive push in the search engine results...
+                            </p>
+                          </div>
+                          <div className="flipbox_button">
+                            <Link to="/search-engine-optimization">
+                              Read More
+                              <i className="fa fa-angle-double-right"></i>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div className="techno_flipbox mb-30">
+                      <div className="techno_flipbox_font">
+                        <div className="techno_flipbox_inner">
+                          <div className="techno_flipbox_icon">
+                            <div className="icon">
+                              <i className="flaticon-intelligent"></i>
+                            </div>
+                          </div>
+                          <div className="flipbox_title">
+                            <h3>Email Marketing</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                            Get started with our Email Marketing Services that allow you to reach a wider audience and keep your current clients loyal to your brand...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="techno_flipbox_back "
+                        style={{
+                          backgroundImage:
+                            "url(assets/images/services/s6.jpg)",
+                          backgroundPosition: "center center",
+                          backgroundSize: "cover",
+                        }}
+                      >
+                        <div className="techno_flipbox_inner">
+                          <div className="flipbox_title">
+                            <h3>Email Marketing</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                            Get started with our Email Marketing Services that allow you to reach a wider audience and keep your current clients loyal to your brand...
+                            </p>
+                          </div>
+                          <div className="flipbox_button">
+                            <Link to="/email-marketing">
+                              Read More
+                              <i className="fa fa-angle-double-right"></i>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div className="techno_flipbox mb-30">
+                      <div className="techno_flipbox_font">
+                        <div className="techno_flipbox_inner">
+                          <div className="techno_flipbox_icon">
+                            <div className="icon">
+                              <i className="flaticon-intelligent"></i>
+                            </div>
+                          </div>
+                          <div className="flipbox_title">
+                            <h3>Reporting</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                           We bring your data together, helping you make the right business decisions based on the right numbers...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="techno_flipbox_back "
+                        style={{
+                          backgroundImage:
+                            "url(assets/images/services/s7.jpg)",
+                          backgroundPosition: "center center",
+                          backgroundSize: "cover",
+                        }}
+                      >
+                        <div className="techno_flipbox_inner">
+                          <div className="flipbox_title">
+                            <h3>Reporting</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                           We bring your data together, helping you make the right business decisions based on the right numbers...
+                            </p>
+                          </div>
+                          <div className="flipbox_button">
+                            <Link to="/reporting">
+                              Read More
+                              <i className="fa fa-angle-double-right"></i>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div className="techno_flipbox mb-30">
+                      <div className="techno_flipbox_font">
+                        <div className="techno_flipbox_inner">
+                          <div className="techno_flipbox_icon">
+                            <div className="icon">
+                              <i className="flaticon-intelligent"></i>
+                            </div>
+                          </div>
+                          <div className="flipbox_title">
+                            <h3>Hospitality Photography</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                           Visual Content nowadays is much stronger than before; that is why your guests always search for PHOTOS of your property...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="techno_flipbox_back "
+                        style={{
+                          backgroundImage:
+                            "url(assets/images/services/s8.jpg)",
+                          backgroundPosition: "center center",
+                          backgroundSize: "cover",
+                        }}
+                      >
+                        <div className="techno_flipbox_inner">
+                          <div className="flipbox_title">
+                            <h3>Hospitality Photography</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                           Visual Content nowadays is much stronger than before; that is why your guests always search for PHOTOS of your property...
+                            </p>
+                          </div>
+                          <div className="flipbox_button">
+                            <Link to="/hospitality-photography">
+                              Read More
+                              <i className="fa fa-angle-double-right"></i>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div className="techno_flipbox mb-30">
+                      <div className="techno_flipbox_font">
+                        <div className="techno_flipbox_inner">
+                          <div className="techno_flipbox_icon">
+                            <div className="icon">
+                              <i className="flaticon-intelligent"></i>
+                            </div>
+                          </div>
+                          <div className="flipbox_title">
+                            <h3>The Hotels Network</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                           Nowadays, customer service teams at hotels can easily become overwhelmed...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="techno_flipbox_back "
+                        style={{
+                          backgroundImage:
+                            "url(assets/images/services/s9.jpg)",
+                          backgroundPosition: "center center",
+                          backgroundSize: "cover",
+                        }}
+                      >
+                        <div className="techno_flipbox_inner">
+                          <div className="flipbox_title">
+                            <h3>The Hotels Network</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                           Nowadays, customer service teams at hotels can easily become overwhelmed...
+                            </p>
+                          </div>
+                          <div className="flipbox_button">
+                            <Link to="/asksuite-hotel-chatbot">
+                              Read More
+                              <i className="fa fa-angle-double-right"></i>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div className="techno_flipbox mb-30">
+                      <div className="techno_flipbox_font">
+                        <div className="techno_flipbox_inner">
+                          <div className="techno_flipbox_icon">
+                            <div className="icon">
+                              <i className="flaticon-intelligent"></i>
+                            </div>
+                          </div>
+                          <div className="flipbox_title">
+                            <h3>The Hotels Network</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                           Do you know the winning recipe for how to convert website lookers into bookers?...
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="techno_flipbox_back "
+                        style={{
+                          backgroundImage:
+                            "url(assets/images/services/s10.jpg)",
+                          backgroundPosition: "center center",
+                          backgroundSize: "cover",
+                        }}
+                      >
+                        <div className="techno_flipbox_inner">
+                          <div className="flipbox_title">
+                            <h3>The Hotels Network</h3>
+                          </div>
+                          <div className="flipbox_desc">
+                            <p>
+                           Do you know the winning recipe for how to convert website lookers into bookers?...
+                            </p>
+                          </div>
+                          <div className="flipbox_button">
+                            <Link to="/the-hotels-network">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>
