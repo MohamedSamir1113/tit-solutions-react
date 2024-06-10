@@ -514,92 +514,101 @@ const Layout = () => {
                           </Link>
                           <ul className="normal-sub">
                             <li className="position-relative">
-                              <Link className="d-flex justify-content-between align-items-center" to="/search-engine-marketing">
+                              <Link
+                                className="d-flex justify-content-between align-items-center"
+                                to="/search-engine-marketing"
+                              >
                                 Search Engine Marketing
                                 <i className="fa fa-caret-right"></i>
                               </Link>
-                             
+
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/google-ads">
-                                    Google Ads
-                                  </Link>
+                                  <Link to="/google-ads">Google Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/bing-ads">
-                                    Bing Ads
-                                  </Link>
+                                  <Link to="/bing-ads">Bing Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/yandex-ads">
-                                    Yandex Ads
-                                  </Link>
+                                  <Link to="/yandex-ads">Yandex Ads</Link>
                                 </li>
                               </ul>
                             </li>
 
                             <li className="position-relative">
-                              <Link className="d-flex justify-content-between align-items-center" to="/social-media-marketing">
+                              <Link
+                                className="d-flex justify-content-between align-items-center"
+                                to="/social-media-marketing"
+                              >
                                 Social Media Marketing
                                 <i className="fa fa-caret-right"></i>
                               </Link>
 
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/facebook-ads">
-                                    Facebook Ads
-                                  </Link>
+                                  <Link to="/facebook-ads">Facebook Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/instagram-ads">
-                                    Instagram Ads
-                                  </Link>
+                                  <Link to="/instagram-ads">Instagram Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/snapchat-ads">
-                                    Snapchat Ads
-                                  </Link>
+                                  <Link to="/snapchat-ads">Snapchat Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/vk-ads">
-                                    VK Ads
-                                  </Link>
+                                  <Link to="/vk-ads">VK Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/linkedin-ads">
-                                    LinkedIn Ads
-                                  </Link>
+                                  <Link to="/linkedin-ads">LinkedIn Ads</Link>
                                 </li>
                               </ul>
                             </li>
 
                             <li className="position-relative">
-                              <Link className="d-flex justify-content-between align-items-center" to="/social-media-managment">
+                              <Link
+                                className="d-flex justify-content-between align-items-center"
+                                to="/social-media-management"
+                              >
                                 Social Media Management
                                 <i className="fa fa-caret-right"></i>
                               </Link>
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link to="/social-media-strategy">
-                                  Social Media Strategy
+                                    Social Media Strategy
                                   </Link>
                                 </li>
                                 <li>
                                   <Link to="/social-media-posting">
-                                  Social Media Posting
+                                    Social Media Posting
                                   </Link>
                                 </li>
                                 <li>
                                   <Link to="/social-media-graphics">
-                                  Social Media Graphics
+                                    Social Media Graphics
                                   </Link>
                                 </li>
                               </ul>
                             </li>
-                            <li>
-                              <Link to="/hotel-ecommerce">
+                            <li className="position-relative">
+                              <Link
+                                className="d-flex justify-content-between align-items-center"
+                                to="/hotel-e-commerce"
+                              >
                                 Hotel E-Commerce
+                                <i className="fa fa-caret-right"></i>
                               </Link>
+                              <ul className="sub-sub-menu">
+                                <li>
+                                  <Link to="/e-commerce-consultancy">
+                                    E-Commerce Consultancy
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/e-commerce-management">
+                                    E-Commerce Management
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
                             <li>
                               <Link to="/search-engine-optimization">

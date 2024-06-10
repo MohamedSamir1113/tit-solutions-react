@@ -55,6 +55,7 @@ import LinkedInAds from "./pages/LinkedInAds.jsx";
 import SocialMediaStrategy from "./pages/SocialMediaStrategy.jsx";
 import SocialMediaPosting from "./pages/SocialMediaPosting.jsx";
 import SocialMediaGraphics from "./pages/SocialMediaGraphics.jsx";
+import ECommerceConsultancy from "./pages/ECommerceConsultancy.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -135,6 +136,9 @@ function App() {
 
 
             <Route path="hotel-e-commerce" element={<HotelECommerce/>} />
+            <Route path="e-commerce-consultancy" element={<ECommerceConsultancy/>} />
+
+
             <Route path="search-engine-optimization" element={<SearchEngineOptimization/>} />
             <Route path="email-marketing" element={<EmailMarketing/>} />
             <Route path="reporting" element={<Reporting/>} />
