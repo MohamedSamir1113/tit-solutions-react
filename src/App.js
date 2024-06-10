@@ -54,6 +54,7 @@ import VKAds from "./pages/VKAds.jsx";
 import LinkedInAds from "./pages/LinkedInAds.jsx";
 import SocialMediaStrategy from "./pages/SocialMediaStrategy.jsx";
 import SocialMediaPosting from "./pages/SocialMediaPosting.jsx";
+import SocialMediaGraphics from "./pages/SocialMediaGraphics.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -130,6 +131,7 @@ function App() {
             <Route path="social-media-management" element={<SocialMediaManagement/>} />
             <Route path="social-media-strategy" element={<SocialMediaStrategy/>} />
             <Route path="social-media-posting" element={<SocialMediaPosting/>} />
+            <Route path="social-media-graphics" element={<SocialMediaGraphics/>} />
 
 
             <Route path="hotel-e-commerce" element={<HotelECommerce/>} />
