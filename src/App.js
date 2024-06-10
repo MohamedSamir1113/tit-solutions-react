@@ -57,6 +57,8 @@ import SocialMediaPosting from "./pages/SocialMediaPosting.jsx";
 import SocialMediaGraphics from "./pages/SocialMediaGraphics.jsx";
 import ECommerceConsultancy from "./pages/ECommerceConsultancy.jsx";
 import ECommerceManagement from "./pages/ECommerceManagement.jsx";
+import ConstantContact from "./pages/ConstantContact.jsx";
+import ManageEmailMarketing from "./pages/ManageEmailMarketing.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -142,7 +144,12 @@ function App() {
 
 
             <Route path="search-engine-optimization" element={<SearchEngineOptimization/>} />
+            
             <Route path="email-marketing" element={<EmailMarketing/>} />
+            <Route path="constant-contact" element={<ConstantContact/>} />
+            <Route path="manage-email-marketing" element={<ManageEmailMarketing/>} />
+
+
             <Route path="reporting" element={<Reporting/>} />
             <Route path="hospitality-photography" element={<HospitalityPhotography/>} />
             <Route path="asksuite-hotel-chatbot" element={<AsksuiteHotelChatbot/>} />

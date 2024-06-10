@@ -615,8 +615,24 @@ const Layout = () => {
                                 Search Engine Optimization
                               </Link>
                             </li>
-                            <li>
-                              <Link to="/email-marketing">Email Marketing</Link>
+                            <li className="position-relative">
+                              <Link className="d-flex justify-content-between align-items-center" to="/email-marketing">
+                              Email Marketing
+                              <i className="fa fa-caret-right"></i>
+                              </Link>
+
+                              <ul className="sub-sub-menu">
+                                <li>
+                                  <Link to="/constant-contact">
+                                    Constant Contact
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/manage-email-marketing">
+                                  Manage Email Marketing
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
                             <li>
                               <Link to="/reporting">Reporting</Link>

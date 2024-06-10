@@ -1,17 +1,18 @@
-import { useEffect } from "react";
-import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-function ECommerceManagement() {
+import BgArea from "../components/BgArea";
+import { useEffect } from "react";
+
+function ConstantContact() {
   useEffect(() => {
-    document.title = "E-Commerce Management";
+    document.title = "Constant Contact";
   }, []);
   return (
     <>
       <BgArea
-        title1={`E-Commerce Management`}
-        title2={`Hotel E-Commerce`}
-        path={`/hotel-e-commerce`}
+        title1={`Constant Contact`}
+        title2={`Email Marketing`}
+        path={`/email-marketing`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -138,15 +139,16 @@ function ECommerceManagement() {
                     <div className="service-main-details-inner">
                       <div className="service-main-details-inner-thumb">
                         <img
-                          src="assets/images/hotel-e-commerce---hospitality-management-consulting---hotel-revenue-management-202125101751493.jpg"
+                          src="assets/images/constant-contact-202125101153853.jpg"
                           alt=""
                         />
                       </div>
                       <div className="service-main-details-content-title pt-4 pb-3">
-                        <h3>E-Commerce Management</h3>
+                        <h3>Email Marketing For Hotels</h3>
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
+                        <h4 className="py-4">Engagement Marketing Solutions</h4>
                         <p
                           style={{
                             margin: "0 0 15px;",
@@ -154,13 +156,10 @@ function ECommerceManagement() {
                             lineHeight: "31px",
                           }}
                         >
-                          Keeping your hotel e-commerce strategy up-to-date and
-                          effective is a constant challenge for hotel owners;
-                          this is where T.I.T. Solutions offers the most value.
-                          We keep an eye on several factors that contribute to
-                          the success of your e-commerce channels; the product
-                          offering set aside its technology, usability, and the
-                          security infrastructure that drives sales.
+                          Constant contact email marketing is a guaranteed
+                          solution for hotels' success formula that helps
+                          organizations to create and grow customer
+                          relationships in today's socially connected world.
                         </p>
 
                         <p
@@ -170,60 +169,58 @@ function ECommerceManagement() {
                             lineHeight: "31px",
                           }}
                         >
-                          We carefully plan and run your digital commerce
-                          projects from the very beginning to the end and from
-                          strategy to optimization. Do you need hotel revenue
-                          management? Hospitality management consulting?
+                          Through its unique combination of email marketing
+                          strategy and personalized coaching, the T.I.T.
+                          Solutions agency offers email marketing services that
+                          help small businesses and associations connect and
+                          engage with their next great customer, client, or
+                          member.
+                        </p>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          We do create successful email marketing that can
+                          benefit you in the best possible ways:
                         </p>
 
                         <ul class="list-bullets">
                           <li>
-                            We create customized strategies tailored to your
-                            potential and existing concept.
+                            We drive revenue & profit for your individual hotel
+                            or chain.
                           </li>
                           <li>
-                            We leverage correct technology tools for the various
-                            aspects of communicating with customers to keep
-                            rooms full and maximize revenues.
+                            We grow subscribers and nurture them with your best
+                            hotel deals.
                           </li>
                           <li>
-                            We track the market dynamics and rate movements by
-                            looking at how rates are positioned on different
-                            OTAs than your competitors for different dates on
-                            various channels.
+                            We increase traffic to your hotel, resort, or motel
+                            website.
                           </li>
                           <li>
-                            We manage your online booking system to make it easy
-                            for guests to find a room, choose a rate, pay for a
-                            reservation, and boost your revenue.
+                            We increase your hotel revenue through higher room
+                            bookings.
                           </li>
                           <li>
-                            We keep you up-to-date with new developments in the
-                            e-marketing world.
+                            We improve customer retention, which will build a
+                            long-term relationship with your hotel.
                           </li>
                           <li>
-                            We review the security of checkout pages and payment
-                            procedures.
-                          </li>
-                          <li>
-                            We analyze traffic to inform website maintenance and
-                            the effectiveness of marketing strategies.
-                          </li>
-                          <li>
-                            We meet your customer's expectations and guarantee
-                            100% satisfaction in their booking experience, all
-                            with our solutions.
+                            We create & increase your hotel brand awareness
+                            among a wide range of people.
                           </li>
                         </ul>
                       </div>
+
+                      <div className="service-main-details-content-title pt-4 pb-3">
+                        <h3 className="text-capitalize">EMAIL MARKETING:</h3>
+                      </div>
                     </div>
                   </div>
-
-                  <div className="service-main-details-content-title pt-4 pb-3">
-                    <h3 className="text-capitalize">Hotel E-Commerce:</h3>
-                  </div>
                 </div>
-
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
                   <div className="techno_flipbox mb-30">
                     <div className="techno_flipbox_font">
@@ -234,12 +231,13 @@ function ECommerceManagement() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>E-Commerce Consultancy</h3>
+                          <h3>Manage Email Marketing</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            By applying our Hospitality Ecommerce Consultancy
-                            tips, we help you drive revenue...
+                            With Constant Contact as our partner, we have a wide
+                            range of services to offer you and your hotel
+                            business...
                           </p>
                         </div>
                       </div>
@@ -248,19 +246,20 @@ function ECommerceManagement() {
                       className="techno_flipbox_back"
                       style={{
                         backgroundImage:
-                          "url(assets/images/e-commerce-consultancy---services-for-hotels---hospitality-ecommerce-202125101549742.jpg)",
+                          "url(assets/images/email-marketing-for-hotels---email-marketing-services---hospitality-email-marketing-2021251032920.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>E-Commerce Management</h3>
+                          <h3>Manage Email Marketing</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            By applying our Hospitality Ecommerce Consultancy
-                            tips, we help you drive revenue...
+                            With Constant Contact as our partner, we have a wide
+                            range of services to offer you and your hotel
+                            business...
                           </p>
                         </div>
                         <div className="flipbox_button">
@@ -285,4 +284,4 @@ function ECommerceManagement() {
   );
 }
 
-export default ECommerceManagement;
+export default ConstantContact;
