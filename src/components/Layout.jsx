@@ -616,9 +616,12 @@ const Layout = () => {
                               </Link>
                             </li>
                             <li className="position-relative">
-                              <Link className="d-flex justify-content-between align-items-center" to="/email-marketing">
-                              Email Marketing
-                              <i className="fa fa-caret-right"></i>
+                              <Link
+                                className="d-flex justify-content-between align-items-center"
+                                to="/email-marketing"
+                              >
+                                Email Marketing
+                                <i className="fa fa-caret-right"></i>
                               </Link>
 
                               <ul className="sub-sub-menu">
@@ -629,13 +632,37 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link to="/manage-email-marketing">
-                                  Manage Email Marketing
+                                    Manage Email Marketing
                                   </Link>
                                 </li>
                               </ul>
                             </li>
-                            <li>
-                              <Link to="/reporting">Reporting</Link>
+                            <li className="position-relative">
+                              <Link
+                                className="d-flex justify-content-between align-items-center"
+                                to="/reporting"
+                              >
+                                Reporting
+                                <i className="fa fa-caret-right"></i>
+                              </Link>
+
+                              <ul className="sub-sub-menu">
+                                <li>
+                                  <Link to="/google-analytics-implementation">
+                                    Google Analytics Implementation
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/digital-marketing-reporting">
+                                    Digital Marketing Reporting
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/website-360-reporting">
+                                    Website 360 Reporting
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
                             <li>
                               <Link to="/hospitality-photography">

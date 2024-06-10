@@ -59,6 +59,9 @@ import ECommerceConsultancy from "./pages/ECommerceConsultancy.jsx";
 import ECommerceManagement from "./pages/ECommerceManagement.jsx";
 import ConstantContact from "./pages/ConstantContact.jsx";
 import ManageEmailMarketing from "./pages/ManageEmailMarketing.jsx";
+import GoogleAnalyticsImplementation from "./pages/GoogleAnalyticsImplementation.jsx";
+import DigitalMarketingReporting from "./pages/DigitalMarketingReporting.jsx";
+import Website360Reporting from "./pages/Website360Reporting.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -151,6 +154,11 @@ function App() {
 
 
             <Route path="reporting" element={<Reporting/>} />
+            <Route path="google-analytics-implementation" element={<GoogleAnalyticsImplementation/>} />
+            <Route path="digital-marketing-reporting" element={<DigitalMarketingReporting/>} />
+            <Route path="website-360-reporting" element={<Website360Reporting/>} />
+
+
             <Route path="hospitality-photography" element={<HospitalityPhotography/>} />
             <Route path="asksuite-hotel-chatbot" element={<AsksuiteHotelChatbot/>} />
           <Route path="the-hotels-network" element={<TheHotelsNetwork/>} />
