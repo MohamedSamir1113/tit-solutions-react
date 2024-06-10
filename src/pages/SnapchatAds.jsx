@@ -2,14 +2,14 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-function InstagramAds() {
+function SnapchatAds() {
   useEffect(function () {
-    document.title = "Instagram Ads";
+    document.title = "Snapchat Ads";
   }, []);
   return (
     <>
       <BgArea
-        title1={`Instagram Ads`}
+        title1={`Snapchat Ads`}
         title2={`Social Media Marketing`}
         path={`/social-media-marketing`}
       />
@@ -85,12 +85,12 @@ function InstagramAds() {
                     <div className="service-main-details-inner">
                       <div className="service-main-details-inner-thumb">
                         <img
-                          src="assets/images/instagram-marketing-for-hotels---instagram-ads---instagram-advertising-202125102822806.jpg"
+                          src="assets/images/snapchat-ads-for-hotel---snapchat-marketing----hotel-snapchat---hotel-snapchat-marketing-202125103622557.jpg"
                           alt=""
                         />
                       </div>
                       <div className="service-main-details-content-title pt-4 pb-3">
-                        <h3>Instagram Ads for Hotel</h3>
+                        <h3>Snapchat Ads for Hotel</h3>
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
@@ -101,11 +101,7 @@ function InstagramAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          Reach your guests or potential ones with effective
-                          Instagram marketing for hotels services by T.I.T
-                          Solutions. We take responsibility for your ad
-                          campaigns from start to finish, applying the best
-                          practices for your brand and audience.
+                          The Snapchat Ads work for all advertisers, from global brands to small and medium businesses.
                         </p>
                         <p
                           style={{
@@ -114,12 +110,45 @@ function InstagramAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          As a hotel owner, we know you want to run ads to
-                          generate results; placing ads with us on big platforms
-                          like Instagram will help more guests notice your
-                          business. That means more of them will click your
-                          content, which ultimately can turn into conversions
-                          and bookings.
+                          Do you own or manage a hotel Snapchat business that you want to reach highly engaged audiences and get the chance to interact with them efficiently? we do it all through:
+                        </p>
+                       
+                       <div className="pb-10">
+                        <h4 className="pb-10">1. Targeting</h4>
+                       <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          When talking about Snapchat, targeting is so important for successful Snapchat paid advertising; we target the right people based on your hotel business` criteria and get your business in front of the valuable leads it needs.
+                        </p>
+                       </div>
+
+                       <div className="pb-10">
+                        <h4 className="pb-10">2. Ad content creation</h4>
+                       <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          We invest time and effort in creating your Snapchat`s pieces of content, as you need quality content that will grab your target audience`s attention and get their interest in your business.
+                        </p>
+                       </div>
+
+                       <div className="pb-10">
+                        <h4 className="pb-10">3. Monitoring</h4>
+                       <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                         We know that monitoring your advertising campaign is crucial to helping your campaign perform better. We make you better understand your campaigns and their effectiveness with real-time reporting and optimization.
                         </p>
                         <p
                           style={{
@@ -128,27 +157,11 @@ function InstagramAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          Does your brand have a story to tell? Instagram
-                          advertising is a reliable way to gain exposure for
-                          your brand, taking advantage of being an image-based
-                          platform, providing essential tools for photo and
-                          video content. Compared to other platforms, Instagram
-                          posts are rarely overlooked by users and produce heavy
-                          levels of engagement for brands every single day.
+                         Whatever your goal is, we can help you with numerous ones. This includes building brand familiarity, app installs, traffic to your website or app, engagement, views, lead generation, and definitely generating conversions. Get started today!
+
+
                         </p>
-                        <p
-                          style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
-                            lineHeight: "31px",
-                          }}
-                        >
-                          Our unique Instagram ads approach is built to fit your
-                          hotel business`s needs. We create custom campaigns
-                          that align with your goals to ensure the best return
-                          on your investment. This is the right choice for your
-                          hotel business.
-                        </p>
+                       </div>
                       </div>
                     </div>
                   </div>
@@ -219,12 +232,11 @@ function InstagramAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Snapchat Ads</h3>
+                          <h3>Instagram Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Do you own or manage a hotel Snapchat business that
-                            you want to reach highly engaged audiences...
+                            Reach your guests or potential ones with effective Instagram marketing for hotels services by T.I.T Solutions...
                           </p>
                         </div>
                       </div>
@@ -233,23 +245,22 @@ function InstagramAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/snapchat-ads-for-hotel---snapchat-marketing----hotel-snapchat---hotel-snapchat-marketing-202125103622557.jpg)",
+                          "url(assets/images/instagram-marketing-for-hotels---instagram-ads---instagram-advertising-202125102822806.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Snapchat Ads</h3>
+                          <h3>Instagram Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Do you own or manage a hotel Snapchat business that
-                            you want to reach highly engaged audiences..
+                            Reach your guests or potential ones with effective Instagram marketing for hotels services by T.I.T Solutions..
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/instagram-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -831,4 +842,4 @@ function InstagramAds() {
   );
 }
 
-export default InstagramAds;
+export default SnapchatAds;
