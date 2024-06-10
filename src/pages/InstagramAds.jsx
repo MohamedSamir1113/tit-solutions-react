@@ -2,14 +2,14 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-function FacebookAds() {
-  useEffect(function () {
-    document.title = "Facebook Ads";
-  }, []);
-  return (
-    <>
+function InstagramAds() {
+    useEffect(function () {
+        document.title = "Instagram Ads";
+      }, []);
+    return (
+        <>
       <BgArea
-        title1={`Facebook Ads`}
+        title1={`Instagram Ads`}
         title2={`Social Media Marketing`}
         path={`/social-media-marketing`}
       />
@@ -85,12 +85,12 @@ function FacebookAds() {
                     <div className="service-main-details-inner">
                       <div className="service-main-details-inner-thumb">
                         <img
-                          src="assets/images/facebook-ads-for-hotels---hotel-facebook-marketing---facebook-marketing-strategy-20212510571844.jpg"
+                          src="assets/images/instagram-marketing-for-hotels---instagram-ads---instagram-advertising-202125102822806.jpg"
                           alt=""
                         />
                       </div>
                       <div className="service-main-details-content-title pt-4 pb-3">
-                        <h3>Facebook Ads for Hotel</h3>
+                        <h3>Instagram Ads for Hotel</h3>
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
@@ -101,9 +101,7 @@ function FacebookAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          Your business is for your clients. Build strong
-                          relationships with them online, reach new people, and
-                          increase sales using hotel Facebook marketing.
+                          Reach your guests or potential ones with effective Instagram marketing for hotels services by T.I.T Solutions. We take responsibility for your ad campaigns from start to finish, applying the best practices for your brand and audience.
                         </p>
                         <p
                           style={{
@@ -112,39 +110,26 @@ function FacebookAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          Did you know that; by using Facebook ads for hotels,
-                          Over one billion people like and comment an average of
-                          3.2 billion times every day. When your hotel has a
-                          strong presence on Facebook, your business will be a
-                          part of these conversations.
+                          As a hotel owner, we know you want to run ads to generate results; placing ads with us on big platforms like Instagram will help more guests notice your business. That means more of them will click your content, which ultimately can turn into conversions and bookings.
                         </p>
-
-                        <div className="py-3">
-                          <h4 className="pb-20">
-                            We will help you to grow your market share online
-                            using this channel to its highest by the following:
-                          </h4>
-                          <ul class="list-bullets">
-                            <li>Creating a Facebook marketing strategy.</li>
-                            <li>Setting up your first ad.</li>
-                            <li>
-                              Getting More Page Likes: Reach people who aren’t
-                              connected to your Page yet.
-                            </li>
-                            <li>
-                              Promoting Your Page Posts: Promote a specific
-                              post, giving you increased reach.
-                            </li>
-                            <li>
-                              Increasing Participation: Increase your Facebook
-                              Event responses.
-                            </li>
-                            <li>
-                              Helping you in setting up the advanced options,
-                              e.g., bidding options between CPM and CPC.
-                            </li>
-                          </ul>
-                        </div>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          Does your brand have a story to tell? Instagram advertising is a reliable way to gain exposure for your brand, taking advantage of being an image-based platform, providing essential tools for photo and video content. Compared to other platforms, Instagram posts are rarely overlooked by users and produce heavy levels of engagement for brands every single day.
+                        </p>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          Our unique Instagram ads approach is built to fit your hotel business`s needs. We create custom campaigns that align with your goals to ensure the best return on your investment. This is the right choice for your hotel business.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -163,13 +148,11 @@ function FacebookAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Instagram Ads</h3>
+                          <h3>Facebook Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Reach your guests or potential ones with effective
-                            Instagram marketing for hotels services by T.I.T
-                            Solutions...
+                            Reach your guests or potential ones with effective Instagram marketing for hotels services by T.I.T Solutions...
                           </p>
                         </div>
                       </div>
@@ -178,24 +161,22 @@ function FacebookAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/instagram-marketing-for-hotels---instagram-ads---instagram-advertising-202125102822806.jpg)",
+                          "url(assets/images/facebook-ads-for-hotels---hotel-facebook-marketing---facebook-marketing-strategy-20212510571844.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Instagram Ads</h3>
+                          <h3>Facebook Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Reach your guests or potential ones with effective
-                            Instagram marketing for hotels services by T.I.T
-                            Solutions...
+                            Reach your guests or potential ones with effective Instagram marketing for hotels services by T.I.T Solutions...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/facebook-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -824,7 +805,7 @@ function FacebookAds() {
       {/*talk to experts section*/}
       <ContactForm />
     </>
-  );
+    )
 }
 
-export default FacebookAds;
+export default InstagramAds

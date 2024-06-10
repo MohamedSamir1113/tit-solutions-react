@@ -537,11 +537,42 @@ const Layout = () => {
                                 </li>
                               </ul>
                             </li>
-                            <li>
-                              <Link to="/social-media-marketing">
+
+                            <li className="position-relative">
+                              <Link className="d-flex justify-content-between align-items-center" to="/social-media-marketing">
                                 Social Media Marketing
+                                <i className="fa fa-caret-right"></i>
                               </Link>
+
+                              <ul className="sub-sub-menu">
+                                <li>
+                                  <Link to="/facebook-ads">
+                                    Facebook Ads
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/instagram-ads">
+                                    Instagram Ads
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/snapchat-ads">
+                                    Snapchat Ads
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/vk-ads">
+                                    VK Ads
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/linkedin-ads">
+                                    LinkedIn Ads
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
+
                             <li>
                               <Link to="/social-media-managment">
                                 Social Media Management

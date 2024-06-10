@@ -48,6 +48,7 @@ import GoogleAds from "./pages/GoogleAds.jsx";
 import BingAds from "./pages/BingAds.jsx";
 import YandexAds from "./pages/YandexAds.jsx";
 import FacebookAds from "./pages/FacebookAds.jsx";
+import InstagramAds from "./pages/InstagramAds.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -115,6 +116,7 @@ function App() {
 
             <Route path="social-media-marketing" element={<SocialMediaMarketing />} />
             <Route path="facebook-ads" element={<FacebookAds/>} />
+            <Route path="instagram-ads" element={<InstagramAds/>} />
 
 
             <Route path="social-media-management" element={<SocialMediaManagement/>} />

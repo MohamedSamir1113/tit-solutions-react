@@ -26,7 +26,7 @@ function SocialMediaMarketing() {
       <Section2Area
         imgSrc={`assets/images/instagram-marketing-for-hotels---instagram-ads---instagram-advertising-202125102822806.jpg`}
         title={`Instagram Ads`}
-        linkPath={`/`}
+        linkPath={`/instagram-ads`}
         description={`Reach your guests or potential ones with effective Instagram marketing for hotels services by T.I.T Solutions. We take responsibility for your ad campaigns from start to finish, applying the best practices for your brand and audience.`}
       />{" "}
       {/*Instagram Ads*/}
