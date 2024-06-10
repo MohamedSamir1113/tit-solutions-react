@@ -24,7 +24,7 @@ function SearchEngineMarketing() {
       <Section2Area
         title={`Bing Ads`}
         description={`T.I.T. solutions agency offers you powerful Bing hotel ads management with real-time results.`}
-        linkPath={`/`}
+        linkPath={`/bing-ads`}
         imgSrc={`assets/images/services/bing-hotel-ads.jpg`}
       />
       {/*Bing Ads*/}

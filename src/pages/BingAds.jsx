@@ -2,14 +2,14 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-function GoogleAds() {
+function BingAds() {
   useEffect(() => {
-    document.title = "Google Hotel Ads";
+    document.title = "Bing Hotel Ads";
   }, []);
   return (
     <>
       <BgArea
-        title1={`Google Ads`}
+        title1={`Bing Ads`}
         title2={`Search Engine Marketing`}
         path={`/search-engine-marketing`}
       />
@@ -90,7 +90,7 @@ function GoogleAds() {
                         />
                       </div>
                       <div className="service-main-details-content-title pt-4 pb-3">
-                        <h3>Google Hotel Ads</h3>
+                        <h3>Bing Hotel Ads</h3>
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
@@ -101,40 +101,67 @@ function GoogleAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          Managing Google Ads for hotels and building it from
-                          scratch is very demanding, which usually ends with
-                          business owners and managers leaving this magnificent
-                          tool to easier platforms.
+                          Reach every possible customer in the right place at
+                          the right time, using our effective Bing hotel Ads.
+                          While many PPC advertisers consider the search engine
+                          platforms as competitors, we make them work best
+                          hand-in-hand.
+                        </p>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          T.I.T. solutions offers you a powerful Bing ads
+                          management for your hotel with real-time results.
                         </p>
 
                         <div className="py-3">
                           <h4 className="pb-20">
-                            We can help you in the following; in the process of
-                            creating your hotel campaigns google ads:
+                            Why Bing Ads Matter For Your Business With T.I.T
+                            Solutions?
                           </h4>
                           <ul class="list-bullets">
-                            <li>Landing Page / Website Analysis</li>
-                            <li>Landing Page A/B Testing</li>
-                            <li>Align Your Value Proposition & Sales Funnel</li>
                             <li>
-                              Advanced Keyword Research and Campaign Setup
+                              We create the Bing ads campaign that guarantees
+                              your hotel business great exposure on important
+                              platforms; Bing, Yahoo, and AOL.
                             </li>
-                            <li>Creative Text Ad Development</li>
-                            <li>PPC Account Settings</li>
-                            <li>PPC Bid Management & ROI Tracking</li>
-                            <li>Mobile advertising</li>
-                            <li>Leverage The Power of Remarketing</li>
                             <li>
-                              Display: The Internet’s Cost-Effective Answer to
-                              Billboards
+                              Bing Ads drive more for less money; driving much
+                              more leads, traffic, and sales for much less
+                              money.
                             </li>
-                            <li>Reporting</li>
+                            <li>
+                              The lower cost per click (CPC), and a higher
+                              conversion rate on Bing means that your hotel
+                              business can easily go up against.
+                            </li>
                           </ul>
-                          <p>
-                            By taking advantage of our Google Ads services for
-                            hotels, we guarantee to get your hotel more direct
-                            bookings and achieving your dream ROI.
-                          </p>
+                          
+                        </div>
+
+                        <div className="py-3">
+                          <h4 className="pb-20">
+                          Bing Ads Services We Offer
+                          </h4>
+                          <ul class="list-bullets">
+                            <li>
+                            Market research.
+                            </li>
+                            <li>
+                            Keyword discovery and selection.
+                            </li>
+                            <li>
+                            Campaigns creation and management.
+                            </li>
+                            <li>Ad Optimizations, monitoring & A/B testing.</li>
+                            <li>Conversion tracking.</li>
+                            <li>Detailed reporting.</li>
+                          </ul>
+                          
                         </div>
                       </div>
                     </div>
@@ -154,12 +181,11 @@ function GoogleAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Bing Ads</h3>
+                          <h3>Google Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            T.I.T. solutions agency offers you powerful Bing
-                            hotel ads management with real-time results...
+                            Managing Google Ads for hotels and building it from scratch is very demanding...
                           </p>
                         </div>
                       </div>
@@ -168,23 +194,22 @@ function GoogleAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/services/bing-hotel-ads.jpg)",
+                          "url(assets/images/services/google-hotel-ads.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Bing Ads</h3>
+                          <h3>Google Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            T.I.T. solutions agency offers you powerful Bing
-                            hotel ads management with real-time results...
+                            Managing Google Ads for hotels and building it from scratch is very demanding...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/google-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -718,4 +743,4 @@ function GoogleAds() {
   );
 }
 
-export default GoogleAds;
+export default BingAds;
