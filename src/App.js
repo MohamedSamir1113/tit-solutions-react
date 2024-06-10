@@ -53,6 +53,7 @@ import SnapchatAds from "./pages/SnapchatAds.jsx";
 import VKAds from "./pages/VKAds.jsx";
 import LinkedInAds from "./pages/LinkedInAds.jsx";
 import SocialMediaStrategy from "./pages/SocialMediaStrategy.jsx";
+import SocialMediaPosting from "./pages/SocialMediaPosting.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -128,6 +129,7 @@ function App() {
 
             <Route path="social-media-management" element={<SocialMediaManagement/>} />
             <Route path="social-media-strategy" element={<SocialMediaStrategy/>} />
+            <Route path="social-media-posting" element={<SocialMediaPosting/>} />
 
 
             <Route path="hotel-e-commerce" element={<HotelECommerce/>} />
