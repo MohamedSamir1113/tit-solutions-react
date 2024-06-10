@@ -2,16 +2,16 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-function BingAds() {
-  useEffect(() => {
-    document.title = "Bing Hotel Ads";
-  }, []);
-  return (
-    <>
+function FacebookAds() {
+    useEffect(function() {
+        document.title="Facebook Ads"
+    },[])
+    return (
+        <>
       <BgArea
-        title1={`Bing Ads`}
-        title2={`Search Engine Marketing`}
-        path={`/search-engine-marketing`}
+        title1={`Facebook Ads`}
+        title2={`Social Media Marketing`}
+        path={`/social-media-marketing`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -85,12 +85,12 @@ function BingAds() {
                     <div className="service-main-details-inner">
                       <div className="service-main-details-inner-thumb">
                         <img
-                          src="assets/images/services/bing-hotel-ads.jpg"
+                          src="assets/images/facebook-ads-for-hotels---hotel-facebook-marketing---facebook-marketing-strategy-20212510571844.jpg"
                           alt=""
                         />
                       </div>
                       <div className="service-main-details-content-title pt-4 pb-3">
-                        <h3>Bing Hotel Ads</h3>
+                        <h3>Facebook Ads for Hotel</h3>
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
@@ -101,11 +101,7 @@ function BingAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          Reach every possible customer in the right place at
-                          the right time, using our effective Bing hotel Ads.
-                          While many PPC advertisers consider the search engine
-                          platforms as competitors, we make them work best
-                          hand-in-hand.
+                          Your business is for your clients. Build strong relationships with them online, reach new people, and increase sales using hotel Facebook marketing.
                         </p>
                         <p
                           style={{
@@ -114,52 +110,23 @@ function BingAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          T.I.T. solutions offers you a powerful Bing ads
-                          management for your hotel with real-time results.
+                          Did you know that; by using Facebook ads for hotels, Over one billion people like and comment an average of 3.2 billion times every day. When your hotel has a strong presence on Facebook, your business will be a part of these conversations.
                         </p>
 
                         <div className="py-3">
                           <h4 className="pb-20">
-                            Why Bing Ads Matter For Your Business With T.I.T
-                            Solutions?
+                          We will help you to grow your market share online using this channel to its highest by the following:
                           </h4>
                           <ul class="list-bullets">
+                            <li>Creating a Facebook marketing strategy.</li>
+                            <li>Setting up your first ad.</li>
+                            <li>Getting More Page Likes: Reach people who aren’t connected to your Page yet.</li>
                             <li>
-                              We create the Bing ads campaign that guarantees
-                              your hotel business great exposure on important
-                              platforms; Bing, Yahoo, and AOL.
+                            Promoting Your Page Posts: Promote a specific post, giving you increased reach.
                             </li>
-                            <li>
-                              Bing Ads drive more for less money; driving much
-                              more leads, traffic, and sales for much less
-                              money.
-                            </li>
-                            <li>
-                              The lower cost per click (CPC), and a higher
-                              conversion rate on Bing means that your hotel
-                              business can easily go up against.
-                            </li>
-                          </ul>
-                          
-                        </div>
-
-                        <div className="py-3">
-                          <h4 className="pb-20">
-                          Bing Ads Services We Offer
-                          </h4>
-                          <ul class="list-bullets">
-                            <li>
-                            Market research.
-                            </li>
-                            <li>
-                            Keyword discovery and selection.
-                            </li>
-                            <li>
-                            Campaigns creation and management.
-                            </li>
-                            <li>Ad Optimizations, monitoring & A/B testing.</li>
-                            <li>Conversion tracking.</li>
-                            <li>Detailed reporting.</li>
+                            <li>Increasing Participation: Increase your Facebook Event responses.</li>
+                            <li>Helping you in setting up the advanced options, e.g., bidding options between CPM and CPC.</li>
+                            
                           </ul>
                           
                         </div>
@@ -167,7 +134,7 @@ function BingAds() {
                     </div>
                   </div>
                   <div className="service-main-details-content-title pt-4 pb-3">
-                    <h3>SEARCH ENGINE MARKETING:</h3>
+                    <h3>SOCIAL MEDIA MARKETING:</h3>
                   </div>
                 </div>
 
@@ -181,11 +148,11 @@ function BingAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Google Ads</h3>
+                          <h3>Instagram Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Managing Google Ads for hotels and building it from scratch is very demanding...
+                            Reach your guests or potential ones with effective Instagram marketing for hotels services by T.I.T Solutions...
                           </p>
                         </div>
                       </div>
@@ -194,22 +161,22 @@ function BingAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/services/google-hotel-ads.jpg)",
+                          "url(assets/images/instagram-marketing-for-hotels---instagram-ads---instagram-advertising-202125102822806.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Google Ads</h3>
+                          <h3>Instagram Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Managing Google Ads for hotels and building it from scratch is very demanding...
+                            Reach your guests or potential ones with effective Instagram marketing for hotels services by T.I.T Solutions...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/google-ads">
+                          <Link to="/hotels-resorts">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -229,14 +196,11 @@ function BingAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Yandex Ads</h3>
+                          <h3>Snapchat Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Unlock your business potential, tap into new
-                            markets, and grow internationally in the
-                            Russian-speaking world with our Yandex ads in
-                            Egypt....
+                            Do you own or manage a hotel Snapchat business that you want to reach highly engaged audiences...
                           </p>
                         </div>
                       </div>
@@ -245,21 +209,114 @@ function BingAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/services/yandex-ads-in-egypt.jpg)",
+                          "url(assets/images/snapchat-ads-for-hotel---snapchat-marketing----hotel-snapchat---hotel-snapchat-marketing-202125103622557.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Yandex Ads</h3>
+                          <h3>Snapchat Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Unlock your business potential, tap into new
-                            markets, and grow internationally in the
-                            Russian-speaking world with our Yandex ads in
-                            Egypt...
+                            Do you own or manage a hotel Snapchat business that you want to reach highly engaged audiences..
+                          </p>
+                        </div>
+                        <div className="flipbox_button">
+                          <Link to="/travel-tours">
+                            Read More
+                            <i className="fa fa-angle-double-right"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                  <div className="techno_flipbox mb-30">
+                    <div className="techno_flipbox_font">
+                      <div className="techno_flipbox_inner">
+                        <div className="techno_flipbox_icon">
+                          <div className="icon">
+                            <i className="flaticon-intelligent"></i>
+                          </div>
+                        </div>
+                        <div className="flipbox_title">
+                          <h3>VK Ads</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            VK platform is one of Russia's largest social media networks; Vk ads for hotels can help you reach the Russian target audience there...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="techno_flipbox_back "
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/vk-ads-for-hotels---vk-advertising---vkontakte-ads-20212510440585.jpg)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <div className="techno_flipbox_inner">
+                        <div className="flipbox_title">
+                          <h3>VK Ads</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            VK platform is one of Russia's largest social media networks; Vk ads for hotels can help you reach the Russian target audience there..
+                          </p>
+                        </div>
+                        <div className="flipbox_button">
+                          <Link to="/travel-tours">
+                            Read More
+                            <i className="fa fa-angle-double-right"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                  <div className="techno_flipbox mb-30">
+                    <div className="techno_flipbox_font">
+                      <div className="techno_flipbox_inner">
+                        <div className="techno_flipbox_icon">
+                          <div className="icon">
+                            <i className="flaticon-intelligent"></i>
+                          </div>
+                        </div>
+                        <div className="flipbox_title">
+                          <h3>LinkedIn Ads</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            The T.I.T Solutions agency uses LinkedIn for hotels to create ad campaigns that boost your hotel content and deliver personalized ads to LinkedIn inboxes...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="techno_flipbox_back "
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/linkedin-for-hotels---linkedin-advertising-202125103027344.jpg)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <div className="techno_flipbox_inner">
+                        <div className="flipbox_title">
+                          <h3>LinkedIn Ads</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            The T.I.T Solutions agency uses LinkedIn for hotels to create ad campaigns that boost your hotel content and deliver personalized ads to LinkedIn inboxes..
                           </p>
                         </div>
                         <div className="flipbox_button">
@@ -291,13 +348,11 @@ function BingAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Social Media Marketing</h3>
+                          <h3>Search Engine Marketing</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Reach your social media goals and drive a return on
-                            investment (ROI) from important social media
-                            channels like Facebook...
+                            With in-depth keyword research along with effective SEM campaigns and continuous optimization...
                           </p>
                         </div>
                       </div>
@@ -305,24 +360,22 @@ function BingAds() {
                     <div
                       className="techno_flipbox_back "
                       style={{
-                        backgroundImage: "url(assets/images/services/s2.jpg)",
+                        backgroundImage: "url(assets/images/services/s1.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Social Media Marketing</h3>
+                          <h3>Search Engine Marketing</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Reach your social media goals and drive a return on
-                            investment (ROI) from important social media
-                            channels like Facebook...
+                            With in-depth keyword research along with effective SEM campaigns and continuous optimization...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/social-media-marketing">
+                          <Link to="/search-engine-marketing">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -740,7 +793,7 @@ function BingAds() {
       {/*talk to experts section*/}
       <ContactForm />
     </>
-  );
+    )
 }
 
-export default BingAds;
+export default FacebookAds

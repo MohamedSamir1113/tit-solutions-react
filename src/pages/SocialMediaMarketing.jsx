@@ -18,7 +18,7 @@ function SocialMediaMarketing() {
       {/*bg*/}
       <Section1Area
         title={`Facebook Ads`}
-        linkPath={`/`}
+        linkPath={`/facebook-ads`}
         imgSrc={`assets/images/facebook-ads-for-hotels---hotel-facebook-marketing---facebook-marketing-strategy-20212510571844.jpg`}
         description={`Your business is for your clients. Build strong relationships with them online, reach new people, and increase sales using hotel Facebook marketing.`}
       />

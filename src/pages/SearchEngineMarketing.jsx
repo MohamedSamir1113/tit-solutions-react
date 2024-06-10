@@ -32,7 +32,7 @@ function SearchEngineMarketing() {
       <Section1Area
       title={`Yandex Ads`}
       description={`Unlock your business potential, tap into new markets, and grow internationally in the Russian-speaking world with our Yandex ads in Egypt.`}
-      linkPath={`/`}
+      linkPath={`/yandex-ads`}
       imgSrc={`assets/images/services/yandex-ads-in-egypt.jpg`}
       />
       {/*Yandex*/}

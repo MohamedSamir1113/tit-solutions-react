@@ -47,7 +47,6 @@ const Layout = () => {
     return () => clearTimeout(timer);
   }, [loading]);
 
-  
   return (
     <>
       {loading ? (
@@ -162,7 +161,9 @@ const Layout = () => {
                                 <h5>Website Development</h5>
                                 <ul>
                                   <li>
-                                    <Link to="/hotels-resorts">Hotels & Resorts</Link>
+                                    <Link to="/hotels-resorts">
+                                      Hotels & Resorts
+                                    </Link>
                                   </li>
                                   <li>
                                     <Link to="/travel-tours">
@@ -182,7 +183,6 @@ const Layout = () => {
                               <li>
                                 <h5>Booking Engine</h5>
                                 <ul>
-                                  
                                   <li>
                                     <Link to="index-2.html">
                                       Attraction D-Edge
@@ -417,22 +417,34 @@ const Layout = () => {
                                 </li>
 
                                 <li className="text-center">
-                                  <Link className="text-lg-center" to="/hotels-resorts">
+                                  <Link
+                                    className="text-lg-center"
+                                    to="/hotels-resorts"
+                                  >
                                     Hotel & Resorts
                                   </Link>
                                 </li>
                                 <li className="text-center">
-                                  <Link className="text-lg-center" to="/travel-tours">
+                                  <Link
+                                    className="text-lg-center"
+                                    to="/travel-tours"
+                                  >
                                     Travel & Tours
                                   </Link>
                                 </li>
                                 <li className="text-center">
-                                  <Link className="text-lg-center" to="/nile-cruises">
+                                  <Link
+                                    className="text-lg-center"
+                                    to="/nile-cruises"
+                                  >
                                     Nile Cruises
                                   </Link>
                                 </li>
                                 <li className="text-center">
-                                  <Link className="text-lg-center" to="/general-purposes">
+                                  <Link
+                                    className="text-lg-center"
+                                    to="/general-purposes"
+                                  >
                                     General Purpose
                                   </Link>
                                 </li>
@@ -452,9 +464,11 @@ const Layout = () => {
                                   </Link>
                                 </li>
 
-                               
                                 <li>
-                                  <Link className="text-lg-center" to="/attraction-d-edge">
+                                  <Link
+                                    className="text-lg-center"
+                                    to="/attraction-d-edge"
+                                  >
                                     Attraction D-Edge
                                   </Link>
                                 </li>
@@ -464,7 +478,10 @@ const Layout = () => {
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link className="text-lg-center" to="/nile-cruise-booking-engine">
+                                  <Link
+                                    className="text-lg-center"
+                                    to="/nile-cruise-booking-engine"
+                                  >
                                     Nile Cruise Booking Engine
                                   </Link>
                                 </li>
@@ -496,10 +513,29 @@ const Layout = () => {
                             Service <i className="fa fa-angle-down"></i>
                           </Link>
                           <ul className="normal-sub">
-                            <li>
-                              <Link to="/search-engine-marketing">
+                            <li className="position-relative">
+                              <Link className="d-flex justify-content-between align-items-center" to="/search-engine-marketing">
                                 Search Engine Marketing
+                                <i className="fa fa-caret-right"></i>
                               </Link>
+                             
+                              <ul className="sub-sub-menu">
+                                <li>
+                                  <Link to="/google-ads">
+                                    Google Ads
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/bing-ads">
+                                    Bing Ads
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/yandex-ads">
+                                    Yandex Ads
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
                             <li>
                               <Link to="/social-media-marketing">

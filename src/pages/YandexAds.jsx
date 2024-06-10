@@ -2,14 +2,14 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-function BingAds() {
+function YandexAds() {
   useEffect(() => {
-    document.title = "Bing Hotel Ads";
+    document.title = "Yandex Hotel Ads";
   }, []);
   return (
     <>
       <BgArea
-        title1={`Bing Ads`}
+        title1={`Yandex Ads`}
         title2={`Search Engine Marketing`}
         path={`/search-engine-marketing`}
       />
@@ -85,12 +85,12 @@ function BingAds() {
                     <div className="service-main-details-inner">
                       <div className="service-main-details-inner-thumb">
                         <img
-                          src="assets/images/services/bing-hotel-ads.jpg"
+                          src="assets/images/services/yandex-ads-in-egypt.jpg"
                           alt=""
                         />
                       </div>
                       <div className="service-main-details-content-title pt-4 pb-3">
-                        <h3>Bing Hotel Ads</h3>
+                        <h3>Yandex Hotel Ads</h3>
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
@@ -101,11 +101,9 @@ function BingAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          Reach every possible customer in the right place at
-                          the right time, using our effective Bing hotel Ads.
-                          While many PPC advertisers consider the search engine
-                          platforms as competitors, we make them work best
-                          hand-in-hand.
+                          Unlock your business potential, tap into new markets,
+                          and grow internationally in the Russian-speaking world
+                          with our Yandex ads in Egypt.
                         </p>
                         <p
                           style={{
@@ -114,55 +112,39 @@ function BingAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          T.I.T. solutions offers you a powerful Bing ads
-                          management for your hotel with real-time results.
+                          With the assist of our Yandex specialists, T.T.T
+                          Solutions can help you set up, manage, and optimize
+                          your Yandex Ads campaign to achieve maximum marketing
+                          outcomes for your hotel business.
                         </p>
-
-                        <div className="py-3">
-                          <h4 className="pb-20">
-                            Why Bing Ads Matter For Your Business With T.I.T
-                            Solutions?
-                          </h4>
-                          <ul class="list-bullets">
-                            <li>
-                              We create the Bing ads campaign that guarantees
-                              your hotel business great exposure on important
-                              platforms; Bing, Yahoo, and AOL.
-                            </li>
-                            <li>
-                              Bing Ads drive more for less money; driving much
-                              more leads, traffic, and sales for much less
-                              money.
-                            </li>
-                            <li>
-                              The lower cost per click (CPC), and a higher
-                              conversion rate on Bing means that your hotel
-                              business can easily go up against.
-                            </li>
-                          </ul>
-                          
-                        </div>
-
-                        <div className="py-3">
-                          <h4 className="pb-20">
-                          Bing Ads Services We Offer
-                          </h4>
-                          <ul class="list-bullets">
-                            <li>
-                            Market research.
-                            </li>
-                            <li>
-                            Keyword discovery and selection.
-                            </li>
-                            <li>
-                            Campaigns creation and management.
-                            </li>
-                            <li>Ad Optimizations, monitoring & A/B testing.</li>
-                            <li>Conversion tracking.</li>
-                            <li>Detailed reporting.</li>
-                          </ul>
-                          
-                        </div>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          Yandex Advertising is definitely a good investment to
+                          make, as it delivers highly targeted ads on both
+                          search and display networks. Whatever your main
+                          objective is, with T.I.T Solutions and our experienced
+                          team will increase your brand awareness, get high
+                          engagement on your ads and achieve great visibility
+                          through the Russian market.
+                        </p>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          Get in-depth of this new market and reach your
+                          potential hotel guests; T.I.T Solutions will make them
+                          recognize your existence, engage with your ads and
+                          choose you for their next travel and hotel
+                          accommodation.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -185,7 +167,8 @@ function BingAds() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Managing Google Ads for hotels and building it from scratch is very demanding...
+                            Managing Google Ads for hotels and building it from
+                            scratch is very demanding...
                           </p>
                         </div>
                       </div>
@@ -205,7 +188,8 @@ function BingAds() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Managing Google Ads for hotels and building it from scratch is very demanding...
+                            Managing Google Ads for hotels and building it from
+                            scratch is very demanding...
                           </p>
                         </div>
                         <div className="flipbox_button">
@@ -229,14 +213,11 @@ function BingAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Yandex Ads</h3>
+                          <h3>Bing Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Unlock your business potential, tap into new
-                            markets, and grow internationally in the
-                            Russian-speaking world with our Yandex ads in
-                            Egypt....
+                            T.I.T. solutions agency offers you powerful Bing hotel ads management....
                           </p>
                         </div>
                       </div>
@@ -245,25 +226,22 @@ function BingAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/services/yandex-ads-in-egypt.jpg)",
+                          "url(assets/images/services/bing-hotel-ads.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Yandex Ads</h3>
+                          <h3>Bing Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Unlock your business potential, tap into new
-                            markets, and grow internationally in the
-                            Russian-speaking world with our Yandex ads in
-                            Egypt...
+                            T.I.T. solutions agency offers you powerful Bing hotel ads management...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/bing-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -743,4 +721,4 @@ function BingAds() {
   );
 }
 
-export default BingAds;
+export default YandexAds;

@@ -46,6 +46,8 @@ import SynXis from "./pages/SynXis.jsx";
 import NileCruiseBookingEngine from "./pages/NileCruiseBookingEngine.jsx";
 import GoogleAds from "./pages/GoogleAds.jsx";
 import BingAds from "./pages/BingAds.jsx";
+import YandexAds from "./pages/YandexAds.jsx";
+import FacebookAds from "./pages/FacebookAds.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -109,8 +111,12 @@ function App() {
             <Route path="search-engine-marketing" element={<SearchEngineMarketing />} />
             <Route path="google-ads" element={<GoogleAds/>} />
             <Route path="bing-ads" element={<BingAds/>} />
+            <Route path="yandex-ads" element={<YandexAds/>} />
 
             <Route path="social-media-marketing" element={<SocialMediaMarketing />} />
+            <Route path="facebook-ads" element={<FacebookAds/>} />
+
+
             <Route path="social-media-management" element={<SocialMediaManagement/>} />
             <Route path="hotel-e-commerce" element={<HotelECommerce/>} />
             <Route path="search-engine-optimization" element={<SearchEngineOptimization/>} />
