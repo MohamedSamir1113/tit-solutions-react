@@ -15,7 +15,7 @@ const Layout = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
   const isMobile = useMediaQuery("(max-width:767px)");
-  const isTablet = useMediaQuery("(max-width:1024px)");
+  //const isTablet = useMediaQuery("(max-width:1024px)");
   const handleMenuStateChange = (state) => {
     setMenuOpen(state.isOpen);
   };

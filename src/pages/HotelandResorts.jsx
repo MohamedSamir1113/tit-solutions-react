@@ -1,5 +1,3 @@
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import BgArea from "../components/BgArea";
