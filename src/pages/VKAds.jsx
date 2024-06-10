@@ -2,16 +2,16 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-function BingAds() {
+function VKAds() {
   useEffect(() => {
-    document.title = "Bing Hotel Ads";
+    document.title = "VK Ads";
   }, []);
   return (
     <>
       <BgArea
-        title1={`Bing Ads`}
-        title2={`Search Engine Marketing`}
-        path={`/search-engine-marketing`}
+        title1={`VK Ads`}
+        title2={`Social Media Marketing`}
+        path={`/social-media-marketing`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -138,12 +138,12 @@ function BingAds() {
                     <div className="service-main-details-inner">
                       <div className="service-main-details-inner-thumb">
                         <img
-                          src="assets/images/services/bing-hotel-ads.jpg"
+                          src="assets/images/vk-ads-for-hotels---vk-advertising---vkontakte-ads-20212510440585.jpg"
                           alt=""
                         />
                       </div>
                       <div className="service-main-details-content-title pt-4 pb-3">
-                        <h3>Bing Hotel Ads</h3>
+                        <h3>VK Ads for Hotel</h3>
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
@@ -154,11 +154,12 @@ function BingAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          Reach every possible customer in the right place at
-                          the right time, using our effective Bing hotel Ads.
-                          While many PPC advertisers consider the search engine
-                          platforms as competitors, we make them work best
-                          hand-in-hand.
+                          VK platform is one of Russia's largest social media
+                          networks; Vk ads for hotels can help you reach the
+                          Russian target audience there. If you are a hotelier
+                          with international goals, the opportunities are ripe
+                          for businesses willing to seize them on this platform
+                          with the T.I.T Solutions help.
                         </p>
                         <p
                           style={{
@@ -167,50 +168,37 @@ function BingAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          T.I.T. solutions offers you a powerful Bing ads
-                          management for your hotel with real-time results.
+                          Adapt to the digital age in order to remain successful
+                          and competitive in the market. We drive direct
+                          bookings through tailor-made VK's digital campaigns,
+                          as we take advantage of the VK's targeting options
+                          that cover age, geography, family status, job title,
+                          and many more. VK advertising also offers you a large
+                          number of different advertising formats that will
+                          allow us to find guests in the wanted segments. In
+                          addition to helping you advertising and analyzing your
+                          campaigns and implement continuous practices for
+                          improvement.
                         </p>
-
-                        <div className="py-3">
-                          <h4 className="pb-20">
-                            Why Bing Ads Matter For Your Business With T.I.T
-                            Solutions?
-                          </h4>
-                          <ul class="list-bullets">
-                            <li>
-                              We create the Bing ads campaign that guarantees
-                              your hotel business great exposure on important
-                              platforms; Bing, Yahoo, and AOL.
-                            </li>
-                            <li>
-                              Bing Ads drive more for less money; driving much
-                              more leads, traffic, and sales for much less
-                              money.
-                            </li>
-                            <li>
-                              The lower cost per click (CPC), and a higher
-                              conversion rate on Bing means that your hotel
-                              business can easily go up against.
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div className="py-3">
-                          <h4 className="pb-20">Bing Ads Services We Offer</h4>
-                          <ul class="list-bullets">
-                            <li>Market research.</li>
-                            <li>Keyword discovery and selection.</li>
-                            <li>Campaigns creation and management.</li>
-                            <li>Ad Optimizations, monitoring & A/B testing.</li>
-                            <li>Conversion tracking.</li>
-                            <li>Detailed reporting.</li>
-                          </ul>
-                        </div>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          With VK's ad platform, we can deliver results from
+                          chosen demographics from the Russian-speaking
+                          countries, driving visits to your hotel website and
+                          gain brand exposure. Increase your overall advertising
+                          outcomes now and get more effect with T.I.T Solutions
+                          and VK's ads.
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div className="service-main-details-content-title pt-4 pb-3">
-                    <h3>SEARCH ENGINE MARKETING:</h3>
+                    <h3>SOCIAL MEDIA MARKETING:</h3>
                   </div>
                 </div>
 
@@ -224,12 +212,13 @@ function BingAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Google Ads</h3>
+                          <h3>Facebook Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Managing Google Ads for hotels and building it from
-                            scratch is very demanding...
+                            Reach your guests or potential ones with effective
+                            Instagram marketing for hotels services by T.I.T
+                            Solutions...
                           </p>
                         </div>
                       </div>
@@ -238,23 +227,24 @@ function BingAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/services/google-hotel-ads.jpg)",
+                          "url(assets/images/facebook-ads-for-hotels---hotel-facebook-marketing---facebook-marketing-strategy-20212510571844.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Google Ads</h3>
+                          <h3>Facebook Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Managing Google Ads for hotels and building it from
-                            scratch is very demanding...
+                            Reach your guests or potential ones with effective
+                            Instagram marketing for hotels services by T.I.T
+                            Solutions...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/google-ads">
+                          <Link to="/facebook-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -274,14 +264,12 @@ function BingAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Yandex Ads</h3>
+                          <h3>Snapchat Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Unlock your business potential, tap into new
-                            markets, and grow internationally in the
-                            Russian-speaking world with our Yandex ads in
-                            Egypt....
+                            Do you own or manage a hotel Snapchat business that
+                            you want to reach highly engaged audiences...
                           </p>
                         </div>
                       </div>
@@ -290,21 +278,123 @@ function BingAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/services/yandex-ads-in-egypt.jpg)",
+                          "url(assets/images/snapchat-ads-for-hotel---snapchat-marketing----hotel-snapchat---hotel-snapchat-marketing-202125103622557.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Yandex Ads</h3>
+                          <h3>Snapchat Ads</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Unlock your business potential, tap into new
-                            markets, and grow internationally in the
-                            Russian-speaking world with our Yandex ads in
-                            Egypt...
+                            Do you own or manage a hotel Snapchat business that
+                            you want to reach highly engaged audiences..
+                          </p>
+                        </div>
+                        <div className="flipbox_button">
+                          <Link to="/travel-tours">
+                            Read More
+                            <i className="fa fa-angle-double-right"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                  <div className="techno_flipbox mb-30">
+                    <div className="techno_flipbox_font">
+                      <div className="techno_flipbox_inner">
+                        <div className="techno_flipbox_icon">
+                          <div className="icon">
+                            <i className="flaticon-intelligent"></i>
+                          </div>
+                        </div>
+                        <div className="flipbox_title">
+                          <h3>Instagram Ads</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            Reach your guests or potential ones with effective
+                            Instagram marketing for hotels services by T.I.T
+                            Solutions...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="techno_flipbox_back "
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/instagram-marketing-for-hotels---instagram-ads---instagram-advertising-202125102822806.jpg)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <div className="techno_flipbox_inner">
+                        <div className="flipbox_title">
+                          <h3>Instagram Ads</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            Reach your guests or potential ones with effective
+                            Instagram marketing for hotels services by T.I.T
+                            Solutions..
+                          </p>
+                        </div>
+                        <div className="flipbox_button">
+                          <Link to="/instagram-ads">
+                            Read More
+                            <i className="fa fa-angle-double-right"></i>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                  <div className="techno_flipbox mb-30">
+                    <div className="techno_flipbox_font">
+                      <div className="techno_flipbox_inner">
+                        <div className="techno_flipbox_icon">
+                          <div className="icon">
+                            <i className="flaticon-intelligent"></i>
+                          </div>
+                        </div>
+                        <div className="flipbox_title">
+                          <h3>LinkedIn Ads</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            The T.I.T Solutions agency uses LinkedIn for hotels
+                            to create ad campaigns that boost your hotel content
+                            and deliver personalized ads to LinkedIn inboxes...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="techno_flipbox_back "
+                      style={{
+                        backgroundImage:
+                          "url(assets/images/linkedin-for-hotels---linkedin-advertising-202125103027344.jpg)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <div className="techno_flipbox_inner">
+                        <div className="flipbox_title">
+                          <h3>LinkedIn Ads</h3>
+                        </div>
+                        <div className="flipbox_desc">
+                          <p>
+                            The T.I.T Solutions agency uses LinkedIn for hotels
+                            to create ad campaigns that boost your hotel content
+                            and deliver personalized ads to LinkedIn inboxes..
                           </p>
                         </div>
                         <div className="flipbox_button">
@@ -329,4 +419,4 @@ function BingAds() {
   );
 }
 
-export default BingAds;
+export default VKAds;

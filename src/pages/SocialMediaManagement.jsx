@@ -24,7 +24,7 @@ function SocialMediaManagement() {
         imgSrc={
           "assets/images/hotel-social-media-marketing---social-media-marketing-strategy-for-hotels---social-media-marketing-agency-20212510430862.jpg"
         }
-        linkPath={"/hotels-resorts"}
+        linkPath={"/social-media-strategy"}
       />
       {/*Social Media Strategy*/}
 
@@ -34,7 +34,7 @@ function SocialMediaManagement() {
       for your own hotel, we guarantee your hotel content to go
       viral; we have endless ideas for your content posting
       strategy.`}
-        linkPath={`/travel-tours`}
+        linkPath={`/social-media-posting`}
         imgSrc={`assets/images/social-media-content-for-hotels---social-media-posting-strategy---hotel-social-media-202125104144302.jpg`}
       />
       {/*Social Media Posting*/}
@@ -47,7 +47,7 @@ function SocialMediaManagement() {
         imgSrc={
           "assets/images/social-media-graphics---hotels-branding---test-202125958612.jpg"
         }
-        linkPath={"/hotels-resorts"}
+        linkPath={"/social-media-graphics"}
       />
       {/*Social Media Graphics*/}
     </>

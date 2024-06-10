@@ -573,10 +573,28 @@ const Layout = () => {
                               </ul>
                             </li>
 
-                            <li>
-                              <Link to="/social-media-managment">
+                            <li className="position-relative">
+                              <Link className="d-flex justify-content-between align-items-center" to="/social-media-managment">
                                 Social Media Management
+                                <i className="fa fa-caret-right"></i>
                               </Link>
+                              <ul className="sub-sub-menu">
+                                <li>
+                                  <Link to="/social-media-strategy">
+                                  Social Media Strategy
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/social-media-posting">
+                                  Social Media Posting
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/social-media-graphics">
+                                  Social Media Graphics
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
                             <li>
                               <Link to="/hotel-ecommerce">

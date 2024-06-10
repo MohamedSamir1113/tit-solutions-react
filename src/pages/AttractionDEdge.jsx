@@ -17,120 +17,67 @@ function AttractionDEdge() {
         <div className="service-details pages pt-90 pb-50">
           <div className="container">
             <div className="row">
-              <div className=" col-lg-4 col-md-5 col-sm-12 col-xs-12">
-                <h3 className="pb-15">Our Services:</h3>
-                <div className="service-details-pn-list">
-                  <ul>
-                    <li>
-                      <Link to="/social-media-marketing">
-                        Social Media Marketing
-                        <span>
-                          <i className="fa fa-angle-right"></i>
-                        </span>
-                      </Link>
-                    </li>
-  
-                    <li>
-                      <Link to="/social-media-managment">
-                        Social Media Management
-                        <span>
-                          <i className="fa fa-angle-right"></i>
-                        </span>
-                      </Link>
-                    </li>
-  
-                    <li>
-                      <Link to="/hotel-ecommerce">
-                        Hotel E-commerce
-                        <span>
-                          <i className="fa fa-angle-right"></i>
-                        </span>
-                      </Link>
-                    </li>
-  
-                    <li>
-                      <Link to="/search-engine-optimization">
-                        Search Engine Optimization
-                        <span>
-                          <i className="fa fa-angle-right"></i>
-                        </span>
-                      </Link>
-                    </li>
-  
-                    <li>
-                      <Link to="/email-marketing">
-                        Email Marketing
-                        <span>
-                          <i className="fa fa-angle-right"></i>
-                        </span>
-                      </Link>
-                    </li>
-  
-                    <li>
-                      <Link to="/reporting">
-                        Reporting
-                        <span>
-                          <i className="fa fa-angle-right"></i>
-                        </span>
-                      </Link>
-                    </li>
-  
-                    <li>
-                      <Link to="/hospitality-photography">
-                        Hospitality Photography
-                        <span>
-                          <i className="fa fa-angle-right"></i>
-                        </span>
-                      </Link>
-                    </li>
-  
-                    <li>
-                      <Link to="/the-hotels-network">
-                        The Hotels Network
-                        <span>
-                          <i className="fa fa-angle-right"></i>
-                        </span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/asksuite-hotel-chatbot">
-                        Asksuite Hotel Chatbot
-                        <span>
-                          <i className="fa fa-angle-right"></i>
-                        </span>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="service-details-big-button mt-40 mb-40">
-                  <a href="/">
-                    <span className="details-big-content">
-                      Company Presentation <i className="fa fa-download"></i>
-                    </span>
-                  </a>
-                </div>
-  
-                <div
-                  className="service-details-pn-about mb-4"
-                  style={{ backgroundImage: "url(assets/images/tab1.jpg)" }}
-                >
-                  <div className="service-details-pn-about-content pt-35 pb-40 pl-4 pr-4">
-                    <div className="service-details-pn-about-content-title pb-3">
-                      <h4>Need Any Help For Business ?</h4>
-                    </div>
-                    <div className="service-details-pn-about-content-text">
-                      <p>
-                        We take an omni-channel approach to online marketing with
-                        a focus on increasing conversions, repeat traffic and
-                        generating greater brand loyalty online.
-                      </p>
-                    </div>
-                    <div className="service-details-pn-about-content-button pt-2">
-                      <Link to="/contact-us">Contact Now</Link>
-                    </div>
+            <div className=" col-lg-4 col-md-5 col-sm-12 col-xs-12">
+              <h3 className="pb-15">Our Solutions:</h3>
+              <div className="service-details-pn-list">
+                <ul>
+                  <li>
+                    <Link to="/website-development">
+                      Website Development
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/booking-engine">
+                      Booking Engine
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/web-check-in-solution">
+                      Web Check-In Solution
+                      <span>
+                        <i className="fa fa-angle-right"></i>
+                      </span>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="service-details-big-button mt-40 mb-40">
+                <a href="/">
+                  <span className="details-big-content">
+                    Company Presentation <i className="fa fa-download"></i>
+                  </span>
+                </a>
+              </div>
+
+              <div
+                className="service-details-pn-about mb-4"
+                style={{ backgroundImage: "url(assets/images/tab1.jpg)" }}
+              >
+                <div className="service-details-pn-about-content pt-35 pb-40 pl-4 pr-4">
+                  <div className="service-details-pn-about-content-title pb-3">
+                    <h4>Need Any Help For Business ?</h4>
+                  </div>
+                  <div className="service-details-pn-about-content-text">
+                    <p>
+                      We take an omni-channel approach to online marketing with
+                      a focus on increasing conversions, repeat traffic and
+                      generating greater brand loyalty online.
+                    </p>
+                  </div>
+                  <div className="service-details-pn-about-content-button pt-2">
+                    <Link to="/contact-us">Contact Now</Link>
                   </div>
                 </div>
               </div>
+            </div>
   
               <div className="col-lg-8 col-md-7 col-sm-12 col-xs-12">
                 <div className="row justify-content-center">
@@ -302,114 +249,6 @@ function AttractionDEdge() {
                   </div>
   
                  
-                </div>
-  
-                <div className="row justify-content-center">
-                  <div className="col-lg-12 col-md-12 col-sm-12">
-                    <div className="service-main-details-content-title pt-4 pb-3">
-                      <h3>Other Solutions:</h3>
-                    </div>
-                  </div>
-  
-                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-                    <div className="techno_flipbox mb-30">
-                      <div className="techno_flipbox_font">
-                        <div className="techno_flipbox_inner">
-                          <div className="techno_flipbox_icon">
-                            <div className="icon">
-                              <i className="flaticon-intelligent"></i>
-                            </div>
-                          </div>
-                          <div className="flipbox_title">
-                            <h3>Website Development</h3>
-                          </div>
-                          <div className="flipbox_desc">
-                            <p>
-                            We deliver intuitive and fast websites services for the hospitality industry and more! ...
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="techno_flipbox_back "
-                        style={{
-                          backgroundImage:
-                            "url(assets/images/solutions/s1.jpg)",
-                          backgroundPosition: "center center",
-                          backgroundSize: "cover",
-                        }}
-                      >
-                        <div className="techno_flipbox_inner">
-                          <div className="flipbox_title">
-                            <h3>Website Development</h3>
-                          </div>
-                          <div className="flipbox_desc">
-                            <p>
-                            We deliver intuitive and fast websites services for the hospitality industry and more! ...
-                            </p>
-                          </div>
-                          <div className="flipbox_button">
-                            <Link to="/booking-engine">
-                              Read More
-                              <i className="fa fa-angle-double-right"></i>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-  
-                  <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
-                    <div className="techno_flipbox mb-30">
-                      <div className="techno_flipbox_font">
-                        <div className="techno_flipbox_inner">
-                          <div className="techno_flipbox_icon">
-                            <div className="icon">
-                              <i className="flaticon-intelligent"></i>
-                            </div>
-                          </div>
-                          <div className="flipbox_title">
-                            <h3>Web Check-In Solution</h3>
-                          </div>
-                          <div className="flipbox_desc">
-                            <p>
-                              During this challenging time, Hotels & Resorts need
-                              to implement a solution to facilitate a smooth,
-                              fast, and paperless Check-In for the guests...{" "}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className="techno_flipbox_back "
-                        style={{
-                          backgroundImage:
-                            "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-web-check-in-solution-202120111949888.jpg)",
-                          backgroundPosition: "center center",
-                          backgroundSize: "cover",
-                        }}
-                      >
-                        <div className="techno_flipbox_inner">
-                          <div className="flipbox_title">
-                            <h3>Web Check-In Solution</h3>
-                          </div>
-                          <div className="flipbox_desc">
-                            <p>
-                              During this challenging time, Hotels & Resorts need
-                              to implement a solution to facilitate a smooth,
-                              fast, and paperless Check-In for the guests...{" "}
-                            </p>
-                          </div>
-                          <div className="flipbox_button">
-                            <Link to="/web-check-in-solution">
-                              Read More
-                              <i className="fa fa-angle-double-right"></i>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

@@ -50,6 +50,9 @@ import YandexAds from "./pages/YandexAds.jsx";
 import FacebookAds from "./pages/FacebookAds.jsx";
 import InstagramAds from "./pages/InstagramAds.jsx";
 import SnapchatAds from "./pages/SnapchatAds.jsx";
+import VKAds from "./pages/VKAds.jsx";
+import LinkedInAds from "./pages/LinkedInAds.jsx";
+import SocialMediaStrategy from "./pages/SocialMediaStrategy.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -119,9 +122,14 @@ function App() {
             <Route path="facebook-ads" element={<FacebookAds/>} />
             <Route path="instagram-ads" element={<InstagramAds/>} />
             <Route path="snapchat-ads" element={<SnapchatAds/>} />
+            <Route path="vk-ads" element={<VKAds/>} />
+            <Route path="linkedin-ads" element={<LinkedInAds/>} />
 
 
             <Route path="social-media-management" element={<SocialMediaManagement/>} />
+            <Route path="social-media-strategy" element={<SocialMediaStrategy/>} />
+
+
             <Route path="hotel-e-commerce" element={<HotelECommerce/>} />
             <Route path="search-engine-optimization" element={<SearchEngineOptimization/>} />
             <Route path="email-marketing" element={<EmailMarketing/>} />

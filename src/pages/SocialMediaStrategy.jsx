@@ -2,16 +2,16 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
-function BingAds() {
+function SocialMediaStrategy() {
   useEffect(() => {
-    document.title = "Bing Hotel Ads";
+    document.title = "Social Media Strategy";
   }, []);
   return (
     <>
       <BgArea
-        title1={`Bing Ads`}
-        title2={`Search Engine Marketing`}
-        path={`/search-engine-marketing`}
+        title1={`Social Media Strategy`}
+        title2={`Social Media Management`}
+        path={`/social-media-management`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -138,15 +138,21 @@ function BingAds() {
                     <div className="service-main-details-inner">
                       <div className="service-main-details-inner-thumb">
                         <img
-                          src="assets/images/services/bing-hotel-ads.jpg"
+                          src="assets/images/hotel-social-media-marketing---social-media-marketing-strategy-for-hotels---social-media-marketing-agency-20212510430862.jpg"
                           alt=""
                         />
                       </div>
                       <div className="service-main-details-content-title pt-4 pb-3">
-                        <h3>Bing Hotel Ads</h3>
+                        <h3>Hotel Social Media Marketing</h3>
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
+                        <h4 className="pb-15">
+                          Want to generate a real increase in your hotel's
+                          direct room selling as well as your hotel's social
+                          engagement and following? T.I.T. Solutions is the
+                          right choice for you.
+                        </h4>
                         <p
                           style={{
                             margin: "0 0 15px;",
@@ -154,11 +160,26 @@ function BingAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          Reach every possible customer in the right place at
-                          the right time, using our effective Bing hotel Ads.
-                          While many PPC advertisers consider the search engine
-                          platforms as competitors, we make them work best
-                          hand-in-hand.
+                          By creating the social media marketing strategy for
+                          hotels, we draw your short and long-term goals,
+                          tactics for achieving them, and we choose the best
+                          metrics to measure the WHOLE strategy progress. We
+                          guarantee a WINING strategy formulation by following a
+                          couple of steps:
+                        </p>
+
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                            fontWeight: "700",
+                            fontSize: "20px",
+                            color: "#333",
+                          }}
+                        >
+                          1) A Bespoke Strategy For Your Hotel Based On
+                          S.M.A.R.T. Goals
                         </p>
                         <p
                           style={{
@@ -167,50 +188,104 @@ function BingAds() {
                             lineHeight: "31px",
                           }}
                         >
-                          T.I.T. solutions offers you a powerful Bing ads
-                          management for your hotel with real-time results.
+                          We design a complete hotel social media marketing
+                          strategy for our clients that deliver what's needed
+                          with a clear understanding of their goals and
+                          challenges. We also create customized plans for your
+                          specific property, achieving the highest R.O.I.
+                          possible. ones.
                         </p>
 
-                        <div className="py-3">
-                          <h4 className="pb-20">
-                            Why Bing Ads Matter For Your Business With T.I.T
-                            Solutions?
-                          </h4>
-                          <ul class="list-bullets">
-                            <li>
-                              We create the Bing ads campaign that guarantees
-                              your hotel business great exposure on important
-                              platforms; Bing, Yahoo, and AOL.
-                            </li>
-                            <li>
-                              Bing Ads drive more for less money; driving much
-                              more leads, traffic, and sales for much less
-                              money.
-                            </li>
-                            <li>
-                              The lower cost per click (CPC), and a higher
-                              conversion rate on Bing means that your hotel
-                              business can easily go up against.
-                            </li>
-                          </ul>
-                        </div>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                            fontWeight: "700",
+                            fontSize: "20px",
+                            color: "#333",
+                          }}
+                        >
+                          2)Tracking Meaningful Metrics
+                        </p>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          We focus on the most important metrics for your hotel
+                          business, like the number of direct bookings and your
+                          overall hotel revenue. ones.
+                        </p>
 
-                        <div className="py-3">
-                          <h4 className="pb-20">Bing Ads Services We Offer</h4>
-                          <ul class="list-bullets">
-                            <li>Market research.</li>
-                            <li>Keyword discovery and selection.</li>
-                            <li>Campaigns creation and management.</li>
-                            <li>Ad Optimizations, monitoring & A/B testing.</li>
-                            <li>Conversion tracking.</li>
-                            <li>Detailed reporting.</li>
-                          </ul>
-                        </div>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                            fontWeight: "700",
+                            fontSize: "20px",
+                            color: "#333",
+                          }}
+                        >
+                          3)Learning More About The Guests
+                        </p>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          We conduct analysis that helps in setting the hotel
+                          guests` persona to identify a high-performing
+                          targeting and even use your existing guests' data to
+                          design effective custom and lookalike audiences in
+                          your hotel's paid campaigns.
+                        </p>
+
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                            fontWeight: "700",
+                            fontSize: "20px",
+                            color: "#333",
+                          }}
+                        >
+                          4)Studying The Competition
+                        </p>
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          We do our marketing research, creating a social media
+                          competitive analysis to represent how your hotel
+                          stacks up against others in the industry and surface
+                          new opportunities and possible threats.
+                        </p>
+
+                        <p
+                          style={{
+                            margin: "0 0 15px;",
+                            fontFamily: "open sans, sans-serif;",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          With our comprehensive experience and expertise in
+                          doing this, we ensure the best results.
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div className="service-main-details-content-title pt-4 pb-3">
-                    <h3>SEARCH ENGINE MARKETING:</h3>
+                    <h3>SOCIAL MEDIA MANAGEMENT:</h3>
                   </div>
                 </div>
 
@@ -224,12 +299,13 @@ function BingAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Google Ads</h3>
+                          <h3>Social Media Posting</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Managing Google Ads for hotels and building it from
-                            scratch is very demanding...
+                            By implementing a customized social media posting
+                            strategy for your own hotel, we guarantee your hotel
+                            content to go viral...
                           </p>
                         </div>
                       </div>
@@ -238,23 +314,24 @@ function BingAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/services/google-hotel-ads.jpg)",
+                          "url(assets/images/social-media-content-for-hotels---social-media-posting-strategy---hotel-social-media-202125104144302.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Google Ads</h3>
+                          <h3>Social Media Posting</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Managing Google Ads for hotels and building it from
-                            scratch is very demanding...
+                            By implementing a customized social media posting
+                            strategy for your own hotel, we guarantee your hotel
+                            content to go viral...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/google-ads">
+                          <Link to="/social-media-posting">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -274,14 +351,12 @@ function BingAds() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Yandex Ads</h3>
+                          <h3>Social Media Graphics</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Unlock your business potential, tap into new
-                            markets, and grow internationally in the
-                            Russian-speaking world with our Yandex ads in
-                            Egypt....
+                            Do you need those graphics for your social media
+                            posting? Google Display ads?...
                           </p>
                         </div>
                       </div>
@@ -290,25 +365,23 @@ function BingAds() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/services/yandex-ads-in-egypt.jpg)",
+                          "url(assets/images/social-media-graphics---hotels-branding---test-202125958612.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Yandex Ads</h3>
+                          <h3>Social Media Graphics</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Unlock your business potential, tap into new
-                            markets, and grow internationally in the
-                            Russian-speaking world with our Yandex ads in
-                            Egypt...
+                            Do you need those graphics for your social media
+                            posting? Google Display ads?...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/social-media-posting">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -329,4 +402,4 @@ function BingAds() {
   );
 }
 
-export default BingAds;
+export default SocialMediaStrategy;
