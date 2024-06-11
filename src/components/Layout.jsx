@@ -358,7 +358,7 @@ const Layout = () => {
                             </Link>
                             <ul className="normal-sub">
                               <li>
-                                <Link to="/hotels-resorts">
+                                <Link to="/digital-marketing-agency-for-hotels-in-egypt">
                                   Hotels & Resorts
                                 </Link>
                               </li>
@@ -859,7 +859,7 @@ const Layout = () => {
                           </Link>
                           <ul className="normal-sub">
                             <li>
-                              <Link to="#.">Hotels & Resorts</Link>
+                              <Link to="/digital-marketing-agency-for-hotels-in-egypt">Hotels & Resorts</Link>
                             </li>
                             <li>
                               <Link to="#.">Travel Companies</Link>
