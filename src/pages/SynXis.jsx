@@ -248,7 +248,7 @@ function SynXis() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/nile-Cruise-booking-engine">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

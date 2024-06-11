@@ -198,7 +198,7 @@ function HotelCRM() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/guest-loyalty">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -250,7 +250,7 @@ function HotelCRM() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/guest-feedback">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

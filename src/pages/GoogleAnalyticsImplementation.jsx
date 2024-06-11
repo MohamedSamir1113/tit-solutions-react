@@ -249,7 +249,7 @@ function GoogleAnalyticsImplementation() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/digital-marketing-reporting">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -297,7 +297,7 @@ function GoogleAnalyticsImplementation() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/website-360-reporting">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

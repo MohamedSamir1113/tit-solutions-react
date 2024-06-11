@@ -9,7 +9,7 @@ function HotelandResorts() {
   return (
     <>
       <BgArea
-        title1={`Hotel and Resorts`}
+        title1={`Hotels and Resorts`}
         title2={`Website Development`}
         path={`/website-development`}
       />

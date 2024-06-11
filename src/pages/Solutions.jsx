@@ -63,19 +63,16 @@ const Solutions = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Hotels & Resorts</a>
+                      <Link to="/hotels-resorts">Hotels & Resorts</Link>
                     </li>
                     <li>
-                      <a href="#.">Travel & Tours</a>
+                      <Link to="/travel-tours">Travel & Tours</Link>
                     </li>
                     <li>
-                      <a href="#.">Nile Cruises</a>
+                      <Link to="/nile-cruises">Nile Cruises</Link>
                     </li>
                     <li>
-                      <a href="#.">General Purposes</a>
-                    </li>
-                    <li>
-                      <a href="#.">Linkedin For Hotels</a>
+                      <Link to="/general-purposes">General Purposes</Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -85,9 +82,12 @@ const Solutions = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link
+                            to="/website-development"
+                            className="single_service_content"
+                          >
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -119,13 +119,15 @@ const Solutions = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Attraction D-Edge</a>
+                      <Link to="/attraction-d-edge">Attraction D-Edge</Link>
                     </li>
                     <li>
-                      <a href="#.">SynXis</a>
+                      <Link to="/SynXis">SynXis</Link>
                     </li>
                     <li>
-                      <a href="#.">Nile Cruise Booking Engine</a>
+                      <Link to="/nile-cruise-booking-engine">
+                        Nile Cruise Booking Engine
+                      </Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -135,9 +137,9 @@ const Solutions = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/booking-engine" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -199,9 +201,9 @@ const Solutions = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/web-check-in-solution" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

@@ -203,7 +203,7 @@ function BookingEngineForHotel() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/dedge-channel-manager">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -253,7 +253,7 @@ function BookingEngineForHotel() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/d-edge-inventory-management">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -305,7 +305,7 @@ function BookingEngineForHotel() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/gds-hotel-solutions">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

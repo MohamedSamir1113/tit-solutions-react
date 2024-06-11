@@ -294,7 +294,7 @@ function VKAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/snapchat-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -398,7 +398,7 @@ function VKAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/linkedin-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

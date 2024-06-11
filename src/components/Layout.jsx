@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,6 +9,7 @@ import { useMediaQuery } from "@mui/material";
 import { slide as Menu } from "react-burger-menu";
 import "./header.css";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { useDispatch } from "react-redux";
 
 const Layout = () => {
   const [loading, setLoading] = useState(true);
@@ -19,6 +20,8 @@ const Layout = () => {
   const handleMenuStateChange = (state) => {
     setMenuOpen(state.isOpen);
   };
+
+  
 
   const handleLinkClick = () => {
     setMenuOpen(false);
@@ -39,6 +42,7 @@ const Layout = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
@@ -47,6 +51,14 @@ const Layout = () => {
     return () => clearTimeout(timer);
   }, [loading]);
 
+  const [showSubMenu, setShowSubMenu] = useState(false);
+
+  const toggleSubMenu = () => {
+    
+    setShowSubMenu(!showSubMenu);
+  };
+
+  
   return (
     <>
       {loading ? (
@@ -153,71 +165,119 @@ const Layout = () => {
                             </Link>
                           </li>
                           <li className="solutions">
-                            <Link to="/solutions">
+                            <Link to="/solutions" onClick={handleLinkClick}>
                               Solutions <i className="fa fa-angle-down"></i>
                             </Link>
-                            <ul className="dropdown-menu">
+                            <ul className="normal-sub">
                               <li>
-                                <h5>Website Development</h5>
+                                <Link to="/website-development" onClick={handleLinkClick}>
+                                  <h5 className="text-center my-3 text-hover">
+                                    Website Development
+                                  </h5>
+                                </Link>
                                 <ul>
                                   <li>
-                                    <Link to="/hotels-resorts">
+                                    <Link to="/hotels-resorts" onClick={handleLinkClick}>
                                       Hotels & Resorts
                                     </Link>
                                   </li>
                                   <li>
-                                    <Link to="/travel-tours">
+                                    <Link to="/travel-tours" onClick={handleLinkClick}>
                                       Travel & Tours
                                     </Link>
                                   </li>
                                   <li>
-                                    <Link to="/nile-cruises">Nile Cruises</Link>
+                                    <Link to="/nile-cruises" onClick={handleLinkClick}>Nile Cruises</Link>
                                   </li>
                                   <li>
-                                    <Link to="/general-purposes">
+                                    <Link to="/general-purposes" onClick={handleLinkClick}>
                                       General Purpose
                                     </Link>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <h5>Booking Engine</h5>
+                                <Link
+                                  className="text-lg-center"
+                                  to="/booking-engine"
+                                  onClick={handleLinkClick}
+                                >
+                                  <h5 className="text-center my-3 text-hover">
+                                    Booking Engine
+                                  </h5>
+                                </Link>
                                 <ul>
                                   <li>
-                                    <Link to="index-2.html">
+                                    <Link to="/attraction-d-edge" onClick={handleLinkClick}>
                                       Attraction D-Edge
                                     </Link>
                                   </li>
                                   <li>
-                                    <Link to="index-3.html">SynXis</Link>
+                                    <Link to="/SynXis" onClick={handleLinkClick}>SynXis</Link>
                                   </li>
                                   <li>
-                                    <Link to="index-4.html">
+                                    <Link to="/nile-cruise-booking-engine" onClick={handleLinkClick}>
                                       Nile Cruise Booking Engine
                                     </Link>
                                   </li>
                                 </ul>
                               </li>
                               <li>
-                                <h5>Web Check-In Solution</h5>
+                                <h5
+                                  className="text-lg-center"
+                
+                                >
+                                  Web Check-In Solution
+                                </h5>
                                 <ul>
                                   <li>
-                                    <Link to="#">Web Check-In Solution</Link>
+                                    <Link to="/web-check-in-solution" onClick={handleLinkClick}>Web Check-In Solution</Link>
                                   </li>
                                 </ul>
                               </li>
                             </ul>
                           </li>
+
                           <li>
-                            <Link to="#" onClick={(e) => e.preventDefault()}>
+                            <Link to="/services" onClick={handleLinkClick}>
                               Service <i className="fa fa-angle-down"></i>
                             </Link>
                             <ul className="normal-sub">
-                              <li>
-                                <Link to="service-1.html">
+                              <li className="position-relative">
+                                <Link
+                                onClick={handleLinkClick}
+                                  className="d-flex justify-content-between align-items-center"
+                                  to="/search-engine-marketing"
+                                  >
                                   Search Engine Marketing
+                                  {showSubMenu ? (
+                                    <i
+                                      className="fa fa-caret-down"
+                                      onClick={toggleSubMenu}
+                                    ></i>
+                                  ) : (
+                                    <i
+                                      className="fa fa-caret-right"
+                                      onClick={toggleSubMenu}
+                                    ></i>
+                                  )}
                                 </Link>
+
+                                {showSubMenu && (
+                                  <ul className="sub-sub-menu">
+                                    <li>
+                                      <a href="/google-ads">Google Ads</a>
+                                    </li>
+                                    <li>
+                                      <a href="/bing-ads">Bing Ads</a>
+                                    </li>
+                                    <li>
+                                      <a href="/yandex-ads">Yandex Ads</a>
+                                    </li>
+                                  </ul>
+                                )}
                               </li>
+
                               <li>
                                 <Link to="service-2.html">
                                   Social Media Marketing
@@ -291,7 +351,7 @@ const Layout = () => {
                           </li>
                           <li>
                             <Link
-                              to="/solutions"
+                              to="/industries"
                               onClick={(e) => e.preventDefault()}
                             >
                               INDUSTRIES <i className="fa fa-angle-down"></i>
@@ -409,7 +469,7 @@ const Layout = () => {
                             <li>
                               <ul className="text-center">
                                 <li>
-                                  <Link to="/website-development">
+                                  <Link to="/website-development" onClick={() => setLoading(true)}>
                                     <h5 className="text-center my-3 text-hover">
                                       Website Development
                                     </h5>
@@ -418,6 +478,7 @@ const Layout = () => {
 
                                 <li className="text-center">
                                   <Link
+                                  onClick={() => setLoading(true)}
                                     className="text-lg-center"
                                     to="/hotels-resorts"
                                   >
@@ -426,6 +487,7 @@ const Layout = () => {
                                 </li>
                                 <li className="text-center">
                                   <Link
+                                  onClick={() => setLoading(true)}
                                     className="text-lg-center"
                                     to="/travel-tours"
                                   >
@@ -434,6 +496,7 @@ const Layout = () => {
                                 </li>
                                 <li className="text-center">
                                   <Link
+                                  onClick={() => setLoading(true)}
                                     className="text-lg-center"
                                     to="/nile-cruises"
                                   >
@@ -442,6 +505,7 @@ const Layout = () => {
                                 </li>
                                 <li className="text-center">
                                   <Link
+                                  onClick={() => setLoading(true)}
                                     className="text-lg-center"
                                     to="/general-purposes"
                                   >
@@ -455,6 +519,7 @@ const Layout = () => {
                               <ul className="text-center">
                                 <li>
                                   <Link
+                                  onClick={() => setLoading(true)}
                                     className="text-lg-center"
                                     to="/booking-engine"
                                   >
@@ -466,6 +531,7 @@ const Layout = () => {
 
                                 <li>
                                   <Link
+                                  onClick={() => setLoading(true)}
                                     className="text-lg-center"
                                     to="/attraction-d-edge"
                                   >
@@ -473,12 +539,13 @@ const Layout = () => {
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link className="text-lg-center" to="/SynXis">
+                                  <Link onClick={() => setLoading(true)} className="text-lg-center" to="/SynXis">
                                     SynXis
                                   </Link>
                                 </li>
                                 <li>
                                   <Link
+                                  onClick={() => setLoading(true)}
                                     className="text-lg-center"
                                     to="/nile-cruise-booking-engine"
                                   >
@@ -497,6 +564,7 @@ const Layout = () => {
 
                                 <li>
                                   <Link
+                                  onClick={() => setLoading(true)}
                                     className="text-lg-center"
                                     to="web-check-in-solution"
                                   >
@@ -515,6 +583,7 @@ const Layout = () => {
                           <ul className="normal-sub">
                             <li className="position-relative">
                               <Link
+                              onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/search-engine-marketing"
                               >
@@ -524,19 +593,20 @@ const Layout = () => {
 
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/google-ads">Google Ads</Link>
+                                  <Link onClick={() => setLoading(true)} to="/google-ads">Google Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/bing-ads">Bing Ads</Link>
+                                  <Link onClick={() => setLoading(true)} to="/bing-ads">Bing Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/yandex-ads">Yandex Ads</Link>
+                                  <Link onClick={() => setLoading(true)} to="/yandex-ads">Yandex Ads</Link>
                                 </li>
                               </ul>
                             </li>
 
                             <li className="position-relative">
                               <Link
+                              onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/social-media-marketing"
                               >
@@ -546,25 +616,26 @@ const Layout = () => {
 
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/facebook-ads">Facebook Ads</Link>
+                                  <Link onClick={() => setLoading(true)} to="/facebook-ads">Facebook Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/instagram-ads">Instagram Ads</Link>
+                                  <Link onClick={() => setLoading(true)} to="/instagram-ads">Instagram Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/snapchat-ads">Snapchat Ads</Link>
+                                  <Link onClick={() => setLoading(true)} to="/snapchat-ads">Snapchat Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/vk-ads">VK Ads</Link>
+                                  <Link onClick={() => setLoading(true)} to="/vk-ads">VK Ads</Link>
                                 </li>
                                 <li>
-                                  <Link to="/linkedin-ads">LinkedIn Ads</Link>
+                                  <Link onClick={() => setLoading(true)} to="/linkedin-ads">LinkedIn Ads</Link>
                                 </li>
                               </ul>
                             </li>
 
                             <li className="position-relative">
                               <Link
+                              onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/social-media-management"
                               >
@@ -573,17 +644,17 @@ const Layout = () => {
                               </Link>
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/social-media-strategy">
+                                  <Link onClick={() => setLoading(true)} to="/social-media-strategy">
                                     Social Media Strategy
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/social-media-posting">
+                                  <Link onClick={() => setLoading(true)} to="/social-media-posting">
                                     Social Media Posting
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/social-media-graphics">
+                                  <Link onClick={() => setLoading(true)} to="/social-media-graphics">
                                     Social Media Graphics
                                   </Link>
                                 </li>
@@ -591,6 +662,7 @@ const Layout = () => {
                             </li>
                             <li className="position-relative">
                               <Link
+                              onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/hotel-e-commerce"
                               >
@@ -599,24 +671,25 @@ const Layout = () => {
                               </Link>
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/e-commerce-consultancy">
+                                  <Link onClick={() => setLoading(true)} to="/e-commerce-consultancy">
                                     E-Commerce Consultancy
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/e-commerce-management">
+                                  <Link onClick={() => setLoading(true)} to="/e-commerce-management">
                                     E-Commerce Management
                                   </Link>
                                 </li>
                               </ul>
                             </li>
                             <li>
-                              <Link to="/search-engine-optimization">
+                              <Link onClick={() => setLoading(true)} to="/search-engine-optimization">
                                 Search Engine Optimization
                               </Link>
                             </li>
                             <li className="position-relative">
                               <Link
+                              onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/email-marketing"
                               >
@@ -626,12 +699,12 @@ const Layout = () => {
 
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/constant-contact">
+                                  <Link onClick={() => setLoading(true)} to="/constant-contact">
                                     Constant Contact
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/manage-email-marketing">
+                                  <Link onClick={() => setLoading(true)} to="/manage-email-marketing">
                                     Manage Email Marketing
                                   </Link>
                                 </li>
@@ -639,6 +712,7 @@ const Layout = () => {
                             </li>
                             <li className="position-relative">
                               <Link
+                              onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/reporting"
                               >
@@ -648,47 +722,48 @@ const Layout = () => {
 
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/google-analytics-implementation">
+                                  <Link onClick={() => setLoading(true)} to="/google-analytics-implementation">
                                     Google Analytics Implementation
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/digital-marketing-reporting">
+                                  <Link onClick={() => setLoading(true)} to="/digital-marketing-reporting">
                                     Digital Marketing Reporting
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/website-360-reporting">
+                                  <Link onClick={() => setLoading(true)} to="/website-360-reporting">
                                     Website 360 Reporting
                                   </Link>
                                 </li>
                               </ul>
                             </li>
                             <li>
-                              <Link to="/hospitality-photography">
+                              <Link onClick={() => setLoading(true)} to="/hospitality-photography">
                                 Hospitality Photography
                               </Link>
                             </li>
                             <li>
-                              <Link to="/asksuite-hotel-chatbot">
+                              <Link onClick={() => setLoading(true)} to="/asksuite-hotel-chatbot">
                                 Asksuite Hotel Chatbot
                               </Link>
                             </li>
                             <li>
-                              <Link to="/the-hotels-network">
+                              <Link onClick={() => setLoading(true)} to="/the-hotels-network">
                                 The Hotels Network
                               </Link>
                             </li>
                           </ul>
                         </li>
                         <li className="menu-dropdown-icon">
-                          <Link to="/d-edge" onClick={() => setLoading(true)}>
+                          <Link  to="/d-edge" onClick={() => setLoading(true)}>
                             D-EDGE Solutions{" "}
                             <i className="fa fa-angle-down"></i>
                           </Link>
                           <ul className="normal-sub">
                             <li className="position-relative">
                               <Link
+                              onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
                                 to="central-reservation-system"
                               >
@@ -698,22 +773,22 @@ const Layout = () => {
 
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/booking-engine-for-hotel">
+                                  <Link onClick={() => setLoading(true)} to="/booking-engine-for-hotel">
                                     Booking Engine
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/dedge-channel-manager">
+                                  <Link onClick={() => setLoading(true)} to="/dedge-channel-manager">
                                     Channel Manager
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/d-edge-inventory-management">
+                                  <Link onClick={() => setLoading(true)} to="/d-edge-inventory-management">
                                     Central Inventory
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/gds-hotel-solutions">
+                                  <Link onClick={() => setLoading(true)} to="/gds-hotel-solutions">
                                     GDS Solutions
                                   </Link>
                                 </li>
@@ -722,8 +797,9 @@ const Layout = () => {
 
                             <li className="position-relative">
                               <Link
+                              onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="guest-management"
+                                to="/guest-management"
                               >
                                 Guest Management
                                 <i className="fa fa-caret-right"></i>
@@ -731,13 +807,13 @@ const Layout = () => {
 
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/hotel-crm">Hotel CRM</Link>
+                                  <Link onClick={() => setLoading(true)} to="/hotel-crm">Hotel CRM</Link>
                                 </li>
                                 <li>
-                                  <Link to="/guest-loyalty">Guest Loyalty</Link>
+                                  <Link onClick={() => setLoading(true)} to="/guest-loyalty">Guest Loyalty</Link>
                                 </li>
                                 <li>
-                                  <Link to="/guest-feedback">
+                                  <Link onClick={() => setLoading(true)} to="/guest-feedback">
                                     Guest Feedback
                                   </Link>
                                 </li>
@@ -746,8 +822,9 @@ const Layout = () => {
 
                             <li className="position-relative">
                               <Link
+                              onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="data-intelligence"
+                                to="/data-intelligence"
                               >
                                 Data Intelligence
                                 <i className="fa fa-caret-right"></i>
@@ -755,17 +832,17 @@ const Layout = () => {
 
                               <ul className="sub-sub-menu">
                                 <li>
-                                  <Link to="/price-monitoring">
+                                  <Link onClick={() => setLoading(true)} to="/price-monitoring">
                                     Price Monitoring
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/price-recommendation">
+                                  <Link onClick={() => setLoading(true)} to="/price-recommendation">
                                     Price Recommendation
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link to="/performance-analysis">
+                                  <Link onClick={() => setLoading(true)} to="/performance-analysis">
                                     Performance Analysis
                                   </Link>
                                 </li>
@@ -775,7 +852,7 @@ const Layout = () => {
                         </li>
                         <li className="menu-dropdown-icon">
                           <Link
-                            to="/solutions"
+                            to="/industries"
                             onClick={() => setLoading(true)}
                           >
                             Industries <i className="fa fa-angle-down"></i>

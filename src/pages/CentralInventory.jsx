@@ -180,7 +180,7 @@ function CentralInventory() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/booking-engine-for-hotel">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -200,12 +200,12 @@ function CentralInventory() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Central Inventory</h3>
+                          <h3>Channel Manager</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Having effective hotel inventory management is a
-                            core aspect of running a successful business...
+                            This Channel Manager from D-Edge is ranked as the
+                            most easy-to-use tool by its 20,000 + users...
                           </p>
                         </div>
                       </div>
@@ -214,23 +214,23 @@ function CentralInventory() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/d-edge-inventory-management---hotel-management-system---hotel-inventory-management-2021251054075.jpg)",
+                          "url(assets/images/channel-manager-for-hotels---booking-channel-manager---d-edge-channel-manager-20212510109135.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Central Inventory</h3>
+                          <h3>Channel Manager</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Having effective hotel inventory management is a
-                            core aspect of running a successful business...
+                            This Channel Manager from D-Edge is ranked as the
+                            most easy-to-use tool by its 20,000 + users...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/dedge-channel-manager">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -282,7 +282,7 @@ function CentralInventory() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/gds-hotel-solutions">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

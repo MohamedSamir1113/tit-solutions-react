@@ -179,7 +179,7 @@ function PriceRecommendation() {
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/hotels-resorts">
+                            <Link to="/price-monitoring">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>
@@ -231,7 +231,7 @@ function PriceRecommendation() {
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/hotels-resorts">
+                            <Link to="/performance-analysis">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>

@@ -186,7 +186,7 @@ function GuestLoyalty() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/hotel-crm">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -238,7 +238,7 @@ function GuestLoyalty() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/guest-feedback">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

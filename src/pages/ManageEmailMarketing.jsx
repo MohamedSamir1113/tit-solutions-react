@@ -252,7 +252,7 @@ function ManageEmailMarketing() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/social-media-strategy">
+                          <Link to="/constant-contact">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

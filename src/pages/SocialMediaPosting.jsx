@@ -307,7 +307,7 @@ function SocialMediaPosting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/social-media-posting">
+                          <Link to="/social-media-graphics">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

@@ -229,7 +229,7 @@ function DigitalMarketingReporting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/google-analytics-implementation">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -281,7 +281,7 @@ function DigitalMarketingReporting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/website-360-reporting">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

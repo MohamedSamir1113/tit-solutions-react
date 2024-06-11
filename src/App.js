@@ -195,6 +195,8 @@ function App() {
             <Route path="performance-analysis" element={<PerformanceAnalysis/>} />
 
 
+            <Route path="industries" element={<Solutions/>} />
+      
             <Route path="about-us" element={<AboutUs />} />
             <Route path="clients" element={<OurClients />} />
             <Route path="portfolio" element={<Portfolio />} />

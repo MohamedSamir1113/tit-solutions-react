@@ -301,7 +301,7 @@ function LinkedInAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/snapchat-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -405,7 +405,7 @@ function LinkedInAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/vk-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

@@ -62,13 +62,13 @@ const Services = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Google Hotel Ads</a>
+                      <Link to="/google-ads">Google Hotel Ads</Link>
                     </li>
                     <li>
-                      <a href="#.">Bing Hotel Ads</a>
+                      <Link to="/bing-ads">Bing Hotel Ads</Link>
                     </li>
                     <li>
-                      <a href="#.">Yandex Ads In Egypt</a>
+                      <Link to="/yandex-ads">Yandex Ads In Egypt</Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -115,19 +115,19 @@ const Services = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Facebook Ads For Hotel</a>
+                      <Link to="/facebook-ads">Facebook Ads For Hotel</Link>
                     </li>
                     <li>
-                      <a href="#.">Instagram Marketing For Hotels</a>
+                      <Link to="/instagram-ads">Instagram Marketing For Hotels</Link>
                     </li>
                     <li>
-                      <a href="#.">Snapchat Ads For Hotel</a>
+                      <Link to="/snapchat-ads">Snapchat Ads For Hotel</Link>
                     </li>
                     <li>
-                      <a href="#.">VK Ads For Hotels</a>
+                      <Link to="/vk-ads">VK Ads For Hotels</Link>
                     </li>
                     <li>
-                      <a href="#.">Linkedin For Hotels</a>
+                      <Link to="/linkedin-ads">Linkedin For Hotels</Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -196,13 +196,13 @@ const Services = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Hotel Social Media Marketing</a>
+                      <Link to="/social-media-strategy">Hotel Social Media Strategy</Link>
                     </li>
                     <li>
-                      <a href="#.">Social Media Content For Hotels</a>
+                      <Link to="/social-media-posting">Social Media Content For Hotels</Link>
                     </li>
                     <li>
-                      <a href="#.">Social Media Design Services</a>
+                      <Link to="/social-media-graphics">Social Media Design Services</Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -212,9 +212,9 @@ const Services = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/social-media-management" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -246,10 +246,10 @@ const Services = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">E-Commerce Consultancy</a>
+                      <Link to="/e-commerce-consultancy">E-Commerce Consultancy</Link>
                     </li>
                     <li>
-                      <a href="#.">Hotel E-Commerce Management</a>
+                      <Link to="/e-commerce-management">Hotel E-Commerce Management</Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -259,9 +259,9 @@ const Services = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/hotel-e-commerce" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -326,9 +326,9 @@ const Services = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/search-engine-optimization" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -359,12 +359,12 @@ const Services = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Email Marketing For Hotels</a>
+                      <Link to="/manage-email-marketing">Email Marketing For Hotels</Link>
                     </li>
                     <li>
-                      <a href="#.">
+                      <Link to="/constant-contact">
                         Email Marketing For Hotels With "Constant Contact"
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -374,9 +374,9 @@ const Services = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/email-marketing" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -431,13 +431,13 @@ const Services = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Google analytics for hotels</a>
+                      <Link to="/google-analytics-implementation">Google analytics for hotels</Link>
                     </li>
                     <li>
-                      <a href="#.">Digital Marketing Reporting</a>
+                      <Link to="/digital-marketing-reporting">Digital Marketing Reporting</Link>
                     </li>
                     <li>
-                      <a href="#.">Google Analytics 360</a>
+                      <Link to="/website-360-reporting">Website Analytics 360</Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -447,9 +447,9 @@ const Services = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/reporting" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -487,9 +487,9 @@ const Services = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/hospitality-photography" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -559,9 +559,9 @@ const Services = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/asksuite-hotel-chatbot" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -607,9 +607,9 @@ const Services = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/the-hotels-network" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

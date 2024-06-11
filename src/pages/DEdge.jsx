@@ -61,16 +61,16 @@ const DEdge = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Booking Engine For Hotel</a>
+                      <Link to="/booking-engine-for-hotel">Booking Engine For Hotel</Link>
                     </li>
                     <li>
-                      <a href="#.">D-EDGE Channel Manager</a>
+                      <Link to="/dedge-channel-manager">D-EDGE Channel Manager</Link>
                     </li>
                     <li>
-                      <a href="#.">D-EDGE Inventory Management</a>
+                      <Link to="/d-edge-inventory-management">D-EDGE Inventory Management</Link>
                     </li>
                     <li>
-                      <a href="#.">GDS Hotel Solutions</a>
+                      <Link to="/gds-hotel-solutions">GDS Hotel Solutions</Link>
                     </li>
                    
                   </ul>
@@ -81,9 +81,9 @@ const DEdge = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/central-reservation-system" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -115,13 +115,13 @@ const DEdge = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Hotel CRM</a>
+                      <Link to="/hotel-crm">Hotel CRM</Link>
                     </li>
                     <li>
-                      <a href="#.">Guest Loyalty</a>
+                      <Link to="/guest-loyalty">Guest Loyalty</Link>
                     </li>
                     <li>
-                      <a href="#.">Guest Feedback</a>
+                      <Link to="/guest-feedback">Guest Feedback</Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -131,9 +131,9 @@ const DEdge = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/guest-management" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -188,13 +188,13 @@ const DEdge = () => {
                   </p>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#.">Price Monitoring</a>
+                      <Link to="/price-monitoring">Price Monitoring</Link>
                     </li>
                     <li>
-                      <a href="#.">Price Recommendation</a>
+                      <Link to="/price-recommendation">Price Recommendation</Link>
                     </li>
                     <li>
-                      <a href="#.">Performance Analysis</a>
+                      <Link to="/performance-analysis">Performance Analysis</Link>
                     </li>
                   </ul>
                   <div className="row  mt-4">
@@ -204,9 +204,9 @@ const DEdge = () => {
                           <div className="single_service_icon">
                             <i className="fa fa-share"></i>
                           </div>
-                          <a href="#." className="single_service_content">
+                          <Link to="/data-intelligence" className="single_service_content">
                             <h4> View More </h4>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

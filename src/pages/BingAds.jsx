@@ -308,7 +308,7 @@ function BingAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/yandex-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

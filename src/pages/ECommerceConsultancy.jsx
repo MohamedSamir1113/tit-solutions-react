@@ -262,7 +262,7 @@ function ECommerceConsultancy() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/social-media-strategy">
+                          <Link to="/e-commerce-management">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

@@ -9,7 +9,7 @@ function SocialMediaGraphics() {
   return (
     <>
       <BgArea
-        title1={`Social Media Graphic`}
+        title1={`Social Media Graphics`}
         title2={`Social Media Management`}
         path={`/social-media-management`}
       />

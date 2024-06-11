@@ -18,6 +18,7 @@ import meetingsReducer from "./meetings/meetingsSlice";
 import meetingDetailsReducer from "./meetings/meetingDetailsSlice";
 import galleryReducer from "./gallery/gallerySlice";
 import contactHotelReducer from "./contactHotel/contactHotelSlice";
+import loadingReducer from "./loadingSlice";
 
 export const store = configureStore({
   reducer: {
@@ -40,5 +41,6 @@ export const store = configureStore({
     meetingDetails: meetingDetailsReducer,
     gallery: galleryReducer,
     contactHotel: contactHotelReducer,
+    loadingReducer
   },
 });

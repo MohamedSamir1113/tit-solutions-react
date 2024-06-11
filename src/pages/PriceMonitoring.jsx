@@ -175,7 +175,7 @@ function PriceMonitoring() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/price-recommendation">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -227,7 +227,7 @@ function PriceMonitoring() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/performance-analysis">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

@@ -256,7 +256,7 @@ function Website360Reporting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/google-analytics-implementation">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -304,7 +304,7 @@ function Website360Reporting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/digital-marketing-reporting">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

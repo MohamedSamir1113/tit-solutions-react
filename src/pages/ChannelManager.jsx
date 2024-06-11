@@ -192,7 +192,7 @@ function ChannelManager() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/booking-engine-for-hotel">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -242,7 +242,7 @@ function ChannelManager() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/d-edge-inventory-management">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -294,7 +294,7 @@ function ChannelManager() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/gds-hotel-solutions">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
