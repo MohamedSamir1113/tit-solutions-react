@@ -151,8 +151,8 @@ function ConstantContact() {
                         <h4 className="py-4">Engagement Marketing Solutions</h4>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -164,8 +164,8 @@ function ConstantContact() {
 
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -178,8 +178,8 @@ function ConstantContact() {
                         </p>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >

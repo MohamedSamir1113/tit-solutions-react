@@ -149,8 +149,8 @@ function SnapchatAds() {
                       <div className="service-main-details-content-text pb-4">
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -159,8 +159,8 @@ function SnapchatAds() {
                         </p>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -174,8 +174,8 @@ function SnapchatAds() {
                           <h4 className="pb-10">1. Targeting</h4>
                           <p
                             style={{
-                              margin: "0 0 15px;",
-                              fontFamily: "open sans, sans-serif;",
+                              margin: "0 0 15px",
+                              fontFamily: "open sans, sans-serif",
                               lineHeight: "31px",
                             }}
                           >
@@ -191,8 +191,8 @@ function SnapchatAds() {
                           <h4 className="pb-10">2. Ad content creation</h4>
                           <p
                             style={{
-                              margin: "0 0 15px;",
-                              fontFamily: "open sans, sans-serif;",
+                              margin: "0 0 15px",
+                              fontFamily: "open sans, sans-serif",
                               lineHeight: "31px",
                             }}
                           >
@@ -207,8 +207,8 @@ function SnapchatAds() {
                           <h4 className="pb-10">3. Monitoring</h4>
                           <p
                             style={{
-                              margin: "0 0 15px;",
-                              fontFamily: "open sans, sans-serif;",
+                              margin: "0 0 15px",
+                              fontFamily: "open sans, sans-serif",
                               lineHeight: "31px",
                             }}
                           >
@@ -220,8 +220,8 @@ function SnapchatAds() {
                           </p>
                           <p
                             style={{
-                              margin: "0 0 15px;",
-                              fontFamily: "open sans, sans-serif;",
+                              margin: "0 0 15px",
+                              fontFamily: "open sans, sans-serif",
                               lineHeight: "31px",
                             }}
                           >

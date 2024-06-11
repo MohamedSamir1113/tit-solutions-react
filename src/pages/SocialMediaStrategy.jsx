@@ -155,8 +155,8 @@ function SocialMediaStrategy() {
                         </h4>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -170,8 +170,8 @@ function SocialMediaStrategy() {
 
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                             fontWeight: "700",
                             fontSize: "20px",
@@ -183,8 +183,8 @@ function SocialMediaStrategy() {
                         </p>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -198,8 +198,8 @@ function SocialMediaStrategy() {
 
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                             fontWeight: "700",
                             fontSize: "20px",
@@ -210,8 +210,8 @@ function SocialMediaStrategy() {
                         </p>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -222,8 +222,8 @@ function SocialMediaStrategy() {
 
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                             fontWeight: "700",
                             fontSize: "20px",
@@ -234,8 +234,8 @@ function SocialMediaStrategy() {
                         </p>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -248,8 +248,8 @@ function SocialMediaStrategy() {
 
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                             fontWeight: "700",
                             fontSize: "20px",
@@ -260,8 +260,8 @@ function SocialMediaStrategy() {
                         </p>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -273,8 +273,8 @@ function SocialMediaStrategy() {
 
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >

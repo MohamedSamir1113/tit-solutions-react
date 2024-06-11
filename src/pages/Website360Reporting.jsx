@@ -149,8 +149,8 @@ function Website360Reporting() {
                       <div className="service-main-details-content-text pb-4">
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -161,8 +161,8 @@ function Website360Reporting() {
 
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -172,8 +172,8 @@ function Website360Reporting() {
                         </p>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -194,8 +194,8 @@ function Website360Reporting() {
                         </div>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >

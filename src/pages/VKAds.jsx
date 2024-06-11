@@ -149,8 +149,8 @@ function VKAds() {
                       <div className="service-main-details-content-text pb-4">
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -163,8 +163,8 @@ function VKAds() {
                         </p>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
@@ -182,8 +182,8 @@ function VKAds() {
                         </p>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >

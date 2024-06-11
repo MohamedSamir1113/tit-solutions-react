@@ -149,16 +149,16 @@ function DigitalMarketingReporting() {
                       <div className="service-main-details-content-text pb-4">
                         <h4 className="pb-15"
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                           }}
                         >
                           It is all about digital marketing reporting.
                         </h4>
                         <p
                           style={{
-                            margin: "0 0 15px;",
-                            fontFamily: "open sans, sans-serif;",
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
                             lineHeight: "31px",
                           }}
                         >
