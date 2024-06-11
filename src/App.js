@@ -62,6 +62,10 @@ import ManageEmailMarketing from "./pages/ManageEmailMarketing.jsx";
 import GoogleAnalyticsImplementation from "./pages/GoogleAnalyticsImplementation.jsx";
 import DigitalMarketingReporting from "./pages/DigitalMarketingReporting.jsx";
 import Website360Reporting from "./pages/Website360Reporting.jsx";
+import BookingEngineForHotel from "./pages/BookingEngineForHotel.jsx";
+import ChannelManager from "./pages/ChannelManager.jsx";
+import CentralInventory from "./pages/CentralInventory.jsx";
+import GDSHotelSolutions from "./pages/GDSHotelSolutions.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -166,7 +170,13 @@ function App() {
             <Route path="services-details" element={<ServicesDetails />} />
             
             <Route path="d-edge" element={<DEdge />} />
+            
             <Route path="central-reservation-system" element={<CentralReservationSystem/>} />
+            <Route path="booking-engine-for-hotel" element={<BookingEngineForHotel/>} />
+            <Route path="dedge-channel-manager" element={<ChannelManager/>} />
+            <Route path="d-edge-inventory-management" element={<CentralInventory/>} />
+            <Route path="gds-hotel-solutions" element={<GDSHotelSolutions/>} />
+            
             <Route path="guest-management" element={<GuestManagement/>} />
             <Route path="data-intelligence" element={<DataIntelligence/>} />
 

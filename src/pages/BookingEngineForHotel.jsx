@@ -1,29 +1,28 @@
 import { useEffect } from "react";
-import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
+import BgArea from "../components/BgArea";
 import ContactForm from "../components/ContactForm";
-
-function TravelandTours() {
+function BookingEngineForHotel() {
   useEffect(() => {
-    document.title = "Travel and Tours";
+    document.title = "Booking Engine For Hotel";
   }, []);
   return (
     <>
       <BgArea
-        title1={`Travel and Tours`}
-        title2={`Website Development`}
-        path={`/website-development`}
+        title1={`Booking Engine For Hotel`}
+        title2={`Central Reservation System`}
+        path={`/central-reservation-system`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
           <div className="row">
-          <div className=" col-lg-4 col-md-5 col-sm-12 col-xs-12">
-              <h3 className="pb-15">Our Solutions:</h3>
+            <div className=" col-lg-4 col-md-5 col-sm-12 col-xs-12">
+              <h3 className="pb-15">OTHER D-EDGE SOLUTIONS</h3>
               <div className="service-details-pn-list">
                 <ul>
                   <li>
-                    <Link to="/website-development">
-                      Website Development
+                    <Link to="/guest-management">
+                      Guest Management
                       <span>
                         <i className="fa fa-angle-right"></i>
                       </span>
@@ -31,17 +30,8 @@ function TravelandTours() {
                   </li>
 
                   <li>
-                    <Link to="/booking-engine">
-                      Booking Engine
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to="/web-check-in-solution">
-                      Web Check-In Solution
+                    <Link to="/data-intelligence">
+                      Data Intelligence
                       <span>
                         <i className="fa fa-angle-right"></i>
                       </span>
@@ -86,20 +76,15 @@ function TravelandTours() {
                     <div className="service-main-details-inner">
                       <div className="service-main-details-inner-thumb">
                         <img
-                          src="assets/images/digital-marketing-in-egypt-for-hotels-solutions-travel-tours-202120114432949.jpg"
+                          src="assets/images/d_edge-booking-hotel-engine---the-best-booking-engine-for-hotel-20212415629738.jpg"
                           alt=""
                         />
                       </div>
                       <div className="service-main-details-content-title pt-4 pb-3">
-                        <h3>Travel & Tours</h3>
+                        <h3>Booking Engine For Hotel</h3>
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
-                        <Link to="/travel-tours">
-                          <h5>
-                            We offer Professional Tour and Travel Website Design
-                          </h5>
-                        </Link>
                         <p
                           style={{
                             margin: "0 0 15px",
@@ -107,15 +92,55 @@ function TravelandTours() {
                             lineHeight: "31px",
                           }}
                         >
-                          We offer unique & custom made Website Designing &
-                          Development for hospitality sector. Our solutions
-                          cover Travel agents, hotels, Resorts and Nile cruises.
-                          Our promise is to provide world-class website design
-                          with the ability to integrate with our user friendly
-                          Connect booking engine to take your website works as a
-                          powerful online agent for you. This will ensure
-                          presenting your image in the best way infront of your
-                          clientele & drive more sales.
+                          A professional booking engine has to be your first
+                          priority, as well as website creation. Having just a
+                          working reservation system is not enough; you need the
+                          best booking engine for hotels to not lose even a
+                          single booking.
+                        </p>
+
+                        <p
+                          style={{
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          D-EDGE's direct booking system is appropriate for all
+                          property sizes and accommodation types. It doesn't
+                          matter if you have only one space or 5, 10, or twenty
+                          or more rooms. Having one will enable you to direct
+                          your guests' communications and raise trust and
+                          loyalty.
+                        </p>
+
+                        <p
+                          style={{
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          You can build and market various promotional offers
+                          for your guests, packages, or arrangements for the
+                          weekend, summer, or winter through this reservation
+                          system. Sell vouchers and additional products and
+                          services, as a package with a room or standalone,
+                          without a room.
+                        </p>
+
+                        <p
+                          style={{
+                            margin: "0 0 15px",
+                            fontFamily: "open sans, sans-serif",
+                            lineHeight: "31px",
+                          }}
+                        >
+                          Also, your inventory for the number of available rooms
+                          and your pricing will be updated automatically from
+                          one main extranet calendar with just one click. You
+                          can rest assured that the system is working 24/7 on
+                          your behalf.
                         </p>
                         <p
                           style={{
@@ -124,57 +149,18 @@ function TravelandTours() {
                             lineHeight: "31px",
                           }}
                         >
-                          Working in the travel industry we have created booking
-                          systems, content management systems, booking engines
-                          integration and accounting systems and much more. And
-                          on top of all this, where required we deliver
-                          award-winning web designs.
+                          D-EDGE's advanced booking engine got you covered,
+                          whether your priority is high conversion rates,
+                          integrating the latest technology in hospitality, or
+                          finding a user-friendly system.
                         </p>
-
-                        <div className="py-3">
-                          <h4>Features of Travel & Tours Solution</h4>
-                          <ul class="list-bullets">
-                            <li>Domestic Package Module</li>
-                            <li>International Package Module</li>
-                            <li>Tours Module</li>
-                            <li>One Day Trip Module</li>
-                            <li>Egypt Hotels Module</li>
-                            <li>Nile Cruise Module</li>
-                            <li>Airport Transfer Module</li>
-                            <li>Honeymoon Module</li>
-                            <li>Visa Module</li>
-                            <li>Newsletter Module</li>
-                            <li>Trip Advisor Integration</li>
-                            <li>
-                              Amadeus Integration (Flight,Hotels, cars &amp;
-                              package)
-                            </li>
-                          </ul>
-                        </div>
-
-                        <div>
-                          <h4>
-                            Why choose us as Travel Website Development Company?
-                          </h4>
-                          <ul class="list-bullets">
-                            <li>Certified Travel Website Developers</li>
-                            <li>Talented Designers & Expert Developers</li>
-                            <li>Strong technology competency</li>
-                            <li>We Are Dedicated to Our Clients’ Success</li>
-                            <li>
-                              Our Websites & Emarketing Platforms are Easy to
-                              Manage
-                            </li>
-                          </ul>
-                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div className="service-main-details-content-title pt-4 pb-3">
-                    <h3>WEBSITE DEVELOPMENT:</h3>
+                    <h3>CENTRAL SYSTEM RESERVATION:</h3>
                   </div>
-                  
                 </div>
 
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
@@ -187,13 +173,11 @@ function TravelandTours() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Hotels and Resorts</h3>
+                          <h3>Channel Manager</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            We offer unique & custom made Website Designing &
-                            Development for hospitality sector. Our solutions
-                            cover Travel agents, hotels...
+                            This Channel Manager from D-Edge is ranked as the most easy-to-use tool by its 20,000 + users...
                           </p>
                         </div>
                       </div>
@@ -202,20 +186,18 @@ function TravelandTours() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-hotels-resorts-202120114146833.jpg)",
+                          "url(assets/images/channel-manager-for-hotels---booking-channel-manager---d-edge-channel-manager-20212510109135.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Hotels and Resorts</h3>
+                          <h3>Channel Manager</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            We offer unique & custom made Website Designing &
-                            Development for hospitality sector. Our solutions
-                            cover Travel agents, hotels...
+                            This Channel Manager from D-Edge is ranked as the most easy-to-use tool by its 20,000 + users...
                           </p>
                         </div>
                         <div className="flipbox_button">
@@ -239,13 +221,11 @@ function TravelandTours() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>Nile Cruises</h3>
+                          <h3>Central Inventory</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Join our satisfied clients and let us create the
-                            responsive website that you dream about for your
-                            Nile Cruise business...{" "}
+                           Having effective hotel inventory management is a core aspect of running a successful business...
                           </p>
                         </div>
                       </div>
@@ -254,24 +234,22 @@ function TravelandTours() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruises-202130133148568.jpg)",
+                          "url(assets/images/d-edge-inventory-management---hotel-management-system---hotel-inventory-management-2021251054075.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>Nile Cruises</h3>
+                          <h3>Central Inventory</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Join our satisfied clients and let us create the
-                            responsive website that you dream about for your
-                            Nile Cruise business...{" "}
+                           Having effective hotel inventory management is a core aspect of running a successful business...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/nile-cruises">
+                          <Link to="/hotels-resorts">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -280,6 +258,7 @@ function TravelandTours() {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6">
                   <div className="techno_flipbox mb-30">
                     <div className="techno_flipbox_font">
@@ -290,13 +269,11 @@ function TravelandTours() {
                           </div>
                         </div>
                         <div className="flipbox_title">
-                          <h3>General Purposes</h3>
+                          <h3>GDS Solutions</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Creating customized websites to meet unique business
-                            requirements is an essential asset to any
-                            organization that wants to generate...{" "}
+                           With GDS Hotel Solutions from D-EDGE, we help you increase your hotel brand visibility and distribute your presence...
                           </p>
                         </div>
                       </div>
@@ -305,24 +282,22 @@ function TravelandTours() {
                       className="techno_flipbox_back "
                       style={{
                         backgroundImage:
-                          "url(assets/images/digital-marketing-in-egypt-for-hotels-solutions-general-purposes-202120115030332.jpg)",
+                          "url(assets/images/gds-solutions---gds-booking-20212510649355.jpg)",
                         backgroundPosition: "center center",
                         backgroundSize: "cover",
                       }}
                     >
                       <div className="techno_flipbox_inner">
                         <div className="flipbox_title">
-                          <h3>General Purposes</h3>
+                          <h3>GDS Solutions</h3>
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            Creating customized websites to meet unique business
-                            requirements is an essential asset to any
-                            organization that wants to generate...{" "}
+                           With GDS Hotel Solutions from D-EDGE, we help you increase your hotel brand visibility and distribute your presence...
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/general-purposes">
+                          <Link to="/hotels-resorts">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -343,4 +318,4 @@ function TravelandTours() {
   );
 }
 
-export default TravelandTours;
+export default BookingEngineForHotel;

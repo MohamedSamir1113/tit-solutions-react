@@ -405,7 +405,7 @@ const Layout = () => {
                           >
                             Solutions <i className="fa fa-angle-down"></i>
                           </Link>
-                          <ul className="row   justify-content-between align-items-top">
+                          <ul className="row justify-content-between align-items-top">
                             <li>
                               <ul className="text-center">
                                 <li>
@@ -687,11 +687,39 @@ const Layout = () => {
                             <i className="fa fa-angle-down"></i>
                           </Link>
                           <ul className="normal-sub">
-                            <li>
-                              <Link to="central-reservation-system">
+                            <li className="position-relative">
+                              <Link
+                                className="d-flex justify-content-between align-items-center"
+                                to="central-reservation-system"
+                              >
                                 Central Reservation System
+                                <i className="fa fa-caret-right"></i>
                               </Link>
+
+                              <ul className="sub-sub-menu">
+                                <li>
+                                  <Link to="/booking-engine-for-hotel">
+                                    Booking Engine
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/dedge-channel-manager">
+                                    Channel Manager
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/d-edge-inventory-management">
+                                    Central Inventory
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/gds-hotel-solutions">
+                                    GDS Solutions
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
+
                             <li>
                               <Link to="guest-management">
                                 Guest Management
