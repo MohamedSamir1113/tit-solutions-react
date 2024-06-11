@@ -92,7 +92,10 @@ function ChannelManager() {
                             lineHeight: "31px",
                           }}
                         >
-                          This Channel Manager from D-Edge is ranked as the most easy-to-use tool by its 20,000 + users. With D-EDGE, you can simultaneously distribute all your hotel rooms on over 300 channels.
+                          This Channel Manager from D-Edge is ranked as the most
+                          easy-to-use tool by its 20,000 + users. With D-EDGE,
+                          you can simultaneously distribute all your hotel rooms
+                          on over 300 channels.
                         </p>
 
                         <p
@@ -102,7 +105,12 @@ function ChannelManager() {
                             lineHeight: "31px",
                           }}
                         >
-                          If you are marketing your rooms through multiple online channels – such as online travel agents or your own website – then definitely you can not keep up with updating all of those channels with the rapidly changing rates and availability. Then a booking channel manager should be your first choice.
+                          If you are marketing your rooms through multiple
+                          online channels – such as online travel agents or your
+                          own website – then definitely you can not keep up with
+                          updating all of those channels with the rapidly
+                          changing rates and availability. Then a booking
+                          channel manager should be your first choice.
                         </p>
 
                         <p
@@ -112,7 +120,13 @@ function ChannelManager() {
                             lineHeight: "31px",
                           }}
                         >
-                          Investing in D-EDGE Channel Manager will make your life easier. By using it, you can sell all your rooms on all your connected booking sites at the same time. It will automatically update and synchronize your availability in real-time on all sites when a booking is made when you close a room to sale or when you want to make bulk changes to your inventory.
+                          Investing in D-EDGE Channel Manager will make your
+                          life easier. By using it, you can sell all your rooms
+                          on all your connected booking sites at the same time.
+                          It will automatically update and synchronize your
+                          availability in real-time on all sites when a booking
+                          is made when you close a room to sale or when you want
+                          to make bulk changes to your inventory.
                         </p>
 
                         <p
@@ -122,9 +136,11 @@ function ChannelManager() {
                             lineHeight: "31px",
                           }}
                         >
-                          The channel manager along with effective booking engine from D-EDGE was created to help hoteliers steadily increase profits while improving brand recognition around the globe.
+                          The channel manager along with effective booking
+                          engine from D-EDGE was created to help hoteliers
+                          steadily increase profits while improving brand
+                          recognition around the globe.
                         </p>
-                       
                       </div>
                     </div>
                   </div>
@@ -148,7 +164,9 @@ function ChannelManager() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            A professional booking engine has to be your first priority, as well as website creation. Having just a working reservation system is not enough...
+                            A professional booking engine has to be your first
+                            priority, as well as website creation. Having just a
+                            working reservation system is not enough...
                           </p>
                         </div>
                       </div>
@@ -168,7 +186,9 @@ function ChannelManager() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            A professional booking engine has to be your first priority, as well as website creation. Having just a working reservation system is not enough...
+                            A professional booking engine has to be your first
+                            priority, as well as website creation. Having just a
+                            working reservation system is not enough...
                           </p>
                         </div>
                         <div className="flipbox_button">
