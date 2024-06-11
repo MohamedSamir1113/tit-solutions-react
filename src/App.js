@@ -66,6 +66,9 @@ import BookingEngineForHotel from "./pages/BookingEngineForHotel.jsx";
 import ChannelManager from "./pages/ChannelManager.jsx";
 import CentralInventory from "./pages/CentralInventory.jsx";
 import GDSHotelSolutions from "./pages/GDSHotelSolutions.jsx";
+import HotelCRM from "./pages/HotelCRM.jsx";
+import GuestLoyalty from "./pages/GuestLoyalty.jsx";
+import GuestFeedback from "./pages/GuestFeedback.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -178,6 +181,11 @@ function App() {
             <Route path="gds-hotel-solutions" element={<GDSHotelSolutions/>} />
             
             <Route path="guest-management" element={<GuestManagement/>} />
+            <Route path="hotel-crm" element={<HotelCRM/>} />
+            <Route path="guest-loyalty" element={<GuestLoyalty/>} />
+            <Route path="guest-feedback" element={<GuestFeedback/>} />
+            
+            
             <Route path="data-intelligence" element={<DataIntelligence/>} />
 
 

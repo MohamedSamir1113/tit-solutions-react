@@ -70,11 +70,9 @@ const DEdge = () => {
                       <a href="#.">D-EDGE Inventory Management</a>
                     </li>
                     <li>
-                      <a href="#.">GDS Hotel DEdge</a>
+                      <a href="#.">GDS Hotel Solutions</a>
                     </li>
-                    <li>
-                      <a href="#.">Linkedin For Hotels</a>
-                    </li>
+                   
                   </ul>
                   <div className="row  mt-4">
                     <div className="col-lg-6 col-sm-6">

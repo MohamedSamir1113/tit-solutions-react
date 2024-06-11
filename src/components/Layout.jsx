@@ -720,16 +720,39 @@ const Layout = () => {
                               </ul>
                             </li>
 
-                            <li>
-                              <Link to="guest-management">
+                            <li className="position-relative">
+                              <Link
+                                className="d-flex justify-content-between align-items-center"
+                                to="guest-management"
+                              >
                                 Guest Management
+                                <i className="fa fa-caret-right"></i>
                               </Link>
+
+                              <ul className="sub-sub-menu">
+                                <li>
+                                  <Link to="/hotel-crm">Hotel CRM</Link>
+                                </li>
+                                <li>
+                                  <Link to="/guest-loyalty">Guest Loyalty</Link>
+                                </li>
+                                <li>
+                                  <Link to="/guest-feedback">
+                                    Guest Feedback
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
-                            <li>
-                              <Link to="data-intelligence">
+
+                            <li className="position-relative">
+                              <Link className="d-flex justify-content-between align-items-center" to="data-intelligence">
                                 Data Intelligence
+                                <i className="fa fa-caret-right"></i>
                               </Link>
+
+                              
                             </li>
+
                           </ul>
                         </li>
                         <li className="menu-dropdown-icon">
