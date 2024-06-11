@@ -177,7 +177,8 @@ function BookingEngineForHotel() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            This Channel Manager from D-Edge is ranked as the most easy-to-use tool by its 20,000 + users...
+                            This Channel Manager from D-Edge is ranked as the
+                            most easy-to-use tool by its 20,000 + users...
                           </p>
                         </div>
                       </div>
@@ -197,7 +198,8 @@ function BookingEngineForHotel() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                            This Channel Manager from D-Edge is ranked as the most easy-to-use tool by its 20,000 + users...
+                            This Channel Manager from D-Edge is ranked as the
+                            most easy-to-use tool by its 20,000 + users...
                           </p>
                         </div>
                         <div className="flipbox_button">
@@ -225,7 +227,8 @@ function BookingEngineForHotel() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                           Having effective hotel inventory management is a core aspect of running a successful business...
+                            Having effective hotel inventory management is a
+                            core aspect of running a successful business...
                           </p>
                         </div>
                       </div>
@@ -245,7 +248,8 @@ function BookingEngineForHotel() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                           Having effective hotel inventory management is a core aspect of running a successful business...
+                            Having effective hotel inventory management is a
+                            core aspect of running a successful business...
                           </p>
                         </div>
                         <div className="flipbox_button">
@@ -273,7 +277,9 @@ function BookingEngineForHotel() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                           With GDS Hotel Solutions from D-EDGE, we help you increase your hotel brand visibility and distribute your presence...
+                            With GDS Hotel Solutions from D-EDGE, we help you
+                            increase your hotel brand visibility and distribute
+                            your presence...
                           </p>
                         </div>
                       </div>
@@ -293,7 +299,9 @@ function BookingEngineForHotel() {
                         </div>
                         <div className="flipbox_desc">
                           <p>
-                           With GDS Hotel Solutions from D-EDGE, we help you increase your hotel brand visibility and distribute your presence...
+                            With GDS Hotel Solutions from D-EDGE, we help you
+                            increase your hotel brand visibility and distribute
+                            your presence...
                           </p>
                         </div>
                         <div className="flipbox_button">
