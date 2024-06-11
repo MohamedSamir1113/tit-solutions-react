@@ -9,7 +9,7 @@ function GDSHotelSolutions() {
     return (
         <>
         <BgArea
-          title1={`D-EDGE Channel Manager`}
+          title1={`GDS Hotel Solutions`}
           title2={`Central Reservation System`}
           path={`/central-reservation-system`}
         />
