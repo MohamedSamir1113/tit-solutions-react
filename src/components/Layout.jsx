@@ -745,14 +745,32 @@ const Layout = () => {
                             </li>
 
                             <li className="position-relative">
-                              <Link className="d-flex justify-content-between align-items-center" to="data-intelligence">
+                              <Link
+                                className="d-flex justify-content-between align-items-center"
+                                to="data-intelligence"
+                              >
                                 Data Intelligence
                                 <i className="fa fa-caret-right"></i>
                               </Link>
 
-                              
+                              <ul className="sub-sub-menu">
+                                <li>
+                                  <Link to="/price-monitoring">
+                                    Price Monitoring
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/price-recommendation">
+                                    Price Recommendation
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/performance-analysis">
+                                    Performance Analysis
+                                  </Link>
+                                </li>
+                              </ul>
                             </li>
-
                           </ul>
                         </li>
                         <li className="menu-dropdown-icon">

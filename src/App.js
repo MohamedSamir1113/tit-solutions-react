@@ -69,6 +69,9 @@ import GDSHotelSolutions from "./pages/GDSHotelSolutions.jsx";
 import HotelCRM from "./pages/HotelCRM.jsx";
 import GuestLoyalty from "./pages/GuestLoyalty.jsx";
 import GuestFeedback from "./pages/GuestFeedback.jsx";
+import PriceMonitoring from "./pages/PriceMonitoring.jsx";
+import PriceRecommendation from "./pages/PriceRecommendation.jsx";
+import PerformanceAnalysis from "./pages/PerformanceAnalysis.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -187,6 +190,9 @@ function App() {
             
             
             <Route path="data-intelligence" element={<DataIntelligence/>} />
+            <Route path="price-monitoring" element={<PriceMonitoring/>} />
+            <Route path="price-recommendation" element={<PriceRecommendation/>} />
+            <Route path="performance-analysis" element={<PerformanceAnalysis/>} />
 
 
             <Route path="about-us" element={<AboutUs />} />
