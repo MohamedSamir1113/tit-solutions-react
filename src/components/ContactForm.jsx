@@ -55,7 +55,7 @@ function ContactForm() {
                           placeholder="Write a Message"
                         ></textarea>
                       </div>
-                      <div className="quote_btn text_center">
+                      <div className="quote_btn text_center pb-10">
                         <button className="btn" type="submit">
                           Send Message
                         </button>

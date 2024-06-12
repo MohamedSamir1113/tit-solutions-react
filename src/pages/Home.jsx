@@ -556,9 +556,9 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <Link to="/website-development">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -605,9 +605,9 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <Link to="/booking-engine">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -653,9 +653,9 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="flipbox_button">
-                      <a href="">
+                      <Link to="/web-check-in-solution">
                         Read More<i className="fa fa-angle-double-right"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -930,7 +930,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div className="feature_style_three_butoon">
-                    <a href="#">Read More</a>
+                    <Link to="/travel-tours">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -962,7 +962,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div className="feature_style_three_butoon">
-                    <a href="#">Read More</a>
+                    <Link to="/travel-tours">Read More</Link>
                   </div>
                 </div>
               </div>

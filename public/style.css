@@ -338,16 +338,29 @@ img.main_sticky {
   color: #fff;
 }
 
+.single_service_inner_thumb img {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+
+.single_service_brg img {
+  filter: hue-rotate(110deg);
+  /* opacity: 0.5; */
+
+}
+
 
 /* ––––––––––––––––––––––––––––––––––––––––––––––––––
 Mobile style's
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media only screen and (max-width: 959px) {
- 
-  
   .menu>ul>li>ul>li>ul.sub-sub-menu {
     display: none;
-    position: static; /* Change position to static for mobile */
+     /* Change position to static for mobile */
     left: auto; /* Remove left and top positioning */
     top: auto;
     margin: 0;
@@ -360,7 +373,7 @@ Mobile style's
 
   .menu>ul>li>ul>li:hover>ul.sub-sub-menu {
     display: block;
-    position: static; /* Change position to static for mobile */
+     /* Change position to static for mobile */
   }
 
   .menu>ul>li>ul>li>ul.sub-sub-menu>li {
@@ -452,6 +465,22 @@ Mobile style's
   .menu .show-on-mobile {
     display: block;
   }
+
+  .single_service_inner_thumb img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.single_service_brg img {
+    filter: hue-rotate(110deg);
+    /* opacity: 0.5; */
+
+}
 }
 
 html {

@@ -452,20 +452,7 @@ header.header-con {
     left: -2.65%;
 }
 
-.single_service_inner_thumb img {
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    text-align: center;
-    display: flex;
-}
 
-.single_service_brg img {
-    filter: hue-rotate(110deg);
-    /* opacity: 0.5; */
-
-}
 
 
 /* Dark Mode  */

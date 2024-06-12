@@ -73,6 +73,7 @@ import PriceMonitoring from "./pages/PriceMonitoring.jsx";
 import PriceRecommendation from "./pages/PriceRecommendation.jsx";
 import PerformanceAnalysis from "./pages/PerformanceAnalysis.jsx";
 import DigitalMarketingHotels from "./pages/DigitalMarketingHotels.jsx";
+import TravelAgencies from "./pages/TravelAgencies.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -198,6 +199,7 @@ function App() {
 
             <Route path="industries" element={<Solutions/>} />
             <Route path="digital-marketing-agency-for-hotels-in-egypt" element={<DigitalMarketingHotels/>} />
+            <Route path="travel-agencies" element={<TravelAgencies/>} />
       
             <Route path="about-us" element={<AboutUs />} />
             <Route path="clients" element={<OurClients />} />
