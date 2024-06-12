@@ -175,7 +175,7 @@ const Layout = () => {
                             </Link>
                           </li>
                           <li className="solutions">
-                            <Link to="/solutions">
+                            <Link onClick={(e) => handleLinkClick(e)} to="/solutions">
                               Solutions <i className="fa fa-angle-down"></i>
                             </Link>
                             <ul className="normal-sub">
@@ -1489,22 +1489,22 @@ const Layout = () => {
                       <div className="menu-quick-link-container ml-4">
                         <ul id="menu-quick-link" className="menu">
                           <li>
-                            <Link to="#.">Hotel & Resorts Website</Link>
+                            <Link to="/hotels-resorts">Hotel & Resorts Website</Link>
                           </li>
                           <li>
-                            <Link to="#.">Travel & Tours Website</Link>
+                            <Link to="/travel-tours">Travel & Tours Website</Link>
                           </li>
                           <li>
-                            <Link to="#.">Nile Cruises Websites</Link>
+                            <Link to="/nile-cruises">Nile Cruises Websites</Link>
                           </li>
                           <li>
-                            <Link to="#.">D-Edge Booking Engine</Link>
+                            <Link to="/booking-engine-for-hotel">D-Edge Booking Engine</Link>
                           </li>
                           <li>
-                            <Link to="#.">SynXis Booking Engine</Link>
+                            <Link to="/SynXis">SynXis Booking Engine</Link>
                           </li>
                           <li>
-                            <Link to="#.">Web Check-In Solution</Link>
+                            <Link to="/web-check-in-solution">Web Check-In Solution</Link>
                           </li>
                         </ul>
                       </div>
@@ -1516,25 +1516,25 @@ const Layout = () => {
                       <div className="menu-quick-link-container ml-4">
                         <ul id="menu-quick-link" className="menu">
                           <li>
-                            <Link to="#.">Search Engine Marketing</Link>
+                            <Link to="/search-engine-marketing">Search Engine Marketing</Link>
                           </li>
                           <li>
-                            <Link to="#.">Social Media Marketing</Link>
+                            <Link to="/social-media-marketing">Social Media Marketing</Link>
                           </li>
                           <li>
-                            <Link to="#.">Social Media Managements</Link>
+                            <Link to="/social-media-management">Social Media Managements</Link>
                           </li>
                           <li>
-                            <Link to="#.">Hotel E-Commerce</Link>
+                            <Link to="/hotel-e-commerce">Hotel E-Commerce</Link>
                           </li>
                           <li>
-                            <Link to="#.">Search Engine Optimization</Link>
+                            <Link to="/search-engine-optimization">Search Engine Optimization</Link>
                           </li>
                           <li>
-                            <Link to="#.">Email Marketing</Link>
+                            <Link to="/email-marketing">Email Marketing</Link>
                           </li>
                           <li>
-                            <Link to="#.">Digital Marketing Reporting</Link>
+                            <Link to="/digital-marketing-reporting">Digital Marketing Reporting</Link>
                           </li>
                         </ul>
                       </div>

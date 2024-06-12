@@ -903,7 +903,7 @@ const Home = () => {
             </div>
           </div>
           <div className="row  justify-content-center">
-            <div className="col-lg-6 col-md-6 col-sm-12">
+            <div className="col-lg-6 col-md-6 mb-2 mb-2 col-sm-12">
               <div className="feature_style_three ">
                 <div className="feature_style_tree_thumb">
                   <img
@@ -930,7 +930,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div className="feature_style_three_butoon">
-                    <Link to="/travel-tours">Read More</Link>
+                    <Link to="/website-development">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -962,7 +962,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div className="feature_style_three_butoon">
-                    <Link to="/travel-tours">Read More</Link>
+                    <Link to="/digital-marketing-agency-for-hotels-in-egypt">Read More</Link>
                   </div>
                 </div>
               </div>
@@ -977,29 +977,29 @@ const Home = () => {
               <div className="single_case_study">
                 <div className="single_case_study_inner">
                   <div className="single_case_study_thumb">
-                    <a href="case-study-details.html">
+                    <Link to="">
                       <img
                         src="assets/images/services/s1.jpg"
                         alt="Service 1"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">
+                        <Link to="/search-engine-marketing">
                           Search Engine Marketing
-                        </a>
+                        </Link>
                       </h2>
                       <ul className="text-center">
                         <li>
-                          <a href="#.">Google Hotel Ads</a>
+                          <Link to="/google-ads">Google Hotel Ads</Link>
                         </li>
                         <li>
-                          <a href="#.">Bing Hotel Ads</a>
+                          <Link to="/bing-ads">Bing Hotel Ads</Link>
                         </li>
                         <li>
-                          <a href="#.">Yandex Ads In Egypt</a>
+                          <Link to="/yandex-ads">Yandex Ads In Egypt</Link>
                         </li>
                       </ul>
                     </div>
@@ -1019,25 +1019,25 @@ const Home = () => {
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">
+                        <Link to="/social-media-marketing">
                           Social Media Marketing
-                        </a>
+                        </Link>
                       </h2>
                       <ul className="text-center">
                         <li>
-                          <a href="#.">Facebook Ads For Hotel</a>
+                          <Link to="/facebook-ads">Facebook Ads For Hotel</Link>
                         </li>
                         <li>
-                          <a href="#.">Instagram Marketing For Hotels</a>
+                          <Link to="/instagram-ads">Instagram Marketing For Hotels</Link>
                         </li>
                         <li>
-                          <a href="#.">Snapchat Ads For Hotel</a>
+                          <Link to="/snapchat-ads">Snapchat Ads For Hotel</Link>
                         </li>
                         <li>
-                          <a href="#.">VK Ads For Hotels</a>
+                          <Link to="/vk-ads">VK Ads For Hotels</Link>
                         </li>
                         <li>
-                          <a href="#.">LinkedIn For Hotels</a>
+                          <Link to="/">LinkedIn For Hotels</Link>
                         </li>
                       </ul>
                     </div>
@@ -1057,19 +1057,19 @@ const Home = () => {
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">
+                        <Link to="/social-media-management">
                           Social Media Management
-                        </a>
+                        </Link>
                       </h2>
                       <ul className="text-center">
                         <li>
-                          <a href="#.">Hotel Social Media Marketing</a>
+                          <Link to="/social-media-strategy">Hotel Social Media Strategy</Link>
                         </li>
                         <li>
-                          <a href="#.">Social Media Content For Hotels</a>
+                          <Link to="/social-media-posting">Social Media Posting</Link>
                         </li>
                         <li>
-                          <a href="#.">Social Media Design Services</a>
+                          <Link to="/social-media-graphics">Social Media Design Services</Link>
                         </li>
                       </ul>
                     </div>
@@ -1089,14 +1089,14 @@ const Home = () => {
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">Hotel E-Commerce</a>
+                        <Link to="/hotel-e-commerce">Hotel E-Commerce</Link>
                       </h2>
                       <ul className="text-center">
                         <li>
-                          <a href="#.">E-Commerce Consultancy</a>
+                          <Link to="/e-commerce-consultancy">E-Commerce Consultancy</Link>
                         </li>
                         <li>
-                          <a href="#.">Hotel E-Commerce Management</a>
+                          <Link to="/e-commerce-management">Hotel E-Commerce Management</Link>
                         </li>
                       </ul>
                     </div>
@@ -1116,13 +1116,13 @@ const Home = () => {
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">
+                        <Link to="/search-engine-optimization">
                           Search Engine Optimization
-                        </a>
+                        </Link>
                       </h2>
                       <ul className="text-center">
                         <li>
-                          <a href="#.">CONTINUE READING</a>
+                          <Link to="/Search-engine-optimization">CONTINUE READING</Link>
                         </li>
                       </ul>
                     </div>
@@ -1142,14 +1142,14 @@ const Home = () => {
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">Email Marketing</a>
+                        <Link to="/email-marketing">Email Marketing</Link>
                       </h2>
                       <ul className="text-center">
                         <li>
-                          <a href="#.">Constant Contact</a>
+                          <Link to="/constant-contact">Constant Contact</Link>
                         </li>
                         <li>
-                          <a href="#.">Email Marketing For Hotels</a>
+                          <Link to="/manage-email-marketing">Email Marketing For Hotels</Link>
                         </li>
                       </ul>
                     </div>
@@ -1169,17 +1169,17 @@ const Home = () => {
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">Reporting</a>
+                        <Link to="/reporting">Reporting</Link>
                       </h2>
                       <ul className="text-center">
                         <li>
-                          <a href="#.">Google analytics for hotels</a>
+                          <Link to="/google-analytics-implementation">Google analytics for hotels</Link>
                         </li>
                         <li>
-                          <a href="#.">Digital Marketing Reporting</a>
+                          <Link to="/digital-marketing-reporting">Digital Marketing Reporting</Link>
                         </li>
                         <li>
-                          <a href="#.">Google Analytics 360</a>
+                          <Link to="/website-360-reporting">Google Analytics 360</Link>
                         </li>
                       </ul>
                     </div>
@@ -1199,9 +1199,9 @@ const Home = () => {
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">
+                        <Link to="/hospitality-photography">
                           Hospitality Photography
-                        </a>
+                        </Link>
                       </h2>
                     </div>
                   </div>
@@ -1220,9 +1220,9 @@ const Home = () => {
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">
+                        <Link to="/asksuite-hotel-chatbot">
                           Asksuite Hotel Chatbot
-                        </a>
+                        </Link>
                       </h2>
                     </div>
                   </div>
@@ -1241,7 +1241,7 @@ const Home = () => {
                   <div className="single_case_study_content">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <a href="case-study-details.html">The Hotels Network</a>
+                        <Link to="/the-hotels-network">The Hotels Network</Link>
                       </h2>
                     </div>
                   </div>
