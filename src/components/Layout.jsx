@@ -1510,7 +1510,7 @@ const Layout = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3    col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="widget widget-nav-menu ">
                       <h4 className="widget-title pb-4">Our Services</h4>
                       <div className="menu-quick-link-container ml-4">

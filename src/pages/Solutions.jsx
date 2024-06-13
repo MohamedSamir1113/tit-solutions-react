@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
+import BgArea from "../components/BgArea";
+import Section1Area from "../components/Section1Area";
+import Section2Area from "../components/Section2Area";
 
 const Solutions = () => {
   useEffect(() => {
@@ -8,212 +11,57 @@ const Solutions = () => {
 
   return (
     <>
-      <div className="breatcome_area d-flex align-items-center">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="breatcome_title">
-                <div className="breatcome_title_inner pb-2">
-                  <h2>Solutions</h2>
-                </div>
-                <div className="breatcome_content">
-                  <ul>
-                    <li>
-                      <Link to="/">Home</Link>{" "}
-                      <i className="fa fa-angle-right"></i>
-                      <span>Solutions</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="service_area style2 pt-80 pb-70">
-        <div className="container">
-          <div className="row justify-content-between align-items-center">
-            <div className="col-lg-5  ">
-              <div className="service_single_thumb left ">
-                <div className="single_service_inner_thumb m-0  ">
-                  <img src="assets/images/solutions/s1.jpg" alt="" />
-                </div>
-                <div className="single_service_brg">
-                  <div className="single_service_brg_thumb rotateme">
-                    <img src="assets/images/service-rot.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6  ">
-              <div className="section_title text_left  ">
-                <div className="section_main_title">
-                  <h1>Website Development</h1>
-                </div>
-                <div className="em_bar">
-                  <div className="em_bar_bg"></div>
-                </div>
-                <div className="section_content_text pt-4">
-                  <p>
-                    We deliver intuitive and fast websites services for the
-                    hospitality industry and more! Our web developers can build
-                    custom websites that meet your customers' expectations and
-                    make you win the competition with your website's appearance,
-                    usability, and accessibility.
-                  </p>
-                  <ul className="list-unstyled">
-                    <li>
-                      <Link to="/hotels-resorts">Hotels & Resorts</Link>
-                    </li>
-                    <li>
-                      <Link to="/travel-tours">Travel & Tours</Link>
-                    </li>
-                    <li>
-                      <Link to="/nile-cruises">Nile Cruises</Link>
-                    </li>
-                    <li>
-                      <Link to="/general-purposes">General Purposes</Link>
-                    </li>
-                  </ul>
-                  <div className="row  mt-4">
-                    <div className="col-lg-6 col-sm-6">
-                      <div className="single_service">
-                        <div className="single_service_inner">
-                          <div className="single_service_icon">
-                            <i className="fa fa-share"></i>
-                          </div>
-                          <Link
-                            to="/website-development"
-                            className="single_service_content"
-                          >
-                            <h4> View More </h4>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="service_area bg_color2 pt-80 pb-70">
-        <div className="container">
-          <div className="row justify-content-between align-items-center">
-            <div className="col-lg-6  ">
-              <div className="section_title text_left  ">
-                <div className="section_main_title">
-                  <h1>Booking Engine</h1>
-                </div>
-                <div className="em_bar">
-                  <div className="em_bar_bg"></div>
-                </div>
-                <div className="section_content_text pt-4">
-                  <p>
-                    With a user-friendly booking engine that works as a sales
-                    channel for your hotel, you can maximize your direct
-                    bookings easily! We provide you with a powerful reservation
-                    system that allows you to create specials, handle multiple
-                    rooms bookings, upsell services, and much more.
-                  </p>
-                  <ul className="list-unstyled">
-                    <li>
-                      <Link to="/attraction-d-edge">Attraction D-Edge</Link>
-                    </li>
-                    <li>
-                      <Link to="/SynXis">SynXis</Link>
-                    </li>
-                    <li>
-                      <Link to="/nile-cruise-booking-engine">
-                        Nile Cruise Booking Engine
-                      </Link>
-                    </li>
-                  </ul>
-                  <div className="row  mt-4">
-                    <div className="col-lg-6 col-sm-6">
-                      <div className="single_service">
-                        <div className="single_service_inner">
-                          <div className="single_service_icon">
-                            <i className="fa fa-share"></i>
-                          </div>
-                          <Link to="/booking-engine" className="single_service_content">
-                            <h4> View More </h4>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-5  ">
-              <div className="service_single_thumb left ">
-                <div className="single_service_inner_thumb m-0  ">
-                  <img src="assets/images/solutions/s2.jpg" alt="" />
-                </div>
-                <div className="single_service_brg">
-                  <div className="single_service_brg_thumb rotateme">
-                    <img src="assets/images/service-rot.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="service_area style2 pt-80 pb-70">
-        <div className="container">
-          <div className="row justify-content-between align-items-center">
-            <div className="col-lg-5  ">
-              <div className="service_single_thumb left ">
-                <div className="single_service_inner_thumb m-0  ">
-                  <img src="assets/images/solutions/s3.jpg" alt="" />
-                </div>
-                <div className="single_service_brg">
-                  <div className="single_service_brg_thumb rotateme">
-                    <img src="assets/images/service-rot.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 ">
-              <div className="section_title text_left  ">
-                <div className="section_main_title">
-                  <h1>Web Check-In Solution</h1>
-                </div>
-                <div className="em_bar">
-                  <div className="em_bar_bg"></div>
-                </div>
-                <div className="section_content_text pt-4">
-                  <p>
-                    During this challenging time, Hotels & Resorts need to
-                    implement a solution to facilitate a smooth, fast, and
-                    paperless Check-In for the guests. Our solution ensures a
-                    better experience for our guests and more reliable
-                    protection for our teams.
-                  </p>
+      <BgArea title1="Solution" title2="Home" path="/" />
+      <Section1Area
+        title="Website Development"
+        description="We deliver intuitive and fast websites services for the hospitality industry and more! Our web developers can build custom websites that meet your customers' expectations and make you win the competition with your website's appearance, usability, and accessibility."
+        list={
+          <ul className="list-unstyled">
+            <li>
+              <Link to="/hotels-resorts">Hotels & Resorts</Link>
+            </li>
+            <li>
+              <Link to="/travel-tours">Travel & Tours</Link>
+            </li>
+            <li>
+              <Link to="/nile-cruises">Nile Cruises</Link>
+            </li>
+            <li>
+              <Link to="/general-purposes">General Purposes</Link>
+            </li>
+          </ul>
+        }
+        imgSrc="assets/images/solutions/s1.jpg"
+        linkPath="/website-development"
+      />
+      <Section2Area
+        title="Booking Engine"
+        description="With a user-friendly booking engine that works as a sales channel for your hotel, you can maximize your direct bookings easily! We provide you with a powerful reservation system that allows you to create specials, handle multiple rooms bookings, upsell services, and much more."
+        imgSrc="assets/images/solutions/s2.jpg"
+        list={
+          <ul className="list-unstyled">
+            <li>
+              <Link to="/attraction-d-edge">Attraction D-Edge</Link>
+            </li>
+            <li>
+              <Link to="/SynXis">SynXis</Link>
+            </li>
+            <li>
+              <Link to="/nile-cruise-booking-engine">
+                Nile Cruise Booking Engine
+              </Link>
+            </li>
+          </ul>
+        }
+        linkPath="/booking-engine"
+      />
 
-                  <div className="row  mt-4">
-                    <div className="col-lg-6 col-sm-6">
-                      <div className="single_service">
-                        <div className="single_service_inner">
-                          <div className="single_service_icon">
-                            <i className="fa fa-share"></i>
-                          </div>
-                          <Link to="/web-check-in-solution" className="single_service_content">
-                            <h4> View More </h4>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Section1Area
+        title="Web Check-In Solution"
+        imgSrc="assets/images/solutions/s3.jpg"
+        description="During this challenging time, Hotels & Resorts need to implement a solution to facilitate a smooth, fast, and paperless Check-In for the guests. Our solution ensures a better experience for our guests and more reliable protection for our teams."
+        linkPath="/web-check-in-solution"
+      />
     </>
   );
 };

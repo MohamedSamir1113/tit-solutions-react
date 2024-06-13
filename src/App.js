@@ -19,7 +19,8 @@ import AboutUs from "./pages/AboutUs.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import OurClients from "./pages/OurClients.jsx";
 import News from "./pages/News.jsx";
-import NewsDetails from "./pages/NewsDetails.jsx";
+
+import GooglePremierPartner from "./pages/GooglePremierPartner.jsx";
 import ServicesDetails from "./pages/ServicesDetails.jsx";
 import WebsiteDevelopment from "./pages/WebsiteDevelopment.jsx";
 import HotelandResorts from "./pages/HotelandResorts.jsx";
@@ -74,6 +75,15 @@ import PriceRecommendation from "./pages/PriceRecommendation.jsx";
 import PerformanceAnalysis from "./pages/PerformanceAnalysis.jsx";
 import DigitalMarketingHotels from "./pages/DigitalMarketingHotels.jsx";
 import TravelAgencies from "./pages/TravelAgencies.jsx";
+import DubaiHotelShow from "./pages/DubaiHotelShow.jsx";
+import RiyadhTravelFair from "./pages/RiyadhTravelFair.jsx";
+import ATMDubai from "./pages/ATMDubai.jsx";
+import Travco from "./pages/Travco.jsx";
+import CleoPark from "./pages/CleoPark.jsx";
+import Duetto from "./pages/Duetto.jsx";
+import Berlin from "./pages/Berlin.jsx";
+import ChrismarTravel from "./pages/ChrismarTravel.jsx";
+import TawilaIsland from "./pages/TawilaIsland.jsx";
 
 function App() {
   // const dispatch = useDispatch();
@@ -107,7 +117,145 @@ function App() {
   //   document.body.style.direction =
   //     document.body.style.direction === "rtl" ? "ltr" : "rtl";
   // };
+  
 
+  const blogPosts = [
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/dubai-show-Website-banner.jpg",
+      date: "2",
+      month: "JUNE",
+      year: "2024",
+      title: "We're Heading Back to Dubai for The Hotel Show",
+      description: `We are thrilled to announce our participation in The Hotel Show in Dubai, the ultimate hub for the hospitality industry! This premier event is`,
+      linkPath: "/dubai-hotel-show",
+      colorClass: "",
+    },
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/RIYADH-WEBSITE.jpg",
+      date: "25",
+      month: "MAY",
+      year: "2024",
+      title:
+        "T.I.T Solutions Announces Participation in Riyadh Travel Fair 2024",
+      description: `T.I.T Solutions is pleased to announce that our Managing Director, Dr. Mohamed Taha, will participate in the Riyadh Travel Fair, the premier tourism event in Saudi Arabia, from May 27 to 29, 2024.We are eager`,
+      linkPath: "/riyadh-travel-fair-2024",
+      colorClass: "color2",
+    },
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/ATM-Website-banner.jpg",
+      date: "4",
+      month: "MAY",
+      year: "2024",
+      title:
+        "Glad to Attend ATM Dubai 2024: Connecting with Industry Leaders and Forging New Partnerships",
+      description: `We are delighted to announce our participation in the prestigious Arabian Travel Market (ATM) 2024, set to take place in Dubai from May 6th to May 9th.
+
+This significant event will witness the presence`,
+      linkPath: "/atm-dubai-2024",
+      colorClass: "color3",
+    },
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/news/google-w-tit-website.jpg",
+      date: "16",
+      month: "APR",
+      year: "2024",
+      title: "Google Premier Partner 2024",
+      description:
+        "T.I.T Solutions, a leading innovator in digital marketing strategies, has been honored once again as a Google Premier Partner for the year 2024. This consecutive recognition underscores the company's unwavering commitment to excellence, following its previous acknowledgment as a Google Premier Partner in 2023.",
+      linkPath: "/google-premier-partner-2024",
+      colorClass: "",
+    },
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/news/WS-Travco-Launch.png",
+      date: "2",
+      month: "APR",
+      year: "2024",
+      title: "T.I.T Solutions and Travco Group Launches A New Website",
+      description:
+        "T.I.T Solutions is taking pride in announcing the launch of the new website for Travco Group. The new website is designed to provide a cutting-edge and dynamic user experience. With a wide range of features and functionalities that cater to the diverse needs of the users.",
+      linkPath: "/travco-group",
+      colorClass: "color2",
+    },
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/news/WS-Cleopark-Launch.jpg",
+      date: "1",
+      month: "APR",
+      year: "2024",
+      title:
+        "T.I.T Solutions & Cleopark, owned By Sharm Dreams Holding, Shape a Digital Path to Adventure!",
+      description:
+        "T.I.T Solutions has launched the first-of-a-kind website for a water park for Cleopark, the premier water park in Sharm El Sheikh. Cleopark is owned by Sharm Dreams Holding and operated by The Jaz Hotel Group.",
+      linkPath: "/cleopark-owned-by-sharm",
+      colorClass: "color3",
+    },
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/news/duetto-website.jpg",
+      date: "5",
+      month: "Mar",
+      year: "2024",
+      title: `Driving Innovation In Profit Optimization:
+                        T.I.T.Solutions Partners with Duetto Software to
+                        Transform Hospitality field.`,
+      description: ` Exciting news! We have partnered with Duetto Software to
+                      revolutionize revenue management for hotels and resorts.
+                      With Duetto's cutting-edge technology, we are confident
+                      that we can deliver unparalleled value to our clients in
+                      the hospitality sector.`,
+      linkPath: "/partners-with-duetto-software",
+      colorClass: "",
+    },
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/news/Lets-meet-in-Berlin.jpg",
+      date: "3",
+      month: "Mar",
+      year: "2024",
+      title: `Let's meet in Berlin!`,
+      description: ` We are delighted to announce that our Managing Director,
+                      Dr. Mohamed Taha, will attend the renowned ITB Berlin
+                      Conference. This provides us with an excellent opportunity
+                      to explore potential partnerships, discuss industry
+                      trends, and showcase how T.I.T Solutions' team is changing
+                      the game in travel experiences.`,
+      linkPath: "/let-s-meet-in-berlin!",
+      colorClass: "color2",
+    },
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/news/chrismar-Website-banner-3.jpg",
+      date: "15",
+      month: "JAN",
+      year: "2024",
+      title: `Discover Chrismar Travel's Updated Online Presence,
+                        Crafted by T.I.T Solutions!`,
+      description: `  We are thrilled to share the exciting introduction of
+                      Chrismar Travel website. The new website promises to be an
+                      engaging gateway for travel enthusiasts, offering a
+                      seamless exploration of Chrismar's world of captivating
+                      destinations and experiences.`,
+      linkPath: "/discover-chrismar-travel",
+      colorClass: "color3",
+    },
+    {
+      id: `${Date.now()}-${Math.floor(Math.random() * 10000)}`,
+      imageSrc: "assets/images/TawilaIsland.jpg",
+      date: "1",
+      month: "JAN",
+      year: "2024",
+      title: "Tawila Island Flourishes with the Launch of Its New Website!",
+      description: `We are delighted to unveil the all-new Tawila Island website...`,
+      linkPath: "/tawila-island",
+      colorClass: "",
+    },
+   
+  ];
   return (
     <>
       <Router basename="/">
@@ -204,8 +352,19 @@ function App() {
             <Route path="about-us" element={<AboutUs />} />
             <Route path="clients" element={<OurClients />} />
             <Route path="portfolio" element={<Portfolio />} />
-            <Route path="news" element={<News />} />
-            <Route path="news-details" element={<NewsDetails />} />
+
+            <Route path="news" element={<News blogPosts={blogPosts}/>} />
+            <Route path="google-premier-partner-2024" element={<GooglePremierPartner blogPosts={blogPosts}/>} />
+            <Route path="dubai-hotel-show" element={<DubaiHotelShow blogPosts={blogPosts}/>} />
+            <Route path="riyadh-travel-fair-2024" element={<RiyadhTravelFair blogPosts={blogPosts}/>} />
+            <Route path="atm-dubai-2024" element={<ATMDubai blogPosts={blogPosts}/>} />
+            <Route path="travco-group" element={<Travco blogPosts={blogPosts}/>} />
+            <Route path="cleopark-owned-by-sharm" element={<CleoPark blogPosts={blogPosts}/>} />
+            <Route path="partners-with-duetto-software" element={<Duetto blogPosts={blogPosts}/>} />
+            <Route path="let-s-meet-in-berlin!" element={<Berlin blogPosts={blogPosts}/>} />
+            <Route path="discover-chrismar-travel" element={<ChrismarTravel blogPosts={blogPosts}/>} />
+            <Route path="tawila-island" element={<TawilaIsland blogPosts={blogPosts}/>} />
+           
             <Route path="contact-us" element={<ContactUs />} />
 
             <Route

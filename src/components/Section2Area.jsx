@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Section2Area({ title, description, linkPath, imgSrc }) {
+function Section2Area({ title, description, linkPath, imgSrc, list }) {
   return (
     <>
       <div className="service_area bg_color2 pt-80 pb-70">
@@ -16,7 +16,7 @@ function Section2Area({ title, description, linkPath, imgSrc }) {
                 </div>
                 <div className="section_content_text pt-4">
                   <p>{description}</p>
-
+                  {list}
                   <div className="row  mt-4">
                     <div className="col-lg-6 col-sm-6">
                       <div className="single_service">
