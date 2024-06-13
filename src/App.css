@@ -179,6 +179,11 @@ header.header-con {
     
 }
 
+.blog-left-side .single-widget-item{
+    max-height: 110vh;
+    overflow-y: scroll;
+    padding-right: 10px;}
+
 #banner .owl-theme .owl-nav {
     margin-top: -5vh !important;
 }
