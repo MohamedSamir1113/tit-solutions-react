@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import NewsDetails from "../components/NewsDetails";
 
 import { Alert, Snackbar, useMediaQuery } from "@mui/material";
 import OwlCarousel from "react-owl-carousel2";
@@ -53,10 +54,10 @@ const createTiltHandler = (tiltRef) => {
   };
 };
 
-const Home = () => {
-  useEffect(function() {
-    document.title="T.I.T Solutions"
-  },[])
+const Home = ({ blogPosts }) => {
+  useEffect(function () {
+    document.title = "T.I.T Solutions";
+  }, []);
   const isMobile = useMediaQuery("(max-width:767px)");
   const isTablet = useMediaQuery("(max-width:1024px)");
   const tiltRef1 = useRef(null);
@@ -497,7 +498,6 @@ const Home = () => {
         }}
       >
         <div className="container">
-          
           <div className="row">
             <div className="col-lg-12">
               <div className="section_title text_center white mb-55">
@@ -795,8 +795,8 @@ const Home = () => {
                   <h6>TEAM MEMBER</h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>Our Awesome Creative</h1>
-                  <h1>Team Member</h1>
+                  <h1 className="custom-h1-section-2">Our Awesome Creative</h1>
+                  <h1 className="custom-h1-section-2">Team Member</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
@@ -809,7 +809,7 @@ const Home = () => {
               <div className="single_team mb-4">
                 <div className="single_team_thumb">
                   <img src="mohamed.jpg" alt="" />
-                  <div className="single_team_icon">
+                  <div className="single_team_icon single_team_icon-dark">
                     <a href="">
                       <i className="fa fa-facebook"></i>
                     </a>
@@ -834,7 +834,7 @@ const Home = () => {
               <div className="single_team mb-4">
                 <div className="single_team_thumb">
                   <img src="ahmed.jpg" alt="" />
-                  <div className="single_team_icon">
+                  <div className="single_team_icon single_team_icon-dark">
                     <a href="">
                       <i className="fa fa-facebook"></i>
                     </a>
@@ -860,7 +860,7 @@ const Home = () => {
               <div className="single_team mb-4">
                 <div className="single_team_thumb">
                   <img src="nahla.jpg" alt="" height="255" />
-                  <div className="single_team_icon">
+                  <div className="single_team_icon single_team_icon-dark">
                     <a href="">
                       <i className="fa fa-facebook"></i>
                     </a>
@@ -962,7 +962,9 @@ const Home = () => {
                     </p>
                   </div>
                   <div className="feature_style_three_butoon">
-                    <Link to="/digital-marketing-agency-for-hotels-in-egypt">Read More</Link>
+                    <Link to="/digital-marketing-agency-for-hotels-in-egypt">
+                      Read More
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -970,6 +972,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="case_study_area " id="portfolio">
         <div className="row">
           <div className="col-lg-12 grid-item">
@@ -984,14 +987,17 @@ const Home = () => {
                       />
                     </Link>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/search-engine-marketing">
+                        <Link
+                          to="/search-engine-marketing"
+                          className="dark-title"
+                        >
                           Search Engine Marketing
                         </Link>
                       </h2>
-                      <ul className="text-center">
+                      <ul className="text-center list-unstyled">
                         <li>
                           <Link to="/google-ads">Google Hotel Ads</Link>
                         </li>
@@ -1006,6 +1012,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+
               <div className="single_case_study">
                 <div className="single_case_study_inner">
                   <div className="single_case_study_thumb">
@@ -1016,19 +1023,24 @@ const Home = () => {
                       />
                     </a>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/social-media-marketing">
+                        <Link
+                          to="/social-media-marketing"
+                          className="dark-title"
+                        >
                           Social Media Marketing
                         </Link>
                       </h2>
-                      <ul className="text-center">
+                      <ul className="text-center list-unstyled">
                         <li>
                           <Link to="/facebook-ads">Facebook Ads For Hotel</Link>
                         </li>
                         <li>
-                          <Link to="/instagram-ads">Instagram Marketing For Hotels</Link>
+                          <Link to="/instagram-ads">
+                            Instagram Marketing For Hotels
+                          </Link>
                         </li>
                         <li>
                           <Link to="/snapchat-ads">Snapchat Ads For Hotel</Link>
@@ -1054,22 +1066,31 @@ const Home = () => {
                       />
                     </a>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/social-media-management">
+                        <Link
+                          to="/social-media-management"
+                          className="dark-title"
+                        >
                           Social Media Management
                         </Link>
                       </h2>
-                      <ul className="text-center">
+                      <ul className="text-center list-unstyled">
                         <li>
-                          <Link to="/social-media-strategy">Hotel Social Media Strategy</Link>
+                          <Link to="/social-media-strategy">
+                            Hotel Social Media Strategy
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/social-media-posting">Social Media Posting</Link>
+                          <Link to="/social-media-posting">
+                            Social Media Posting
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/social-media-graphics">Social Media Design Services</Link>
+                          <Link to="/social-media-graphics">
+                            Social Media Design Services
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -1086,17 +1107,23 @@ const Home = () => {
                       />
                     </a>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/hotel-e-commerce">Hotel E-Commerce</Link>
+                        <Link to="/hotel-e-commerce" className="dark-title">
+                          Hotel E-Commerce
+                        </Link>
                       </h2>
-                      <ul className="text-center">
+                      <ul className="text-center list-unstyled">
                         <li>
-                          <Link to="/e-commerce-consultancy">E-Commerce Consultancy</Link>
+                          <Link to="/e-commerce-consultancy">
+                            E-Commerce Consultancy
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/e-commerce-management">Hotel E-Commerce Management</Link>
+                          <Link to="/e-commerce-management">
+                            Hotel E-Commerce Management
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -1104,7 +1131,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="single_case_study">
-                <div className="single_case_study_inner">
+                <div className="single_case_study_inner ">
                   <div className="single_case_study_thumb">
                     <a href="case-study-details.html">
                       <img
@@ -1113,16 +1140,21 @@ const Home = () => {
                       />
                     </a>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/search-engine-optimization">
+                        <Link
+                          to="/search-engine-optimization"
+                          className="dark-title"
+                        >
                           Search Engine Optimization
                         </Link>
                       </h2>
-                      <ul className="text-center">
+                      <ul className="text-center list-unstyled">
                         <li>
-                          <Link to="/Search-engine-optimization">CONTINUE READING</Link>
+                          <Link to="/Search-engine-optimization">
+                            CONTINUE READING
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -1130,7 +1162,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="single_case_study">
-                <div className="single_case_study_inner">
+                <div className="single_case_study_inner ">
                   <div className="single_case_study_thumb">
                     <a href="case-study-details.html">
                       <img
@@ -1139,17 +1171,21 @@ const Home = () => {
                       />
                     </a>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/email-marketing">Email Marketing</Link>
+                        <Link to="/email-marketing" className="dark-title">
+                          Email Marketing
+                        </Link>
                       </h2>
-                      <ul className="text-center">
+                      <ul className="text-center list-unstyled">
                         <li>
                           <Link to="/constant-contact">Constant Contact</Link>
                         </li>
                         <li>
-                          <Link to="/manage-email-marketing">Email Marketing For Hotels</Link>
+                          <Link to="/manage-email-marketing">
+                            Email Marketing For Hotels
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -1166,20 +1202,28 @@ const Home = () => {
                       />
                     </a>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/reporting">Reporting</Link>
+                        <Link to="/reporting" className="dark-title">
+                          Reporting
+                        </Link>
                       </h2>
-                      <ul className="text-center">
+                      <ul className="text-center list-unstyled">
                         <li>
-                          <Link to="/google-analytics-implementation">Google analytics for hotels</Link>
+                          <Link to="/google-analytics-implementation">
+                            Google analytics for hotels
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/digital-marketing-reporting">Digital Marketing Reporting</Link>
+                          <Link to="/digital-marketing-reporting">
+                            Digital Marketing Reporting
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/website-360-reporting">Google Analytics 360</Link>
+                          <Link to="/website-360-reporting">
+                            Google Analytics 360
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -1187,7 +1231,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="single_case_study">
-                <div className="single_case_study_inner">
+                <div className="single_case_study_inner home-ul-dark">
                   <div className="single_case_study_thumb">
                     <a href="case-study-details.html">
                       <img
@@ -1196,10 +1240,13 @@ const Home = () => {
                       />
                     </a>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/hospitality-photography">
+                        <Link
+                          to="/hospitality-photography"
+                          className="dark-title"
+                        >
                           Hospitality Photography
                         </Link>
                       </h2>
@@ -1217,10 +1264,13 @@ const Home = () => {
                       />
                     </a>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/asksuite-hotel-chatbot">
+                        <Link
+                          to="/asksuite-hotel-chatbot"
+                          className="dark-title"
+                        >
                           Asksuite Hotel Chatbot
                         </Link>
                       </h2>
@@ -1238,10 +1288,12 @@ const Home = () => {
                       />
                     </a>
                   </div>
-                  <div className="single_case_study_content">
+                  <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/the-hotels-network">The Hotels Network</Link>
+                        <Link to="/the-hotels-network" className="dark-title">
+                          The Hotels Network
+                        </Link>
                       </h2>
                     </div>
                   </div>
@@ -1279,271 +1331,9 @@ const Home = () => {
             </div>
           </div>
           <OwlCarousel options={newsOptions}>
-            <div
-              className="single_blog text-center mb-4 wow flipInY"
-              data-wow-delay="0ms"
-              data-wow-duration="2500ms"
-            >
-              <div className="single_blog_thumb">
-                <Link to="#.">
-                  <img
-                    src="assets/images/news/google-w-tit-website.jpg"
-                    alt=""
-                  />
-                </Link>
-              </div>
-              <div className="single_blog_date">
-                <div className="single_blog_date_inner">
-                  <h3>16</h3>
-                  <span>APR</span>
-                  <span className="years">2024</span>
-                </div>
-              </div>
-              <div className="single_blog_content pt-4 pl-4 pr-4">
-                <div className="blog_page_title pb-1">
-                  <h6 className="mb-3">
-                    <Link to="#.">
-                      <br />
-                      Google Premier Partner 2024
-                    </Link>
-                  </h6>
-                </div>
-                <div className="blog_description">
-                  <p className="news-p">
-                    T.I.T Solutions, a leading innovator in digital marketing
-                    strategies, has been honored once again as a Google Premier
-                    Partner for the year 2024. This consecutive recognition
-                    underscores the company's unwavering commitment to
-                    excellence, following its previous acknowledgment as a
-                    Google Premier Partner in 2023.
-                  </p>
-                </div>
-                <div className="blog_page_button style_two pb-5">
-                  <Link to="#.">
-                    Read More <i className="fa fa-long-arrow-right"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="single_blog text-center mb-4 wow flipInY"
-              data-wow-delay="0ms"
-              data-wow-duration="2500ms"
-            >
-              <div className="single_blog_thumb">
-                <Link to="#.">
-                  <img src="assets/images/news/WS-Travco-Launch.png" alt="" />
-                </Link>
-              </div>
-              <div className="single_blog_date color2">
-                <div className="single_blog_date_inner">
-                  <h3>2</h3>
-                  <span>APR</span>
-                  <span className="years">2024</span>
-                </div>
-              </div>
-              <div className="single_blog_content pt-4 pl-4 pr-4">
-                <div className="blog_page_title pb-1">
-                  <h6 className="mb-3">
-                    <Link to="#.">
-                      T.I.T Solutions and Travco Group Launches A New Website
-                    </Link>
-                  </h6>
-                </div>
-                <div className="blog_description">
-                  <p className="news-p">
-                    T.I.T Solutions is taking pride in announcing the launch of
-                    the new website for Travco Group. The new website is
-                    designed to provide a cutting-edge and dynamic user
-                    experience. With a wide range of features and
-                    functionalities that cater to the diverse needs of the
-                    users.
-                  </p>
-                </div>
-                <div className="blog_page_button style_two pb-5">
-                  <Link to="#.">
-                    Read More <i className="fa fa-long-arrow-right"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="single_blog text-center mb-4 wow flipInY"
-              data-wow-delay="0ms"
-              data-wow-duration="2500ms"
-            >
-              <div className="single_blog_thumb">
-                <Link to="#.">
-                  <img src="assets/images/news/WS-Cleopark-Launch.jpg" alt="" />
-                </Link>
-              </div>
-              <div className="single_blog_date color3">
-                <div className="single_blog_date_inner">
-                  <h3>1</h3>
-                  <span>APR</span>
-                  <span className="years">2024</span>
-                </div>
-              </div>
-              <div className="single_blog_content pt-4 pl-4 pr-4">
-                <div className="blog_page_title pb-1">
-                  <h6 className="mb-3">
-                    <Link to="#.">
-                      T.I.T Solutions & Cleopark, owned By Sharm Dreams Holding,
-                      Shape a Digital Path to Adventure!
-                    </Link>
-                  </h6>
-                </div>
-                <div className="blog_description">
-                  <p className="news-p">
-                    T.I.T Solutions has launched the first-of-a-kind website for
-                    a water park for Cleopark, the premier water park in Sharm
-                    El Sheikh. Cleopark is owned by Sharm Dreams Holding and
-                    operated by The Jaz Hotel Group.
-                  </p>
-                </div>
-                <div className="blog_page_button style_two pb-5">
-                  <Link to="#.">
-                    Read More <i className="fa fa-long-arrow-right"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="single_blog text-center mb-4 wow flipInY"
-              data-wow-delay="0ms"
-              data-wow-duration="2500ms"
-            >
-              <div className="single_blog_thumb">
-                <Link to="#.">
-                  <img src="assets/images/news/duetto-website.jpg" alt="" />
-                </Link>
-              </div>
-              <div className="single_blog_date">
-                <div className="single_blog_date_inner">
-                  <h3>5</h3>
-                  <span>MAR</span>
-                  <span className="years">2024</span>
-                </div>
-              </div>
-              <div className="single_blog_content pt-4 pl-4 pr-4">
-                <div className="blog_page_title pb-1">
-                  <h6 className="mb-3">
-                    <Link to="#.">
-                      Driving Innovation In Profit Optimization: T.I.T.Solutions
-                      Partners with Duetto Software to Transform Hospitality
-                      field.
-                    </Link>
-                  </h6>
-                </div>
-                <div className="blog_description">
-                  <p className="news-p">
-                    Exciting news! We have partnered with Duetto Software to
-                    revolutionize revenue management for hotels and resorts.
-                    With Duetto's cutting-edge technology, we are confident that
-                    we can deliver unparalleled value to our clients in the
-                    hospitality sector.
-                  </p>
-                </div>
-                <div className="blog_page_button style_two pb-5">
-                  <Link to="#.">
-                    Read More <i className="fa fa-long-arrow-right"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="single_blog text-center mb-4 wow flipInY"
-              data-wow-delay="0ms"
-              data-wow-duration="2500ms"
-            >
-              <div className="single_blog_thumb">
-                <Link to="#.">
-                  <img
-                    src="assets/images/news/Lets-meet-in-Berlin.jpg"
-                    alt=""
-                  />
-                </Link>
-              </div>
-              <div className="single_blog_date color2">
-                <div className="single_blog_date_inner">
-                  <h3>3</h3>
-                  <span>MAR</span>
-                  <span className="years">2024</span>
-                </div>
-              </div>
-              <div className="single_blog_content pt-4 pl-4 pr-4">
-                <div className="blog_page_title pb-1">
-                  <h3>
-                    <Link to="#.">Let's meet in Berlin!</Link>
-                  </h3>
-                </div>
-                <div className="blog_description">
-                  <p className="news-p">
-                    We are delighted to announce that our Managing Director, Dr.
-                    Mohamed Taha, will attend the renowned ITB Berlin
-                    Conference. This provides us with an excellent opportunity
-                    to explore potential partnerships, discuss industry trends,
-                    and showcase how T.I.T Solutions' team is changing the game
-                    in travel experiences.
-                  </p>
-                </div>
-                <div className="blog_page_button style_two pb-5">
-                  <Link to="#.">
-                    Read More <i className="fa fa-long-arrow-right"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="single_blog text-center mb-4 wow flipInY"
-              data-wow-delay="0ms"
-              data-wow-duration="2500ms"
-            >
-              <div className="single_blog_thumb">
-                <Link to="#.">
-                  <img
-                    src="assets/images/news/chrismar-Website-banner-3.jpg"
-                    alt=""
-                  />
-                </Link>
-              </div>
-              <div className="single_blog_date color3">
-                <div className="single_blog_date_inner">
-                  <h3>15</h3>
-                  <span>JAN</span>
-                  <span className="years">2024</span>
-                </div>
-              </div>
-              <div className="single_blog_content pt-4 pl-4 pr-4">
-                <div className="blog_page_title pb-1">
-                  <h3>
-                    <Link to="#.">
-                      Discover Chrismar Travel's Updated Online Presence,
-                      Crafted by T.I.T Solutions!
-                    </Link>
-                  </h3>
-                </div>
-                <div className="blog_description">
-                  <p className="news-p">
-                    We are thrilled to share the exciting introduction of
-                    Chrismar Travel website. The new website promises to be an
-                    engaging gateway for travel enthusiasts, offering a seamless
-                    exploration of Chrismar's world of captivating destinations
-                    and experiences.
-                  </p>
-                </div>
-                <div className="blog_page_button style_two pb-5">
-                  <Link to="#.">
-                    Read More <i className="fa fa-long-arrow-right"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
+          {blogPosts.map((blogPost, i) => (
+              <NewsDetails key={i} blogPost={blogPost} />
+            ))}
           </OwlCarousel>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+
 import BgArea from "../components/BgArea";
 import BlogDetails from "../components/BlogDetails";
 const News = ({blogPosts}) => {

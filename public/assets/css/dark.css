@@ -71,8 +71,14 @@ input[type="checkbox"].toggle-switch:checked::after {
 }
 
 .dark p {
-  color: #a2a2a2;
+  /* color: #a2a2a2; */
+  color: #dddada;
   transition: 0.5s;
+}
+
+.dark .custom-p-section2
+{
+  color: #6c6c6c;
 }
 
 .dark a {
@@ -83,9 +89,11 @@ input[type="checkbox"].toggle-switch:checked::after {
 .dark h2,
 .dark h3,
 .dark h4,
+.dark h5,
 .dark h6 {
   color: #fff;
 }
+
 
 /*=========== < Top menu bar >================ */
 
@@ -436,4 +444,74 @@ input[type="checkbox"].toggle-switch:checked::after {
 
 .dark .blog-button a i {
   color: #fff;
+}
+/*
+<!-- =======================================-->
+<!--rest of the website Dark Css modifications-->
+<!-- =======================================-->*/
+.dark .single_team_icon-dark
+{
+  background-color: #0c5adb;
+}
+.dark .home-ul-dark
+{
+  background-color: #0c5adb;
+}
+.dark .dark-header
+{
+  color: #0f0f0f;
+}
+.dark .dark-title
+{
+  color: #a2a2a2;
+}
+.dark .list-color
+{
+  color: #0f0f0f;
+}
+
+ .dark .pages .techno_flipbox .techno_flipbox_font .flipbox_title h3{
+  color: #fff;
+}
+
+.dark .custom-h5
+{
+  color: #0f0f0f !important;
+}
+.dark .section_main_title .custom-h1
+{
+  color: #0f0f0f !important;
+}
+
+.dark .custom-h5-1
+{
+  color: #0f0f0f !important;
+}
+
+.dark .custom-h5:hover
+{
+  color: #fff !important;
+  transition: all 0.5s;
+}
+
+ body.dark .section_main_title h1 {
+  color: #fff !important;
+}
+
+body.dark .section_main_title .custom-h1-section-2 {
+  color: #121212 !important;
+}
+
+.dark .bg-news
+{
+  background-color: #0f0f0f;
+}
+
+.dark .blog_details .bg-news-details
+{
+  background-color: #1d1d1d !important;
+}
+
+body.dark .custom-link-news {
+  color: #fff !important;
 }

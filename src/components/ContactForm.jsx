@@ -4,7 +4,7 @@ function ContactForm() {
           <div className="col-md-12 testimonial-bg bg_color2 p-5 mb-0">
         <div className="blog_reply_coment_dtl mt-5">
           <div className="reply_ttl">
-            <h3>Talk To the Experts</h3>
+            <h3 className="list-color">Talk To the Experts</h3>
           </div>
           <div className="row">
             <div className="col-md-12 col-sm-12 col-xs-12">

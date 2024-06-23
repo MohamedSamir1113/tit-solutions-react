@@ -17,13 +17,13 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/google-ads">Google Hotel Ads</Link>
+              <Link  to="/google-ads">Google Hotel Ads</Link>
             </li>
             <li>
-              <Link to="/bing-ads">Bing Hotel Ads</Link>
+              <Link  to="/bing-ads">Bing Hotel Ads</Link>
             </li>
             <li>
-              <Link to="/yandex-ads">Yandex Ads In Egypt</Link>
+              <Link  to="/yandex-ads">Yandex Ads In Egypt</Link>
             </li>
           </ul>
         }
@@ -37,19 +37,19 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/facebook-ads">Facebook Ads For Hotel</Link>
+              <Link className="list-color" to="/facebook-ads">Facebook Ads For Hotel</Link>
             </li>
             <li>
-              <Link to="/instagram-ads">Instagram Marketing For Hotels</Link>
+              <Link className="list-color" to="/instagram-ads">Instagram Marketing For Hotels</Link>
             </li>
             <li>
-              <Link to="/snapchat-ads">Snapchat Ads For Hotel</Link>
+              <Link className="list-color" to="/snapchat-ads">Snapchat Ads For Hotel</Link>
             </li>
             <li>
-              <Link to="/vk-ads">VK Ads For Hotels</Link>
+              <Link className="list-color" to="/vk-ads">VK Ads For Hotels</Link>
             </li>
             <li>
-              <Link to="/linkedin-ads">Linkedin For Hotels</Link>
+              <Link className="list-color" to="/linkedin-ads">Linkedin For Hotels</Link>
             </li>
           </ul>
         }
@@ -63,17 +63,17 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/social-media-strategy">
+              <Link  to="/social-media-strategy">
                 Hotel Social Media Strategy
               </Link>
             </li>
             <li>
-              <Link to="/social-media-posting">
+              <Link  to="/social-media-posting">
                 Social Media Content For Hotels
               </Link>
             </li>
             <li>
-              <Link to="/social-media-graphics">
+              <Link  to="/social-media-graphics">
                 Social Media Design Services
               </Link>
             </li>
@@ -89,10 +89,10 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/e-commerce-consultancy">E-Commerce Consultancy</Link>
+              <Link className="list-color" to="/e-commerce-consultancy">E-Commerce Consultancy</Link>
             </li>
             <li>
-              <Link to="/e-commerce-management">
+              <Link className="list-color" to="/e-commerce-management">
                 Hotel E-Commerce Management
               </Link>
             </li>
@@ -115,12 +115,12 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/manage-email-marketing">
+              <Link className="list-color" to="/manage-email-marketing">
                 Email Marketing For Hotels
               </Link>
             </li>
             <li>
-              <Link to="/constant-contact">
+              <Link className="list-color" to="/constant-contact">
                 Email Marketing For Hotels With "Constant Contact"
               </Link>
             </li>
@@ -136,17 +136,17 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/google-analytics-implementation">
+              <Link  to="/google-analytics-implementation">
                 Google analytics for hotels
               </Link>
             </li>
             <li>
-              <Link to="/digital-marketing-reporting">
+              <Link  to="/digital-marketing-reporting">
                 Digital Marketing Reporting
               </Link>
             </li>
             <li>
-              <Link to="/website-360-reporting">Website Analytics 360</Link>
+              <Link  to="/website-360-reporting">Website Analytics 360</Link>
             </li>
           </ul>
         }
@@ -193,7 +193,7 @@ const Services = () => {
                     Get help in doing that with an efficient ecosystem of growth
                     tools that can easily increase conversions and ADR; get help
                     from The Hotels Network.
-                  </p>{" "}
+                  </p>
                   <p>
                     With the Hotels Network's benchmarking platform, you can
                     compare your performance to the market and get
@@ -212,7 +212,7 @@ const Services = () => {
                             to="/the-hotels-network"
                             className="single_service_content"
                           >
-                            <h4> View More </h4>
+                            <h4 className="dark-header"> View More </h4>
                           </Link>
                         </div>
                       </div>

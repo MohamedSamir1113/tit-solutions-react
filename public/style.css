@@ -2953,12 +2953,12 @@ a.em-active-button:hover {
   height: 900px;
 }
 
-.dark.top_feature .techno_flipbox .techno_flipbox_font {
+.dark .top_feature .techno_flipbox .techno_flipbox_font {
   background: #181b2d;
 }
 
-.dark.top_feature .techno_flipbox .flipbox_title h3 {
-  color: #fff;
+.dark .top_feature .techno_flipbox .flipbox_title h3 {
+  color: #fff !important;
 }
 
 .dark .about_icon .icon {
@@ -16676,7 +16676,7 @@ a:hover {
 }
 
 .text-hover:hover {
-  color: white !important; 
+  color: white ;
 }
 
 .list-bullets li {

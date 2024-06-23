@@ -45,7 +45,7 @@ function Section1Area({ title, description,description2, linkPath, imgSrc ,list}
                             <i className="fa fa-share"></i>
                           </div>
                           <Link to={linkPath} className="single_service_content">
-                            <h4> View More </h4>
+                            <h4 className="dark-header"> View More </h4>
                           </Link>
                         </div>
                       </div>

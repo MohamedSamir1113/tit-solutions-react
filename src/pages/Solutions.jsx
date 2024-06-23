@@ -41,13 +41,13 @@ const Solutions = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/attraction-d-edge">Attraction D-Edge</Link>
+              <Link className="list-color" to="/attraction-d-edge">Attraction D-Edge</Link>
             </li>
             <li>
-              <Link to="/SynXis">SynXis</Link>
+              <Link className="list-color" to="/SynXis">SynXis</Link>
             </li>
             <li>
-              <Link to="/nile-cruise-booking-engine">
+              <Link className="list-color" to="/nile-cruise-booking-engine">
                 Nile Cruise Booking Engine
               </Link>
             </li>

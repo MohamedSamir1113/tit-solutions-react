@@ -9,13 +9,13 @@ function Section2Area({ title, description, linkPath, imgSrc, list }) {
             <div className="col-lg-6  ">
               <div className="section_title text_left  ">
                 <div className="section_main_title">
-                  <h1>{title}</h1>
+                  <h1 className="custom-h1-section-2">{title}</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>
                 </div>
                 <div className="section_content_text pt-4">
-                  <p>{description}</p>
+                  <p className="custom-p-section2">{description}</p>
                   {list}
                   <div className="row  mt-4">
                     <div className="col-lg-6 col-sm-6">
@@ -28,7 +28,7 @@ function Section2Area({ title, description, linkPath, imgSrc, list }) {
                             to={linkPath}
                             className="single_service_content"
                           >
-                            <h4> View More </h4>
+                            <h4 className="dark-header"> View More </h4>
                           </Link>
                         </div>
                       </div>

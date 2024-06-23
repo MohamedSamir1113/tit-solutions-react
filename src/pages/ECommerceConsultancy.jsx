@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import BgArea from "../components/BgArea";
 import { Link } from "react-router-dom";
 import ContactForm from "../components/ContactForm";
+import ServicesList from "../components/ServicesList";
 function ECommerceConsultancy() {
   useEffect(() => {
     document.title = "E-Commerce Consultancy";
@@ -16,120 +17,7 @@ function ECommerceConsultancy() {
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
           <div className="row">
-            <div className=" col-lg-4 col-md-5 col-sm-12 col-xs-12">
-              <h3 className="pb-15">Our Services:</h3>
-              <div className="service-details-pn-list">
-                <ul>
-                  <li>
-                    <Link to="/social-media-marketing">
-                      Social Media Marketing
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to="/social-media-management">
-                      Social Media Management
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to="/hotel-e-commerce">
-                      Hotel E-commerce
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to="/search-engine-optimization">
-                      Search Engine Optimization
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to="/email-marketing">
-                      Email Marketing
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to="/reporting">
-                      Reporting
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to="/hospitality-photography">
-                      Hospitality Photography
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link to="/the-hotels-network">
-                      The Hotels Network
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/asksuite-hotel-chatbot">
-                      Asksuite Hotel Chatbot
-                      <span>
-                        <i className="fa fa-angle-right"></i>
-                      </span>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="service-details-big-button mt-40 mb-40">
-                <a href="/">
-                  <span className="details-big-content">
-                    Company Presentation <i className="fa fa-download"></i>
-                  </span>
-                </a>
-              </div>
-
-              <div
-                className="service-details-pn-about mb-4"
-                style={{ backgroundImage: "url(assets/images/tab1.jpg)" }}
-              >
-                <div className="service-details-pn-about-content pt-35 pb-40 pl-4 pr-4">
-                  <div className="service-details-pn-about-content-title pb-3">
-                    <h4>Need Any Help For Business ?</h4>
-                  </div>
-                  <div className="service-details-pn-about-content-text">
-                    <p>
-                      We take an omni-channel approach to online marketing with
-                      a focus on increasing conversions, repeat traffic and
-                      generating greater brand loyalty online.
-                    </p>
-                  </div>
-                  <div className="service-details-pn-about-content-button pt-2">
-                    <Link to="/contact-us">Contact Now</Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <ServicesList />
 
             <div className="col-lg-8 col-md-7 col-sm-12 col-xs-12">
               <div className="row justify-content-center">
@@ -199,19 +87,54 @@ function ECommerceConsultancy() {
                           profitability; we apply the most profitable strategies
                           and boost your bookings. Contact us and maximize your
                           hotel ROI easily.
-                          <span
+                         
+                        </p>
+
+                        <h5
                             style={{
                               fontWeight: "700",
                               fontSize: "18px",
-                              color: "#333",
+                              marginBottom:"20px"
                             }}
                           >
                             Working with our e-commerce consultants will help
                             you reduce cost and lower risk by bringing in the
                             skills of one of our experts who's been applying the
                             best practice for many hotels. We Do For You:
-                          </span>
-                        </p>
+                          </h5>
+                          <ul class="list-bullets">
+                            <li>
+                              Research your pain points and eliciting hidden
+                              problems both in your current e-commerce solution
+                              and business workflows you have established.
+                            </li>
+                            <li>
+                              Determine your hotel's booking engine format and
+                              features to maximize clarity and ease of
+                              navigation for customers.
+                            </li>
+                            <li>
+                              Maintain consistent rates for the same product in
+                              all online distribution channels.
+                            </li>
+                            <li>
+                              Check retention, acquisition, and revenue metrics
+                              against typical industry metrics.
+                            </li>
+                            <li>
+                              Direct the activities of Software Developers,
+                              Copywriters, and Graphic Designers to ensure
+                              careful adherence to predetermined strategies.
+                            </li>
+                            <li>
+                              Advise on evidence-based and experimental changes
+                              to your platforms.
+                            </li>
+                            <li>
+                              Monitor the effectiveness of strategies by
+                              inspecting standardized metrics.
+                            </li>
+                          </ul>
                       </div>
                     </div>
                   </div>

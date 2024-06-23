@@ -397,13 +397,15 @@ This significant event will witness the presence`,
     },
     
   ];
+
+  
   return (
     <>
       <Router basename="/">
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
+            <Route index element={<Home blogPosts={blogPosts}/>} />
             <Route path="solutions" element={<Solutions />} />
 
             <Route

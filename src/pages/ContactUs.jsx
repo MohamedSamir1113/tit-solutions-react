@@ -98,8 +98,8 @@ const ContactUs = () => {
                   <h6>CONTACT US</h6>
                 </div>
                 <div className="section_main_title">
-                  <h1>Feel Free Contact</h1>
-                  <h1>Us Now</h1>
+                  <h1 className="custom-h1">Feel Free Contact</h1>
+                  <h1 className="custom-h1">Us Now</h1>
                 </div>
                 <div className="em_bar">
                   <div className="em_bar_bg"></div>

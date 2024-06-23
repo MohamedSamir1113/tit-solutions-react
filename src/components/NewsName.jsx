@@ -10,15 +10,15 @@ function NewsName({name}) {
                 <div className="breatcome_content text-left text-dark">
                   <ul>
                     <li className="text-dark">
-                      <Link to="/" className="text-dark">
+                      <Link to="/" className="text-dark custom-link-news">
                         Home
-                      </Link>{" "}
-                      <i className="fa fa-angle-right text-dark"></i>
-                      <Link to="/news" className="text-dark">
+                      </Link>
+                      <i className="fa fa-angle-right text-dark custom-link-news"></i>
+                      <Link to="/news" className="text-dark custom-link-news">
                         Our News
                       </Link>
-                      <i className="fa fa-angle-right text-dark"></i>
-                      <span className="text-dark">
+                      <i className="fa fa-angle-right text-dark custom-link-news"></i>
+                      <span className="text-dark custom-link-news">
                         {name}
                       </span>
                     </li>

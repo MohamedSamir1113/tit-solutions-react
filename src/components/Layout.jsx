@@ -132,7 +132,7 @@ const Layout = () => {
 
           {/* Nav*/}
           {isMobile ? (
-            <>
+            <> 
               <div
                 id="sticky-header"
                 className={`techno_nav_manu ${isSticky ? "sticky" : ""}`}
@@ -184,7 +184,7 @@ const Layout = () => {
                                   to="/website-development"
                                   onClick={(e) => handleLinkClick(e)}
                                 >
-                                  <h5 className="text-center my-3 text-hover">
+                                  <h5 className="text-center my-3 text-hover custom-h5">
                                     Website Development
                                   </h5>
                                 </Link>
@@ -229,7 +229,7 @@ const Layout = () => {
                                   to="/booking-engine"
                                   onClick={(e) => handleLinkClick(e)}
                                 >
-                                  <h5 className="text-center my-3 text-hover">
+                                  <h5 className="text-center my-3 text-hover custom-h5">
                                     Booking Engine
                                   </h5>
                                 </Link>
@@ -261,7 +261,7 @@ const Layout = () => {
                                 </ul>
                               </li>
                               <li>
-                                <h5 className="text-lg-center">
+                                <h5 className="text-lg-center custom-h5-1">
                                   Web Check-In Solution
                                 </h5>
                                 <ul>
@@ -799,8 +799,9 @@ const Layout = () => {
                                   <Link
                                     to="/website-development"
                                     onClick={() => setLoading(true)}
+                                    
                                   >
-                                    <h5 className="text-center my-3 text-hover">
+                                    <h5 className="text-center my-3 text-hover custom-h5">
                                       Website Development
                                     </h5>
                                   </Link>
@@ -853,7 +854,7 @@ const Layout = () => {
                                     className="text-lg-center"
                                     to="/booking-engine"
                                   >
-                                    <h5 className="text-center my-3 text-hover">
+                                    <h5 className="text-center my-3 text-hover  custom-h5">
                                       Booking Engine
                                     </h5>
                                   </Link>
@@ -891,7 +892,7 @@ const Layout = () => {
                             <li>
                               <ul>
                                 <li>
-                                  <h5 className="text-center my-3 ">
+                                  <h5 className="text-center my-3 custom-h5-1">
                                     Web Check-In Solution
                                   </h5>
                                 </li>
