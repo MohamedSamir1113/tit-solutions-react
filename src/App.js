@@ -394,8 +394,7 @@ This significant event will witness the presence`,
       description: `With honor and pleasure, we are sharing with you our new Website project launch for Crystal Inn Hotel El Alamein`,
       linkPath: "/news/crystal-inn-hotel",
       colorClass: "",
-    },
-    
+    },  
   ];
 
   
@@ -419,111 +418,54 @@ This significant event will witness the presence`,
             <Route path="/solutions/booking-engine/SynXis" element={<SynXis />} />
             <Route path="/solutions/booking-engine/nile-cruise-booking-engine" element={<NileCruiseBookingEngine />}/>
 
-            <Route
-              path="/solutions/web-check-in-solution"
-              element={<WebCheckInSolution />}
-            />
+            <Route path="/solutions/web-check-in-solution" element={<WebCheckInSolution />}/>
 
             <Route path="services" element={<Services />} />
 
-            <Route
-              path="/services/search-engine-marketing"
-              element={<SearchEngineMarketing />}
-            />
+            <Route path="/services/search-engine-marketing" element={<SearchEngineMarketing />}/>
             <Route path="/services/search-engine-marketing/google-ads" element={<GoogleAds />} />
             <Route path="/services/search-engine-marketing/bing-ads" element={<BingAds />} />
             <Route path="/services/search-engine-marketing/yandex-ads" element={<YandexAds />} />
 
-            <Route
-              path="/services/social-media-marketing"
-              element={<SocialMediaMarketing />}
-            />
+            <Route path="/services/social-media-marketing" element={<SocialMediaMarketing />}/>
             <Route path="/services/social-media-marketing/facebook-ads" element={<FacebookAds />} />
             <Route path="/services/social-media-marketing/instagram-ads" element={<InstagramAds />} />
             <Route path="/services/social-media-marketing/snapchat-ads" element={<SnapchatAds />} />
             <Route path="/services/social-media-marketing/vk-ads" element={<VKAds />} />
             <Route path="/services/social-media-marketing/linkedin-ads" element={<LinkedInAds />} />
 
-            <Route
-              path="/services/social-media-management"
-              element={<SocialMediaManagement />}
-            />
-            <Route
-              path="/services/social-media-management/social-media-strategy"
-              element={<SocialMediaStrategy />}
-            />
-            <Route
-              path="/services/social-media-management/social-media-posting"
-              element={<SocialMediaPosting />}
-            />
-            <Route
-              path="/services/social-media-management/social-media-graphics"
-              element={<SocialMediaGraphics />}
-            />
+            <Route path="/services/social-media-management" element={<SocialMediaManagement />}/>
+            <Route path="/services/social-media-management/social-media-strategy" element={<SocialMediaStrategy />}/>
+            <Route path="/services/social-media-management/social-media-posting" element={<SocialMediaPosting />}/>
+            <Route path="/services/social-media-management/social-media-graphics" element={<SocialMediaGraphics />}/>
 
             <Route path="/services/hotel-e-commerce" element={<HotelECommerce />} />
-            <Route
-              path="/services/hotel-e-commerce/e-commerce-consultancy"
-              element={<ECommerceConsultancy />}
-            />
-            <Route
-              path="/services/hotel-e-commerce/e-commerce-management"
-              element={<ECommerceManagement />}
-            />
+            <Route path="/services/hotel-e-commerce/e-commerce-consultancy" element={<ECommerceConsultancy />}/>
+            <Route path="/services/hotel-e-commerce/e-commerce-management" element={<ECommerceManagement />}/>
 
-            <Route
-              path="/services/search-engine-optimization"
-              element={<SearchEngineOptimization />}
-            />
+            <Route path="/services/search-engine-optimization" element={<SearchEngineOptimization />}/>
 
             <Route path="/services/email-marketing" element={<EmailMarketing />} />
             <Route path="/services/email-marketing/constant-contact" element={<ConstantContact />} />
-            <Route
-              path="/services/email-marketing/manage-email-marketing"
-              element={<ManageEmailMarketing />}
-            />
+            <Route path="/services/email-marketing/manage-email-marketing" element={<ManageEmailMarketing />}/>
 
             <Route path="/services/reporting" element={<Reporting />} />
-            <Route
-              path="/services/reporting/google-analytics-implementation"
-              element={<GoogleAnalyticsImplementation />}
-            />
-            <Route
-              path="/services/reporting/digital-marketing-reporting"
-              element={<DigitalMarketingReporting />}
-            />
-            <Route
-              path="/services/reporting/website-360-reporting"
-              element={<Website360Reporting />}
-            />
+            <Route path="/services/reporting/google-analytics-implementation" element={<GoogleAnalyticsImplementation />}/>
+            <Route path="/services/reporting/digital-marketing-reporting" element={<DigitalMarketingReporting />} />
+            <Route path="/services/reporting/website-360-reporting" element={<Website360Reporting />} />
 
-            <Route
-              path="/services/hospitality-photography"
-              element={<HospitalityPhotography />}
-            />
-            <Route
-              path="/services/asksuite-hotel-chatbot"
-              element={<AsksuiteHotelChatbot />}
-            />
+            <Route path="/services/hospitality-photography" element={<HospitalityPhotography />} />
+            <Route path="/services/asksuite-hotel-chatbot" element={<AsksuiteHotelChatbot />} />
             <Route path="/services/the-hotels-network" element={<TheHotelsNetwork />} />
 
             <Route path="services-details" element={<ServicesDetails />} />
 
             <Route path="d-edge" element={<DEdge />} />
 
-            <Route
-              path="/d-edge/central-reservation-system"
-              element={<CentralReservationSystem />}
-            />
-            <Route
-              path="/d-edge/central-reservation-system/booking-engine-for-hotel"
-              element={<BookingEngineForHotel />}
-            />
+            <Route path="/d-edge/central-reservation-system" element={<CentralReservationSystem />} />
+            <Route path="/d-edge/central-reservation-system/booking-engine-for-hotel" element={<BookingEngineForHotel />} />
             <Route path="/d-edge/central-reservation-system/dedge-channel-manager" element={<ChannelManager />} />
-            <Route
-              path="/d-edge/central-reservation-system/d-edge-inventory-management"
-              element={<CentralInventory />}
-            />
+            <Route path="/d-edge/central-reservation-system/d-edge-inventory-management" element={<CentralInventory />} />
             <Route path="/d-edge/central-reservation-system/gds-hotel-solutions" element={<GDSHotelSolutions />} />
 
             <Route path="/d-edge/guest-management" element={<GuestManagement />} />
@@ -533,91 +475,35 @@ This significant event will witness the presence`,
 
             <Route path="/d-edge/data-intelligence" element={<DataIntelligence />} />
             <Route path="/d-edge/data-intelligence/price-monitoring" element={<PriceMonitoring />} />
-            <Route
-              path="/d-edge/data-intelligence/price-recommendation"
-              element={<PriceRecommendation />}
-            />
-            <Route
-              path="/d-edge/data-intelligence/performance-analysis"
-              element={<PerformanceAnalysis />}
-            />
+            <Route path="/d-edge/data-intelligence/price-recommendation"element={<PriceRecommendation />}/>
+            <Route path="/d-edge/data-intelligence/performance-analysis" element={<PerformanceAnalysis />} />
 
             <Route path="industries" element={<Solutions />} />
-            <Route
-              path="/industries/digital-marketing-agency-for-hotels-in-egypt"
-              element={<DigitalMarketingHotels />}
-            />
+            <Route path="/industries/digital-marketing-agency-for-hotels-in-egypt" element={<DigitalMarketingHotels />} />
             <Route path="/industries/travel-agencies" element={<TravelAgencies />} />
 
             <Route path="about-us" element={<AboutUs />} />
             <Route path="clients" element={<OurClients />} />
             <Route path="portfolio" element={<Portfolio />} />
+            <Route path="contact-us" element={<ContactUs />} />
 
             <Route path="news" element={<News blogPosts={blogPosts} />} />
-            <Route
-              path="/news/google-premier-partner-2024"
-              element={<GooglePremierPartner blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/dubai-hotel-show"
-              element={<DubaiHotelShow blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/riyadh-travel-fair-2024"
-              element={<RiyadhTravelFair blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/atm-dubai-2024"
-              element={<ATMDubai blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/travco-group"
-              element={<Travco blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/cleopark-owned-by-sharm"
-              element={<CleoPark blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/partners-with-duetto-software"
-              element={<Duetto blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/let-s-meet-in-berlin!"
-              element={<Berlin blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/discover-chrismar-travel"
-              element={<ChrismarTravel blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/tawila-island"
-              element={<TawilaIsland blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/participating-in-the-arabian-travel-market-atm"
-              element={<ArabianTravelMarket blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/partook-kwentra"
-              element={<PartookKwentra blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/news-kashir"
-              element={<KashierPaymentSolutions blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/google-premier-2023"
-              element={<GooglePremierPartner2023 blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/utopia-beach-hotels"
-              element={<UtopiaBeachHotels blogPosts={blogPosts} />}
-            />
-            <Route
-              path="/news/slice-and-dice-egypt"
-              element={<SliceandDice blogPosts={blogPosts} />}
-            />
+            <Route path="/news/google-premier-partner-2024" element={<GooglePremierPartner blogPosts={blogPosts} />} />
+            <Route path="/news/dubai-hotel-show" element={<DubaiHotelShow blogPosts={blogPosts} />} />
+            <Route path="/news/riyadh-travel-fair-2024" element={<RiyadhTravelFair blogPosts={blogPosts} />} />
+            <Route path="/news/atm-dubai-2024" element={<ATMDubai blogPosts={blogPosts} />} />
+            <Route path="/news/travco-group" element={<Travco blogPosts={blogPosts} />} />
+            <Route path="/news/cleopark-owned-by-sharm" element={<CleoPark blogPosts={blogPosts} />} />
+            <Route path="/news/partners-with-duetto-software" element={<Duetto blogPosts={blogPosts} />} />
+            <Route path="/news/let-s-meet-in-berlin!" element={<Berlin blogPosts={blogPosts} />} />
+            <Route path="/news/discover-chrismar-travel" element={<ChrismarTravel blogPosts={blogPosts} />} />
+            <Route path="/news/tawila-island" element={<TawilaIsland blogPosts={blogPosts} />} />
+            <Route path="/news/participating-in-the-arabian-travel-market-atm" element={<ArabianTravelMarket blogPosts={blogPosts} />} />
+            <Route path="/news/partook-kwentra" element={<PartookKwentra blogPosts={blogPosts} />} />
+            <Route path="/news/news-kashir" element={<KashierPaymentSolutions blogPosts={blogPosts} />} />
+            <Route path="/news/google-premier-2023" element={<GooglePremierPartner2023 blogPosts={blogPosts} />} />
+            <Route path="/news/utopia-beach-hotels" element={<UtopiaBeachHotels blogPosts={blogPosts} />} />
+            <Route path="/news/slice-and-dice-egypt" element={<SliceandDice blogPosts={blogPosts} />} />
             <Route path="/news/regal-heights-hotel" element={<RegalHeightsHotel blogPosts={blogPosts} />}/>
             <Route path="/news/regal-hotel-website" element={<RegalHotelWebsite blogPosts={blogPosts} />}/>
             <Route path="/news/steigenberger-hotel-website" element={<SteigenbergerHotel blogPosts={blogPosts} />}/>
@@ -625,7 +511,7 @@ This significant event will witness the presence`,
             <Route path="/news/savoy-sharm" element={<SavoySharm blogPosts={blogPosts} />}/>
             <Route path="/news/crystal-inn-hotel" element={<CrystalInnHotel blogPosts={blogPosts} />}/>
 
-            <Route path="contact-us" element={<ContactUs />} />
+            
 
             <Route
               path="*"

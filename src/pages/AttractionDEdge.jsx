@@ -11,7 +11,7 @@ function AttractionDEdge() {
   return (
     <>
       <BgArea
-        title1={`AttractionDEdge`}
+        title1={`Attraction-DEdge`}
         title2={`Booking Engine`}
         path={`/solutions/booking-engine`}
       />
