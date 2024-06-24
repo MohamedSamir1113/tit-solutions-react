@@ -393,7 +393,7 @@ const Home = ({ blogPosts }) => {
           </div>
         </div>
       </div>
-      <div className="brand_main_area  pt-50 pb-50">
+      <div className="brand_main_area   pb-50">
         <div className="brand_area">
           <div className="container-fluid">
             <div className="row">
