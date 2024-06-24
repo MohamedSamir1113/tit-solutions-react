@@ -405,6 +405,7 @@ This significant event will witness the presence`,
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home blogPosts={blogPosts}/>} />
+            
             <Route path="solutions" element={<Solutions />} />
 
             <Route path="/solutions/website-development"element={<WebsiteDevelopment />}/>
@@ -498,7 +499,7 @@ This significant event will witness the presence`,
             <Route path="/news/let-s-meet-in-berlin!" element={<Berlin blogPosts={blogPosts} />} />
             <Route path="/news/discover-chrismar-travel" element={<ChrismarTravel blogPosts={blogPosts} />} />
             <Route path="/news/tawila-island" element={<TawilaIsland blogPosts={blogPosts} />} />
-            <Route path="/news/participating-in-the-arabian-travel-market-atm" element={<ArabianTravelMarket blogPosts={blogPosts} />} />
+            <Route path="/news/participating-in-the-arabian-travel-market-atm" element={<ArabianTravelMarket blogPosts={blogPosts}/>}/>
             <Route path="/news/partook-kwentra" element={<PartookKwentra blogPosts={blogPosts} />} />
             <Route path="/news/news-kashir" element={<KashierPaymentSolutions blogPosts={blogPosts} />} />
             <Route path="/news/google-premier-2023" element={<GooglePremierPartner2023 blogPosts={blogPosts} />} />

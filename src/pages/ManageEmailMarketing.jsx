@@ -25,8 +25,7 @@ function ManageEmailMarketing() {
                   <div className="service-main-details">
                     <div className="service-main-details-inner">
                       <div className="service-main-details-inner-thumb">
-                        <img
-                          src="assets/images/email-marketing-for-hotels---email-marketing-services---hospitality-email-marketing-2021251032920.jpg"
+                        <img src="assets/images/email-marketing-for-hotels---email-marketing-services---hospitality-email-marketing-2021251032920.jpg"
                           alt=""
                         />
                       </div>
@@ -35,13 +34,7 @@ function ManageEmailMarketing() {
                       </div>
 
                       <div className="service-main-details-content-text pb-4">
-                        <p
-                          style={{
-                            margin: "0 0 15px",
-                            fontFamily: "open sans, sans-serif",
-                            lineHeight: "31px",
-                          }}
-                        >
+                        <p style={{margin: "0 0 15px",fontFamily: "open sans, sans-serif",lineHeight: "31px"}}>
                           With Constant Contact as our partner, we have a wide
                           range of services to offer you and your hotel
                           business. Including initial engagement services such
@@ -51,13 +44,7 @@ function ManageEmailMarketing() {
                           management and execution services.
                         </p>
 
-                        <p
-                          style={{
-                            margin: "0 0 15px",
-                            fontFamily: "open sans, sans-serif",
-                            lineHeight: "31px",
-                          }}
-                        >
+                        <p style={{margin: "0 0 15px",fontFamily: "open sans, sans-serif",lineHeight: "31px"}}>
                           We help you grow your contact list using Email
                           Marketing For Hotel’s built-in Forward-to-Friend and
                           Join My Mailing List features. We also manage your
@@ -65,26 +52,14 @@ function ManageEmailMarketing() {
                           to segment mailing lists to deliver content relevant
                           to specific audiences.
                         </p>
-                        <p
-                          style={{
-                            margin: "0 0 15px",
-                            fontFamily: "open sans, sans-serif",
-                            lineHeight: "31px",
-                          }}
-                        >
+                        <p style={{margin: "0 0 15px",fontFamily: "open sans, sans-serif",lineHeight: "31px"}}>
                           Our experienced team will also show your hotel`s email
                           marketing results in real-time, detailing who has
                           received your email, who has opened it, and who has
                           clicked on which link for a better understanding.
                         </p>
 
-                        <p
-                          style={{
-                            margin: "0 0 15px",
-                            fontFamily: "open sans, sans-serif",
-                            lineHeight: "31px",
-                          }}
-                        >
+                        <p style={{margin: "0 0 15px",fontFamily: "open sans, sans-serif",lineHeight: "31px"}}>
                           And finally, to ensure your messages are delivered
                           exactly as we have designed them, Email Marketing from
                           Constant Contact templates are format-tested across

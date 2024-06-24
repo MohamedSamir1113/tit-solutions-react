@@ -704,7 +704,7 @@ const Layout = () => {
                               <li>
                                 <Link
                                   to="/about-us"
-                                  onClick={() => setLoading(true)}
+                                  onClick={(e) => handleLinkClick(e)}
                                 >
                                   About Us
                                 </Link>
@@ -712,18 +712,18 @@ const Layout = () => {
                               <li>
                                 <Link
                                   to="/clients"
-                                  onClick={() => setLoading(true)}
+                                  onClick={(e) => handleLinkClick(e)}
                                 >
                                   Our Clients
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/portfolio">Portfolio</Link>
+                                <Link onClick={(e) => handleLinkClick(e)} to="/portfolio">Portfolio</Link>
                               </li>
                               <li>
                                 <Link
                                   to="/news"
-                                  onClick={() => setLoading(true)}
+                                  onClick={(e) => handleLinkClick(e)}
                                 >
                                   Our News
                                 </Link>
@@ -740,7 +740,7 @@ const Layout = () => {
                             </Link>
                           </li>
                           <li>
-                            <Link to="contact-us" onClick={handleLinkClick}>
+                            <Link to="contact-us" onClick={(e) => handleLinkClick(e)}>
                               Contact Us
                             </Link>
                           </li>

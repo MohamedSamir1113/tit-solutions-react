@@ -398,7 +398,7 @@ const Home = ({ blogPosts }) => {
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-12">
-                <div className="section_title text_center mb-50 mt-3">
+                <div className="section_title text_center  mt-3">
                   <div className="section_main_title">
                     <h1>
                       Our <span> Clients</span>
