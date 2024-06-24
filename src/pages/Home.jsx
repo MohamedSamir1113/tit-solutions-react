@@ -162,7 +162,7 @@ const Home = ({ blogPosts }) => {
     <>
       {/* Banner */}
       <section id="banner">
-        {" "}
+       
         <OwlCarousel options={options}>
           <div
             className="slider_area d-flex align-items-center slider12"

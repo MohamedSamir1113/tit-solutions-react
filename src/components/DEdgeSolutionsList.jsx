@@ -8,7 +8,7 @@ function DEdgeSolutionsList() {
               <div className="service-details-pn-list">
                 <ul>
                   <li>
-                    <Link to="/guest-management">
+                    <Link to="/d-edge/guest-management">
                       Guest Management
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -17,7 +17,7 @@ function DEdgeSolutionsList() {
                   </li>
 
                   <li>
-                    <Link to="/data-intelligence">
+                    <Link to="/d-edge/data-intelligence">
                       Data Intelligence
                       <span>
                         <i className="fa fa-angle-right"></i>

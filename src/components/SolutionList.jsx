@@ -8,7 +8,7 @@ function SolutionList() {
               <div className="service-details-pn-list">
                 <ul>
                   <li>
-                    <Link to="/website-development">
+                    <Link to="/solutions/website-development">
                       Website Development
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -17,7 +17,7 @@ function SolutionList() {
                   </li>
 
                   <li>
-                    <Link to="/booking-engine">
+                    <Link to="/solutions/booking-engine">
                       Booking Engine
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -26,7 +26,7 @@ function SolutionList() {
                   </li>
 
                   <li>
-                    <Link to="/web-check-in-solution">
+                    <Link to="/solutions/web-check-in-solution">
                       Web Check-In Solution
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -59,7 +59,7 @@ function SolutionList() {
                     </p>
                   </div>
                   <div className="service-details-pn-about-content-button pt-2">
-                    <Link to="/contact-us" className="list-color">Contact Now</Link>
+                    <Link to="/solutions/contact-us" className="list-color">Contact Now</Link>
                   </div>
                 </div>
               </div>

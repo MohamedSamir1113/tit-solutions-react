@@ -1,7 +1,7 @@
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import OtherPosts from "../components/OtherPosts";
 import NewsName from "../components/NewsName";
 
@@ -35,7 +35,7 @@ const SliceandDice = ({ blogPosts }) => {
                     <div class="blog_dtl_content bg-news-details">
                       <div class="blog_dtl_top_bs pt-2">
                         <span>
-                          <i class="fa fa-calendar"></i>19 FEB 2023{" "}
+                          <i class="fa fa-calendar"></i>19 FEB 2023
                         </span>
                       </div>
                       <h2 className="mb-4">

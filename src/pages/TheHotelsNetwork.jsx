@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+
 import BgArea from "../components/BgArea";
 import ContactForm from "../components/ContactForm";
 import ServicesList from "../components/ServicesList";

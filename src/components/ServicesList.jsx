@@ -8,7 +8,7 @@ function ServicesList() {
               <div className="service-details-pn-list">
                 <ul>
                   <li>
-                    <Link to="/social-media-marketing">
+                    <Link to="/services/social-media-marketing">
                       Social Media Marketing
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -17,7 +17,7 @@ function ServicesList() {
                   </li>
 
                   <li>
-                    <Link to="/social-media-management">
+                    <Link to="/services/social-media-management">
                       Social Media Management
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -26,7 +26,7 @@ function ServicesList() {
                   </li>
 
                   <li>
-                    <Link to="/hotel-e-commerce">
+                    <Link to="/services/hotel-e-commerce">
                       Hotel E-commerce
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -35,7 +35,7 @@ function ServicesList() {
                   </li>
 
                   <li>
-                    <Link to="/search-engine-optimization">
+                    <Link to="/services/search-engine-optimization">
                       Search Engine Optimization
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -44,7 +44,7 @@ function ServicesList() {
                   </li>
 
                   <li>
-                    <Link to="/email-marketing">
+                    <Link to="/services/email-marketing">
                       Email Marketing
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -53,7 +53,7 @@ function ServicesList() {
                   </li>
 
                   <li>
-                    <Link to="/reporting">
+                    <Link to="/services/reporting">
                       Reporting
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -62,7 +62,7 @@ function ServicesList() {
                   </li>
 
                   <li>
-                    <Link to="/hospitality-photography">
+                    <Link to="/services/hospitality-photography">
                       Hospitality Photography
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -71,7 +71,7 @@ function ServicesList() {
                   </li>
 
                   <li>
-                    <Link to="/the-hotels-network">
+                    <Link to="/services/the-hotels-network">
                       The Hotels Network
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -79,7 +79,7 @@ function ServicesList() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/asksuite-hotel-chatbot">
+                    <Link to="/services/asksuite-hotel-chatbot">
                       Asksuite Hotel Chatbot
                       <span>
                         <i className="fa fa-angle-right"></i>
@@ -112,7 +112,7 @@ function ServicesList() {
                     </p>
                   </div>
                   <div className="service-details-pn-about-content-button pt-2">
-                    <Link to="/contact-us" className="list-color">Contact Now</Link>
+                    <Link to="/services/contact-us" className="list-color">Contact Now</Link>
                   </div>
                 </div>
               </div>

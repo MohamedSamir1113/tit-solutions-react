@@ -546,8 +546,7 @@ body.dark .section_main_title h1 {
 }
 
 .dark #clients .col-md-2.col-xs-6 {
-
-    box-shadow: 0 0 5px #ccc;
+     box-shadow: 0 0 5px #ccc;
     transition: all 0.2s;
     border: 1px solid #ccc;
     transition: all 0.5s;
