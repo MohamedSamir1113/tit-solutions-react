@@ -12,7 +12,7 @@ function Website360Reporting() {
       <BgArea
         title1={`Website 360 Reporting`}
         title2={`Reporting`}
-        path={`/reporting`}
+        path={`/services/reporting`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -144,7 +144,7 @@ function Website360Reporting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/google-analytics-implementation">
+                          <Link to="/services/reporting/google-analytics-implementation">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -192,7 +192,7 @@ function Website360Reporting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/digital-marketing-reporting">
+                          <Link to="/services/reporting/digital-marketing-reporting">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

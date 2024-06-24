@@ -12,7 +12,7 @@ function PerformanceAnalysis() {
       <BgArea
         title1={`Performance Analysis`}
         title2={`Data Intelligence`}
-        path={`/data-intelligence`}
+        path={`/d-edge/data-intelligence`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -136,7 +136,7 @@ function PerformanceAnalysis() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/price-monitoring">
+                          <Link to="/d-edge/data-intelligence/price-monitoring">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -186,7 +186,7 @@ function PerformanceAnalysis() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/price-recommendation">
+                          <Link to="/d-edge/data-intelligence/price-recommendation">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

@@ -12,7 +12,7 @@ function HotelCRM() {
       <BgArea
         title1={`Hotel CRM`}
         title2={`Guest Management`}
-        path={`/guest-management`}
+        path={`/d-edge/guest-management`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -148,7 +148,7 @@ function HotelCRM() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/guest-loyalty">
+                          <Link to="/d-edge/guest-management/guest-loyalty">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -200,7 +200,7 @@ function HotelCRM() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/guest-feedback">
+                          <Link to="/d-edge/guest-management/guest-feedback">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

@@ -12,7 +12,7 @@ function ManageEmailMarketing() {
       <BgArea
         title1={`Manage Email Marketing`}
         title2={`Email Marketing`}
-        path={`/email-marketing`}
+        path={`/services/email-marketing`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -140,7 +140,7 @@ function ManageEmailMarketing() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/constant-contact">
+                          <Link to="/services/email-marketing/constant-contact">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

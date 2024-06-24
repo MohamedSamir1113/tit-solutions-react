@@ -12,7 +12,7 @@ function NileCruiseBookingEngine() {
       <BgArea
         title1={`Nile Cruise Booking Engine`}
         title2={`Booking Engine`}
-        path={`/booking-engine`}
+        path={`/solutions/booking-engine`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -131,7 +131,7 @@ function NileCruiseBookingEngine() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/attraction-d-edge">
+                          <Link to="/solutions/booking-engine/attraction-d-edge">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -183,7 +183,7 @@ function NileCruiseBookingEngine() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/SynXis">
+                          <Link to="/solutions/booking-engine/SynXis">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

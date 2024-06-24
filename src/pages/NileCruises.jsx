@@ -12,7 +12,7 @@ function NileCruises() {
       <BgArea
         title1={`Nile Cruises`}
         title2={`Website Development`}
-        path={`/website-development`}
+        path={`/solutions/website-development`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -154,7 +154,7 @@ function NileCruises() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotels-resorts">
+                          <Link to="/solutions/website-development/hotels-resorts">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -206,7 +206,7 @@ function NileCruises() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/solutions/website-development/travel-tours">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -258,7 +258,7 @@ function NileCruises() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/general-purposes">
+                          <Link to="/solutions/website-development/general-purposes">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

@@ -12,7 +12,7 @@ function GoogleAds() {
       <BgArea
         title1={`Google Ads`}
         title2={`Search Engine Marketing`}
-        path={`/search-engine-marketing`}
+        path={`/services/search-engine-marketing`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -125,7 +125,7 @@ function GoogleAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/bing-ads">
+                          <Link to="/services/search-engine-marketing/bing-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -179,7 +179,7 @@ function GoogleAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/yandex-ads">
+                          <Link to="/services/search-engine-marketing/yandex-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

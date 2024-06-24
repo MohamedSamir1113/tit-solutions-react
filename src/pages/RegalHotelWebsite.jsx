@@ -21,7 +21,7 @@ const RegalHotelWebsite = ({ blogPosts }) => {
       <NewsName name="Regal Heights Hotel El Alamein Website Launched by T.I.T Solutions" />
       {/*News */}
 
-      <div class="blog_area blog-details-area pt-100 pb-100" id="blog">
+      <div class="blog_area blog-details-area pt-100 pb-100 bg-news" id="blog">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
@@ -32,7 +32,7 @@ const RegalHotelWebsite = ({ blogPosts }) => {
                       <img src="assets/images/news-regalnew.jpg" alt="" />
                     </div>
 
-                    <div class="blog_dtl_content">
+                    <div class="blog_dtl_content bg-news-details">
                       <div class="blog_dtl_top_bs pt-2">
                         <span>
                           <i class="fa fa-calendar"></i>15 JAN 2023{" "}

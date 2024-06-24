@@ -12,7 +12,7 @@ function VKAds() {
       <BgArea
         title1={`VK Ads`}
         title2={`Social Media Marketing`}
-        path={`/social-media-marketing`}
+        path={`/services/social-media-marketing`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -132,7 +132,7 @@ function VKAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/facebook-ads">
+                          <Link to="/services/social-media-marketing/facebook-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -182,7 +182,7 @@ function VKAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/snapchat-ads">
+                          <Link to="/services/social-media-marketing/snapchat-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -234,7 +234,7 @@ function VKAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/instagram-ads">
+                          <Link to="/services/social-media-marketing/instagram-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -286,7 +286,7 @@ function VKAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/linkedin-ads">
+                          <Link to="/services/social-media-marketing/linkedin-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

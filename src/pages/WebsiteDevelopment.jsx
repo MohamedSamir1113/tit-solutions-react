@@ -20,7 +20,7 @@ function WebsiteDevelopment() {
       <Section1Area
         title="Hotels & Resorts"
         imgSrc="assets/images/digital-marketing-in-egypt-for-hotels-solutions-hotels-resorts-202120114146849.jpg"
-        linkPath="/hotels-resorts"
+        linkPath="/solutions/website-development/hotels-resorts"
         description=" Keep your website up-to-date and user-friendly all the time with the help of our web development experts. We know that all hotels have a website but do the design of your hotel site and images encourage people to book directly? Is your hotel’s website optimized so that customers will actually see you when they search online? That is exactly how we do our job to attract lookers and bookers!"
       />
       {/*Hotels and resorts*/}
@@ -35,7 +35,7 @@ function WebsiteDevelopment() {
                     This will ensure presenting your image in the best way
                     infront of your clientele & drive more sales."
         imgSrc="assets/images/solutions/s2.jpg"
-        linkPath="/travel-tours"
+        linkPath="/solutions/website-development/travel-tours"
       />{" "}
       {/*Travels and tours*/}
       <Section1Area
@@ -46,7 +46,7 @@ function WebsiteDevelopment() {
                     website. Our web developers team is extremely experienced
                     and trained for creating tailored websites like yours!"
         imgSrc="assets/images/digital-marketing-in-egypt-for-hotels-solutions-nile-cruises-202130133148568.jpg"
-        linkPath="/nile-cruises"
+        linkPath="/solutions/website-development/nile-cruises"
       />
       {/*Nile cruises*/}
       <Section2Area
@@ -55,7 +55,7 @@ function WebsiteDevelopment() {
                     designing services to help you sail effortlessly through the
                     constantly evolving technological changes."
         imgSrc="assets/images/digital-marketing-in-egypt-for-hotels-solutions-general-purposes-202120115030332.jpg"
-        linkPath="/general-purposes"
+        linkPath="/solutions/website-development/general-purposes"
       />
       {/*general purposes*/}
     </>

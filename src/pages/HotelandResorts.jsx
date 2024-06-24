@@ -12,7 +12,7 @@ function HotelandResorts() {
       <BgArea
         title1={`Hotels and Resorts`}
         title2={`Website Development`}
-        path={`/website-development`}
+        path={`/solutions/website-development`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -94,7 +94,7 @@ function HotelandResorts() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/travel-tours">
+                          <Link to="/solutions/website-development/travel-tours">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -154,7 +154,7 @@ function HotelandResorts() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/nile-cruises">
+                          <Link to="/solutions/website-development/nile-cruises">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -205,7 +205,7 @@ function HotelandResorts() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/general-purposes">
+                          <Link to="/solutions/website-development/general-purposes">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

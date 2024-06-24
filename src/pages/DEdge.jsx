@@ -19,24 +19,24 @@ const DEdge = () => {
                     system. It helps you boost your conversion rate and offer
                     your clients the best user experience. Try it now!"
         imgSrc="assets/images/d-edge/s1.jpg"
-        linkPath="/central-reservation-system"
+        linkPath="/d-edge/central-reservation-system"
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/booking-engine-for-hotel">
+              <Link to="/d-edge/central-reservation-system/booking-engine-for-hotel">
                 Booking Engine For Hotel
               </Link>
             </li>
             <li>
-              <Link to="/dedge-channel-manager">D-EDGE Channel Manager</Link>
+              <Link to="/d-edge/central-reservation-system/dedge-channel-manager">D-EDGE Channel Manager</Link>
             </li>
             <li>
-              <Link to="/d-edge-inventory-management">
+              <Link to="/d-edge/central-reservation-system/d-edge-inventory-management">
                 D-EDGE Inventory Management
               </Link>
             </li>
             <li>
-              <Link to="/gds-hotel-solutions">GDS Hotel Solutions</Link>
+              <Link to="/d-edge/central-reservation-system/gds-hotel-solutions">GDS Hotel Solutions</Link>
             </li>
           </ul>
         }
@@ -49,22 +49,22 @@ const DEdge = () => {
                     with the help of D-EDGE Guest Management tools. Manage your
                     hotel's overall online reputation using the easiest ways
                     with us."
-        linkPath="/guest-management"
+        linkPath="/d-edge/guest-management"
         imgSrc="assets/images/d-edge/s2.jpg"
         list={
           <ul className="list-unstyled">
             <li>
-              <Link className="list-color" to="/hotel-crm">
+              <Link className="list-color" to="/d-edge/guest-management/hotel-crm">
                 Hotel CRM
               </Link>
             </li>
             <li>
-              <Link className="list-color" to="/guest-loyalty">
+              <Link className="list-color" to="/d-edge/guest-management/guest-loyalty">
                 Guest Loyalty
               </Link>
             </li>
             <li>
-              <Link className="list-color" to="/guest-feedback">
+              <Link className="list-color" to="/d-edge/guest-management/guest-feedback">
                 Guest Feedback
               </Link>
             </li>
@@ -82,17 +82,17 @@ const DEdge = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/price-monitoring">Price Monitoring</Link>
+              <Link to="/d-edge/data-intelligence/price-monitoring">Price Monitoring</Link>
             </li>
             <li>
-              <Link to="/price-recommendation">Price Recommendation</Link>
+              <Link to="/d-edge/data-intelligence/price-recommendation">Price Recommendation</Link>
             </li>
             <li>
-              <Link to="/performance-analysis">Performance Analysis</Link>
+              <Link to="/d-edge/data-intelligence/performance-analysis">Performance Analysis</Link>
             </li>
           </ul>
         }
-        linkPath="/data-intelligence"
+        linkPath="/d-edge/data-intelligence"
       />
     </>
   );

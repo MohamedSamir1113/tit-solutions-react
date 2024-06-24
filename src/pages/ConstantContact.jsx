@@ -13,7 +13,7 @@ function ConstantContact() {
       <BgArea
         title1={`Constant Contact`}
         title2={`Email Marketing`}
-        path={`/email-marketing`}
+        path={`/services/email-marketing`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -151,7 +151,7 @@ function ConstantContact() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/manage-email-marketing">
+                          <Link to="/services/email-marketing/manage-email-marketing">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

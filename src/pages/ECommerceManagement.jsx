@@ -12,7 +12,7 @@ function ECommerceManagement() {
       <BgArea
         title1={`E-Commerce Management`}
         title2={`Hotel E-Commerce`}
-        path={`/hotel-e-commerce`}
+        path={`/services/hotel-e-commerce`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -152,7 +152,7 @@ function ECommerceManagement() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/e-commerce-consultancy">
+                          <Link to="/services/hotel-e-commerce/e-commerce-consultancy">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

@@ -18,21 +18,21 @@ const Solutions = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link to="/hotels-resorts">Hotels & Resorts</Link>
+              <Link to="/solutions/website-development/hotels-resorts">Hotels & Resorts</Link>
             </li>
             <li>
-              <Link to="/travel-tours">Travel & Tours</Link>
+              <Link to="/solutions/website-development/travel-tours">Travel & Tours</Link>
             </li>
             <li>
-              <Link to="/nile-cruises">Nile Cruises</Link>
+              <Link to="/solutions/website-development/nile-cruises">Nile Cruises</Link>
             </li>
             <li>
-              <Link to="/general-purposes">General Purposes</Link>
+              <Link to="/solutions/website-development/general-purposes">General Purposes</Link>
             </li>
           </ul>
         }
         imgSrc="assets/images/solutions/s1.jpg"
-        linkPath="/website-development"
+        linkPath="/solutions/website-development"
       />
       <Section2Area
         title="Booking Engine"
@@ -41,26 +41,26 @@ const Solutions = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link className="list-color" to="/attraction-d-edge">Attraction D-Edge</Link>
+              <Link className="list-color" to="/solutions/booking-engine/attraction-d-edge">Attraction D-Edge</Link>
             </li>
             <li>
-              <Link className="list-color" to="/SynXis">SynXis</Link>
+              <Link className="list-color" to="/solutions/booking-engine/SynXis">SynXis</Link>
             </li>
             <li>
-              <Link className="list-color" to="/nile-cruise-booking-engine">
+              <Link className="list-color" to="/solutions/booking-engine/nile-cruise-booking-engine">
                 Nile Cruise Booking Engine
               </Link>
             </li>
           </ul>
         }
-        linkPath="/booking-engine"
+        linkPath="/solutions/booking-engine"
       />
 
       <Section1Area
         title="Web Check-In Solution"
         imgSrc="assets/images/solutions/s3.jpg"
         description="During this challenging time, Hotels & Resorts need to implement a solution to facilitate a smooth, fast, and paperless Check-In for the guests. Our solution ensures a better experience for our guests and more reliable protection for our teams."
-        linkPath="/web-check-in-solution"
+        linkPath="/solutions/web-check-in-solution"
       />
     </>
   );

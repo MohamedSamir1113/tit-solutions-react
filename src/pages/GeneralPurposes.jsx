@@ -12,7 +12,7 @@ function GeneralPurposes() {
         <BgArea
           title1={`General Purposes`}
           title2={`Website Development`}
-          path={`/website-development`}
+          path={`/solutions/website-development`}
         />
         <div className="service-details pages pt-90 pb-50">
           <div className="container">
@@ -123,7 +123,7 @@ function GeneralPurposes() {
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/hotels-resorts">
+                            <Link to="/solutions/website-development/hotels-resorts">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>
@@ -175,7 +175,7 @@ function GeneralPurposes() {
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/travel-tours">
+                            <Link to="/solutions/website-development/travel-tours">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>
@@ -227,7 +227,7 @@ function GeneralPurposes() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/nile-cruises">
+                          <Link to="/solutions/website-development/nile-cruises">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

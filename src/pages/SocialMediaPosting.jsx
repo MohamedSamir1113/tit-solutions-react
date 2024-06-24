@@ -12,7 +12,7 @@ function SocialMediaPosting() {
       <BgArea
         title1={`Social Media Posting`}
         title2={`Social Media Management`}
-        path={`/social-media-management`}
+        path={`/services/social-media-management`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -145,7 +145,7 @@ function SocialMediaPosting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/social-media-strategy">
+                          <Link to="/services/social-media-management/social-media-strategy">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -195,7 +195,7 @@ function SocialMediaPosting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/social-media-graphics">
+                          <Link to="/services/social-media-management/social-media-graphics">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

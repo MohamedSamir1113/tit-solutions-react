@@ -17,17 +17,17 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link  to="/google-ads">Google Hotel Ads</Link>
+              <Link  to="/services/search-engine-marketing/google-ads">Google Hotel Ads</Link>
             </li>
             <li>
-              <Link  to="/bing-ads">Bing Hotel Ads</Link>
+              <Link  to="/services/search-engine-marketing/bing-ads">Bing Hotel Ads</Link>
             </li>
             <li>
-              <Link  to="/yandex-ads">Yandex Ads In Egypt</Link>
+              <Link  to="/services/search-engine-marketing/yandex-ads">Yandex Ads In Egypt</Link>
             </li>
           </ul>
         }
-        linkPath="/search-engine-marketing"
+        linkPath="/services/search-engine-marketing"
       />
 
       <Section2Area
@@ -37,23 +37,23 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link className="list-color" to="/facebook-ads">Facebook Ads For Hotel</Link>
+              <Link className="list-color" to="/services/social-media-marketing/facebook-ads">Facebook Ads For Hotel</Link>
             </li>
             <li>
-              <Link className="list-color" to="/instagram-ads">Instagram Marketing For Hotels</Link>
+              <Link className="list-color" to="/services/social-media-marketing/instagram-ads">Instagram Marketing For Hotels</Link>
             </li>
             <li>
-              <Link className="list-color" to="/snapchat-ads">Snapchat Ads For Hotel</Link>
+              <Link className="list-color" to="/services/social-media-marketing/snapchat-ads">Snapchat Ads For Hotel</Link>
             </li>
             <li>
-              <Link className="list-color" to="/vk-ads">VK Ads For Hotels</Link>
+              <Link className="list-color" to="/services/social-media-marketing/vk-ads">VK Ads For Hotels</Link>
             </li>
             <li>
-              <Link className="list-color" to="/linkedin-ads">Linkedin For Hotels</Link>
+              <Link className="list-color" to="/services/social-media-marketing/linkedin-ads">Linkedin For Hotels</Link>
             </li>
           </ul>
         }
-        linkPath="/social-media-marketing"
+        linkPath="/services/social-media-marketing"
       />
 
       <Section1Area
@@ -63,23 +63,23 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link  to="/social-media-strategy">
+              <Link  to="/services/social-media-management/social-media-strategy">
                 Hotel Social Media Strategy
               </Link>
             </li>
             <li>
-              <Link  to="/social-media-posting">
+              <Link  to="/services/social-media-management/social-media-posting">
                 Social Media Content For Hotels
               </Link>
             </li>
             <li>
-              <Link  to="/social-media-graphics">
+              <Link  to="/services/social-media-management/social-media-graphics">
                 Social Media Design Services
               </Link>
             </li>
           </ul>
         }
-        linkPath="/social-media-management"
+        linkPath="/services/social-media-management"
       />
 
       <Section2Area
@@ -89,23 +89,23 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link className="list-color" to="/e-commerce-consultancy">E-Commerce Consultancy</Link>
+              <Link className="list-color" to="/services/hotel-e-commerce/e-commerce-consultancy">E-Commerce Consultancy</Link>
             </li>
             <li>
-              <Link className="list-color" to="/e-commerce-management">
+              <Link className="list-color" to="/services/hotel-e-commerce/e-commerce-management">
                 Hotel E-Commerce Management
               </Link>
             </li>
           </ul>
         }
-        linkPath="/hotel-e-commerce"
+        linkPath="/services/hotel-e-commerce"
       />
 
       <Section1Area
         title="Search Engine Optimization"
         imgSrc="assets/images/services/s5.jpg"
         description="We provide SEO consulting services that give your Website a strong competitive push in the search engine results. We dig deep into your busness to create you a tailored SEO package based on your specific needs and budget. Our SEO services are designed to take you from A to Z. Starting from creating a strategy that makes sense, help you analyze your competitors, and search which keywords are important to achieve success."
-        linkPath="/search-engine-optimization"
+        linkPath="/services/search-engine-optimization"
       />
 
       <Section2Area
@@ -115,18 +115,18 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link className="list-color" to="/manage-email-marketing">
+              <Link className="list-color" to="/services/email-marketing/manage-email-marketing">
                 Email Marketing For Hotels
               </Link>
             </li>
             <li>
-              <Link className="list-color" to="/constant-contact">
+              <Link className="list-color" to="/services/email-marketing/constant-contact">
                 Email Marketing For Hotels With "Constant Contact"
               </Link>
             </li>
           </ul>
         }
-        linkPath="/email-marketing"
+        linkPath="/services/email-marketing"
       />
 
       <Section1Area
@@ -136,21 +136,21 @@ const Services = () => {
         list={
           <ul className="list-unstyled">
             <li>
-              <Link  to="/google-analytics-implementation">
+              <Link  to="/services/reporting/google-analytics-implementation">
                 Google analytics for hotels
               </Link>
             </li>
             <li>
-              <Link  to="/digital-marketing-reporting">
+              <Link  to="/services/reporting/digital-marketing-reporting">
                 Digital Marketing Reporting
               </Link>
             </li>
             <li>
-              <Link  to="/website-360-reporting">Website Analytics 360</Link>
+              <Link  to="/services/reporting/website-360-reporting">Website Analytics 360</Link>
             </li>
           </ul>
         }
-        linkPath="/reporting"
+        linkPath="/services/reporting"
       />
 
       <Section2Area
@@ -161,16 +161,14 @@ const Services = () => {
                     property! We at T.I.T Solutions help you gain more bookings
                     through our professional photography service that is
                     dedicated especially to the hotels` needs."
-        linkPath="/hospitality-photography"
+        linkPath="/services/hospitality-photography"
       />
       <Section1Area
         title="Asksuite Hotel Chatbot"
         imgSrc="assets/images/services/s9.jpg"
         description="Nowadays, customer service teams at hotels can easily become overwhelmed; that is why every hotel needs a Hotel Chatbot to reduce this pressure, handling all the guests' frequent requests in rapid response times and leaving staff to the trickier cases."
-        description2="Asksuite Chatbot will automatize your online customer service in a way that guarantees to boost direct bookings and conversion rates. It also enhances your guests` booking journey and even encourages more opportunities to up-sell and cross-sell
-
-"
-        linkPath="/asksuite-hotel-chatbot"
+        description2="Asksuite Chatbot will automatize your online customer service in a way that guarantees to boost direct bookings and conversion rates. It also enhances your guests` booking journey and even encourages more opportunities to up-sell and cross-sell"
+        linkPath="/services/asksuite-hotel-chatbot"
       />
       
       <div className="service_area bg_color2 pt-80 pb-70">
@@ -209,7 +207,7 @@ const Services = () => {
                             <i className="fa fa-share"></i>
                           </div>
                           <Link
-                            to="/the-hotels-network"
+                            to="/services/the-hotels-network"
                             className="single_service_content"
                           >
                             <h4 className="dark-header"> View More </h4>

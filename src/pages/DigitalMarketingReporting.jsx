@@ -12,7 +12,7 @@ function DigitalMarketingReporting() {
       <BgArea
         title1={`Digital Marketing Reporting`}
         title2={`Reporting`}
-        path={`/reporting`}
+        path={`/services/reporting`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -117,7 +117,7 @@ function DigitalMarketingReporting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/google-analytics-implementation">
+                          <Link to="/services/reporting/google-analytics-implementation">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -169,7 +169,7 @@ function DigitalMarketingReporting() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/website-360-reporting">
+                          <Link to="/services/reporting/website-360-reporting">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

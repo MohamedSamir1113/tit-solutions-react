@@ -135,7 +135,7 @@ function App() {
       year: "2024",
       title: "We're Heading Back to Dubai for The Hotel Show",
       description: `We are thrilled to announce our participation in The Hotel Show in Dubai, the ultimate hub for the hospitality industry! This premier event is`,
-      linkPath: "/dubai-hotel-show",
+      linkPath: "/news/dubai-hotel-show",
       colorClass: "",
     },
     {
@@ -147,7 +147,7 @@ function App() {
       title:
         "T.I.T Solutions Announces Participation in Riyadh Travel Fair 2024",
       description: `T.I.T Solutions is pleased to announce that our Managing Director, Dr. Mohamed Taha, will participate in the Riyadh Travel Fair, the premier tourism event in Saudi Arabia, from May 27 to 29, 2024.We are eager`,
-      linkPath: "/riyadh-travel-fair-2024",
+      linkPath: "/news/riyadh-travel-fair-2024",
       colorClass: "color2",
     },
     {
@@ -161,7 +161,7 @@ function App() {
       description: `We are delighted to announce our participation in the prestigious Arabian Travel Market (ATM) 2024, set to take place in Dubai from May 6th to May 9th.
 
 This significant event will witness the presence`,
-      linkPath: "/atm-dubai-2024",
+      linkPath: "/news/atm-dubai-2024",
       colorClass: "color3",
     },
     {
@@ -173,7 +173,7 @@ This significant event will witness the presence`,
       title: "Google Premier Partner 2024",
       description:
         "T.I.T Solutions, a leading innovator in digital marketing strategies, has been honored once again as a Google Premier Partner for the year 2024. This consecutive recognition underscores the company's unwavering commitment to excellence, following its previous acknowledgment as a Google Premier Partner in 2023.",
-      linkPath: "/google-premier-partner-2024",
+      linkPath: "/news/google-premier-partner-2024",
       colorClass: "",
     },
     {
@@ -185,7 +185,7 @@ This significant event will witness the presence`,
       title: "T.I.T Solutions and Travco Group Launches A New Website",
       description:
         "T.I.T Solutions is taking pride in announcing the launch of the new website for Travco Group. The new website is designed to provide a cutting-edge and dynamic user experience. With a wide range of features and functionalities that cater to the diverse needs of the users.",
-      linkPath: "/travco-group",
+      linkPath: "/news/travco-group",
       colorClass: "color2",
     },
     {
@@ -198,7 +198,7 @@ This significant event will witness the presence`,
         "T.I.T Solutions & Cleopark, owned By Sharm Dreams Holding, Shape a Digital Path to Adventure!",
       description:
         "T.I.T Solutions has launched the first-of-a-kind website for a water park for Cleopark, the premier water park in Sharm El Sheikh. Cleopark is owned by Sharm Dreams Holding and operated by The Jaz Hotel Group.",
-      linkPath: "/cleopark-owned-by-sharm",
+      linkPath: "/news/cleopark-owned-by-sharm",
       colorClass: "color3",
     },
     {
@@ -215,7 +215,7 @@ This significant event will witness the presence`,
                       With Duetto's cutting-edge technology, we are confident
                       that we can deliver unparalleled value to our clients in
                       the hospitality sector.`,
-      linkPath: "/partners-with-duetto-software",
+      linkPath: "/news/partners-with-duetto-software",
       colorClass: "",
     },
     {
@@ -231,7 +231,7 @@ This significant event will witness the presence`,
                       to explore potential partnerships, discuss industry
                       trends, and showcase how T.I.T Solutions' team is changing
                       the game in travel experiences.`,
-      linkPath: "/let-s-meet-in-berlin!",
+      linkPath: "/news/let-s-meet-in-berlin!",
       colorClass: "color2",
     },
     {
@@ -247,7 +247,7 @@ This significant event will witness the presence`,
                       engaging gateway for travel enthusiasts, offering a
                       seamless exploration of Chrismar's world of captivating
                       destinations and experiences.`,
-      linkPath: "/discover-chrismar-travel",
+      linkPath: "/news/discover-chrismar-travel",
       colorClass: "color3",
     },
     {
@@ -258,7 +258,7 @@ This significant event will witness the presence`,
       year: "2024",
       title: "Tawila Island Flourishes with the Launch of Its New Website!",
       description: `We are delighted to unveil the all-new Tawila Island website...`,
-      linkPath: "/tawila-island",
+      linkPath: "/news/tawila-island",
       colorClass: "",
     },
     {
@@ -270,7 +270,7 @@ This significant event will witness the presence`,
       title:
         "Participating in the 30th Edition of the Arabian Travel Market (ATM)",
       description: `T.I.T Solutions agency is participating in the 30th edition of Arabian Travel Market (ATM) between 1-4 May in Dubai, where we are ready to explore `,
-      linkPath: "/participating-in-the-arabian-travel-market-atm",
+      linkPath: "/news/participating-in-the-arabian-travel-market-atm",
       colorClass: "color2",
     },
     {
@@ -282,7 +282,7 @@ This significant event will witness the presence`,
       title:
         "T.I.T Solutions Partook Kwentra's Tech Hospitality for IT Leaders Workshop",
       description: `T.I.T Solutions partook in Kwentra's "Tech Hospitality for IT Leaders" workshop for their latest initiative for hospitality technology professionals.Our managing director Dr. Mohamed Taha  `,
-      linkPath: "/partook-kwentra",
+      linkPath: "/news/partook-kwentra",
       colorClass: "color3",
     },
     {
@@ -293,7 +293,7 @@ This significant event will witness the presence`,
       year: "2023",
       title: "T.I.T. Solutions partnering with Kashier Payment Solutions",
       description: `Cairo, Egypt, March 5th, 2023 – Kashier Payment and TIT Solutions are proud to announce their strategic partnership to drive e-commerce growth in the hospitality sector in Egypt.Kashier Payment Solutions`,
-      linkPath: "/news-kashir",
+      linkPath: "/news/news-kashir",
       colorClass: "",
     },
     {
@@ -304,7 +304,7 @@ This significant event will witness the presence`,
       year: "2023",
       title: "T.I.T. Solutions is recognized as a 2023 Google Premier Partner",
       description: `As a Google Premier Partner and by being in the top selected 3% of partners in the region, T.I.T.Solutions continues its mission of introducing digital marketing best practices to the hospitality industry and turning them into a success story.`,
-      linkPath: "/google-premier-2023",
+      linkPath: "/news/google-premier-2023",
       colorClass: "color2",
     },
     {
@@ -315,7 +315,7 @@ This significant event will witness the presence`,
       year: "2023",
       title: "Introducing the new Utopia Beach Hotels",
       description: `We are proud to announce the Utopia Beach Hotels' new website launch.It is now live and waiting for the endless number of guests’ bookings.`,
-      linkPath: "/utopia-beach-hotels",
+      linkPath: "/news/utopia-beach-hotels",
       colorClass: "color3",
     },
     {
@@ -326,7 +326,7 @@ This significant event will witness the presence`,
       year: "2023",
       title: "Slice and Dice Egypt Website Launched by T.I.T Solutions",
       description: `With honor and pleasure, we are sharing with you our new Website project launch for Slice and Dice Egypt`,
-      linkPath: "/slice-and-dice-egypt",
+      linkPath: "/news/slice-and-dice-egypt",
       colorClass: "",
     },
     {
@@ -337,7 +337,7 @@ This significant event will witness the presence`,
       year: "2023",
       title: "Regal Heights Hotel received Traveller Review Award",
       description: `We are proud to announce that our respected client Regal Heights Hotel has received from Booking.com a Traveller Review Award with a rating of 8.9/10.`,
-      linkPath: "/regal-heights-hotel",
+      linkPath: "/news/regal-heights-hotel",
       colorClass: "color2",
     },
     {
@@ -348,7 +348,7 @@ This significant event will witness the presence`,
       year: "2023",
       title: "Regal Heights Hotel El Alamein Website Launched by T.I.T Solutions",
       description: `With honor and pleasure, we are sharing with you our new Website project launch for Regal Heights Hotel El Alamein`,
-      linkPath: "/regal-hotel-website",
+      linkPath: "/news/regal-hotel-website",
       colorClass: "color3",
     },
     {
@@ -359,7 +359,7 @@ This significant event will witness the presence`,
       year: "2022",
       title: "Steigenberger Hotel El Tahrir Cairo",
       description: `Congratulations to our respected partner Steigenberger Hotel El Tahrir Cairo, on receiving the Agoda 2022 Gold Circle Award with review ratings of 9 on Agoda.`,
-      linkPath: "/steigenberger-hotel-website",
+      linkPath: "/news/steigenberger-hotel-website",
       colorClass: "",
     },
     {
@@ -370,7 +370,7 @@ This significant event will witness the presence`,
       year: "2022",
       title: "Diving World Sharm's website is now live",
       description: `We're proudly announcing that Diving World Sharm's website is now live and ready to be discovered by wonderful people far and wide!`,
-      linkPath: "/diving-world-sharm",
+      linkPath: "/news/diving-world-sharm",
       colorClass: "color2",
     },
     {
@@ -381,7 +381,7 @@ This significant event will witness the presence`,
       year: "2022",
       title: "launch of Asksuite at our prestigious partner Savoy Group Sharm El Sheikh",
       description: `We are thrilled to announce the launch of Asksuite at our prestigious partner Savoy Group Sharm El Sheikh website and social media channels.`,
-      linkPath: "/savoy-sharm",
+      linkPath: "/news/savoy-sharm",
       colorClass: "color3",
     },
     {
@@ -392,7 +392,7 @@ This significant event will witness the presence`,
       year: "2022",
       title: "Crystal Inn Hotel El Alamein Website Launched by T.I.T Solutions",
       description: `With honor and pleasure, we are sharing with you our new Website project launch for Crystal Inn Hotel El Alamein`,
-      linkPath: "/crystal-inn-hotel",
+      linkPath: "/news/crystal-inn-hotel",
       colorClass: "",
     },
     
@@ -401,159 +401,153 @@ This significant event will witness the presence`,
   
   return (
     <>
-      <Router basename="/">
+      <Router>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home blogPosts={blogPosts}/>} />
             <Route path="solutions" element={<Solutions />} />
 
-            <Route
-              path="website-development"
-              element={<WebsiteDevelopment />}
-            />
-            <Route path="hotels-resorts" element={<HotelandResorts />} />
-            <Route path="travel-tours" element={<TravelandTours />} />
-            <Route path="nile-cruises" element={<NileCruises />} />
-            <Route path="general-purposes" element={<GeneralPurposes />} />
+            <Route path="/solutions/website-development"element={<WebsiteDevelopment />}/>
+            <Route path="/solutions/website-development/hotels-resorts" element={<HotelandResorts />} />
+            <Route path="/solutions/website-development/travel-tours" element={<TravelandTours />} />
+            <Route path="/solutions/website-development/nile-cruises" element={<NileCruises />} />
+            <Route path="/solutions/website-development/general-purposes" element={<GeneralPurposes />} />
 
-            <Route path="booking-engine" element={<BookingEngine />} />
-            <Route path="attraction-d-edge" element={<AttractionDEdge />} />
-            <Route path="SynXis" element={<SynXis />} />
-            <Route
-              path="nile-cruise-booking-engine"
-              element={<NileCruiseBookingEngine />}
-            />
+            <Route path="/solutions/booking-engine" element={<BookingEngine />} />
+            <Route path="/solutions/booking-engine/attraction-d-edge" element={<AttractionDEdge />} />
+            <Route path="/solutions/booking-engine/SynXis" element={<SynXis />} />
+            <Route path="/solutions/booking-engine/nile-cruise-booking-engine" element={<NileCruiseBookingEngine />}/>
 
             <Route
-              path="web-check-in-solution"
+              path="/solutions/web-check-in-solution"
               element={<WebCheckInSolution />}
             />
 
             <Route path="services" element={<Services />} />
 
             <Route
-              path="search-engine-marketing"
+              path="/services/search-engine-marketing"
               element={<SearchEngineMarketing />}
             />
-            <Route path="google-ads" element={<GoogleAds />} />
-            <Route path="bing-ads" element={<BingAds />} />
-            <Route path="yandex-ads" element={<YandexAds />} />
+            <Route path="/services/search-engine-marketing/google-ads" element={<GoogleAds />} />
+            <Route path="/services/search-engine-marketing/bing-ads" element={<BingAds />} />
+            <Route path="/services/search-engine-marketing/yandex-ads" element={<YandexAds />} />
 
             <Route
-              path="social-media-marketing"
+              path="/services/social-media-marketing"
               element={<SocialMediaMarketing />}
             />
-            <Route path="facebook-ads" element={<FacebookAds />} />
-            <Route path="instagram-ads" element={<InstagramAds />} />
-            <Route path="snapchat-ads" element={<SnapchatAds />} />
-            <Route path="vk-ads" element={<VKAds />} />
-            <Route path="linkedin-ads" element={<LinkedInAds />} />
+            <Route path="/services/social-media-marketing/facebook-ads" element={<FacebookAds />} />
+            <Route path="/services/social-media-marketing/instagram-ads" element={<InstagramAds />} />
+            <Route path="/services/social-media-marketing/snapchat-ads" element={<SnapchatAds />} />
+            <Route path="/services/social-media-marketing/vk-ads" element={<VKAds />} />
+            <Route path="/services/social-media-marketing/linkedin-ads" element={<LinkedInAds />} />
 
             <Route
-              path="social-media-management"
+              path="/services/social-media-management"
               element={<SocialMediaManagement />}
             />
             <Route
-              path="social-media-strategy"
+              path="/services/social-media-management/social-media-strategy"
               element={<SocialMediaStrategy />}
             />
             <Route
-              path="social-media-posting"
+              path="/services/social-media-management/social-media-posting"
               element={<SocialMediaPosting />}
             />
             <Route
-              path="social-media-graphics"
+              path="/services/social-media-management/social-media-graphics"
               element={<SocialMediaGraphics />}
             />
 
-            <Route path="hotel-e-commerce" element={<HotelECommerce />} />
+            <Route path="/services/hotel-e-commerce" element={<HotelECommerce />} />
             <Route
-              path="e-commerce-consultancy"
+              path="/services/hotel-e-commerce/e-commerce-consultancy"
               element={<ECommerceConsultancy />}
             />
             <Route
-              path="e-commerce-management"
+              path="/services/hotel-e-commerce/e-commerce-management"
               element={<ECommerceManagement />}
             />
 
             <Route
-              path="search-engine-optimization"
+              path="/services/search-engine-optimization"
               element={<SearchEngineOptimization />}
             />
 
-            <Route path="email-marketing" element={<EmailMarketing />} />
-            <Route path="constant-contact" element={<ConstantContact />} />
+            <Route path="/services/email-marketing" element={<EmailMarketing />} />
+            <Route path="/services/email-marketing/constant-contact" element={<ConstantContact />} />
             <Route
-              path="manage-email-marketing"
+              path="/services/email-marketing/manage-email-marketing"
               element={<ManageEmailMarketing />}
             />
 
-            <Route path="reporting" element={<Reporting />} />
+            <Route path="/services/reporting" element={<Reporting />} />
             <Route
-              path="google-analytics-implementation"
+              path="/services/reporting/google-analytics-implementation"
               element={<GoogleAnalyticsImplementation />}
             />
             <Route
-              path="digital-marketing-reporting"
+              path="/services/reporting/digital-marketing-reporting"
               element={<DigitalMarketingReporting />}
             />
             <Route
-              path="website-360-reporting"
+              path="/services/reporting/website-360-reporting"
               element={<Website360Reporting />}
             />
 
             <Route
-              path="hospitality-photography"
+              path="/services/hospitality-photography"
               element={<HospitalityPhotography />}
             />
             <Route
-              path="asksuite-hotel-chatbot"
+              path="/services/asksuite-hotel-chatbot"
               element={<AsksuiteHotelChatbot />}
             />
-            <Route path="the-hotels-network" element={<TheHotelsNetwork />} />
+            <Route path="/services/the-hotels-network" element={<TheHotelsNetwork />} />
 
             <Route path="services-details" element={<ServicesDetails />} />
 
             <Route path="d-edge" element={<DEdge />} />
 
             <Route
-              path="central-reservation-system"
+              path="/d-edge/central-reservation-system"
               element={<CentralReservationSystem />}
             />
             <Route
-              path="booking-engine-for-hotel"
+              path="/d-edge/central-reservation-system/booking-engine-for-hotel"
               element={<BookingEngineForHotel />}
             />
-            <Route path="dedge-channel-manager" element={<ChannelManager />} />
+            <Route path="/d-edge/central-reservation-system/dedge-channel-manager" element={<ChannelManager />} />
             <Route
-              path="d-edge-inventory-management"
+              path="/d-edge/central-reservation-system/d-edge-inventory-management"
               element={<CentralInventory />}
             />
-            <Route path="gds-hotel-solutions" element={<GDSHotelSolutions />} />
+            <Route path="/d-edge/central-reservation-system/gds-hotel-solutions" element={<GDSHotelSolutions />} />
 
-            <Route path="guest-management" element={<GuestManagement />} />
-            <Route path="hotel-crm" element={<HotelCRM />} />
-            <Route path="guest-loyalty" element={<GuestLoyalty />} />
-            <Route path="guest-feedback" element={<GuestFeedback />} />
+            <Route path="/d-edge/guest-management" element={<GuestManagement />} />
+            <Route path="/d-edge/guest-management/hotel-crm" element={<HotelCRM />} />
+            <Route path="/d-edge/guest-management/guest-loyalty" element={<GuestLoyalty />} />
+            <Route path="/d-edge/guest-management/guest-feedback" element={<GuestFeedback />} />
 
-            <Route path="data-intelligence" element={<DataIntelligence />} />
-            <Route path="price-monitoring" element={<PriceMonitoring />} />
+            <Route path="/d-edge/data-intelligence" element={<DataIntelligence />} />
+            <Route path="/d-edge/data-intelligence/price-monitoring" element={<PriceMonitoring />} />
             <Route
-              path="price-recommendation"
+              path="/d-edge/data-intelligence/price-recommendation"
               element={<PriceRecommendation />}
             />
             <Route
-              path="performance-analysis"
+              path="/d-edge/data-intelligence/performance-analysis"
               element={<PerformanceAnalysis />}
             />
 
             <Route path="industries" element={<Solutions />} />
             <Route
-              path="digital-marketing-agency-for-hotels-in-egypt"
+              path="/industries/digital-marketing-agency-for-hotels-in-egypt"
               element={<DigitalMarketingHotels />}
             />
-            <Route path="travel-agencies" element={<TravelAgencies />} />
+            <Route path="/industries/travel-agencies" element={<TravelAgencies />} />
 
             <Route path="about-us" element={<AboutUs />} />
             <Route path="clients" element={<OurClients />} />
@@ -561,75 +555,75 @@ This significant event will witness the presence`,
 
             <Route path="news" element={<News blogPosts={blogPosts} />} />
             <Route
-              path="google-premier-partner-2024"
+              path="/news/google-premier-partner-2024"
               element={<GooglePremierPartner blogPosts={blogPosts} />}
             />
             <Route
-              path="dubai-hotel-show"
+              path="/news/dubai-hotel-show"
               element={<DubaiHotelShow blogPosts={blogPosts} />}
             />
             <Route
-              path="riyadh-travel-fair-2024"
+              path="/news/riyadh-travel-fair-2024"
               element={<RiyadhTravelFair blogPosts={blogPosts} />}
             />
             <Route
-              path="atm-dubai-2024"
+              path="/news/atm-dubai-2024"
               element={<ATMDubai blogPosts={blogPosts} />}
             />
             <Route
-              path="travco-group"
+              path="/news/travco-group"
               element={<Travco blogPosts={blogPosts} />}
             />
             <Route
-              path="cleopark-owned-by-sharm"
+              path="/news/cleopark-owned-by-sharm"
               element={<CleoPark blogPosts={blogPosts} />}
             />
             <Route
-              path="partners-with-duetto-software"
+              path="/news/partners-with-duetto-software"
               element={<Duetto blogPosts={blogPosts} />}
             />
             <Route
-              path="let-s-meet-in-berlin!"
+              path="/news/let-s-meet-in-berlin!"
               element={<Berlin blogPosts={blogPosts} />}
             />
             <Route
-              path="discover-chrismar-travel"
+              path="/news/discover-chrismar-travel"
               element={<ChrismarTravel blogPosts={blogPosts} />}
             />
             <Route
-              path="tawila-island"
+              path="/news/tawila-island"
               element={<TawilaIsland blogPosts={blogPosts} />}
             />
             <Route
-              path="participating-in-the-arabian-travel-market-atm"
+              path="/news/participating-in-the-arabian-travel-market-atm"
               element={<ArabianTravelMarket blogPosts={blogPosts} />}
             />
             <Route
-              path="partook-kwentra"
+              path="/news/partook-kwentra"
               element={<PartookKwentra blogPosts={blogPosts} />}
             />
             <Route
-              path="news-kashir"
+              path="/news/news-kashir"
               element={<KashierPaymentSolutions blogPosts={blogPosts} />}
             />
             <Route
-              path="google-premier-2023"
+              path="/news/google-premier-2023"
               element={<GooglePremierPartner2023 blogPosts={blogPosts} />}
             />
             <Route
-              path="utopia-beach-hotels"
+              path="/news/utopia-beach-hotels"
               element={<UtopiaBeachHotels blogPosts={blogPosts} />}
             />
             <Route
-              path="slice-and-dice-egypt"
+              path="/news/slice-and-dice-egypt"
               element={<SliceandDice blogPosts={blogPosts} />}
             />
-            <Route path="regal-heights-hotel" element={<RegalHeightsHotel blogPosts={blogPosts} />}/>
-            <Route path="regal-hotel-website" element={<RegalHotelWebsite blogPosts={blogPosts} />}/>
-            <Route path="steigenberger-hotel-website" element={<SteigenbergerHotel blogPosts={blogPosts} />}/>
-            <Route path="diving-world-sharm" element={<DivingWorldSharm blogPosts={blogPosts} />}/>
-            <Route path="savoy-sharm" element={<SavoySharm blogPosts={blogPosts} />}/>
-            <Route path="crystal-inn-hotel" element={<CrystalInnHotel blogPosts={blogPosts} />}/>
+            <Route path="/news/regal-heights-hotel" element={<RegalHeightsHotel blogPosts={blogPosts} />}/>
+            <Route path="/news/regal-hotel-website" element={<RegalHotelWebsite blogPosts={blogPosts} />}/>
+            <Route path="/news/steigenberger-hotel-website" element={<SteigenbergerHotel blogPosts={blogPosts} />}/>
+            <Route path="/news/diving-world-sharm" element={<DivingWorldSharm blogPosts={blogPosts} />}/>
+            <Route path="/news/savoy-sharm" element={<SavoySharm blogPosts={blogPosts} />}/>
+            <Route path="/news/crystal-inn-hotel" element={<CrystalInnHotel blogPosts={blogPosts} />}/>
 
             <Route path="contact-us" element={<ContactUs />} />
 

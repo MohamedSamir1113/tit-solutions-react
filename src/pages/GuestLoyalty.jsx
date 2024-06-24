@@ -12,7 +12,7 @@ function GuestLoyalty() {
       <BgArea
         title1={`Guest Loyalty`}
         title2={`Guest Management`}
-        path={`/guest-management`}
+        path={`/d-edge/guest-management`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -136,7 +136,7 @@ function GuestLoyalty() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotel-crm">
+                          <Link to="/d-edge/guest-management/hotel-crm">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -188,7 +188,7 @@ function GuestLoyalty() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/guest-feedback">
+                          <Link to="/d-edge/guest-management/guest-feedback">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

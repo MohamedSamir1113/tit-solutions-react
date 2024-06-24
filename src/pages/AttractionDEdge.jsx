@@ -13,7 +13,7 @@ function AttractionDEdge() {
       <BgArea
         title1={`AttractionDEdge`}
         title2={`Booking Engine`}
-        path={`/booking-engine`}
+        path={`/solutions/booking-engine`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -153,7 +153,7 @@ function AttractionDEdge() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/SynXis">
+                          <Link to="/solutions/booking-engine/SynXis">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -203,7 +203,7 @@ function AttractionDEdge() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/nile-Cruise-booking-engine">
+                          <Link to="/solutions/booking-engine/nile-Cruise-booking-engine">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

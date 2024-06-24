@@ -1,5 +1,3 @@
-//NewsDetails
-
 import { Link } from "react-router-dom"
 
 function NewsDetails({blogPost}) {

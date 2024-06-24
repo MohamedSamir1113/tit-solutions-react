@@ -12,7 +12,7 @@ function GuestFeedback() {
       <BgArea
         title1={`Guest Feedback`}
         title2={`Guest Management`}
-        path={`/guest-management`}
+        path={`/d-edge/guest-management`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -121,7 +121,7 @@ function GuestFeedback() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/hotel-crm">
+                          <Link to="/d-edge/guest-management/hotel-crm">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -171,7 +171,7 @@ function GuestFeedback() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/guest-loyalty">
+                          <Link to="/d-edge/guest-management/guest-loyalty">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

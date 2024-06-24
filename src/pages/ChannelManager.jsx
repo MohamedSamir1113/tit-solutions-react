@@ -12,7 +12,7 @@ function ChannelManager() {
       <BgArea
         title1={`D-EDGE Channel Manager`}
         title2={`Central Reservation System`}
-        path={`/central-reservation-system`}
+        path={`/d-edge/central-reservation-system`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -142,7 +142,7 @@ function ChannelManager() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/booking-engine-for-hotel">
+                          <Link to="/d-edge/central-reservation-system/booking-engine-for-hotel">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -192,7 +192,7 @@ function ChannelManager() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/d-edge-inventory-management">
+                          <Link to="/d-edge/central-reservation-system/d-edge-inventory-management">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -244,7 +244,7 @@ function ChannelManager() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/gds-hotel-solutions">
+                          <Link to="/d-edge/central-reservation-system/gds-hotel-solutions">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

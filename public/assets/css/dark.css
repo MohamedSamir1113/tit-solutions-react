@@ -515,3 +515,8 @@ body.dark .section_main_title .custom-h1-section-2 {
 body.dark .custom-link-news {
   color: #fff !important;
 }
+
+.dark .owl-nav .owl-next i, .owl-prev i
+{
+  background-color: #6d6d6d !important;
+}

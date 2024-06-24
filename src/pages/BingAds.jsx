@@ -12,7 +12,7 @@ function BingAds() {
       <BgArea
         title1={`Bing Ads`}
         title2={`Search Engine Marketing`}
-        path={`/search-engine-marketing`}
+        path={`/services/search-engine-marketing`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -142,7 +142,7 @@ function BingAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/google-ads">
+                          <Link to="/services/search-engine-marketing/google-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -196,7 +196,7 @@ function BingAds() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/yandex-ads">
+                          <Link to="/services/search-engine-marketing/yandex-ads">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

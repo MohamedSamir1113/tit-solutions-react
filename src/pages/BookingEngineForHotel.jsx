@@ -12,7 +12,7 @@ function BookingEngineForHotel() {
       <BgArea
         title1={`Booking Engine For Hotel`}
         title2={`Central Reservation System`}
-        path={`/central-reservation-system`}
+        path={`/d-edge/central-reservation-system`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -153,7 +153,7 @@ function BookingEngineForHotel() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/dedge-channel-manager">
+                          <Link to="/d-edge/central-reservation-system/dedge-channel-manager">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -203,7 +203,7 @@ function BookingEngineForHotel() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/d-edge-inventory-management">
+                          <Link to="/d-edge/central-reservation-system/d-edge-inventory-management">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -255,7 +255,7 @@ function BookingEngineForHotel() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/gds-hotel-solutions">
+                          <Link to="/d-edge/central-reservation-system/gds-hotel-solutions">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>

@@ -12,7 +12,7 @@ function PriceRecommendation() {
         <BgArea
           title1={`Price Recommendation`}
           title2={`Data Intelligence`}
-          path={`/data-intelligence`}
+          path={`/d-edge/data-intelligence`}
         />
         <div className="service-details pages pt-90 pb-50">
           <div className="container">
@@ -129,7 +129,7 @@ function PriceRecommendation() {
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/price-monitoring">
+                            <Link to="/d-edge/data-intelligence/price-monitoring">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>
@@ -181,7 +181,7 @@ function PriceRecommendation() {
                             </p>
                           </div>
                           <div className="flipbox_button">
-                            <Link to="/performance-analysis">
+                            <Link to="/d-edge/data-intelligence/performance-analysis">
                               Read More
                               <i className="fa fa-angle-double-right"></i>
                             </Link>

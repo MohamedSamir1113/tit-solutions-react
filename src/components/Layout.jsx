@@ -181,7 +181,7 @@ const Layout = () => {
                             <ul className="normal-sub">
                               <li>
                                 <Link
-                                  to="/website-development"
+                                  to="/solutions/website-development"
                                   onClick={(e) => handleLinkClick(e)}
                                 >
                                   <h5 className="text-center my-3 text-hover custom-h5">
@@ -191,7 +191,7 @@ const Layout = () => {
                                 <ul>
                                   <li>
                                     <Link
-                                      to="/hotels-resorts"
+                                      to="/solutions/website-development/hotels-resorts"
                                       onClick={(e) => handleLinkClick(e)}
                                     >
                                       Hotels & Resorts
@@ -199,7 +199,7 @@ const Layout = () => {
                                   </li>
                                   <li>
                                     <Link
-                                      to="/travel-tours"
+                                      to="/solutions/website-development/travel-tours"
                                       onClick={(e) => handleLinkClick(e)}
                                     >
                                       Travel & Tours
@@ -207,7 +207,7 @@ const Layout = () => {
                                   </li>
                                   <li>
                                     <Link
-                                      to="/nile-cruises"
+                                      to="/solutions/website-development/nile-cruises"
                                       onClick={(e) => handleLinkClick(e)}
                                     >
                                       Nile Cruises
@@ -215,7 +215,7 @@ const Layout = () => {
                                   </li>
                                   <li>
                                     <Link
-                                      to="/general-purposes"
+                                      to="/solutions/website-development/general-purposes"
                                       onClick={(e) => handleLinkClick(e)}
                                     >
                                       General Purpose
@@ -226,7 +226,7 @@ const Layout = () => {
                               <li>
                                 <Link
                                   className="text-lg-center"
-                                  to="/booking-engine"
+                                  to="/solutions/booking-engine"
                                   onClick={(e) => handleLinkClick(e)}
                                 >
                                   <h5 className="text-center my-3 text-hover custom-h5">
@@ -236,7 +236,7 @@ const Layout = () => {
                                 <ul>
                                   <li>
                                     <Link
-                                      to="/attraction-d-edge"
+                                      to="/solutions/booking-engine/attraction-d-edge"
                                       onClick={(e) => handleLinkClick(e)}
                                     >
                                       Attraction D-Edge
@@ -244,7 +244,7 @@ const Layout = () => {
                                   </li>
                                   <li>
                                     <Link
-                                      to="/SynXis"
+                                      to="/solutions/booking-engine/SynXis"
                                       onClick={(e) => handleLinkClick(e)}
                                     >
                                       SynXis
@@ -252,7 +252,7 @@ const Layout = () => {
                                   </li>
                                   <li>
                                     <Link
-                                      to="/nile-cruise-booking-engine"
+                                      to="/solutions/booking-engine/nile-cruise-booking-engine"
                                       onClick={(e) => handleLinkClick(e)}
                                     >
                                       Nile Cruise Booking Engine
@@ -267,7 +267,7 @@ const Layout = () => {
                                 <ul>
                                   <li>
                                     <Link
-                                      to="/web-check-in-solution"
+                                      to="/solutions/web-check-in-solution"
                                       onClick={(e) => handleLinkClick(e)}
                                     >
                                       Web Check-In Solution
@@ -304,7 +304,7 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/google-ads"
+                                        to="/services/search-engine-marketing/google-ads"
                                       >
                                         Google Ads
                                       </Link>
@@ -312,7 +312,7 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/bing-ads"
+                                        to="/services/search-engine-marketing/bing-ads"
                                       >
                                         Bing Ads
                                       </Link>
@@ -320,7 +320,7 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/yandex-ads"
+                                        to="/services/search-engine-marketing/yandex-ads"
                                       >
                                         Yandex Ads
                                       </Link>
@@ -346,31 +346,31 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/facebook-ads"
+                                        to="/services/social-media-marketing/facebook-ads"
                                       >
                                         Facebook Ads
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/instagram-ads"
+                                        to="/services/social-media-marketing/instagram-ads"
                                       >
                                         Instagram Ads
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/snapchat-ads"
+                                        to="/services/social-media-marketing/snapchat-ads"
                                       >
                                         Snapchat Ads
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/vk-ads"
+                                        to="/services/social-media-marketing/vk-ads"
                                       >
                                         Vk Ads
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/linkedin-ads"
+                                        to="/services/social-media-marketing/linkedin-ads"
                                       >
                                         Linkedin Ads
                                       </Link>
@@ -396,19 +396,19 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/social-media-strategy"
+                                        to="/services/social-media-management/social-media-strategy"
                                       >
                                         Social Media Strategy
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/social-media-posting"
+                                        to="/services/social-media-management/social-media-posting"
                                       >
                                         Social Media Posting
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/social-media-graphics"
+                                        to="/services/social-media-management/social-media-graphics"
                                       >
                                         Social Media Graphics
                                       </Link>
@@ -434,13 +434,13 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/e-commerce-consultancy"
+                                        to="/services/hotel-e-commerce/e-commerce-consultancy"
                                       >
                                         E-Commerce Consultancy
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/e-commerce-management"
+                                        to="/services/hotel-e-commerce/e-commerce-management"
                                       >
                                         E-Commerce Management
                                       </Link>
@@ -452,7 +452,7 @@ const Layout = () => {
                               <li>
                                 <Link
                                   onClick={(e) => handleLinkClick(e)}
-                                  to="/search-engine-optimization"
+                                  to="/services/search-engine-optimization"
                                 >
                                   Search Engine Optimization
                                 </Link>
@@ -475,13 +475,13 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/constant-contact"
+                                        to="/services/email-marketing/constant-contact"
                                       >
                                         Constant Contact
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/manage-email-marketing"
+                                        to="/services/email-marketing/manage-email-marketing"
                                       >
                                         Manage Email Marketing
                                       </Link>
@@ -507,19 +507,19 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/google-analytics-implementation"
+                                        to="/services/reporting/google-analytics-implementation"
                                       >
                                         Google Analytics Implementation
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/digital-marketing-reporting"
+                                        to="/services/reporting/digital-marketing-reporting"
                                       >
                                         Digital Marketing Reporting
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/website-360-reporting"
+                                        to="/services/reporting/website-360-reporting"
                                       >
                                         Website 360 Reporting
                                       </Link>
@@ -528,17 +528,17 @@ const Layout = () => {
                                 )}
                               </li>
                               <li>
-                                <Link  onClick={(e) => handleLinkClick(e)} to="/hospitality-photography">
+                                <Link  onClick={(e) => handleLinkClick(e)} to="/services/hospitality-photography">
                                   Hospitality Photography
                                 </Link>
                               </li>
                               <li>
-                                <Link  onClick={(e) => handleLinkClick(e)} to="/asksuite-hotel-chatbot">
+                                <Link  onClick={(e) => handleLinkClick(e)} to="/services/asksuite-hotel-chatbot">
                                   Asksuite Hotel Chatbot
                                 </Link>
                               </li>
                               <li>
-                                <Link  onClick={(e) => handleLinkClick(e)} to="/the-hotels-network">
+                                <Link  onClick={(e) => handleLinkClick(e)} to="/services/the-hotels-network">
                                   The Hotels Network
                                 </Link>
                               </li>
@@ -570,25 +570,25 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/booking-engine-for-hotel"
+                                        to="/d-edge/central-reservation-system/booking-engine-for-hotel"
                                       >
                                         Booking Engine
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/dedge-channel-manager"
+                                        to="/d-edge/central-reservation-system/dedge-channel-manager"
                                       >
                                         Channel Manager
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/d-edge-inventory-management"
+                                        to="/d-edge/central-reservation-system/d-edge-inventory-management"
                                       >
                                         Central Inventory
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/gds-hotel-solutions"
+                                        to="/d-edge/central-reservation-system/gds-hotel-solutions"
                                       >
                                         Gds Hotel Solutions
                                       </Link>
@@ -613,19 +613,19 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/hotel-crm"
+                                        to="/d-edge/guest-management/hotel-crm"
                                       >
                                         Hotel CRM
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/guest-loyalty"
+                                        to="/d-edge/guest-management/guest-loyalty"
                                       >
                                         Guest Loyalty
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/guest-feedback"
+                                        to="/d-edge/guest-management/guest-feedback"
                                       >
                                         Guest Feedback
                                       </Link>
@@ -652,19 +652,19 @@ const Layout = () => {
                                     <li>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/price-monitoring"
+                                        to="/d-edge/data-intelligence/price-monitoring"
                                       >
                                         Price Monitoring
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/price-recommendation"
+                                        to="/d-edge/data-intelligence/price-recommendation"
                                       >
                                         Price Recommendation
                                       </Link>
                                       <Link
                                         onClick={(e) => handleLinkClick(e)}
-                                        to="/performance-analysis"
+                                        to="/d-edge/data-intelligence/performance-analysis"
                                       >
                                         Performance Analysis
                                       </Link>
@@ -685,12 +685,12 @@ const Layout = () => {
                             </Link>
                             <ul className="normal-sub">
                               <li>
-                                <Link onClick={(e) => handleLinkClick(e)} to="/digital-marketing-agency-for-hotels-in-egypt">
+                                <Link onClick={(e) => handleLinkClick(e)} to="/industries/digital-marketing-agency-for-hotels-in-egypt">
                                   Hotels & Resorts
                                 </Link>
                               </li>
                               <li>
-                                <Link onClick={(e) => handleLinkClick(e)} to="/travel-agencies">
+                                <Link onClick={(e) => handleLinkClick(e)} to="/industries/travel-agencies">
                                   Travel Companies
                                 </Link>
                               </li>
@@ -797,7 +797,7 @@ const Layout = () => {
                               <ul className="text-center">
                                 <li>
                                   <Link
-                                    to="/website-development"
+                                    to="/solutions/website-development"
                                     onClick={() => setLoading(true)}
                                     
                                   >
@@ -811,7 +811,7 @@ const Layout = () => {
                                   <Link
                                     onClick={() => setLoading(true)}
                                     className="text-lg-center"
-                                    to="/hotels-resorts"
+                                    to="/solutions/website-development/hotels-resorts"
                                   >
                                     Hotel & Resorts
                                   </Link>
@@ -820,7 +820,7 @@ const Layout = () => {
                                   <Link
                                     onClick={() => setLoading(true)}
                                     className="text-lg-center"
-                                    to="/travel-tours"
+                                    to="/solutions/website-development/travel-tours"
                                   >
                                     Travel & Tours
                                   </Link>
@@ -829,7 +829,7 @@ const Layout = () => {
                                   <Link
                                     onClick={() => setLoading(true)}
                                     className="text-lg-center"
-                                    to="/nile-cruises"
+                                    to="/solutions/website-development/nile-cruises"
                                   >
                                     Nile Cruises
                                   </Link>
@@ -838,7 +838,7 @@ const Layout = () => {
                                   <Link
                                     onClick={() => setLoading(true)}
                                     className="text-lg-center"
-                                    to="/general-purposes"
+                                    to="/solutions/website-development/general-purposes"
                                   >
                                     General Purpose
                                   </Link>
@@ -852,7 +852,7 @@ const Layout = () => {
                                   <Link
                                     onClick={() => setLoading(true)}
                                     className="text-lg-center"
-                                    to="/booking-engine"
+                                    to="solutions/booking-engine"
                                   >
                                     <h5 className="text-center my-3 text-hover  custom-h5">
                                       Booking Engine
@@ -864,7 +864,7 @@ const Layout = () => {
                                   <Link
                                     onClick={() => setLoading(true)}
                                     className="text-lg-center"
-                                    to="/attraction-d-edge"
+                                    to="/solutions/booking-engine/attraction-d-edge"
                                   >
                                     Attraction D-Edge
                                   </Link>
@@ -873,7 +873,7 @@ const Layout = () => {
                                   <Link
                                     onClick={() => setLoading(true)}
                                     className="text-lg-center"
-                                    to="/SynXis"
+                                    to="/solutions/booking-engine/SynXis"
                                   >
                                     SynXis
                                   </Link>
@@ -882,7 +882,7 @@ const Layout = () => {
                                   <Link
                                     onClick={() => setLoading(true)}
                                     className="text-lg-center"
-                                    to="/nile-cruise-booking-engine"
+                                    to="/solutions/booking-engine/nile-cruise-booking-engine"
                                   >
                                     Nile Cruise Booking Engine
                                   </Link>
@@ -901,7 +901,7 @@ const Layout = () => {
                                   <Link
                                     onClick={() => setLoading(true)}
                                     className="text-lg-center"
-                                    to="web-check-in-solution"
+                                    to="solutions/web-check-in-solution"
                                   >
                                     Web Check-In Solution
                                   </Link>
@@ -920,7 +920,7 @@ const Layout = () => {
                               <Link
                                 onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="/search-engine-marketing"
+                                to="/services/search-engine-marketing"
                               >
                                 Search Engine Marketing
                                 <i className="fa fa-caret-right"></i>
@@ -930,7 +930,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/google-ads"
+                                    to="/services/search-engine-marketing/google-ads"
                                   >
                                     Google Ads
                                   </Link>
@@ -938,7 +938,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/bing-ads"
+                                    to="/services/search-engine-marketing/bing-ads"
                                   >
                                     Bing Ads
                                   </Link>
@@ -946,7 +946,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/yandex-ads"
+                                    to="/services/search-engine-marketing/yandex-ads"
                                   >
                                     Yandex Ads
                                   </Link>
@@ -958,7 +958,7 @@ const Layout = () => {
                               <Link
                                 onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="/social-media-marketing"
+                                to="/services/social-media-marketing"
                               >
                                 Social Media Marketing
                                 <i className="fa fa-caret-right"></i>
@@ -968,7 +968,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/facebook-ads"
+                                    to="/services/social-media-marketing/facebook-ads"
                                   >
                                     Facebook Ads
                                   </Link>
@@ -976,7 +976,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/instagram-ads"
+                                    to="/services/social-media-marketing/instagram-ads"
                                   >
                                     Instagram Ads
                                   </Link>
@@ -984,7 +984,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/snapchat-ads"
+                                    to="/services/social-media-marketing/snapchat-ads"
                                   >
                                     Snapchat Ads
                                   </Link>
@@ -992,7 +992,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/vk-ads"
+                                    to="/services/social-media-marketing/vk-ads"
                                   >
                                     VK Ads
                                   </Link>
@@ -1000,7 +1000,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/linkedin-ads"
+                                    to="/services/social-media-marketing/linkedin-ads"
                                   >
                                     LinkedIn Ads
                                   </Link>
@@ -1012,7 +1012,7 @@ const Layout = () => {
                               <Link
                                 onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="/social-media-management"
+                                to="/services/social-media-management"
                               >
                                 Social Media Management
                                 <i className="fa fa-caret-right"></i>
@@ -1021,7 +1021,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/social-media-strategy"
+                                    to="/services/social-media-management/social-media-strategy"
                                   >
                                     Social Media Strategy
                                   </Link>
@@ -1029,7 +1029,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/social-media-posting"
+                                    to="/services/social-media-management/social-media-posting"
                                   >
                                     Social Media Posting
                                   </Link>
@@ -1037,7 +1037,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/social-media-graphics"
+                                    to="/services/social-media-management/social-media-graphics"
                                   >
                                     Social Media Graphics
                                   </Link>
@@ -1048,7 +1048,7 @@ const Layout = () => {
                               <Link
                                 onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="/hotel-e-commerce"
+                                to="/services/hotel-e-commerce"
                               >
                                 Hotel E-Commerce
                                 <i className="fa fa-caret-right"></i>
@@ -1057,7 +1057,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/e-commerce-consultancy"
+                                    to="/services/hotel-e-commerce/e-commerce-consultancy"
                                   >
                                     E-Commerce Consultancy
                                   </Link>
@@ -1065,7 +1065,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/e-commerce-management"
+                                    to="/services/hotel-e-commerce/e-commerce-management"
                                   >
                                     E-Commerce Management
                                   </Link>
@@ -1075,7 +1075,7 @@ const Layout = () => {
                             <li>
                               <Link
                                 onClick={() => setLoading(true)}
-                                to="/search-engine-optimization"
+                                to="/services/search-engine-optimization"
                               >
                                 Search Engine Optimization
                               </Link>
@@ -1084,7 +1084,7 @@ const Layout = () => {
                               <Link
                                 onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="/email-marketing"
+                                to="/services/email-marketing"
                               >
                                 Email Marketing
                                 <i className="fa fa-caret-right"></i>
@@ -1094,7 +1094,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/constant-contact"
+                                    to="/services/email-marketing/constant-contact"
                                   >
                                     Constant Contact
                                   </Link>
@@ -1102,7 +1102,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/manage-email-marketing"
+                                    to="/services/email-marketing/manage-email-marketing"
                                   >
                                     Manage Email Marketing
                                   </Link>
@@ -1113,7 +1113,7 @@ const Layout = () => {
                               <Link
                                 onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="/reporting"
+                                to="/services/reporting"
                               >
                                 Reporting
                                 <i className="fa fa-caret-right"></i>
@@ -1123,7 +1123,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/google-analytics-implementation"
+                                    to="/services/reporting/google-analytics-implementation"
                                   >
                                     Google Analytics Implementation
                                   </Link>
@@ -1131,7 +1131,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/digital-marketing-reporting"
+                                    to="/services/reporting/digital-marketing-reporting"
                                   >
                                     Digital Marketing Reporting
                                   </Link>
@@ -1139,7 +1139,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/website-360-reporting"
+                                    to="/services/reporting/website-360-reporting"
                                   >
                                     Website 360 Reporting
                                   </Link>
@@ -1149,7 +1149,7 @@ const Layout = () => {
                             <li>
                               <Link
                                 onClick={() => setLoading(true)}
-                                to="/hospitality-photography"
+                                to="/services/hospitality-photography"
                               >
                                 Hospitality Photography
                               </Link>
@@ -1157,7 +1157,7 @@ const Layout = () => {
                             <li>
                               <Link
                                 onClick={() => setLoading(true)}
-                                to="/asksuite-hotel-chatbot"
+                                to="/services/asksuite-hotel-chatbot"
                               >
                                 Asksuite Hotel Chatbot
                               </Link>
@@ -1165,7 +1165,7 @@ const Layout = () => {
                             <li>
                               <Link
                                 onClick={() => setLoading(true)}
-                                to="/the-hotels-network"
+                                to="/services/the-hotels-network"
                               >
                                 The Hotels Network
                               </Link>
@@ -1182,7 +1182,7 @@ const Layout = () => {
                               <Link
                                 onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="central-reservation-system"
+                                to="/d-edge/central-reservation-system"
                               >
                                 Central Reservation System
                                 <i className="fa fa-caret-right"></i>
@@ -1192,7 +1192,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/booking-engine-for-hotel"
+                                    to="/d-edge/central-reservation-system/booking-engine-for-hotel"
                                   >
                                     Booking Engine
                                   </Link>
@@ -1200,7 +1200,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/dedge-channel-manager"
+                                    to="/d-edge/central-reservation-system/dedge-channel-manager"
                                   >
                                     Channel Manager
                                   </Link>
@@ -1208,7 +1208,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/d-edge-inventory-management"
+                                    to="/d-edge/central-reservation-system/d-edge-inventory-management"
                                   >
                                     Central Inventory
                                   </Link>
@@ -1216,7 +1216,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/gds-hotel-solutions"
+                                    to="/d-edge/central-reservation-system/gds-hotel-solutions"
                                   >
                                     GDS Solutions
                                   </Link>
@@ -1228,7 +1228,7 @@ const Layout = () => {
                               <Link
                                 onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="/guest-management"
+                                to="/d-edge/guest-management"
                               >
                                 Guest Management
                                 <i className="fa fa-caret-right"></i>
@@ -1238,7 +1238,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/hotel-crm"
+                                    to="/d-edge/guest-management/hotel-crm"
                                   >
                                     Hotel CRM
                                   </Link>
@@ -1246,7 +1246,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/guest-loyalty"
+                                    to="/d-edge/guest-management/guest-loyalty"
                                   >
                                     Guest Loyalty
                                   </Link>
@@ -1254,7 +1254,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/guest-feedback"
+                                    to="/d-edge/guest-management/guest-feedback"
                                   >
                                     Guest Feedback
                                   </Link>
@@ -1266,7 +1266,7 @@ const Layout = () => {
                               <Link
                                 onClick={() => setLoading(true)}
                                 className="d-flex justify-content-between align-items-center"
-                                to="/data-intelligence"
+                                to="/d-edge/data-intelligence"
                               >
                                 Data Intelligence
                                 <i className="fa fa-caret-right"></i>
@@ -1276,7 +1276,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/price-monitoring"
+                                    to="/d-edge/data-intelligence/price-monitoring"
                                   >
                                     Price Monitoring
                                   </Link>
@@ -1284,7 +1284,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/price-recommendation"
+                                    to="/d-edge/data-intelligence/price-recommendation"
                                   >
                                     Price Recommendation
                                   </Link>
@@ -1292,7 +1292,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     onClick={() => setLoading(true)}
-                                    to="/performance-analysis"
+                                    to="/d-edge/data-intelligence/performance-analysis"
                                   >
                                     Performance Analysis
                                   </Link>
@@ -1310,12 +1310,12 @@ const Layout = () => {
                           </Link>
                           <ul className="normal-sub">
                             <li>
-                              <Link onClick={() => setLoading(true)} to="/digital-marketing-agency-for-hotels-in-egypt">
+                              <Link onClick={() => setLoading(true)} to="/industries/digital-marketing-agency-for-hotels-in-egypt">
                                 Hotels & Resorts
                               </Link>
                             </li>
                             <li>
-                              <Link onClick={() => setLoading(true)} to="/travel-agencies">
+                              <Link onClick={() => setLoading(true)} to="/industries/travel-agencies">
                                 Travel Companies
                               </Link>
                             </li>
@@ -1490,22 +1490,22 @@ const Layout = () => {
                       <div className="menu-quick-link-container ml-4">
                         <ul id="menu-quick-link" className="menu">
                           <li>
-                            <Link to="/hotels-resorts">Hotel & Resorts Website</Link>
+                            <Link to="/solutions/website-development/hotels-resorts">Hotel & Resorts Website</Link>
                           </li>
                           <li>
-                            <Link to="/travel-tours">Travel & Tours Website</Link>
+                            <Link to="/solutions/website-development/travel-tours">Travel & Tours Website</Link>
                           </li>
                           <li>
-                            <Link to="/nile-cruises">Nile Cruises Websites</Link>
+                            <Link to="/solutions/website-development/nile-cruises">Nile Cruises Websites</Link>
                           </li>
                           <li>
-                            <Link to="/booking-engine-for-hotel">D-Edge Booking Engine</Link>
+                            <Link to="/d-edge/central-reservation-system/booking-engine-for-hotel">D-Edge Booking Engine</Link>
                           </li>
                           <li>
-                            <Link to="/SynXis">SynXis Booking Engine</Link>
+                            <Link to="/solutions/booking-engine/SynXis">SynXis Booking Engine</Link>
                           </li>
                           <li>
-                            <Link to="/web-check-in-solution">Web Check-In Solution</Link>
+                            <Link to="/solutions/web-check-in-solution">Web Check-In Solution</Link>
                           </li>
                         </ul>
                       </div>
@@ -1517,25 +1517,25 @@ const Layout = () => {
                       <div className="menu-quick-link-container ml-4">
                         <ul id="menu-quick-link" className="menu">
                           <li>
-                            <Link to="/search-engine-marketing">Search Engine Marketing</Link>
+                            <Link to="/services/search-engine-marketing">Search Engine Marketing</Link>
                           </li>
                           <li>
-                            <Link to="/social-media-marketing">Social Media Marketing</Link>
+                            <Link to="/services/social-media-marketing">Social Media Marketing</Link>
                           </li>
                           <li>
-                            <Link to="/social-media-management">Social Media Managements</Link>
+                            <Link to="/services/social-media-management">Social Media Managements</Link>
                           </li>
                           <li>
-                            <Link to="/hotel-e-commerce">Hotel E-Commerce</Link>
+                            <Link to="/services/hotel-e-commerce">Hotel E-Commerce</Link>
                           </li>
                           <li>
-                            <Link to="/search-engine-optimization">Search Engine Optimization</Link>
+                            <Link to="/services/search-engine-optimization">Search Engine Optimization</Link>
                           </li>
                           <li>
-                            <Link to="/email-marketing">Email Marketing</Link>
+                            <Link to="/services/email-marketing">Email Marketing</Link>
                           </li>
                           <li>
-                            <Link to="/digital-marketing-reporting">Digital Marketing Reporting</Link>
+                            <Link to="/services/digital-marketing-reporting">Digital Marketing Reporting</Link>
                           </li>
                         </ul>
                       </div>

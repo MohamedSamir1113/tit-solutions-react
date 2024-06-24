@@ -12,7 +12,7 @@ function SocialMediaGraphics() {
       <BgArea
         title1={`Social Media Graphics`}
         title2={`Social Media Management`}
-        path={`/social-media-management`}
+        path={`/services/social-media-management`}
       />
       <div className="service-details pages pt-90 pb-50">
         <div className="container">
@@ -141,7 +141,7 @@ function SocialMediaGraphics() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/social-media-strategy">
+                          <Link to="/services/social-media-management/social-media-strategy">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
@@ -192,7 +192,7 @@ function SocialMediaGraphics() {
                           </p>
                         </div>
                         <div className="flipbox_button">
-                          <Link to="/social-media-posting">
+                          <Link to="/services/social-media-management/social-media-posting">
                             Read More
                             <i className="fa fa-angle-double-right"></i>
                           </Link>
