@@ -331,7 +331,7 @@ const Home = ({ blogPosts }) => {
       </section>
 
       {/*About  */}
-      <div className="about_area pt-70 pb-100">
+      <div className="about_area pt-70">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-6 pr-5">
