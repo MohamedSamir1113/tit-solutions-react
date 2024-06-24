@@ -165,7 +165,7 @@ const Home = ({ blogPosts }) => {
         {" "}
         <OwlCarousel options={options}>
           <div
-            className="slider_area d-flex align-items-center slider11"
+            className="slider_area d-flex align-items-center slider12"
             style={{ backgroundImage: `url(Our-Clients.jpg)` }}
             id="home"
           >
@@ -173,17 +173,17 @@ const Home = ({ blogPosts }) => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="single_slider">
-                    <div className="slider_content">
-                      <div className="slider_text">
+                    <div className="slider_content text_center">
+                      <div className="slider_text mt-200 text-left">
                         <div className="slider_text_inner">
                           <h1>Our Clients</h1>
                         </div>
                         <div className="slider_text_desc pt-4">
                           <p>They Never Walked Alone.</p>
                         </div>
-                        <div className="slider_button pt-2">
+                        <div className="slider_button pt-5 ml-130">
                           <div className="button">
-                            <Link className="active" to="#.">
+                            <Link className="active" to="/portfolio">
                               Get In Touch
                               <i className="fa fa-long-arrow-right"></i>
                             </Link>
@@ -215,7 +215,7 @@ const Home = ({ blogPosts }) => {
                         </div>
                         <div className="slider_button pt-5 ml-130">
                           <div className="button">
-                            <Link className="active" to="#.">
+                            <Link className="active" to="/contact-us">
                               Get In Touch
                               <i className="fa fa-long-arrow-right"></i>
                             </Link>
@@ -246,7 +246,7 @@ const Home = ({ blogPosts }) => {
                         </div>
                         <div className="slider_button pt-5 ml-130">
                           <div className="button">
-                            <Link className="active" to="#.">
+                            <Link className="active" to="/d-edge">
                               Read More
                               <i className="fa fa-long-arrow-right"></i>
                             </Link>
@@ -277,7 +277,10 @@ const Home = ({ blogPosts }) => {
                         </div>
                         <div className="slider_button pt-5 ml-60">
                           <div className="button">
-                            <Link className="active" to="#.">
+                            <Link
+                              className="active"
+                              to="/services/asksuite-hotel-chatbot"
+                            >
                               Read More
                               <i className="fa fa-long-arrow-right"></i>
                             </Link>
@@ -308,7 +311,10 @@ const Home = ({ blogPosts }) => {
                         </div>
                         <div className="slider_button pt-5 ml-80">
                           <div className="button">
-                            <Link className="active" to="#.">
+                            <Link
+                              className="active"
+                              to="/services/the-hotels-network"
+                            >
                               Read More
                               <i className="fa fa-long-arrow-right"></i>
                             </Link>
@@ -376,6 +382,11 @@ const Home = ({ blogPosts }) => {
                       "#You_Will_Never_Walk_Alone".
                     </span>
                   </p>
+                  <div className="blog_page_button style_two pb-5">
+                    <Link to="/about-us">
+                      Read More <i className="fa fa-long-arrow-right"></i>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -999,13 +1010,19 @@ const Home = ({ blogPosts }) => {
                       </h2>
                       <ul className="text-center list-unstyled">
                         <li>
-                          <Link to="/services/search-engine-marketing/google-ads">Google Hotel Ads</Link>
+                          <Link to="/services/search-engine-marketing/google-ads">
+                            Google Hotel Ads
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/services/search-engine-marketing/bing-ads">Bing Hotel Ads</Link>
+                          <Link to="/services/search-engine-marketing/bing-ads">
+                            Bing Hotel Ads
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/services/search-engine-marketing/yandex-ads">Yandex Ads In Egypt</Link>
+                          <Link to="/services/search-engine-marketing/yandex-ads">
+                            Yandex Ads In Egypt
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -1035,7 +1052,9 @@ const Home = ({ blogPosts }) => {
                       </h2>
                       <ul className="text-center list-unstyled">
                         <li>
-                          <Link to="/services/social-media-marketing/facebook-ads">Facebook Ads For Hotel</Link>
+                          <Link to="/services/social-media-marketing/facebook-ads">
+                            Facebook Ads For Hotel
+                          </Link>
                         </li>
                         <li>
                           <Link to="/services/social-media-marketing/instagram-ads">
@@ -1043,13 +1062,19 @@ const Home = ({ blogPosts }) => {
                           </Link>
                         </li>
                         <li>
-                          <Link to="/services/social-media-marketing/snapchat-ads">Snapchat Ads For Hotel</Link>
+                          <Link to="/services/social-media-marketing/snapchat-ads">
+                            Snapchat Ads For Hotel
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/services/social-media-marketing/vk-ads">VK Ads For Hotels</Link>
+                          <Link to="/services/social-media-marketing/vk-ads">
+                            VK Ads For Hotels
+                          </Link>
                         </li>
                         <li>
-                          <Link to="/services/social-media-marketing/linkedin-ads">LinkedIn For Hotels</Link>
+                          <Link to="/services/social-media-marketing/linkedin-ads">
+                            LinkedIn For Hotels
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -1110,7 +1135,10 @@ const Home = ({ blogPosts }) => {
                   <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/services/hotel-e-commerce" className="dark-title">
+                        <Link
+                          to="/services/hotel-e-commerce"
+                          className="dark-title"
+                        >
                           Hotel E-Commerce
                         </Link>
                       </h2>
@@ -1174,13 +1202,18 @@ const Home = ({ blogPosts }) => {
                   <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/services/email-marketing" className="dark-title">
+                        <Link
+                          to="/services/email-marketing"
+                          className="dark-title"
+                        >
                           Email Marketing
                         </Link>
                       </h2>
                       <ul className="text-center list-unstyled">
                         <li>
-                          <Link to="/services/email-marketing/constant-contact">Constant Contact</Link>
+                          <Link to="/services/email-marketing/constant-contact">
+                            Constant Contact
+                          </Link>
                         </li>
                         <li>
                           <Link to="/services/email-marketing/manage-email-marketing">
@@ -1291,7 +1324,10 @@ const Home = ({ blogPosts }) => {
                   <div className="single_case_study_content home-ul-dark">
                     <div className="single_case_study_content_inner">
                       <h2>
-                        <Link to="/services/the-hotels-network" className="dark-title">
+                        <Link
+                          to="/services/the-hotels-network"
+                          className="dark-title"
+                        >
                           The Hotels Network
                         </Link>
                       </h2>
@@ -1331,7 +1367,7 @@ const Home = ({ blogPosts }) => {
             </div>
           </div>
           <OwlCarousel options={newsOptions}>
-          {blogPosts.map((blogPost, i) => (
+            {blogPosts.map((blogPost, i) => (
               <NewsDetails key={i} blogPost={blogPost} />
             ))}
           </OwlCarousel>
