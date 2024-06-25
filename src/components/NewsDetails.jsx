@@ -5,9 +5,7 @@ function NewsDetails({blogPost}) {
     
     return (
         <>
-        
-              <div
-                className="single_blog text-center mb-4 wow flipInY"
+        <div className="single_blog text-center mb-4 wow flipInY"
                 data-wow-delay="0ms"
                 data-wow-duration="2500ms"
               >
