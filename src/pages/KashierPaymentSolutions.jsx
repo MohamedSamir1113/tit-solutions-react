@@ -1,13 +1,12 @@
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import OtherPosts from "../components/OtherPosts";
 import NewsName from "../components/NewsName";
 function KashierPaymentSolutions({ blogPosts }) {
   const [otherPosts, setOtherPosts] = useState([]);
-  const location = useLocation();
-  const searchParams = new URLSearchParams(location.search);
+  const [searchParams,setSearchParams]=useSearchParams();
   const id = searchParams.get("id");
   useEffect(() => {
     document.title =
@@ -19,29 +18,29 @@ function KashierPaymentSolutions({ blogPosts }) {
       <NewsName name="Discover Chrismar Travel's Updated Online Presence, Crafted by T.I.T Solutions!" />
       {/*News */}
 
-      <div class="blog_area blog-details-area pt-100 pb-100 bg-news" id="blog">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="blog_details">
-                    <div class="blog_dtl_thumb">
+      <div className="blog_area blog-details-area pt-100 pb-100 bg-news" id="blog">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="blog_details">
+                    <div className="blog_dtl_thumb">
                       <img src="assets/images/news-kashir.jpg" alt="" />
                     </div>
 
-                    <div class="blog_dtl_content bg-news-details">
-                      <div class="blog_dtl_top_bs pt-2">
+                    <div className="blog_dtl_content bg-news-details">
+                      <div className="blog_dtl_top_bs pt-2">
                         <span>
-                          <i class="fa fa-calendar"></i>7 March 2023
+                          <i className="fa fa-calendar"></i>7 March 2023
                         </span>
                       </div>
-                      <h2 className="mb-4">
+                      <h2 classNameName="mb-4">
                         T.I.T. Solutions partnering with Kashier Payment
                         Solutions
                       </h2>
 
-                      <h3 className="pb-50">
+                      <h3 classNameName="pb-50">
                         Kashier and TIT Solutions Partner Up to Drive E-commerce
                         Growth in Egypt’s Hospitality Sector
                       </h3>
@@ -106,7 +105,7 @@ function KashierPaymentSolutions({ blogPosts }) {
                         The “GROW E-commerce” package offers critical benefits
                         to the hotels who sign up for the offer, including:
                       </p>
-                      <ul class="list-bullets">
+                      <ul className="list-bullets">
                         <li>Quick setup with minimal disruption</li>
                         <li>Competitive Pricing</li>
                         <li>
@@ -125,16 +124,16 @@ function KashierPaymentSolutions({ blogPosts }) {
                         </li>
                       </ul>
 
-                      <p className="py-4">(Terms and Conditions apply)</p>
+                      <p classNameName="py-4">(Terms and Conditions apply)</p>
 
                       <div>
                         <Link
-                          className="d-inline"
+                          classNameName="d-inline"
                           style={{ fontWeight: "700" }}
                         >
                           Link To Offer
                         </Link>
-                        <p className="d-inline">: GROW E-commerce Package</p>
+                        <p classNameName="d-inline">: GROW E-commerce Package</p>
                       </div>
 
                       <div>
@@ -195,30 +194,30 @@ function KashierPaymentSolutions({ blogPosts }) {
                           please visit https://www.d-edge.com
                         </p>
                       </div>
-                      <div class="d-flex justify-content-between align-items-center">
+                      <div className="d-flex justify-content-between align-items-center">
                         <h3>Share To:</h3>
 
-                        <div class="blog_details_dtn_icon">
+                        <div className="blog_details_dtn_icon">
                           <Link to="#.">
-                            <i class="fa fa-facebook"></i>
+                            <i className="fa fa-facebook"></i>
                           </Link>
                           <Link to="#.">
-                            <i class="fa fa-linkedin"></i>
+                            <i className="fa fa-linkedin"></i>
                           </Link>
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              className="fa fa-twitter"
+                              classNameName="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">
-                            <i class="fa fa-instagram"></i>
+                            <i className="fa fa-instagram"></i>
                           </Link>
                           <Link to="#.">
-                            <i class="fa fa-pinterest"></i>
+                            <i className="fa fa-pinterest"></i>
                           </Link>
                           <Link to="#.">
-                            <i class="fa fa-reddit"></i>
+                            <i className="fa fa-reddit"></i>
                           </Link>
                         </div>
                       </div>
@@ -228,14 +227,14 @@ function KashierPaymentSolutions({ blogPosts }) {
               </div>
             </div>
 
-            <div class=" col-lg-4 col-md-5 col-sm-12 col-xs-12 sidebar-right content-widget pdsr">
-              <div class="blog-left-side widget">
+            <div className=" col-lg-4 col-md-5 col-sm-12 col-xs-12 sidebar-right content-widget pdsr">
+              <div className="blog-left-side widget">
                 <div
                   id="em_recent_post_widget-6"
-                  class="widget widget_recent_data"
+                  className="widget widget_recent_data"
                 >
-                  <div class="single-widget-item">
-                    <h2 class="widget-title">Other News</h2>
+                  <div className="single-widget-item">
+                    <h2 className="widget-title">Other News</h2>
                     {otherPosts.map((otherPost) => (
                       <OtherPosts otherPost={otherPost} key={otherPost.id} />
                     ))}

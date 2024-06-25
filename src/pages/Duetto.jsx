@@ -1,14 +1,13 @@
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useLocation, useParams, useSearchParams } from "react-router-dom";
 import OtherPosts from "../components/OtherPosts";
 import NewsName from "../components/NewsName";
 function Duetto({ blogPosts }) {
   const [otherPosts, setOtherPosts] = useState([]);
-  const location = useLocation();
-  const searchParams = new URLSearchParams(location.search);
-  const id = searchParams.get("id");
+  const [searchParams,setSearchParams]=useSearchParams();
+    const id = searchParams.get("id")
   useEffect(() => {
     document.title =
       "Driving Innovation In Profit Optimization: T.I.T.Solutions Partners with Duetto Software to Transform Hospitality field.";
@@ -19,24 +18,24 @@ function Duetto({ blogPosts }) {
       <NewsName name="Driving Innovation In Profit Optimization: T.I.T.Solutions Partners with Duetto Software to Transform Hospitality field." />
       {/*News */}
 
-      <div class="blog_area blog-details-area pt-100 pb-100 bg-news" id="blog">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="blog_details">
-                    <div class="blog_dtl_thumb">
+      <div className="blog_area blog-details-area pt-100 pb-100 bg-news" id="blog">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="blog_details">
+                    <div className="blog_dtl_thumb">
                       <img src="assets/images/news/duetto-website.jpg" alt="" />
                     </div>
 
-                    <div class="blog_dtl_content bg-news-details">
-                      <div class="blog_dtl_top_bs pt-2">
+                    <div className="blog_dtl_content bg-news-details">
+                      <div className="blog_dtl_top_bs pt-2">
                         <span>
-                          <i class="fa fa-calendar"></i>5 March 2024
+                          <i className="fa fa-calendar"></i>5 March 2024
                         </span>
                       </div>
-                      <h2 className="mb-4">
+                      <h2 classNameName="mb-4">
                       Driving Innovation In Profit Optimization: T.I.T.Solutions Partners with Duetto Software to Transform Hospitality field.
                       </h2>
 
@@ -61,30 +60,30 @@ function Duetto({ blogPosts }) {
                         has steered us through this journey, and we are thrilled
                         to begin this new chapter with Duetto as our Partner.
                       </p>
-                      <div class="d-flex justify-content-between align-items-center">
+                      <div className="d-flex justify-content-between align-items-center">
                         <h3>Share To:</h3>
 
-                        <div class="blog_details_dtn_icon">
+                        <div className="blog_details_dtn_icon">
                           <Link to="#.">
-                            <i class="fa fa-facebook"></i>
+                            <i className="fa fa-facebook"></i>
                           </Link>
                           <Link to="#.">
-                            <i class="fa fa-linkedin"></i>
+                            <i className="fa fa-linkedin"></i>
                           </Link>
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              className="fa fa-twitter"
+                              classNameName="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">
-                            <i class="fa fa-instagram"></i>
+                            <i className="fa fa-instagram"></i>
                           </Link>
                           <Link to="#.">
-                            <i class="fa fa-pinterest"></i>
+                            <i className="fa fa-pinterest"></i>
                           </Link>
                           <Link to="#.">
-                            <i class="fa fa-reddit"></i>
+                            <i className="fa fa-reddit"></i>
                           </Link>
                         </div>
                       </div>
@@ -94,14 +93,14 @@ function Duetto({ blogPosts }) {
               </div>
             </div>
 
-            <div class=" col-lg-4 col-md-5 col-sm-12 col-xs-12 sidebar-right content-widget pdsr">
-              <div class="blog-left-side widget">
+            <div className=" col-lg-4 col-md-5 col-sm-12 col-xs-12 sidebar-right content-widget pdsr">
+              <div className="blog-left-side widget">
                 <div
                   id="em_recent_post_widget-6"
-                  class="widget widget_recent_data"
+                  className="widget widget_recent_data"
                 >
-                  <div class="single-widget-item">
-                    <h2 class="widget-title">Other News</h2>
+                  <div className="single-widget-item">
+                    <h2 className="widget-title">Other News</h2>
                     {otherPosts.map((otherPost) => (
                       <OtherPosts otherPost={otherPost} key={otherPost.id} />
                     ))}
