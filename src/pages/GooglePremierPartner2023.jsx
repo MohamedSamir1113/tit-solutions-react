@@ -41,7 +41,7 @@ const GooglePremierPartner2023 = ({blogPosts}) => {
                           <i className="fa fa-calendar"></i>21 FEB 2023{" "}
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">Google Premier Partner 2023</h2>
+                      <h2 className="mb-4">Google Premier Partner 2023</h2>
 
                       <p>
                       As a Google Premier Partner and by being in the top selected 3% of partners in the region, T.I.T.Solutions continues its mission of introducing digital marketing best practices to the hospitality industry and turning them into a success story.
@@ -66,7 +66,7 @@ const GooglePremierPartner2023 = ({blogPosts}) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

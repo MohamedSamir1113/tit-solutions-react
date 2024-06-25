@@ -35,7 +35,7 @@ function ArabianTravelMarket({ blogPosts }) {
                           <i className="fa fa-calendar"></i>1 May 2023
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                       Participating in the 30th Edition of the Arabian Travel Market (ATM)
                       </h2>
 
@@ -56,7 +56,7 @@ function ArabianTravelMarket({ blogPosts }) {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

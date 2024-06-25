@@ -37,7 +37,7 @@ const UtopiaBeachHotels = ({ blogPosts }) => {
                           <i className="fa fa-calendar"></i>2 FEB 2023{" "}
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                         Introducing the new Utopia Beach Hotels
                       </h2>
 
@@ -61,7 +61,7 @@ const UtopiaBeachHotels = ({ blogPosts }) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

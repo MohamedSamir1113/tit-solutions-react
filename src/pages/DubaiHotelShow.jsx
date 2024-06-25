@@ -38,7 +38,7 @@ function DubaiHotelShow({blogPosts}) {
                             <i className="fa fa-calendar"></i>2 June 2024
                           </span>
                         </div>
-                        <h2 classNameName="mb-4">We're Heading Back to Dubai for The Hotel Show</h2>
+                        <h2 className="mb-4">We're Heading Back to Dubai for The Hotel Show</h2>
   
                         <p>
                         We are thrilled to announce our participation in The Hotel Show in Dubai, the ultimate hub for the hospitality industry! This premier event is scheduled to take place from 4 to 6 June, brings together leading brands and professionals from around the world, offering an unparalleled platform for networking, innovation, and discovering new opportunities.
@@ -71,7 +71,7 @@ function DubaiHotelShow({blogPosts}) {
                             <Link to="#.">
                               <FontAwesomeIcon
                                 icon={faXTwitter}
-                                classNameName="fa fa-twitter"
+                                className="fa fa-twitter"
                               />
                             </Link>
                             <Link to="#.">

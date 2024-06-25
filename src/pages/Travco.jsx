@@ -38,7 +38,7 @@ function Travco({ blogPosts }) {
                           <i className="fa fa-calendar"></i>2 April 2024
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                       T.I.T Solutions and Travco Group Launches A New Website
 
                       </h2>
@@ -66,7 +66,7 @@ function Travco({ blogPosts }) {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

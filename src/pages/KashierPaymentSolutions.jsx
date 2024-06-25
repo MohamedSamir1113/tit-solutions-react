@@ -35,12 +35,12 @@ function KashierPaymentSolutions({ blogPosts }) {
                           <i className="fa fa-calendar"></i>7 March 2023
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                         T.I.T. Solutions partnering with Kashier Payment
                         Solutions
                       </h2>
 
-                      <h3 classNameName="pb-50">
+                      <h3 className="pb-50">
                         Kashier and TIT Solutions Partner Up to Drive E-commerce
                         Growth in Egypt’s Hospitality Sector
                       </h3>
@@ -124,16 +124,16 @@ function KashierPaymentSolutions({ blogPosts }) {
                         </li>
                       </ul>
 
-                      <p classNameName="py-4">(Terms and Conditions apply)</p>
+                      <p className="py-4">(Terms and Conditions apply)</p>
 
                       <div>
                         <Link
-                          classNameName="d-inline"
+                          className="d-inline"
                           style={{ fontWeight: "700" }}
                         >
                           Link To Offer
                         </Link>
-                        <p classNameName="d-inline">: GROW E-commerce Package</p>
+                        <p className="d-inline">: GROW E-commerce Package</p>
                       </div>
 
                       <div>
@@ -207,7 +207,7 @@ function KashierPaymentSolutions({ blogPosts }) {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

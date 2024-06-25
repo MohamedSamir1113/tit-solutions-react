@@ -39,7 +39,7 @@ const CrystalInnHotel = ({ blogPosts }) => {
                           <i className="fa fa-calendar"></i>1 DEC 2022{" "}
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                       Crystal Inn Hotel El Alamein Website Launched by T.I.T Solutions
                       </h2>
 
@@ -60,7 +60,7 @@ const CrystalInnHotel = ({ blogPosts }) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

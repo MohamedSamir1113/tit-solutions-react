@@ -38,7 +38,7 @@ const DivingWorldSharm = ({ blogPosts }) => {
                           <i className="fa fa-calendar"></i>8 DEC 2022{" "}
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                         Diving World Sharm's website is now live
                       </h2>
                      
@@ -59,7 +59,7 @@ const DivingWorldSharm = ({ blogPosts }) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

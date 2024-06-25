@@ -35,7 +35,7 @@ function TawilaIsland({ blogPosts }) {
                           <i className="fa fa-calendar"></i>1 JAN 2024
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                       Tawila Island Flourishes with the Launch of Its New Website!
                       </h2>
 
@@ -56,7 +56,7 @@ function TawilaIsland({ blogPosts }) {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

@@ -38,7 +38,7 @@ function CleoPark({ blogPosts }) {
                           <i className="fa fa-calendar"></i>1 April 2024
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                       T.I.T Solutions & Cleopark, owned By Sharm Dreams Holding, Shape a Digital Path to Adventure!
 
                       </h2>
@@ -75,7 +75,7 @@ function CleoPark({ blogPosts }) {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

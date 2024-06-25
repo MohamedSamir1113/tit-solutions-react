@@ -35,7 +35,7 @@ function Duetto({ blogPosts }) {
                           <i className="fa fa-calendar"></i>5 March 2024
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                       Driving Innovation In Profit Optimization: T.I.T.Solutions Partners with Duetto Software to Transform Hospitality field.
                       </h2>
 
@@ -73,7 +73,7 @@ function Duetto({ blogPosts }) {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

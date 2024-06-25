@@ -38,7 +38,7 @@ const RegalHotelWebsite = ({ blogPosts }) => {
                           <i className="fa fa-calendar"></i>15 JAN 2023{" "}
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                         Regal Heights Hotel El Alamein Website Launched by T.I.T Solutions
                       </h2>
                      
@@ -59,7 +59,7 @@ const RegalHotelWebsite = ({ blogPosts }) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

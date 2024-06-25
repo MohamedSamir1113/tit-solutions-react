@@ -38,7 +38,7 @@ function RiyadhTravelFair({ blogPosts }) {
                           <i className="fa fa-calendar"></i>25 May 2024
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                       T.I.T Solutions Announces Participation in Riyadh Travel Fair 2024
                       </h2>
 
@@ -71,7 +71,7 @@ function RiyadhTravelFair({ blogPosts }) {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

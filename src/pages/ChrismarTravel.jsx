@@ -35,7 +35,7 @@ function ChrismarTravel({ blogPosts }) {
                           <i className="fa fa-calendar"></i>3 March 2024
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                       Discover Chrismar Travel's Updated Online Presence, Crafted by T.I.T Solutions!
                       </h2>
 
@@ -56,7 +56,7 @@ function ChrismarTravel({ blogPosts }) {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

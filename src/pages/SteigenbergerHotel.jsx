@@ -38,7 +38,7 @@ const SteigenbergerHotel = ({ blogPosts }) => {
                           <i className="fa fa-calendar"></i>11 DEC 2022{" "}
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                         Steigenberger Hotel El Tahrir Cairo
                       </h2>
                      
@@ -59,7 +59,7 @@ const SteigenbergerHotel = ({ blogPosts }) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

@@ -39,7 +39,7 @@ const SavoySharm = ({ blogPosts }) => {
                           <i className="fa fa-calendar"></i>6 DEC 2022{" "}
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                         launch of Asksuite at our prestigious partner Savoy
                         Group Sharm El Sheikh
                       </h2>
@@ -69,7 +69,7 @@ const SavoySharm = ({ blogPosts }) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

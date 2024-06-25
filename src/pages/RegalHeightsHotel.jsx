@@ -38,7 +38,7 @@ const RegalHeightsHotel = ({ blogPosts }) => {
                           <i className="fa fa-calendar"></i>31 JAN 2023{" "}
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                         Regal Heights Hotel received Traveller Review Award
                       </h2>
                       <p>Congratulations on the amazing news!</p>
@@ -61,7 +61,7 @@ const RegalHeightsHotel = ({ blogPosts }) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

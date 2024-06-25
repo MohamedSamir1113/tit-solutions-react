@@ -44,7 +44,7 @@ const GooglePremierPartner = ({blogPosts}) => {
                           <i className="fa fa-calendar"></i>16 April 2024{" "}
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">Google Premier Partner 2024</h2>
+                      <h2 className="mb-4">Google Premier Partner 2024</h2>
 
                       <p>
                         T.I.T Solutions, a leading innovator in digital
@@ -88,7 +88,7 @@ const GooglePremierPartner = ({blogPosts}) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">

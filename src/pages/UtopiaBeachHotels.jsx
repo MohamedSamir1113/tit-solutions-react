@@ -37,7 +37,7 @@ const SliceandDice = ({ blogPosts }) => {
                           <i className="fa fa-calendar"></i>19 FEB 2023
                         </span>
                       </div>
-                      <h2 classNameName="mb-4">
+                      <h2 className="mb-4">
                         Slice and Dice Egypt Website Launched by T.I.T Solutions
                       </h2>
 
@@ -58,7 +58,7 @@ const SliceandDice = ({ blogPosts }) => {
                           <Link to="#.">
                             <FontAwesomeIcon
                               icon={faXTwitter}
-                              classNameName="fa fa-twitter"
+                              className="fa fa-twitter"
                             />
                           </Link>
                           <Link to="#.">
