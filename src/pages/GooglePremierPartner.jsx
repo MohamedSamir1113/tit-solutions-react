@@ -1,15 +1,17 @@
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
 import OtherPosts from "../components/OtherPosts";
 import NewsName from "../components/NewsName";
 
 const GooglePremierPartner = ({blogPosts}) => {
   const [otherPosts,setOtherPosts]=useState([])
-  const location = useLocation();
-  const searchParams = new URLSearchParams(location.search);
-  const id = searchParams.get('id');
+ // const location = useLocation();
+ // const searchParams = new URLSearchParams(location.search);
+  //const id = searchParams.get('id');
+  const [searchParams,setSearchParams]=useSearchParams();
+  const id = searchParams.get("id")
   useEffect(() => {
     document.title = "Google Premier Partner 2024";
     setOtherPosts(blogPosts.filter((post) => post.id !== id));

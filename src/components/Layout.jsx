@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-
+import {isLoading} from "../data/loadingSlice"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -9,10 +9,12 @@ import { useMediaQuery } from "@mui/material";
 import { slide as Menu } from "react-burger-menu";
 import "./header.css";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const Layout = () => {
-  const [loading, setLoading] = useState(true);
+  //const [loading, setLoading] = useState(true);
+  const dispatch = useDispatch()
+  const loading=useSelector(store=>store.loadingReducer.loading)
   const [isSticky, setIsSticky] = useState(false);
   const [isMenuOpen, setMenuOpen] = useState(false);
   const isMobile = useMediaQuery("(max-width:767px)");
@@ -22,10 +24,10 @@ const Layout = () => {
   };
 
   const handleLinkClick = (e) => {
-    console.log(e.target.classList.contains("fa"));
     if (!e.target.classList.contains("fa")) {
       setMenuOpen(false);
-      setLoading(true);
+      dispatch(isLoading(true));
+     
     }
   };
   useEffect(() => {
@@ -47,11 +49,11 @@ const Layout = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLoading(false);
+      dispatch(isLoading(false))
     }, 600);
 
     return () => clearTimeout(timer);
-  }, [loading]);
+  }, [loading,dispatch]);
 
   const [showSubMenu, setShowSubMenu] = useState({});
 
@@ -78,7 +80,7 @@ const Layout = () => {
                       <ul>
                         <li>
                           <Link
-                            onClick={() => setLoading(true)}
+                            onClick={() => dispatch(isLoading(true))}
                             to="mailto:info@titegypt.com"
                           >
                             <i className="fa fa-envelope-o"></i>
@@ -770,7 +772,7 @@ const Layout = () => {
                       <Link
                         to="/"
                         className="logo"
-                        onClick={() => setLoading(true)}
+                        onClick={() => dispatch(isLoading(true))}
                       >
                         <img className="down" src="logo-header.png" alt="" />
                         <img
@@ -781,14 +783,14 @@ const Layout = () => {
                       </Link>
                       <ul className="clearfix">
                         <li>
-                          <Link to="/" onClick={() => setLoading(true)}>
+                          <Link to="/" onClick={() => dispatch(isLoading(true))}>
                             Home
                           </Link>
                         </li>
                         <li className="solutions">
                           <Link
                             to="/solutions"
-                            onClick={() => setLoading(true)}
+                            onClick={() => dispatch(isLoading(true))}
                           >
                             Solutions <i className="fa fa-angle-down"></i>
                           </Link>
@@ -798,7 +800,7 @@ const Layout = () => {
                                 <li>
                                   <Link
                                     to="/solutions/website-development"
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     
                                   >
                                     <h5 className="text-center my-3 text-hover custom-h5">
@@ -809,7 +811,7 @@ const Layout = () => {
 
                                 <li className="text-center">
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     className="text-lg-center"
                                     to="/solutions/website-development/hotels-resorts"
                                   >
@@ -818,7 +820,7 @@ const Layout = () => {
                                 </li>
                                 <li className="text-center">
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     className="text-lg-center"
                                     to="/solutions/website-development/travel-tours"
                                   >
@@ -827,7 +829,7 @@ const Layout = () => {
                                 </li>
                                 <li className="text-center">
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     className="text-lg-center"
                                     to="/solutions/website-development/nile-cruises"
                                   >
@@ -836,7 +838,7 @@ const Layout = () => {
                                 </li>
                                 <li className="text-center">
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     className="text-lg-center"
                                     to="/solutions/website-development/general-purposes"
                                   >
@@ -850,7 +852,7 @@ const Layout = () => {
                               <ul className="text-center">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     className="text-lg-center"
                                     to="solutions/booking-engine"
                                   >
@@ -862,7 +864,7 @@ const Layout = () => {
 
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     className="text-lg-center"
                                     to="/solutions/booking-engine/attraction-d-edge"
                                   >
@@ -871,7 +873,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     className="text-lg-center"
                                     to="/solutions/booking-engine/SynXis"
                                   >
@@ -880,7 +882,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     className="text-lg-center"
                                     to="/solutions/booking-engine/nile-cruise-booking-engine"
                                   >
@@ -899,7 +901,7 @@ const Layout = () => {
 
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     className="text-lg-center"
                                     to="solutions/web-check-in-solution"
                                   >
@@ -912,13 +914,13 @@ const Layout = () => {
                         </li>
 
                         <li className="menu-dropdown-icon">
-                          <Link to="/services" onClick={() => setLoading(true)}>
+                          <Link to="/services" onClick={() => dispatch(isLoading(true))}>
                             Service <i className="fa fa-angle-down"></i>
                           </Link>
                           <ul className="normal-sub">
                             <li className="position-relative">
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/services/search-engine-marketing"
                               >
@@ -929,7 +931,7 @@ const Layout = () => {
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/search-engine-marketing/google-ads"
                                   >
                                     Google Ads
@@ -937,7 +939,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/search-engine-marketing/bing-ads"
                                   >
                                     Bing Ads
@@ -945,7 +947,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/search-engine-marketing/yandex-ads"
                                   >
                                     Yandex Ads
@@ -956,7 +958,7 @@ const Layout = () => {
 
                             <li className="position-relative">
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/services/social-media-marketing"
                               >
@@ -967,7 +969,7 @@ const Layout = () => {
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/social-media-marketing/facebook-ads"
                                   >
                                     Facebook Ads
@@ -975,7 +977,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/social-media-marketing/instagram-ads"
                                   >
                                     Instagram Ads
@@ -983,7 +985,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/social-media-marketing/snapchat-ads"
                                   >
                                     Snapchat Ads
@@ -991,7 +993,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/social-media-marketing/vk-ads"
                                   >
                                     VK Ads
@@ -999,7 +1001,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/social-media-marketing/linkedin-ads"
                                   >
                                     LinkedIn Ads
@@ -1010,7 +1012,7 @@ const Layout = () => {
 
                             <li className="position-relative">
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/services/social-media-management"
                               >
@@ -1020,7 +1022,7 @@ const Layout = () => {
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/social-media-management/social-media-strategy"
                                   >
                                     Social Media Strategy
@@ -1028,7 +1030,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/social-media-management/social-media-posting"
                                   >
                                     Social Media Posting
@@ -1036,7 +1038,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/social-media-management/social-media-graphics"
                                   >
                                     Social Media Graphics
@@ -1046,7 +1048,7 @@ const Layout = () => {
                             </li>
                             <li className="position-relative">
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/services/hotel-e-commerce"
                               >
@@ -1056,7 +1058,7 @@ const Layout = () => {
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/hotel-e-commerce/e-commerce-consultancy"
                                   >
                                     E-Commerce Consultancy
@@ -1064,7 +1066,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/hotel-e-commerce/e-commerce-management"
                                   >
                                     E-Commerce Management
@@ -1074,7 +1076,7 @@ const Layout = () => {
                             </li>
                             <li>
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 to="/services/search-engine-optimization"
                               >
                                 Search Engine Optimization
@@ -1082,7 +1084,7 @@ const Layout = () => {
                             </li>
                             <li className="position-relative">
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/services/email-marketing"
                               >
@@ -1093,7 +1095,7 @@ const Layout = () => {
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/email-marketing/constant-contact"
                                   >
                                     Constant Contact
@@ -1101,7 +1103,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/email-marketing/manage-email-marketing"
                                   >
                                     Manage Email Marketing
@@ -1111,7 +1113,7 @@ const Layout = () => {
                             </li>
                             <li className="position-relative">
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/services/reporting"
                               >
@@ -1122,7 +1124,7 @@ const Layout = () => {
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/reporting/google-analytics-implementation"
                                   >
                                     Google Analytics Implementation
@@ -1130,7 +1132,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/reporting/digital-marketing-reporting"
                                   >
                                     Digital Marketing Reporting
@@ -1138,7 +1140,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/services/reporting/website-360-reporting"
                                   >
                                     Website 360 Reporting
@@ -1148,7 +1150,7 @@ const Layout = () => {
                             </li>
                             <li>
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 to="/services/hospitality-photography"
                               >
                                 Hospitality Photography
@@ -1156,7 +1158,7 @@ const Layout = () => {
                             </li>
                             <li>
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 to="/services/asksuite-hotel-chatbot"
                               >
                                 Asksuite Hotel Chatbot
@@ -1164,7 +1166,7 @@ const Layout = () => {
                             </li>
                             <li>
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 to="/services/the-hotels-network"
                               >
                                 The Hotels Network
@@ -1173,14 +1175,14 @@ const Layout = () => {
                           </ul>
                         </li>
                         <li className="menu-dropdown-icon">
-                          <Link to="/d-edge" onClick={() => setLoading(true)}>
+                          <Link to="/d-edge" onClick={() => dispatch(isLoading(true))}>
                             D-EDGE Solutions{" "}
                             <i className="fa fa-angle-down"></i>
                           </Link>
                           <ul className="normal-sub">
                             <li className="position-relative">
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/d-edge/central-reservation-system"
                               >
@@ -1191,7 +1193,7 @@ const Layout = () => {
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/central-reservation-system/booking-engine-for-hotel"
                                   >
                                     Booking Engine
@@ -1199,7 +1201,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/central-reservation-system/dedge-channel-manager"
                                   >
                                     Channel Manager
@@ -1207,7 +1209,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/central-reservation-system/d-edge-inventory-management"
                                   >
                                     Central Inventory
@@ -1215,7 +1217,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/central-reservation-system/gds-hotel-solutions"
                                   >
                                     GDS Solutions
@@ -1226,7 +1228,7 @@ const Layout = () => {
 
                             <li className="position-relative">
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/d-edge/guest-management"
                               >
@@ -1237,7 +1239,7 @@ const Layout = () => {
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/guest-management/hotel-crm"
                                   >
                                     Hotel CRM
@@ -1245,7 +1247,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/guest-management/guest-loyalty"
                                   >
                                     Guest Loyalty
@@ -1253,7 +1255,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/guest-management/guest-feedback"
                                   >
                                     Guest Feedback
@@ -1264,7 +1266,7 @@ const Layout = () => {
 
                             <li className="position-relative">
                               <Link
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                                 className="d-flex justify-content-between align-items-center"
                                 to="/d-edge/data-intelligence"
                               >
@@ -1275,7 +1277,7 @@ const Layout = () => {
                               <ul className="sub-sub-menu">
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/data-intelligence/price-monitoring"
                                   >
                                     Price Monitoring
@@ -1283,7 +1285,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/data-intelligence/price-recommendation"
                                   >
                                     Price Recommendation
@@ -1291,7 +1293,7 @@ const Layout = () => {
                                 </li>
                                 <li>
                                   <Link
-                                    onClick={() => setLoading(true)}
+                                    onClick={() => dispatch(isLoading(true))}
                                     to="/d-edge/data-intelligence/performance-analysis"
                                   >
                                     Performance Analysis
@@ -1304,18 +1306,18 @@ const Layout = () => {
                         <li className="menu-dropdown-icon">
                           <Link
                             to="/industries"
-                            onClick={() => setLoading(true)}
+                            onClick={() => dispatch(isLoading(true))}
                           >
                             Industries <i className="fa fa-angle-down"></i>
                           </Link>
                           <ul className="normal-sub">
                             <li>
-                              <Link onClick={() => setLoading(true)} to="/industries/digital-marketing-agency-for-hotels-in-egypt">
+                              <Link onClick={() => dispatch(isLoading(true))} to="/industries/digital-marketing-agency-for-hotels-in-egypt">
                                 Hotels & Resorts
                               </Link>
                             </li>
                             <li>
-                              <Link onClick={() => setLoading(true)} to="/industries/travel-agencies">
+                              <Link onClick={() => dispatch(isLoading(true))} to="/industries/travel-agencies">
                                 Travel Companies
                               </Link>
                             </li>
@@ -1329,7 +1331,7 @@ const Layout = () => {
                             <li>
                               <Link
                                 to="/about-us"
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                               >
                                 About Us
                               </Link>
@@ -1337,7 +1339,7 @@ const Layout = () => {
                             <li>
                               <Link
                                 to="/clients"
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                               >
                                 Our Clients
                               </Link>
@@ -1345,13 +1347,13 @@ const Layout = () => {
                             <li>
                               <Link
                                 to="/portfolio"
-                                onClick={() => setLoading(true)}
+                                onClick={() => dispatch(isLoading(true))}
                               >
                                 Portfolio
                               </Link>
                             </li>
                             <li>
-                              <Link to="/news" onClick={() => setLoading(true)}>
+                              <Link to="/news" onClick={() => dispatch(isLoading(true))}>
                                 Our News
                               </Link>
                             </li>
@@ -1370,7 +1372,7 @@ const Layout = () => {
                         <li>
                           <Link
                             to="contact-us"
-                            onClick={() => setLoading(true)}
+                            onClick={() => dispatch(isLoading(true))}
                           >
                             Contact Us
                           </Link>

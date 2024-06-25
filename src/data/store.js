@@ -41,6 +41,6 @@ export const store = configureStore({
     meetingDetails: meetingDetailsReducer,
     gallery: galleryReducer,
     contactHotel: contactHotelReducer,
-    loading: loadingReducer,
+    loadingReducer,
   },
 });

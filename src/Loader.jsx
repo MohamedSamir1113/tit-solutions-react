@@ -10,7 +10,8 @@ const Loader = () => {
 
   return (
     <>
-      {/* <div style={{ height: "100vh" }} className="d-flex align-items-center ">
+      {
+      /* <div style={{ height: "100vh" }} className="d-flex align-items-center ">
         <div className="container mt-5 text-center">
     
           <div
@@ -35,7 +36,8 @@ const Loader = () => {
           </div>
            
         </div>
-          </div>*/}
+          </div>*/
+          }
       <div className="loader-container">
         <img src="logo-header.png" alt="Loader" className="loader-image" />
         <div className="loader-text">
